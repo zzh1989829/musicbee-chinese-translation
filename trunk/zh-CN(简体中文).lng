@@ -1,0 +1,2991 @@
+! do not change the identifiers #xxx.xxx.xxx#
+! preserve the "&" character used in menus
+! preserve anything inside curly brackets eg. {0}
+! preserve leading spaces
+
+! used to calculate a global text width adjustment - character repetitions are weighted by frequency of use in a language
+! contact me if you would like to change this value eg. if you need prompts generally be wider
+#Main.msg.abefopv#	aaaaaaaa bcccdddd eeeeeeeeeeee ffgghhhhhhiiiiiiijkllll:mmnnnnnnn oooooooo ppqrrrrrrsssssstttttttttuuu vwwxyyz
+
+! fields (try to keep these brief as possible and each must be unique)
+#Main.field.3#		文件名
+#Main.field.4#		种类
+#Main.field.5#		类型
+#Main.field.7#		大小
+#Main.field.8#		频道
+#Main.field.9#		样本频率
+#Main.field.10#		比特率
+#Main.field.11#		修改日期
+#Main.field.12#		添加日期
+#Main.field.13#		最后播放
+#Main.field.14#		播放次数
+#Main.field.15#		跳过次数 
+#Main.field.16#		时长
+#Main.field.30#		专辑
+#Main.field.31#		专辑艺术家
+#Main.field.32#		艺术家
+#Main.field.40#		封面
+#Main.field.41#		BPM
+#Main.field.42#		类别
+#Main.field.43#		作曲家
+#Main.field.44#		评论
+#Main.field.45#		指挥家
+#Main.field.52#		Disc#
+#Main.field.53#		曲目#
+#Main.field.54#		曲目数
+#Main.field.55#		编码器
+#Main.field.56#		Episode Date
+#Main.field.57#		Episode Description
+#Main.field.59#		流派
+#Main.field.60#		流派类别
+#Main.field.61#		分组
+#Main.field.62#		词作者
+#Main.field.63#		歌词?
+#Main.field.64#		情绪
+#Main.field.65#		标题
+#Main.field.66#		场合
+#Main.field.67#		起源
+#Main.field.72#		播放列表
+#Main.field.73#		发布者
+#Main.field.74#		质量
+#Main.field.75#		评分
+#Main.field.76#		喜爱
+#Main.field.77#		评分(自动)
+#Main.field.84#		关键词
+#Main.field.85#		速度
+#Main.field.86#		曲目#
+#Main.field.87#		曲目数
+#Main.field.88#		年份
+#Main.field.94#		Track Gain
+#Main.field.95#		Album Gain
+#Main.field.100#	扩展名
+#Main.field.104#	专辑评分
+#Main.field.105#	Decade
+#Main.field.106#	路径
+#Main.field.107#	专辑 [年]
+#Main.field.114#	歌词
+#Main.field.115#	艺术家曲目数
+#Main.field.116#	Touring?
+#Main.field.117#	专辑曲目数
+
+! Main Menu
+#Main.menu.File#	&文件
+#Main.menu.New#		新建
+#Main.menu.CrNeLi#	新建库
+#Main.menu.NeLi#	新建库
+#Main.menu.NePl#	新建播放列表
+#Main.menu.NeAu#	新建自动播放列表
+#Main.menu.NeRa#	新建广播列表
+#Main.menu.NePlFo#	新建列表文件夹
+#Main.menu.NeWeFo#	新建Web文件夹
+#Main.menu.OFoU#	打开文件或URL
+#Main.menu.OpLi#	打开库
+#Main.menu.ImfrLi#	从库导入
+#Main.menu.ImfriT#	从iTunes导入
+#Main.menu.IfWMP#	从Windows Media Player导入
+#Main.menu.ReAdFi#	重新扫描/增加文件
+#Main.menu.BaLi#	备份库
+#Main.menu.ShLiSt#	显示库统计
+#Main.menu.SyDe#	同步设备
+#Main.menu.Sy0#		同步 {0}
+#Main.menu.AcAu#	启用自动关机
+#Main.menu.Exit#	退出
+
+#Main.menu.Edit#	&编辑
+#Main.menu.SeAl#	全选
+#Main.menu.CoTa#	拷贝标签
+#Main.menu.Paste#	粘贴
+#Main.menu.Find#	查找
+#Main.menu.Next#	下一个
+#Main.menu.Preferences#	首选项
+
+#Main.menu.View#	&视图
+#Main.menu.MaPl#	主播放器
+#Main.menu.MP(D#	主播放器(锁定)
+#Main.menu.Unlock#	解锁
+#Main.menu.MiPl#	Mini播放器
+#Main.menu.CoPl#	Compact播放器
+#Main.menu.Skins#	皮肤
+#Main.menu.FiMoSk#	查找更多皮肤...
+#Main.menu.SkWiBo#	皮肤窗口边框
+#Main.menu.ShVi#	显示可视化
+#Main.menu.Visualiser#	可视化
+#Main.menu.ArPi#	艺术家照片
+#Main.menu.ArPiSe#	艺术家照片设置
+#Main.menu.UsLa#	使用Last.fm
+#Main.menu.UHTB(#	使用 Home Theatre Backdrops (htbackdrops.com)
+#Main.menu.NaPa#	导航面板
+#Main.menu.ShLiEx#	显示库浏览器
+#Main.menu.MaPa#	主面板
+#Main.menu.ShTrBr#	显示曲目浏览器
+#Main.menu.ShHiDu#	显示隐藏重复项
+#Main.menu.SAJB#	显示A-Z跳越栏
+#Main.menu.NoPlAs#	正在播放助手
+#Main.menu.Artwork#	封面
+#Main.menu.AlanTr#	专辑和曲目
+#Main.menu.TrDe#	曲目详情
+#Main.menu.Sorting#	排序/分组
+#Main.menu.ArIn#	艺术家信息 
+#Main.menu.DoNoDi#	不要显示
+#Main.menu.SitBP#	在底面板显示
+#Main.menu.SiaT#	在标签中显示
+#Main.menu.NoPlPa#	正在播放面板
+#Main.menu.SiFW#	在浮动窗口中显示
+#Main.menu.SiLS#	在左边栏显示
+#Main.menu.SiRS#	在右边栏显示
+#Main.menu.PlCoPa#	播放器控制面板
+#Main.menu.ShSpVi#	显示频谱图
+#Main.menu.ShEq#	显示均衡器
+#Main.menu.RiSi(T#	右边栏(顶部)
+#Main.menu.RiSi(B#	右边栏(底部)
+#Main.menu.BoPa#	底面板
+#Main.menu.QuLa#	快速布局
+#Main.menu.SaSe#	保存的设置
+#Main.menu.LLSF#	载入布局设置...
+#Main.menu.SLST#	保存布局设置...
+#Main.menu.Refresh#	刷新
+
+#Main.menu.Controls#	&控制
+#Main.menu.PrTr#	上一曲
+#Main.menu.Play/Pause#	播放/暂停
+#Main.menu.Stop#	停止
+#Main.menu.NeTr#	下一曲
+#Main.menu.StafCu#	当前播放后停止
+#Main.menu.Equaliser#	均衡器
+#Main.menu.DSEf#	DSP效果
+#Main.menu.Repeat#	重复
+#Main.menu.Shuffle#	随机
+#Main.menu.Scrobble#	同步
+#Main.menu.Crossfade#	淡入淡出
+#Main.menu.ReGaOf#	Replay Gain Off
+#Main.menu.SmGa#	Smart Gain
+#Main.menu.TrGaOn#	Track Gain Only
+#Main.menu.AlGaOn#	Album Gain Only
+#Main.menu.StAu#	停止 Auto-DJ
+#Main.menu.TuonAu#	打开 Auto-DJ
+
+#Main.menu.Tools#	&工具
+#Main.menu.OrFi#	组织文件
+#Main.menu.MaDu#	管理重复项
+#Main.menu.CoFo#	格式转换
+#Main.menu.RiCD#	烧录CD
+#Main.menu.AnVo#	分析音量
+#Main.menu.ReOrVo#	恢复初始音量
+#Main.menu.TaTo#	标签工具
+#Main.menu.SFwMT#	显示标签不全的文件
+#Main.menu.SFwMA#	显示没有封面的文件
+#Main.menu.SFwML#	显示没有歌词的文件
+#Main.menu.OtEF#	其他'待编辑文件'过滤器
+#Main.menu.SRAF#	显示最近添加的文件
+#Main.menu.ShDeLi#	显示死链接
+#Main.menu.SFwIAT#	显示专辑标签不一致的文件
+#Main.menu.SFwITLC#	显示标签大小写不一致的文件
+#Main.menu.SFwNVA#	显示没有经过音量分析的文件
+#Main.menu.ReTr#	曲目重新编号
+#Main.menu.AubyAl#	根据专辑自动更新标签
+#Main.menu.AubyTr#	根据曲目自动更新标签
+#Main.menu.ITaUT#	认证曲目并更新标签
+#Main.menu.UpMiAr#	更新缺少的封面
+#Main.menu.UpMiLy#	更新缺少的歌词
+#Main.menu.UTuLTC#	用Last.fm云更新标签
+#Main.menu.IaUTfF#	根据文件名猜测标签
+#Main.menu.ReTa#	删除标签
+#Main.menu.Capitalise#	改为大写
+#Main.menu.SeanRe#	查找并替换
+#Main.menu.SAaT#	交换艺术家和标题  
+#Main.menu.RePlCo#	重置播放次数
+#Main.menu.ReSkCo#	重置跳过次数
+#Main.menu.SPCfL#	与Last.fm同步播放次数
+#Main.menu.SLLT#	与Last.fm同步喜爱歌曲
+
+#Main.menu.Help#	帮助
+#Main.menu.OnHe#	在线帮助
+#Main.menu.Support#	支持
+#Main.menu.ViErLo#	查看错误日志
+#Main.menu.ViSeFi#	查看设置文件
+#Main.menu.VLSL#	查看Last.fm同步日志
+#Main.menu.About#	关于
+
+! Notify icon menu
+#Main.menu.ReMaWi#	恢复主窗口
+#Main.menu.MitoTr#	最小化到托盘
+#Main.menu.NoPlLi#	正在播放列表
+#Main.menu.TrIn#	曲目信息
+#Main.menu.QuTr#	快速曲目定位
+#Main.menu.byAr#	根据艺术家
+#Main.menu.byAl#	根据专辑
+#Main.menu.byGe#	根据流派
+#Main.menu.Rating#	评分
+#Main.menu.RaAl#	专辑评分
+#Main.menu.Love#	喜爱
+#Main.menu.NoRa#	未评分
+#Main.menu.Nost#	无星
+#Main.menu.0.st#	0.5 星
+#Main.menu.1st#		1 星
+#Main.menu.1.st#	1.5 星
+#Main.menu.2st#		2 星
+#Main.menu.2.st#	2.5 星
+#Main.menu.3st#		3 星
+#Main.menu.3.st#	3.5 星
+#Main.menu.4st#		4 星
+#Main.menu.4.st#	4.5 星
+#Main.menu.5st#		5 星
+#Main.menu.Play#	播放
+#Main.menu.Pause#	暂停
+#Main.menu.Volume#	音量
+#Main.menu.VoMu#	静音
+#Main.menu.ClAp#	关闭程序
+
+! MusicBee icon Common Functions Menu
+#Main.menu.SLE#		显示库浏览器
+#Main.menu.ChLi#	选择库
+#Main.menu.CLF#		选择库过滤器
+#Main.menu.RAF#		重新扫描/添加文件
+#Main.menu.SeSk#	选择皮肤
+#Main.menu.EP#		首选项...
+#Main.menu.QL#		快速布局...
+#Main.menu.StMP.2#	切换到主播放器
+#Main.menu.StMP#	切换到Mini播放器
+#Main.menu.StCP#	切换到Compact播放器
+#Main.menu.SNPA#	显示正在播放助手
+#Main.menu.AlonTo#	总在最前
+#Main.menu.EdPr#	首选项
+#Main.menu.SLiFW#	在浮动窗口显示歌词
+#Main.menu.ONPA#	打开正在播放助手
+
+! main panel header bar
+! search button menu
+#Main.menu.ASEA#	总是显示整个专辑
+#Main.menu.SealFi#	查找所有字段
+#Main.menu.CuSe#	自定义查询
+#Main.menu.NeCuSe#	新自定义查询
+#Main.menu.DeCuSe#	删除自定义查询
+
+! used in duplicates manager and other places
+#Main.menu.SeTa#	选择标签
+#Main.menu.More#	更多
+
+! left navigator tree
+#Main.tree.Library#	库
+#Main.tree.MuLi#	音乐库
+#Main.tree.Podcasts#	广播
+#Main.tree.AuBo#	有声读物
+#Main.tree.RaSt#	无线电站点
+#Main.tree.Inbox#	Inbox
+#Main.tree.PlHi#	播放历史
+#Main.tree.Downloads#	下载
+#Main.tree.Playlists#	播放列表
+#Main.tree.NoPl#	正在播放
+#Main.tree.AuDJ#	Auto DJ
+#Main.tree.Internet#	因特网
+#Main.msg.WeFi#		Webw文件
+#Main.tree.Services#	服务
+#Main.tree.UpRe#	将临的专辑
+#Main.tree.UpCo#	将临的演唱会
+#Main.tree.Computer#	计算机
+#Main.tree.Devices#	设备
+#Main.msg.LiEx#		库浏览器
+
+! left navigator tree right click menu
+#Main.menu.Filters#	过滤器
+#Main.menu.ShFi#	显示过滤器
+#Main.menu.MaFi#	管理过滤器
+#Main.menu.NoFi#	不使用过滤器
+#Main.msg.ChFiFo#	选择过滤过的文件夹
+#Main.msg.StFiitF#	选择包含在过滤器中的文件夹
+#Main.menu.PlLiSh#	随机播放库
+#Main.menu.PoDi#	播客文件夹
+#Main.menu.ImSu#	导入订阅
+#Main.menu.ExSu#	导出订阅
+#Main.menu.NeSu#	新的订阅
+#Main.menu.ImSt#	导入站台
+#Main.menu.ExSt#	导出站台
+#Main.menu.NeSt#	新站台
+#Main.menu.SNPA.2#	显示正在播放的专辑封面
+#Main.menu.MaFo#	管理文件夹
+#Main.menu.AdNeSh#	添加网络共享
+#Main.msg.Sans#		选择一项网络共享:
+#Main.menu.AFtbM#	允许移动文件夹
+#Main.menu.ShAlFo#	显示所有文件夹
+#Main.menu.SFFO#	只显示过滤过的文件夹
+#Main.menu.ChFiFo#	选择过滤过的文件夹
+#Main.menu.IFfS#	包含子文件夹下的文件
+#Main.menu.Synchronise#	同步
+#Main.menu.DeSe#	设备设置
+#Main.menu.SaRe#	安全移除
+#Main.menu.List#	列表
+#Main.menu.GPbT#	根据类型分组播放列表
+#Main.menu.EdAu#	编辑自动播放列表
+#Main.menu.EdRa#	编辑广播列表
+#Main.menu.PlNo#	立刻播放
+#Main.menu.QuNe#	插入到队首
+#Main.menu.QuLa.2#	插入到队尾
+#Main.menu.Remove#	删除
+#Main.menu.Rename#	重命名
+#Main.menu.ReFi#	重新扫描文件
+#Main.menu.NeFo#	新建文件夹
+#Main.menu.Delete#	删除
+#Main.menu.SaaVD#	设置 {0} 为虚拟设备
+#Main.menu.SaaFD#	设置 {0} 为固定驱动器
+#Main.menu.EjCD#	弹出CD
+#Main.menu.UnCh#	撤销更改
+#Main.menu.ReCh#	重做更改
+#Main.menu.ClLi#	清除列表
+#Main.menu.ImfrLa#	从Last.fm导入
+#Main.menu.LoTr#	喜爱的曲目
+#Main.menu.SaLP#	保存为库播放列表
+#Main.menu.EaEP#	导出为外部播放列表
+#Main.menu.ShLi#	打乱列表顺序
+#Main.menu.UpPlOr#	更新播放次序
+
+! Main panel button tool tips
+#Main.help.NeTa#	新标签页
+#Main.help.BrBa#	后退
+#Main.help.BrFo#	前进
+#Main.help.Stop#	停止
+#Main.help.Refresh#	刷新
+#Main.help.Bookmark#	书签
+#Main.help.Pala#	面板布局
+#Main.help.search#	查找
+#Main.help.HiPa#	隐藏面板
+#Main.help.OpPa#	打开面板
+#Main.help.HiLiEx#	隐藏库浏览器
+#Main.help.ShLePa#	显示左面板
+#Main.help.ShLiEx#	显示库浏览器
+#Main.help.ShRiPa#	显示右面板
+! dialog for when a-z jump button in top left main panel is clicked
+#Main.msg.JuTo#		跳至
+
+! tooltip on notification popup when mouse-over player controls
+#Main.help.GtPA#	跳至上一个专辑
+#Main.help.GtPT#	跳至上一曲
+#Main.help.GtNT#	跳至下一曲
+#Main.help.GtNA#	跳至下一专辑
+
+! taskbar player button tooltips
+#Main.help.Previous#	上一曲
+#Main.help.Play#	播放
+#Main.help.Next#	下一曲
+#Main.help.RaMi#	降低评分
+#Main.help.RaPl#	提高评分
+#Main.help.LoonLa#	在Last.fm上设为喜爱
+#Main.help.VoMi#	降低音量
+#Main.help.VoPl#	提高音量
+#Main.help.Sh(o#	随机(开)
+#Main.help.Sh(o.2#	随机(关)
+#Main.help.Pause#	暂停
+#Main.help.Loonla#	在Last.fm上设为喜爱
+#Main.help.Tilol#	曲目在Last.fm已经设为喜爱
+#Main.help.Svdf#	设置音量从 {0}% 降低
+#Main.help.Svuf#	设置音量从 {0}% 提高
+#Main.help.Snpl#	显示正在播放列表
+#Main.help.Shmawi#	显示主窗口
+#Main.help.Eq(o#	均衡器 (开/关)
+#Main.help.Re(o#	重复 (开/关)
+#Main.help.Cr(o#	淡入淡出 (开/关)
+
+! Main content panel right click menu
+#Main.menu.ViPr#	查看属性
+#Main.menu.Edit.2#	编辑
+#Main.menu.CaDo#	取消下载
+#Main.menu.MaasLi#	标记为已听
+#Main.menu.MaNL#	标记为未听
+#Main.menu.Plwi0#	与 {0} 播放
+#Main.menu.PMotSN#	播放更多与正在播放相同
+#Main.menu.QMotSN#	在队首插入更多相同
+#Main.menu.QMotSL#	在队尾插入更多相同
+#Main.menu.PN#		立刻播放 {0} '{1}' 
+#Main.menu.QN#		队首插入 {0} '{1}' 
+#Main.menu.QL.3#	对尾插入 {0} '{1}' 
+#Main.menu.FMiL#	在库中查找更多 '{0}'
+#Main.menu.PlAr#	播放艺术家
+#Main.menu.PlAr{#	播放艺术家 '{0}'
+#Main.menu.PlAl#	播放专辑
+#Main.menu.PlAl{#	播放专辑 '{0}'
+#Main.menu.PlGe#	播放流派
+#Main.menu.PlGe{#	播放流派 '{0}'
+#Main.menu.PgN#		立刻播放流派 '{0}' 
+#Main.menu.QgN#		队首插入流派 '{0}' 
+#Main.menu.QgL#		队尾插入流派 '{0}' 
+#Main.menu.RefrQu#	从队列中移除
+#Main.menu.SkTr#	跳过该曲目
+#Main.menu.PlMo#	播放更多...
+#Main.menu.PATS#	随机播放所有曲目
+#Main.menu.PlAlNo#	立刻播放专辑
+#Main.menu.RePl#	恢复播放
+#Main.menu.StAu.2#	打开 智能-DJ
+#Main.menu.QuAlNe#	专辑插入队首
+#Main.menu.QuAlLa#	专辑插入队尾
+#Main.menu.SeTo#	发送到
+#Main.menu.Auto-DJ#	智能-DJ
+#Main.menu.MuLi#	音乐库
+#Main.menu.Inbox#	Inbox
+#Main.menu.Playlist#	播放列表
+#Main.menu.<NPl#	<新建播放列表>
+#Main.menu.Fo(M#	文件夹 (移动)
+#Main.menu.Fo(C#	文件夹 (复制)
+#Main.menu.Fo(R#	文件夹 (重新整理)
+#Main.menu.Clipboard#	剪切板
+#Main.menu.ExTo#	外部工具
+#Main.menu.FoCo#	格式转换器
+#Main.menu.VoAn#	音量分析
+#Main.menu.DoNo#	立刻下载
+#Main.menu.DoTo#	下载到
+#Main.menu.Folder...#	文件夹...
+#Main.menu.DNAD#	禁止自动删除
+#Main.menu.MoPoTo#	移动播客视频到...
+#Main.menu.AuMoPo#	自动整理移动过的播客视频	
+#Main.menu.LoinLi#	在库中定位
+#Main.menu.LiWE#	在Windows Explorer中定位
+#Main.menu.ShStDi#	显示电台目录
+#Main.menu.SIfP#	在Internet查找封面
+#Main.menu.OwDB#	用默认浏览器打开
+#Main.menu.Download#	下载
+#Main.menu.CoTe#	拷贝文本
+#Main.menu.CoHyAd#	拷贝超链接地址
+#Main.menu.CotoDe#	拷贝到设备
+#Main.menu.SoBy#	排序依据
+#Main.menu.ReNaOr#	恢复自然顺序
+#Main.menu.DeCuSo#	定义自定义排序...
+#Main.menu.SoAs#	升序排列
+#Main.menu.SoDe#	降序排列
+#Main.menu.ASAC#	自动调整列宽
+#Main.menu.Directory#	目录
+#Main.menu.URL#		URL
+#Main.menu.Splitter#	分割器
+#Main.menu.FiCh#	首字符
+#Main.menu.nufu#	null() 函数
+#Main.help.Ttpfttfcoe#	保留字段的前几个字符.例如<Artist>:1 将会返回艺术家姓名的第一个字符
+#Main.help.Rnvwatvaoa#	将null值替换为一个字符串,并可将多余的字符文本添加在非null值之后
+#Main.menu.OtFi#	其他字段
+#Main.menu.CoLa#	设置布局
+#Main.menu.Device#	设备
+#Main.menu.De0#		设备 {0}
+#Main.menu.LoTa#	锁定标签
+#Main.menu.GrBy#	分组依据
+#Main.msg.AgbA#		按艺术家分组的专辑
+#Main.msg.AgbC#		按作曲者分组的专辑
+#Main.menu.SaPi#	保存封面
+#Main.menu.Copy#	拷贝
+#Main.menu.ChPi#	选择封面
+#Main.menu.SeIn#	从Internet上查找
+
+! Now Playing panel and right click menu
+#Main.msg.NoPl#		正在播放
+#Main.msg.Artwork.2#	封面
+#Main.msg. Details#	 详情
+#Main.msg. Lyrics#	 歌词
+#Main.msg.Lyrics.2#	歌词
+#Main.msg.TrIn#		曲目信息
+#Main.msg.apoW#		Wikipedia上的艺术家信息
+#Main.msg.anoGN#	Google News上的艺术家新闻
+#Main.msg.mboH#		Hypem.com上的音乐博客
+#Main.msg.Notrse#	未选中曲目
+#Main.msg.Notrpl#	未播放曲目
+#Main.menu.SED#		显示均衡器和DSP
+#Main.menu.Controls.2#	控制
+#Main.menu.DiRS(#	在右边栏显示 (顶部)
+#Main.menu.DiRS(.2#	 在右边栏显示(底部)
+#Main.menu.DiBP#	在底面板显示
+#Main.menu.LPTiCT#	在当前标签页中定位正在播放的曲目
+#Main.menu.CLBS#	选择前清空列表
+#Main.menu.OpPl#	打开播放列表
+#Main.menu.FiTr#	查找曲目
+#Main.menu.LoPlTr#	定位正在播放的去秒
+#Main.menu.LTiL#	在库中定位曲目
+#Main.menu.HiPlCo#	隐藏播放控制器
+#Main.menu.SiP(#	在面板中显示 (顶部)
+#Main.menu.SiP(.2#	在面板中显示 (底部)
+#Main.menu.SAPC#	显示所有播放控制器
+#Main.menu.HNPL#	隐藏正在播放列表
+#Main.menu.SitP#	在这个面板中显示
+#Main.menu.SiMP(#	在主面板中显示 (底部)
+#Main.menu.Lyrics#	歌词
+#Main.menu.HiLy#	隐藏歌词
+#Main.menu.SiaPT#	在一个面板标签中显示
+#Main.menu.ShMi#	显示迷你歌词
+#Main.menu.DnsTI#	不要显示曲目信息
+#Main.menu.SitP(#	在这个面板中显示 (底部)
+#Main.menu.SitP(f#	在这个面板中显示 (压缩模式)
+#Main.menu.SitP(wpc#	在这个面板中显示 (带播放控制器的压缩模式)
+#Main.menu.ShStBa#	显示状态栏
+#Main.menu.CuPaSe#	自定义面板设置
+#Main.menu.PaDo#	停靠面板
+#Main.menu.PlTr#	正在播放的曲目
+#Main.menu.SeTr#	选定的曲目
+#Main.menu.HNPA#	隐藏正在播放的封面
+#Main.menu.PlDo#	停靠播放列表
+
+! main player panel
+#Main.msg.M-MMaP#	MusicBee - 音乐管理和播放软件
+#Main.msg.Sscbcilm#	不能在锁定模式改变同步状态
+#Main.menu.SetoAu#	发送到 智能-DJ
+#Main.menu.FiMo#	查找更多
+#Main.menu.ShRa#	显示评分
+#Main.menu.SlB#		显示 last.fm ""喜爱"" 按钮
+#Main.menu.ShSpVi.2#	显示频谱
+#Main.menu.ShSe#	打乱设置
+#Main.menu.ShRa.2#	随机打乱
+#Main.menu.SwHRTF#	高评分优先乱序
+#Main.menu.SwSAB#	同艺术家下乱序
+#Main.menu.SaArSo#	有时相同艺术家
+#Main.menu.SaArRe#	经常相同艺术家
+#Main.menu.SaArOf#	常常相同艺术家
+#Main.menu.SwDAB#	不用艺术家下乱序
+#Main.menu.DiArSo#	有时不同艺术家
+#Main.menu.DiArRe#	经常不同艺术家
+#Main.menu.DiArOf#	常常不同艺术家
+#Main.menu.ShTrIn#	独立地打乱曲目
+#Main.menu.STbA#	按照专辑打乱曲目
+#Main.menu.STbG#	按照分组打乱曲目
+#Main.menu.FAiL#	在库中查找艺术家
+#Main.menu.FAiL.2#	在库中查找艺术家 '{0}' 
+#Main.menu.FAiL.3#	在库中查找专辑
+#Main.menu.FAiL.4#	在库中查找专辑 '{0}' 
+#Main.menu.PlCo#	播放控制器
+#Main.menu.SiDB#	在默认浏览器中查看
+#Main.help.Prtr#	上一曲
+#Main.help.Play/pause#	播放/暂停
+#Main.help.Stpl#	停止播放
+#Main.help.Netr#	下一曲
+#Main.help.EaDM(#	均衡器和DSP (显示/隐藏)
+#Main.help.Re(a#	重复 (所有/无重复/单曲)
+#Main.help.Sh(o.3#	打乱 (开启/关闭)
+#Main.help.CotoLa#	连接到 Last.fm
+#Main.help.CtltL#	点击登陆 Last.fm
+#Main.help.Ctoylhp#	点击打开你的 Last.fm 主页
+#Main.help.Llf-ctryua#	Last.fm 登陆失败 - 点击重新输入用户名和密码
+#Main.help.Llf-stwbsa#	Last.fm 登陆失败 - 同步的曲目将会在稍后提交
+#Main.msg.Ssid-twbsa#	同步服务器连接失败 - 同步的曲目将会在稍后提交
+#Main.help.Litlsttyp#	已经登录到Last.fm , 将会同步您播放的曲目
+#Main.help.Lsid-ctli#	Last.fm 同步已被禁用 - 点击登陆
+#Main.help.HiStBa#	隐藏状态栏
+#Main.menu.ShTrRa#	显示曲目评分
+#Main.menu.ShShBu#	显示打乱按钮
+#Main.menu.WiSe#	窗口设置
+#Main.menu.ShInTa#	在任务栏显示
+#Main.menu.NoDo#	未停靠
+#Main.menu.Top#		顶部
+#Main.menu.Bottom#	底部
+
+! file status tooltip messages
+#Main.status.Dofa#	下载失败
+#Main.status.Failed#	失败
+#Main.status.Aborted#	已终止
+#Main.status.Completed#	已完成
+#Main.status.Dcarfp#	下载完成,准备好播放
+#Main.status.Doco#	下载完成
+#Main.status.Dope#	即将下载
+#Main.status.Doinpr#	正在下载
+#Main.status.Dopa#	已暂停
+#Main.status.Df-#	下载失败 - {0}
+
+! dialogs
+#Main.msg.Rtsf#		移除选定文件?
+#Main.msg.Dtsf#		删除选定文件?
+#Main.msg.Pdtsf#	永久删除选定文件?
+#Main.msg.Tfaiamfawb#	选定的文件在监视文件夹内,除非删除否则将会被重新扫描. 
+#Main.msg.DfLo#		仅从库中删
+#Main.msg.DfLaC#	从库和计算机中删除
+#Main.msg.DfIo#		仅从Inbox中删除
+#Main.msg.DfIaC#	从Inbox和计算机中删除
+#Main.msg.DfABo#	仅从有声读物中删除
+#Main.msg.DfABaC#	从有声读物和计算机中删除
+#Main.msg.Depl{#	删除播放列表 '{0}'?
+#Main.msg.Deplon#	仅删除播放列表
+#Main.msg.Dpafitp#	删除播放列表和播放列表中的文件
+#Main.msg.Rtfp#		从播放列表 '{1}' 移除选定的文件?
+#Main.msg.Rfpo#		仅从播放列表中移除
+#Main.msg.Rfpadt#	移除播放列表并删除文件
+#Main.msg.Reth0#	移除选定的项目?
+#Main.msg.Resu{#	移除订阅 '{0}'?
+#Main.msg.Resuon#	仅移除订阅
+#Main.msg.Rsadae#	移除订阅并删除所有剧集
+#Main.msg.dnaa#		不要再问我
+#Main.msg.aawa#		总是允许并不在询问我
+#Main.msg.Confirmation#	确认
+#Main.msg.Information#	消息
+#Main.btn.OK#		确定
+#Main.btn.Retry#	重试
+#Main.btn.Apply#	应用
+#Main.btn.Yes#		是
+#Main.btn.No#		否
+#Main.btn.Close#	关闭
+#Main.btn.Save#		保存
+#Main.btn.Update#	更新
+#Main.btn.Next#		下一下
+#Main.btn.Execute#	执行
+#Main.btn.Select#	选择
+#Main.btn.Cancel#	取消
+#Main.btn.Preview#	预览
+#Main.btn.Stop#		停止
+#Main.btn.Proceed#	开始
+
+! last.fm login screen
+#LFL.msg.LoLa#		 登陆 Last.fm
+#LFL.msg.username:#	用户名:
+#LFL.msg.password:#	密码:
+#LFL.msg.SufL#		注册 Last.fm
+#LFL.btn.LoIn#		登陆
+#LFL.msg.Inuspa#	无效的用户名/密码
+#LFL.msg.UtctL-iyha#	无法连接到Last.fm - 如果你开启了防火墙,代理需要在"首选项/Internet中"中设置
+
+! Now Playing Assistant
+#NPA.menu.RefrLi#	从列表中移除
+#NPA.msg.search:#	查找:
+#NPA.msg.library#	库
+#NPA.msg.noplli#	正在播放列表
+#NPA.msg.NoPlAs#	正在播放助手
+
+! Artist biography panel
+#Main.menu.CoPrTe#	拷贝简介信息
+#Main.menu.ShPiGa#	显示画廊
+#Main.msg.PlTr#		正在播放的曲目
+#Main.msg.PlAr#		 正在播放的艺术家
+#Main.msg.Arisun#	未知艺术家
+#Main.msg.Nbf[#		没有'{0}' 的简介信息  [{1}]
+#Main.msg.Nbf#		没有'{0}' 的简介信息
+#Main.msg.NoArPi#	没有艺术家照片
+#Main.msg.Abanaatt#	无法获取艺术家简介
+#Main.msg.Utltab-#	无法载入艺术家简介 - {0}
+
+! Lyrics panel
+#Lyr.msg.Lyrics#	歌词
+#Lyr.btn.SaLy#		保存歌词
+#Lyr.btn.CaEd#		取消编辑
+#Lyr.msg.pCtaat#	按下Ctrl+T 增加一个时间戳
+#Lyr.msg.Lyfo0#		 {0} 的歌词
+#Main.msg.Rely#		获取歌词...
+#Main.msg.Nolyfo#	未发现歌词
+#Main.msg.Utsfl-aotn#	无法查找歌词 - 艺术家或曲目名未知
+#Main.msg.Utsl-nfip#	无法保存歌词 - 当前未播放文件
+#Main.msg.Utstl#	无法保存歌词:
+#Main.menu.GoSe#	Google
+#Main.menu.Auto-Save#	自动保存
+#Main.menu.EdDiLy#	编辑正在显示的歌词
+#Main.menu.CLoW#	在网站上修正歌词
+#Main.menu.CoDiLy#	拷贝正在显示的歌词
+#Main.menu.LSNFS#	歌词来源: 未选择文件
+#Main.menu.LSNLF#	歌词来源: 未找到歌词
+#Main.menu.ReSe#	重新查询
+#Main.menu.LySoMI#	歌词来源: MINILYRICS
+#Main.menu.SeNePr#	查找下一个提供者
+#Main.menu.LSSiLF#	歌词来源: 存储在音乐文件
+#Main.menu.LSEiMF#	歌词来源: 嵌入在音乐文件
+#Main.menu.LySoUn#	歌词来源: 未知
+#Main.menu.LySo0#	歌词来源: {0}
+#Main.menu.PCLiMF#	将剪贴板中的歌词拷贝到音乐文件
+#Main.menu.EDLiMF#	将显示的歌词嵌入到音乐文件
+#Main.menu.PCLtEF#	将剪贴板里的歌词粘贴到外部文件
+#Main.menu.SDLtEF#	将剪贴板里的歌词保存到外部文件
+#Main.msg.SLfC#		保存剪贴板的歌词
+#Main.msg.Utel-nfia#	无法编辑歌词 - 没有活动文件
+#Main.menu.SLiMF#	保存歌词到音乐文件
+#Main.menu.SLtEF#	保存歌词到外部文件
+
+! Radio station directories panel
+#Radio.btn.AdtoLi#	添加到库
+#Radio.msg.Sagoard#	选择一个流派或者另外一个广播目录
+#Radio.msg.search:#	查找:
+#Radio.msg.byge#	根据流派:
+#Radio.msg.stna#	电台名
+#Radio.msg.format#	格式
+#Radio.msg.listeners#	听众
+#Radio.msg.I-sagtstas#	Icecast - 选择一个流派来查看可用的电台
+#Radio.msg.Presets#	预置
+#Radio.msg.StDi#	电台目录
+#Radio.msg.Seage#	选择一个流派
+#Radio.msg.MclarsdfaX#	MusicBee 可以从预置XML文件下载电台目录,例如TapinRadio附带的文件
+#Radio.msg.OpPrFi#	打开预置文件...
+#Radio.msg.Sagtstas#	选择一个流派来查看可用的电台
+#Radio.msg.Casltlatt#	点击一个电台连接来收听,点击'添加到库'标记为书签.
+#Radio.msg.L-sagtcatb#	Last.fm - 选择一个流派来创建基于标签的电台.
+#Radio.msg.RcNStcolrt#	右键单击/ 新电台 来创建其他Last.fm广播类型.
+#Radio.msg.J-sagtcatb#	Jamendo - 选择一个流派来创建基于标签的电台.
+#Radio.msg.BhwtMbtvtb#	用MusicBee内置的浏览器打开 http://www.jamendo.com with the 来查看艺术家和专辑的相关曲目.
+#Radio.msg.-sagtstas#	{0} - select a genre to see the available stations
+#Radio.msg.[ACo#	[All Countries]
+#Radio.msg.Utltspf#	Unable to load the selected presets file
+#Radio.msg.Sprae-#	Service provider returned an error - {0}
+#Radio.msg.Nomafo#	No matches found
+#Radio.msg.Dcoastpia#	Double click on a station to play it and 'Add to Library' to bookmark it.
+#Radio.msg.sagtstas#	select a genre to see the available stations
+
+! auto-dj panel
+#DJ.ctl.B3DCB49A#	Auto-DJ Settings
+#DJ.btn.5FD00D9D#	Start DJ
+#DJ.ctl.6E3203DA#	initial list size:
+#DJ.ctl.717606B8#	maintain:
+#DJ.ctl.1EEA1BA7#	upcoming tracks
+#DJ.ctl.99D2717F#	source music tracks from:
+#DJ.ctl.423C7E7C#	library
+#DJ.ctl.B55FE3E5#	播放列表
+#DJ.ctl.78DD8995#	folders
+#DJ.ctl.6605C404#	apply filter:
+#DJ.btn.7FB32EF2#	Custom Filter...
+#DJ.ctl.8CAE1334#	restrict genre to same as seed track
+#DJ.ctl.DDEDC91#	track selection
+#DJ.ctl.7E185C50#	selection mode:
+#DJ.ctl.F7BDD5EA#	minimum gap before the same artist is repeated: 
+#DJ.ctl.941D329F#	random
+#DJ.ctl.E10F6B40#	different/
+#DJ.ctl.916DD6B4#	/same artist prefered each track
+#DJ.ctl.F1B769CD#	higher rated tracks prefered
+#DJ.ctl.7C8B6185#	tracks from artists rated by last.fm as more than  
+#DJ.ctl.85FDBD34#	% similar
+#DJ.ctl.B63ECB97#	restrict selection to artists similar to the seed track only
+#DJ.ctl.79DFA6C7#	choose artists similar to the preceeding track in the 播放列表 (allows more drift)
+#DJ.ctl.1B058FAA#	also stream tracks from last.fm or jamendo to discover new artists not in your library
+#DJ.ctl.27B5E4D#	rarely/
+#DJ.ctl.11F847B0#	/ frequently
+#DJ.ctl.8DAA1A34#	stream tracks from:
+#DJ.ctl.66DEC15F#	stream tracks recommended by Last.fm
+#DJ.ctl.91B3158B#	stream tracks from artists similar to the current track in the 播放列表
+#DJ.msg.Ntmtsc#		No tracks matched the selection criteria
+#DJ.msg.AuSoFo#		Auto-DJ Source Folders
+#DJ.msg.Stftcmtywi#	Select the folders that contain music tracks you want included
+#DJ.help.Filter:#	Filter:
+#DJ.msg.AuCuFi#		AutoDJ Custom Filter
+#DJ.msg.Lryhapstlt#	Last.fm requires you have a paid subscription to listen to music streams via third party applications such as MusicBee
+#DJ.msg.genre:#		genre:
+#DJ.msg.rast#		radio station:
+
+! equaliser window
+#EQ.frm.80A8E668#	Equaliser and DSP Settings
+#EQ.ctl.14379A25#	enable equaliser:
+#EQ.msg.Manual#		Manual
+#EQ.msg.AubyGe#		Auto-Select by Genre
+#EQ.btn.80DF2486#	Reset
+#EQ.btn.43E1E652#	Save Preset
+#EQ.msg.pre-amp#	pre-amp
+#EQ.ctl.5254C4E5#	balance
+#EQ.ctl.80DD32E7#	  DSP Plugins
+#EQ.ctl.362956C#	double click to configure a DSP
+#EQ.btn.99BF6D42#	Import Winamp
+#EQ.msg.YnaptiWpPr#	You need administrator permissions to import WinAmp plugins. Please restart MusicBee by right clicking on MusicBee.exe/ Run As Administrator and try this again.
+#EQ.msg.LWDP#		Locate Winamp DSP Plugin...
+#EQ.msg.Utlw#		Unable to locate winamp.exe
+#EQ.msg.UtitWp#		Unable to import the Winamp plugin:{0}
+
+! Quick Layout dialog
+#Main.msg.QuLa#		Quick Layout
+#Main.msg.Sootfpc#	Select one of the following predefined configurations:
+#Main.msg.ReInLa#	Restore Initial Layout
+#Main.msg.Customise...#	Customise...
+#Main.msg.-NPLiRS#	-  Now Playing List in Right Sidebar  
+#Main.msg.1TDAaLiRS(#	1. Track Details, Artwork and Lyrics in Right Sidebar (MusicBee Default)
+#Main.msg.2TDaAiRSLF#	2. Track Details and Artwork in Right Sidebar, Lyrics Floating
+#Main.msg.-NPLiLS#	-  Now Playing List in Left Sidebar  
+#Main.msg.1TDAaLiRS#	1. Track Details, Artwork and Lyrics in Right Sidebar
+#Main.msg.2AiLSLoiRS#	2. Artwork in Left Sidebar, Lyrics only in Right Sidebar
+#Main.msg.-NNPL#	-  No Now Playing List  
+#Main.msg.1AiLSLOiRS#	1. Artwork in Left Sidebar, Lyrics Only in Right Sidebar
+#Main.msg.2AiLSnTDoL#	2. Artwork in Left Sidebar, no Track Details or Lyrics (iTunes style)
+#Main.msg.3TDAaLiLS#	3. Track Details, Artwork and Lyrics in Left Sidebar
+#Main.msg.4TDAaLiRS#	4. Track Details, Artwork and Lyrics in Right Sidebar
+#Main.msg.-NPLiMP#	-  Now Playing List in Main Panel  
+#Main.msg.2AiLSLOiRS#	2. Artwork in Left Sidebar, Lyrics Only in Right Sidebar
+
+! Auto-Playlist editor
+#AP.frm.742E477B#	Auto-Playlist Editor
+#AP.msg.Au-0#		Auto-Playlist - {0}
+#AP.ctl.D1FE7348#	music track source:
+#AP.ctl.569C3DFD#	library
+#AP.ctl.95B61A84#	播放列表
+#AP.ctl.5A73D534#	folders
+#AP.ctl.50DBE52E#	display using view:
+#AP.msg.Default#	Default
+#AP.ctl.119CDBB0#	match
+#AP.msg.all#		all
+#AP.msg.any#		any
+#AP.msg.AnFi#		Any Field
+#AP.msg.is#		is
+#AP.msg.isno#		is not
+#AP.msg.isanof#		is any of
+#AP.msg.inao#		is not any of
+#AP.msg.haava#		has a value
+#AP.msg.hanova#		has no value
+#AP.msg.stwi#		starts with
+#AP.msg.enwi#		ends with
+#AP.msg.contains#	contains
+#AP.msg.donoco#		does not contain
+#AP.msg.maRe#		match RegEx
+#AP.msg.maRe.2#		match RegEx/i
+#AP.msg.isgrth#		is greater than
+#AP.msg.isleth#		is less than
+#AP.msg.inra#		in range
+#AP.msg.noinra#		not in range
+#AP.msg.isaf#		is after
+#AP.msg.isbe#		is before
+#AP.msg.iitl#		is in the last
+#AP.msg.initl#		is not in the last
+#AP.msg.days#		days
+#AP.msg.weeks#		weeks
+#AP.msg.months#		months
+#AP.msg.to#		to
+#AP.msg.and:#		and:
+#AP.ctl.322F8382#	of the following rules:
+#AP.ctl.CB92C4A4#	restrictions:
+#AP.ctl.CEAD930#	limit to
+#AP.msg.random#		random
+#AP.msg.hira#		highest rating
+#AP.msg.lora#		lowest rating
+#AP.msg.morepl#		most recently played
+#AP.msg.lerepl#		least recently played
+#AP.msg.moofpl#		most often played
+#AP.msg.leofpl#		least often played
+#AP.msg.moread#		most recently added
+#AP.msg.leread#		least recently added
+#AP.ctl.C01A26C4#	selected by:
+#AP.msg.minutes#	minutes
+#AP.msg.hours#		hours
+#AP.msg.MB#		MB
+#AP.msg.GB#		GB
+#AP.msg.items#		items
+#AP.msg.albums#		albums
+#AP.ctl.C3E49CF9#	automatically export a static copy
+#AP.msg.Oomvhba-dy#	One or more values have been amended - do you want to save the changes?
+#AP.msg.LiofVa#		List of Values
+#AP.msg.ealovtbf#	enter a list of values to be filtered:
+#AP.msg.AnCo#		And Conditions...
+#AP.msg.ChFo#		Choose Folders...
+#AP.msg.Sfcmfftp#	Select folders containing music files for the 播放列表
+#AP.msg.Navre#		Not a valid regular expression:{0}
+
+! radio playlist editor
+#RPL.frm.7542BFD3#	Radio Playlist Editor
+#RPL.ctl.F1A8AF4D#	Radio 播放列表s allow you to compose a 播放列表 constructed from a list of auto-播放列表 criteria, where a specified number of random tracks are selected from each auto-播放列表 and on completion the cycle is repeated
+#RPL.ctl.F7BDD5EA#	minimum gap before the same artist is repeated: 
+#RPL.ctl.293DF9CF#	track count
+#RPL.ctl.684D1AE5#	track selection criteria
+#RPL.ctl.748242BA#	to reorder, press Alt Up/Down in one of the track count boxes
+#RPL.btn.2FBF9C01#	Add Criteria
+#RPL.msg.RaPlCr#	Radio Playlist Criteria
+
+! Error Messages and dialog prompts
+#Main.msg.Nehbl#	No errors have been logged
+#Main.msg.AioMisrant#	Another instance of MusicBee is still running and needs to be terminated from the Windows Task Manager.
+#Main.msg.Aueho#	An unhandled exception has occured
+#Main.msg.Srfcbl-iya#	Some required files cannot be located - if you are updating MusicBee, copy MusicBee.exe (and any other unzipped files) to where MusicBee is installed.
+#Main.msg.Cfim#		Configuration file '{0}' is missing
+#Main.msg.Yhucc-dywt#	You have unsaved configuration changes - do you want to leave them unsaved and close MusicBee anyway?
+#Main.msg.Btasr-dywt#	Background tasks are still running - do you want to terminate them and close MusicBee anyway?
+#Main.msg.TMfcicacbl#	The MusicBee file cache is corrupted and cannot be loaded. The last backup has been recovered, but some of the changes you made last time might be lost.
+#Main.msg.Mwtbtfccbs#	MusicBee was terminated before the file cache could be saved. The last backup has been recovered, but some of the changes you made last time might be lost.
+#Main.msg.Utitmp#	Unable to initialise the music player:
+#Main.msg.MwatlyPahr#	MusicBee wasn't able to load your Preferences and has recovered the last backup - any Preferences changed the last time you used MusicBee will be lost.
+#Main.msg.AantMs#	Ask again next time MusicBee starts
+#Main.msg.VoMia-dyw#	Version {0}.{1}.{2} of MusicBee is available - do you want to upgrade?{3}
+#Main.msg.YntctNPPdt#	You need to change the Now Playing Panel dock to the right sidebar first
+#Main.msg.Tansstl#	There are no saved settings to load
+#Main.msg.LMlsf#	Load MusicBee layout settings from...
+#Main.msg.Utss#		Unable to save settings
+#Main.msg.ScMlst#	Save current MusicBee layout settings to...
+#Main.msg.Utls#		Unable to load skin: {0}
+#Main.msg.Nvphbi#	No visualisation plugins have been installed.
+#Main.msg.Yhdwo-pctf#	You have dialog windows open - please close them first.
+#Main.msg.TcinaftNPL#	This command is not available from the Now Playing List
+#Main.msg.Neshbc-sPS#	No external service has been configured - see Preferences/ Services to set up one.
+#Main.msg.Uti#		Unable to invoke '{0}'
+#Main.msg.UtsMdttfe#	Unable to start MusicBee due to the following error:
+#Main.msg.Yanataf#	You are not authorised to access folder: {0}
+#Main.msg.Uta#		Unable to access: {0}
+#Main.msg.Tlcbcwbtas#	The library cannot be changed while background tasks are still running.
+#Main.msg.Utscmttcl#	Unable to save changes made to the current library:
+#Main.msg.Anlcbcwbta#	A new library cannot be created while background tasks are still running.
+#Main.msg.Tsfineacbd#	The selected folder is not empty and cannot be deleted
+#Main.msg.Tfineacbd#	The folder is not empty and cannot be deleted
+#Main.msg.Fim#		File '{0}' is missing.
+#Main.msg.Finaatpit#	File '{0}' is not accessible at this point in time
+#Main.msg.Utps#		Unable to play station '{0}'
+#Main.msg.Fmbc#		File '{0}' may be corrupted
+#Main.msg.TiaLrstcbp#	Track is a Last.fm radio stream that can be played only once and in sequence
+#Main.msg.TiaLrsthbp#	Track is a Last.fm radio stream that has been played or is now expired
+#Main.msg.fansfp#	{0} files are not supported for playback
+#Main.msg.UnAr#		Unknown Artist
+#Main.msg.UnTi#		Unknown Title
+#Main.msg.UnAl#		Unknown Album
+#Main.msg.TsioomLrs-#	The selection includes one or more Last.fm radio streams - these streams only temporarily exist and cannot be moved from the Now Playing window
+#Main.msg.YcrAftAaTv#	You cannot remove Artwork from the Album and Tracks view.
+#Main.msg.Tsfiaitl#	The selected file is already in the library
+#Main.msg.Oomotsfaai#	One or more of the selected files are already in the library
+#Main.msg.Tsfiaiti#	The selected file is already in the inbox
+#Main.msg.Oomotsfaai.2#	One or more of the selected files are already in the inbox
+#Main.msg.Tsthabd-dy#	The selected tracks have already been downloaded - do you want to download again?
+#Main.msg.Oomotsthab#	One or more of the selected tracks have already been downloaded - do you want to download again?
+#Main.msg.Pinlr-dyw#	Picture '{0}' is no longer referenced - do you want it deleted?
+#Main.msg.Dtptanlr#	Delete the pictures that are no longer referenced?
+#Main.msg.Utrf(#	Unable to retrieve files ({0})
+#Main.msg.Tsfiarstcb#	The selected file is a radio stream that cannot be replayed
+#Main.msg.UtrapfLf#	Unabled to retrieve a 播放列表 from Last.fm for '{0}'
+#Main.msg.Caftct-dyw#	Confirm action for the clicked track - do you want to:
+#Main.msg.Nitctp#	Nothing in the clipboard to paste
+#Main.msg.Pinaitp#	Paste is not allowed in this panel
+#Main.msg.Ynthoomfwc#	You need to highlight one or more files when copy/pasting tags
+#Main.msg.Tnocfdnmtn#	The number of copied files does not match the number highlighted for paste
+#Main.msg.COttotsfut#	CONFIRMATION: Overwrite the tags of the selected file using tags from the copied file?
+#Main.msg.COttotsut#	CONFIRMATION: Overwrite the tags of the selected {0} using tags from the copied {1}?
+#Main.msg.Dinr-piat#	Device {0} is not ready - please insert and try again
+#Main.msg.Oomvhba-dy#	One or more values have been amended - do you want to save the changes?
+#Main.msg.Caftst-dyw#	Confirm action for the selected track - do you want to:
+#Main.msg.Osmtcbr-rs#	Only single music tracks can be rated - radio streams are not supported.
+#Main.msg.Opmtcblntr#	Only playing music tracks can be loved, not the radio station itself - click the love icon on the player control panel
+#Main.msg.Uolf#		Update on last.fm failed: {0}
+#Main.msg.Mdnslavtfa#	MusicBee does not support loving a virtual track from a single file album with embedded cuesheet
+#Main.msg.Utmf-peyhn#	Unable to move folder - please ensure you have no files open, tracks playing, or Windows File Manager open in '{0}' or it's sub-folders.
+#Main.msg.Pet#		Playlist exported to {0}
+#Main.msg.Yntcawf(NN#	You need to create a web-folder first (File/ New/ New Web Folder)
+#Main.msg.Ratft#	Remove all tags for the {0}?
+#Main.msg.Tswaaitl#	The selected web-links are already in the library
+#Main.msg.Stfywtmtsf#	Select the folder you want to move the selected files to:
+#Main.msg.MfbdadinsU#	Moving files between drives and devices is not supported. Use the Copy command instead.
+#Main.msg.Stfywtctsf#	Select the folder you want to copy the selected files to
+#Main.msg.(wbntptpo#	(files will be named to preserve the 播放列表 order):
+#Main.msg.Utcsr-tuts#	Unable to complete safe removal - try using the safe removal function provided by Windows
+#Main.msg.Utlf#		Unable to locate file: {0}
+#Main.msg.CtflowiAAT#	Capitalise the first letter of words in Artist, Album, Track Name, etc. for the {0}?
+#Main.msg.RtCtzft#	Reset the {0} Count to zero for the {1}?
+#Main.msg.SltfLtyML#	Synchronise loved tracks from Last.fm to your Music Library?
+#Main.msg.Ltsc#		Loved track synchronisation completed.
+#Main.msg.Stpcfamtiy#	Set the play count for all matching tracks in your library to the play count from your Last.fm profile?
+#Main.msg.Utctpcs#	Unable to complete the play count synchronisation:
+#Main.msg.Pcshc-u#	Play count synchronisation has completed - {0} updated.
+#Main.msg.Notr#		No tracks
+#Main.msg.SAaTft#	Swap Artist and Title for the {0}?
+#Main.msg.ABtF#		Add Bookmark to Folder:
+#Main.msg.Utsf#		Unable to save file:
+#Main.msg.Vfaatstf-t#	Validation failed after attempting to save the file - the changes have not been saved.
+#Main.msg.Utoffw-en#	Unable to open file '{0}' for writing - ensure no other application already has it open.
+#Main.msg.Etfatfanwp#	Ensure the folder and the file are not write protected.
+#Main.msg.Utscttf#	Unable to save changes to the file:
+#Main.msg.Utsr#		Unable to save rating:
+#Main.msg.etfatfanwp#	ensure the folder and the file are not write protected.
+#Main.msg.Oomotsfcnb#	One or more of the selected files could not be located or is not a valid music file
+#Main.msg.Tsfftcnbf#	The source file for track '{0}' could not be found.
+#Main.msg.Tsfftcnbf.2#	The source file for track '{0}' could not be found. Would you like to locate it?
+#Main.msg.Tfyhsiatti#	The file you have selected is a track that is already in your library and on display.
+#Main.msg.Wyltcaf#	Would you like to choose another file?
+#Main.msg.Tsfiali#	The selected file is already located in '{0}'
+#Main.msg.Oomotsfaal#	One or more of the selected files are already located in '{0}'
+#Main.msg.Tsfaeittf-#	The selected file already exists in the target folder - do you want to overwrite it?
+#Main.msg.Oomotsfaei#	One or more of the selected files already exists in the target folder - do you want to overwrite them?
+#Main.msg.LoOPfi#	Locate OPML file
+#Main.msg.UtptsOf#	Unable to parse the selected OPML file
+#Main.msg.Scbdwtaaao#	Search cannot be done without the artist and album or title
+#Main.msg.Utlapftb#	Unable to locate any pictures for title '{0}' by '{1}'
+#Main.msg.Utlapfab#	Unable to locate any pictures for album '{0}' by '{1}'
+#Main.msg.Utstpt#	Unable to save the picture to: {0}
+#Main.msg.Arfyctits#	Also remove 'folder.jpg' from your computer?{0}Other tracks in the same folder still reference it, but if its not removed then MusicBee will still display the image when playing this track.
+#Main.msg.Althbr-dy#	All links to 'folder.jpg' have been removed - do you want it deleted?
+#Main.msg.ctsntwa#	choose the same next time without asking
+#Main.msg.Alttphbrft#	All links to this picture have been removed from the device - do you want it deleted?
+#Main.msg.Althbr-dy.2#	All links to '{0}' have been removed - do you want it deleted?
+#Main.msg.Artwork#	Artwork Providers
+#Main.msg.Lyrics#	Lyrics Providers
+#Main.msg.Tag#		Tag Providers
+#Main.msg.Dtd-dywtat#	Duplicate tracks detected - do you want to add the tracks to this 播放列表?
+#Main.msg.AAS#		Artist & Album Selector
+#Main.msg.Cootftrad#	Choose one of the following to retrieve album details:
+#Main.help.Ctsftadatt#	Copy the selected files to a device according to the device settings, converting on-the-fly as needed.
+#Main.msg.Yntlolaeyu#	You need to log onto last.fm and enter your username and password first
+#Main.msg.YnteyLldal#	You need to enter your Last.fm login details at least once to listen to this radio station. Login details can be entered by clicking the Last.fm icon on the bottom right player control panel
+#Main.msg.Lryhapstlt#	Last.fm requires you have a paid subscription to listen to music streams via third party applications such as MusicBee
+#Main.msg.TtiaLrsthe#	The track is a Last.fm radio stream that has expired and is no longer playable
+#Main.msg.Pe-thbs#	Playback error - track has been skipped
+#Main.msg.Utrls#	Unable to restart last.fm station
+#Main.msg.PlSeTr#	Play Selected Tracks
+#Main.msg.PlAlTr#	Play All Tracks
+#Main.msg.QSTNaPN#	Queue Selected Tracks Next and Play Now
+#Main.msg.UtitwbSait#	Unable to initialise the web browser. Suggested action is to uninstall and then re-run the MusicBee installation so the missing files can be repaired.
+#Main.msg.LoSp#		Locate Spotify
+#Main.msg.UtatMlp#	Unable to access the MusicBee library path:
+#Main.msg.MuEr#		MusicBee Error
+#Main.msg.Aueo-prt#	An unexpected error occured - please report to 
+#Main.btn.CoEr#		Copy Error
+#Main.msg.Utctetttc#	Unable to copy the error text to the clipboard
+#Main.msg.Rscnbo#	Radio station '{0}' could not be opened
+#Main.msg.Tsfftcnbf.3#	The source file for track '{0}' could not be found
+#Main.msg.Ticto#	The internet connection timed out
+#Main.msg.UtsQwinfpo#	Unable to start Quicktime which is needed for playback of AAC/ MPEG files (Quicktime is installed with iTunes)
+#Main.msg.UtrCt#	Unable to read CD track '{0}'
+#Main.msg.UtitpodSai#	Unable to initialise the preferred output device. Suggested action is to select another device (Edit/ Preferences/ Player)
+#Main.msg.Aueo#		An unexpected error occurred: 
+#Main.msg.Trsinaatpi#	The radio station is not accessible at this point in time
+#Main.msg.Etrsitnaat#	Either the radio station is temporarily not accessible at this point in time or the Shoutcast station URL has changed (you will need to re-bookmark the station)
+#Main.msg.Tfinavafac#	The file is not a valid audio file and cannot be played
+#Main.msg.De2c#		Directory exceeds 247 characters: {0}
+#Main.msg.LiSe#		List Selector
+#Main.msg.Seanit#	Select an item
+#Main.help.Mtahp#	Move to a higher priority
+#Main.help.Mtalp#	Move to a lower priority
+#Main.msg.Utatfs#	Unable to adjust the font size.
+#Main.msg.Dtotaw#	Double-click to open the active window
+#DJ.msg.YnteyLldal#	You need to enter your Last.fm login details at least once for this setting to take effect. Login details can be entered by clicking the Last.fm icon on the bottom right player control panel
+#Main.msg.UtaabpRait#	Unable to abort a background process. Recommended action is to restart MusicBee
+#Main.msg.AbpPw(s#	Aborting background processes, Please wait (10 seconds)...
+#Main.msg.Utpts#	Unable to play the stream at this point in time
+#Main.msg.Utptf-ihau#	Unable to play this file - it has an unsupported format or is corrupted
+#Main.msg.Utpts-fAsy#	Unable to play this stream - for AAC+ streams, you will need the BASS_AAC.dll plugin. See http://getmusicbee.com/help.html
+#Main.msg.AferQtbeit#	AAC/MPEG files either require QuickTime to be enabled in the Player Preferences screen, or BASS_AAC.dll to be installed - see http://www.getmusicbee.com/help.html
+#Main.msg.Fnfael#	File not found at expected location
+#Main.msg.RaSt#		Radio Stream
+#Main.msg.PoEp#		Podcast Episode
+#Main.msg.WeSt#		Web Stream
+#Main.msg.1rsfL#	128k radio stream from Last.fm
+#Main.msg.inarns#	'{0}' is not a recognised network share.
+#Main.msg.Piaamnds#	Path '{0}' is already a mapped network drive share.
+#Main.msg.NsiamDywt#	Network share '{0}' is already mapped. Do you want to replace it with '{1}'?
+#Main.msg.Nswdtttobo#	Not supported when docked to the top or bottom of the screen
+#Main.msg.NswITine#	Not supported when 'Show In Taskbar' is not enabled
+
+! system preferences panel
+#Sys.frm.164AB831#	Preferences
+#Sys.msg.Oomvhba-dy#	One or more values have been amended - do you want to save the changes?
+! General preferences tab
+#Sys.tab.E6571567#	General
+#Sys.ctl.7E4D71CC#	  application  
+#Sys.ctl.2A354467#	language:
+#Sys.ctl.3928F59#	restart is required
+#Sys.btn.D591DEAE#	 Select Icon...
+#Sys.ctl.71F8F68C#	check for updates on startup
+#Sys.ctl.586FEE43#	run as a portable application
+#Sys.ctl.7CB07E86#	start minimised
+#Sys.ctl.68521009#	show splash screen on startup
+#Sys.ctl.5F8541F#	minimise to:
+#Sys.ctl.FE76FD65#	taskbar
+#Sys.ctl.5D418347#	notification tray
+#Sys.ctl.6EBE6649#	mini player
+#Sys.ctl.1FBB9841#	  notification tray  
+#Sys.ctl.172C2EC#	always show tray icon
+#Sys.ctl.57003D87#	single click action:
+#Sys.msg.ShMaWi#	Show Main Window
+#Sys.msg.ShMiPl#	Show Mini Player
+#Sys.msg.ShTrIn#	Show Track Information
+#Sys.msg.Play/Pause#	Play/Pause
+#Sys.msg.SeVo#		Set Volume
+#Sys.ctl.928D5B04#	double click action:
+#Sys.ctl.98295B37#	  file types  
+#Sys.ctl.101577A9#	enable MusicBee in Windows Explorer and context menus
+#Sys.btn.85BA4697#	Select All
+#Sys.btn.8FB0A6DC#	Select None
+#Sys.ctl.C2AB6506#	  confirmations  
+#Sys.ctl.DBBC7DD0#	warn when duplicate tracks are added to a 播放列表
+#Sys.ctl.556990AB#	confirm pasting tags from one file into another file
+#Sys.ctl.899D3CA4#	confirm deletion of tracks from 播放列表s
+#Sys.ctl.B21CCDCF#	confirm picture storage options when adding artwork
+#Sys.ctl.31C503A6#	confirm deletion of artwork that is no longer referenced
+#Sys.ctl.A39D9ECE#	confirm removal of dead links when rescanning library
+#Sys.msg.Mirad-past#	MusicBee is relocating application data - please allow some time for the copy to complete.
+#Sys.msg.Utctpm#	Unable to change to portable mode:{0}
+#Sys.msg.MuApIc#	MusicBee Application Icon
+#Sys.msg.UtcadsitMa#	Unable to create a data sub-folder in the MusicBee application directory:{0}
+#Sys.msg.Ydnhtpntcf#	You do not have the permissions necessary to change file associations - you need to start MusicBee using Run As Administrator
+
+! layout tab
+#Sys.tab.344CEE48#	Layout
+#Sys.ctl.E05DC16#	  general  
+#Sys.ctl.BE757BEE#	automatically fit displayed columns to the width of the panel
+#Sys.btn.CCB86D0C#	Quick Layout...
+#Sys.ctl.C0503B4B#	use custom font:
+#Sys.btn.EFCF6829#	Set Font
+#Sys.ctl.64175171#	  left navigator panel  
+#Sys.ctl.763B1FDA#	show navigation tabs
+#Sys.ctl.41E1463#	library
+#Sys.ctl.869298AC#	internet
+#Sys.ctl.630AB6C9#	播放列表s
+#Sys.ctl.EF8F4E9B#	computer
+#Sys.ctl.954761EC#	show library categories
+#Sys.ctl.94C7ECB1#	podcasts
+#Sys.ctl.EEB27990#	audiobooks
+#Sys.ctl.75D0A34D#	radio stations
+#Sys.ctl.7698466E#	inbox
+#Sys.ctl.369D83BE#	play history
+#Sys.ctl.C53635C7#	  main panel  
+#Sys.btn.5C73ED21#	Configure File Views
+#Sys.ctl.BB2D485E#	show A-Z jump bar
+#Sys.ctl.D0C2DDF#	show track browser
+#Sys.ctl.8A23C30A#	  正在播放 panel  
+#Sys.btn.A8555525#	Configure Panel
+#Sys.btn.E7BB3483#	Notification Popup
+#Sys.ctl.9E53FA87#	show panel in:
+#Sys.ctl.D286157D#	floating window
+#Sys.ctl.B7E3B3FC#	left sidebar
+#Sys.ctl.79A93D87#	right sidebar
+#Sys.ctl.D5FFE453#	  player controls panel  
+#Sys.tab.B4B01190#	Main Player
+#Sys.ctl.FF0803C#	show spectrum visualisation
+#Sys.ctl.BFD2DA1B#	show track rating
+#Sys.ctl.565D229#	show last.fm "Love" track button
+#Sys.ctl.FE3F9D96#	enlarge progress bar height
+#Sys.ctl.88D30528#	use custom font:
+#Sys.btn.298B380A#	Set Font
+#Sys.ctl.9E91F4A6#	show panel in:
+#Sys.ctl.F682206D#	right sidebar top
+#Sys.ctl.7937DA69#	right sidebar bottom
+#Sys.ctl.E7264179#	bottom pane
+#Sys.tab.C69630B8#	Mini Player
+#Sys.ctl.6F3AC568#	show track rating
+#Sys.ctl.EADEF01E#	show last.fm "Love" track button
+#Sys.ctl.F95BDFC8#	show shuffle button
+#Sys.ctl.A301F55C#	large buttons
+#Sys.ctl.3E61BE4E#	use custom font:
+#Sys.btn.7D997438#	Set Font
+#Sys.tab.B7401B47#	Taskbar Player
+#Sys.ctl.B4879E18#	show buttons (max 7 buttons):
+#Sys.ctl.44581D1E#	player control (3)
+#Sys.ctl.E4405D48#	last.fm love (1)
+#Sys.ctl.EC555322#	volume up/ down (2)
+#Sys.ctl.FEBF85E1#	stop (1)
+#Sys.ctl.84C5B5AD#	rating up/ down (2)
+#Sys.ctl.69B2CD9E#	toggle shuffle mode (1)
+#Sys.ctl.F9112137#	playback progress:
+#Sys.ctl.9D24D6B9#	use same as the main player
+#Sys.ctl.F1BF72B2#	show duration
+#Sys.ctl.558466D7#	show time remaining
+#Sys.help.Rarbtfswba#	Requires a restart before the font setting will be applied.
+#Sys.help.Aytjdtatit#	Allows you to jump directly to a track in the main panel by clicking a letter.
+#Sys.msg.Hidden#	Hidden
+#Sys.msg.Rartte#	Requires a restart to take effect
+#Sys.msg.Tttpsamo7b#	The taskbar thumbnail player supports a maximum of 7 buttons which cannot be exceeded.
+
+! layout tab - Panel Layout Editor opened from "Configure File Views" button
+#PLE.frm.20E26BC8#	Views Configuration
+#PLE.ctl.387E3D73#	Artwork Layout
+#PLE.ctl.24BF3CD4#	tags appearing below artwork:
+#PLE.ctl.5FAF6635#	line 1:
+#PLE.ctl.4FEB0656#	line 2:
+#PLE.ctl.51FB0677#	line 3:
+#PLE.ctl.9C066E6B#	set custom font:
+#PLE.ctl.9E0177C2#	show album tracks at the bottom of the main panel
+#PLE.ctl.A8385922#	Album and Tracks Layout
+#PLE.ctl.3368E365#	fields appearing with artwork:
+#PLE.ctl.7243EE64#	line 1:
+#PLE.ctl.7031CE47#	line 2:
+#PLE.ctl.76A3CDA6#	line 3:
+#PLE.ctl.A8AAAD2E#	Album Name
+#PLE.ctl.BD9DCD30#	Album Artist
+#PLE.ctl.1E6CAE98#	Album Name
+#PLE.ctl.222914FA#	set custom font:
+#PLE.ctl.6E9421FD#	fields location:
+#PLE.ctl.7F3FE233#	below artwork
+#PLE.ctl.80637EC0#	right of artwork
+#PLE.ctl.C419046D#	do not show artwork for albums with less than
+#PLE.ctl.4F159B9F#	tracks
+#PLE.ctl.55FA3124#	Track Detail Layout
+#PLE.ctl.5D64439D#	no settings for this view
+#PLE.ctl.A978F39E#	Artist Information Layout
+#PLE.ctl.CD1EF162#	show the following links:
+#PLE.ctl.26BE248B#	biography only
+#PLE.ctl.2A364B37#	artist page on last.fm
+#PLE.ctl.20E7A3C0#	Sorting and Grouping
+#PLE.ctl.F85A3D66#	defined sorting - allows you to specify how the displayed tracks in the main panel are sorted when selected from the 'Sort By' context menu
+#PLE.ctl.B267CC3D#	sorting set 1:
+#PLE.ctl.B267CC3E#	sorting set 2:
+#PLE.ctl.F0714639#	album grouping - specify additional fields that distinguish your albums
+#PLE.ctl.184E8E06#	detect iTunes compilations and treat as Album Artist:
+
+! layout tab - Now Playing Layout opened from the "Configure Panel" button
+#NPL.frm.12A453AC#	Now Playing Layout Configuration
+#NPL.ctl.DFA6DB32#	  panel settings 
+#NPL.ctl.116F33F6#	show 正在播放 list
+#NPL.ctl.39837F11#	stack panels using tabs
+#NPL.ctl.17B4F50D#	show all panels vertically
+#NPL.ctl.663348A1#	floating window transparency:
+#NPL.ctl.844FEA6F#	transparent
+#NPL.ctl.7C4BB616#	opaque
+#NPL.ctl.13F74E53#	show artwork panel 
+#NPL.msg.SAwPC#		Show Artwork with Player Controls
+#NPL.msg.SAdiaT#	Show Artwork docked in a Tab
+#NPL.msg.SAiLS#		Show Artwork in Left Sidebar
+#NPL.msg.DiTDP#		Displayed in Track Details Panel
+#NPL.ctl.A8DF747E#	show lyrics panel 
+#NPL.msg.SLiFW#		Show Lyrics in Floating Window
+#NPL.msg.SLdiaT#	Show Lyrics docked in a Tab
+#NPL.msg.SLaTD#		Show Lyrics above Track Details
+#NPL.msg.SLbTD#		Show Lyrics below Track Details
+#NPL.ctl.E325DF3C#	use custom font
+#NPL.btn.6301699E#	Set Font
+#NPL.ctl.99DA61ED#	show track details panel 
+#NPL.msg.stdwpc#	show track details with player controls 
+#NPL.msg.DnDA#		Do not Display Artwork
+#NPL.msg.SAloF#		Show Artwork left of Fields
+#NPL.msg.SAaF#		Show Artwork above Fields
+#NPL.msg.SAroF#		Show Artwork right of Fields
+#NPL.msg.SAbF#		Show Artwork below Fields
+#NPL.ctl.7BB12552#	px
+#NPL.ctl.6B0966A3#	use custom font
+#NPL.btn.746A4B01#	Set Font
+#NPL.tab.AF995F42#	Display Fields
+#NPL.ctl.1DC51887#	prompt:
+#NPL.ctl.774682F2#	fields:
+#NPL.ctl.D61CDE74#	split multi-value tags into rows
+#NPL.ctl.31E584AA#	row span:
+#NPL.ctl.F2892F01#	show track rating
+#NPL.ctl.EBD7E277#	and last.fm "Love" status
+#NPL.ctl.53E6F98B#	show file url
+#NPL.ctl.8EB6C56F#	show track properties (bitrate, sample rate, channels, duration)
+#NPL.tab.AE6098D0#	Web Links
+#NPL.ctl.94D46BA0#	show web links:
+#NPL.ctl.36209200#	open all links in the same tab
+#NPL.ctl.8B0D6E4C#	open each link in it's own tab
+#NPL.msg.Oomvhbc-dy#	One or more values has been changed - do you want to save the changes?
+
+! layout tab - Now Playing Notification opened from the "Notification Popup" button 
+#NPP.frm.89994ADC#	Customise Now Playing Notification
+#NPP.ctl.13D7A7EC#	override popup window size:
+#NPP.ctl.91BF89BF#	px
+#NPP.ctl.522050DD#	displayed tags:
+#NPP.ctl.C035755C#	header:
+#NPP.ctl.E199F81C#	line 1:
+#NPP.ctl.D5F1577F#	line 2:
+#NPP.ctl.D3E1575E#	line 3:
+#NPP.ctl.EC6996B9#	line 4:
+#NPP.ctl.C39522C2#	set custom font:
+#NPP.ctl.9FE2CFEE#	show track rating
+#NPP.ctl.EBD7E277#	and last.fm love status
+#NPP.ctl.FB4E57E1#	show file properties
+
+! hotkeys tab
+#Sys.tab.B78A12E5#	Hotkeys
+#Sys.ctl.3C97878D#	  hotkeys  
+#Sys.ctl.7B36D394#	assigned hotkeys:
+#Sys.ctl.7A51EFED#	actions available for hotkey assignment:
+#Sys.ctl.C40CB394#	hotkey:
+#Sys.ctl.5CEA70C3#	global
+#Sys.btn.5238E3B0#	Assign
+#Sys.btn.152A2B7D#	Delete
+#Sys.ctl.FDE47985#	assign to a toolbar button labeled as:
+#Sys.ctl.258A9850#	on:
+#Sys.ctl.258A9853#	off:
+#Sys.msg.iarkacbu#	'{0}' is a reserved key and cannot be used
+#Sys.msg.Tkicuf#	This key is currently used for '{0}'
+#Sys.msg.iuf-dywt#	{0} is used for '{1}' - do you want to reassign it to '{2}'?
+#Sys.msg.Dtsh#		Delete the selected hotkey?
+#Sys.msg.EdSeAl#	Edit: Select All
+#Sys.msg.ESA(P#		Edit: Select All (Now Playing)
+#Sys.msg.EACC#		Edit: Amend Clicked Column
+#Sys.msg.EAFT#		Edit: Amend File Tags
+#Sys.msg.EdCuSe#	Edit: Custom Search
+#Sys.msg.ECMP#		Edit: Configure MusicBee Preferences
+#Sys.msg.EITiSL#	Edit: Insert Timestamp in Synchronised Lyrics
+#Sys.msg.FSfNM#		File: Scan for New Media
+#Sys.msg.GGTSB#		General: Goto Text Search Box
+#Sys.msg.GGPTiNPL#	General: Goto Playing Track in Now Playing List
+#Sys.msg.GFPTiCT#	General: Find Playing Track in Current Tab
+#Sys.msg.GSI(ttilb#	General: Search Internet (using text typed in location bar)
+#Sys.msg.GLSTiWE#	General: Locate Selected Track in Windows Explorer
+#Sys.msg.GeRe#		General: Refresh
+#Sys.msg.TCNT#		Tabs: Create New Tab
+#Sys.msg.TaClTa#	Tabs: Close Tab
+#Sys.msg.TCPiaNT#	Tabs: Create Playlist in a New Tab
+#Sys.msg.GeExMu#	General: Exit MusicBee
+#Sys.msg.GeAcAu#	General: Activate Auto-Shutdown
+#Sys.msg.MuNe#		Multimedia: Next
+#Sys.msg.MuPl#		Multimedia: Play/Pause
+#Sys.msg.MuPr#		Multimedia: Previous
+#Sys.msg.MuSt#		Multimedia: Stop
+#Sys.msg.NPLC#		Now Playing List: Clear
+#Sys.msg.NPLCBST#	Now Playing List: Clear Before Selected Track
+#Sys.msg.PPNT#		Playback: Play Next Track
+#Sys.msg.PPNA#		Playback: Play Next Album
+#Sys.msg.PlPl#		Playback: Play/Pause
+#Sys.msg.PlPrTr#	Playback: Previous Track
+#Sys.msg.PlPrAl#	Playback: Previous Album
+#Sys.msg.PRGT#		Playback: Replay Gain Toggle
+#Sys.msg.PRGA#		Playback: Replay Gain Album
+#Sys.msg.PRGS#		Playback: Replay Gain Smart
+#Sys.msg.PRGT.2#	Playback: Replay Gain Track
+#Sys.msg.PSB5s#		Playback: Skip Back 5 seconds
+#Sys.msg.PSF5s#		Playback: Skip Forward 5 seconds
+#Sys.msg.PlSt#		Playback: Stop
+#Sys.msg.PSAC#		Playback: Stop After Current
+#Sys.msg.PlPlNo#	Playback: Play Now
+#Sys.msg.PlQuNe#	Playback: Queue Next
+#Sys.msg.PlQuLa#	Playback: Queue Last
+#Sys.msg.PlStAu#	Playback: Start/Stop Auto-DJ
+#Sys.msg.PPLS#		Playback: Play Library Shuffled
+#Sys.msg.PTSM#		Player: Toggle Shuffle Mode
+#Sys.msg.PTRM#		Player: Toggle Repeat Mode
+#Sys.msg.PVMO#		Player: Volume Mute On/Off
+#Sys.msg.PlVoDo#	Player: Volume Down
+#Sys.msg.PlVoUp#	Player: Volume Up
+#Sys.msg.RST0sD#	Rating Selected Tracks: 0.5 stars Down
+#Sys.msg.RST0sU#	Rating Selected Tracks: 0.5 stars Up
+#Sys.msg.RSTNs#		Rating Selected Tracks: No stars
+#Sys.msg.RST0s#		Rating Selected Tracks: 0.5 stars
+#Sys.msg.RST1s#		Rating Selected Tracks: 1 star
+#Sys.msg.RST1s.2#	Rating Selected Tracks: 1.5 stars
+#Sys.msg.RST2s#		Rating Selected Tracks: 2 stars
+#Sys.msg.RST2s.2#	Rating Selected Tracks: 2.5 stars
+#Sys.msg.RST3s#		Rating Selected Tracks: 3 stars
+#Sys.msg.RST3s.2#	Rating Selected Tracks: 3.5 stars
+#Sys.msg.RST4s#		Rating Selected Tracks: 4 stars
+#Sys.msg.RST4s.2#	Rating Selected Tracks: 4.5 stars
+#Sys.msg.RST5s#		Rating Selected Tracks: 5 stars
+#Sys.msg.RSTU#		Rating Selected Tracks: Unrated
+#Sys.msg.RSTTL(L#	Rating Selected Tracks: Toggle Love (on Last.fm)
+#Sys.msg.RNP0sD#	Rating Now Playing: 0.5 stars Down
+#Sys.msg.RNP0sU#	Rating Now Playing: 0.5 stars Up
+#Sys.msg.RNPNs#		Rating Now Playing: No stars
+#Sys.msg.RNP0s#		Rating Now Playing: 0.5 stars
+#Sys.msg.RNP1s#		Rating Now Playing: 1 star
+#Sys.msg.RNP1s.2#	Rating Now Playing: 1.5 stars
+#Sys.msg.RNP2s#		Rating Now Playing: 2 stars
+#Sys.msg.RNP2s.2#	Rating Now Playing: 2.5 stars
+#Sys.msg.RNP3s#		Rating Now Playing: 3 stars
+#Sys.msg.RNP3s.2#	Rating Now Playing: 3.5 stars
+#Sys.msg.RNP4s#		Rating Now Playing: 4 stars
+#Sys.msg.RNP4s.2#	Rating Now Playing: 4.5 stars
+#Sys.msg.RNP5s#		Rating Now Playing: 5 stars
+#Sys.msg.RNPU#		Rating Now Playing: Unrated
+#Sys.msg.RNPTL(L#	Rating Now Playing: Toggle Love (on Last.fm)
+#Sys.msg.STC(f#		Send To: Clipboard (selected files)
+#Sys.msg.STC(p#		Send To: Clipboard (正在播放)
+#Sys.msg.STEA(f#	Send To: External Application (selected files)
+#Sys.msg.STEA(p#	Send To: External Application (正在播放)
+#Sys.msg.SeToLi#	Send To: Library
+#Sys.msg.SeToIn#	Send To: Inbox
+#Sys.msg.TSaR#		Tools: Search and Replace
+#Sys.msg.ToAuTr#	Tools: Auto-Number Tracks
+#Sys.msg.ToAuFi#	Tools: Auto-Organise Files
+#Sys.msg.TAbA#		Tools: Auto-Tag by Album
+#Sys.msg.TAbT-UT#	Tools: Auto-Tag by Track - Update Tags
+#Sys.msg.TAbT-UMT#	Tools: Auto-Tag by Track - Update Missing Tags
+#Sys.msg.TAbT-UMAP#	Tools: Auto-Tag by Track - Update Misssing Album Pictures
+#Sys.msg.TAbT-OuLTC#	Tools: Auto-Tag by Track - Overwrite using Last.fm Tag Cloud
+#Sys.msg.ToCoFo#	Tools: Convert Format
+#Sys.msg.ToAnVo#	Tools: Analyse Volume
+#Sys.msg.TUVL#		Tools: Undo Volume Leveling
+#Sys.msg.ToRiCD#	Tools: Rip CD
+#Sys.msg.TSPCtL#	Tools: Synchronise Play Count to Last.fm
+#Sys.msg.WDCD#		Web: Download/ Cancel Download
+#Sys.msg.ViApMi#	View: Application Minimise
+#Sys.msg.ViApRe#	View: Application Restore
+#Sys.msg.VPLA#		View: Panel Layout: Artwork
+#Sys.msg.VPLAaT#	View: Panel Layout: Album and Tracks
+#Sys.msg.VPLTD#		View: Panel Layout: Track Details
+#Sys.msg.ViShEq#	View: Show Equaliser
+#Sys.msg.VSHM#		View: Show/ Hide Mini-Lyrics
+#Sys.msg.VSLiFW#	View: Show Lyrics in Floating Window
+#Sys.msg.VSNPN#		View: Show Now Playing Notification
+#Sys.msg.VSNPTF#	View: Show Now Playing Track Finder
+#Sys.msg.VTLM#		View: Toggle Lockdown Mode
+#Sys.msg.VSTM#		View: Show Tag Manager
+#Sys.msg.VSLE#		View: Show Library Explorer
+#Sys.msg.VSMP#		View: Show Mini Player
+#Sys.msg.VSCP#		View: Show Compact Player
+#Sys.msg.VSNPA#		View: Show Now Playing Assistant
+#Sys.msg.VLFD#		View: Lyrics Font Decrease
+#Sys.msg.VLFI#		View: Lyrics Font Increase
+#Sys.msg.VSLF#		View: Show Library Filter
+#Sys.msg.VSLS#		View: Show Library Selector
+
+! player tab
+#Sys.tab.F3383E21#	Player
+#Sys.ctl.2B512AC9#	  player  
+#Sys.ctl.A26C3495#	MusicBee
+#Sys.ctl.DA072C65#	use QuickTime for playback of AAC/MPEG files
+#Sys.ctl.9835812F#	output:
+#Sys.ctl.8655BB38#	DirectSound
+#Sys.ctl.5A4B4342#	ASIO
+#Sys.ctl.F0E913CB#	WASAPI
+#Sys.btn.376F95FE#	Configure
+#Sys.ctl.C7C687EB#	sound device:
+#Sys.ctl.70334B69#	use hardware mixing
+#Sys.ctl.EAD3E8E1#	limit output bit-depth:
+#Sys.ctl.7A833D77#	use 32 bit output
+#Sys.ctl.D69E9E62#	increase buffer size (if tracks stutter during playback)
+#Sys.ctl.BA920A95#	upmix stereo to 5.1
+#Sys.ctl.4861D7A6#	resample to:
+#Sys.ctl.B36CD295#	on startup:
+#Sys.ctl.311DDF85#	do nothing
+#Sys.ctl.A91A9F33#	resume position
+#Sys.ctl.236A79E5#	resume playback
+#Sys.ctl.D1DB6714#	  external player  
+#Sys.ctl.3ED4D906#	external application to play podcast videos:
+#Sys.ctl.46221450#	player location:
+#Sys.ctl.59F319BD#	  sound effects  
+#Sys.ctl.BA4B4859#	crossfade tracks for:
+#Sys.ctl.7F639CA4#	seconds
+#Sys.ctl.969EE060#	fade in new track
+#Sys.ctl.65B3566A#	do not crossfade when playing albums
+#Sys.ctl.B9D9929F#	smooth fade when stopping
+#Sys.ctl.F0EF8779#	dynamically normalise volume of streams
+#Sys.ctl.EE3EDBF6#	normalise volume of tracks with replay gain tags
+#Sys.ctl.997FB0F8#	remove silence at start and end of track
+#Sys.btn.C07CA343#	Equaliser && DSP...
+#Sys.help.CpbqsafVWc#	Can produce better quality sound and for VISTA/ Windows7 computers, performance is better
+#Sys.help.LtobUtowyh#	Limit the output bit-depth. Use this option when you hear no sound or static noise.
+#Sys.help.YnthQai(cw#	You need to have QuickTime already installed (it comes with iTunes). Also note that the BASS_AAC.dll addon provides a better solution - see http://getmusicbee.com/help.html
+#Sys.msg.PrSoDr#	Primary Sound Driver
+#Sys.msg.NWdwd#		No WASAPI devices were detected.
+#Sys.msg.Iyhnsosntl#	If you hear no sound or static noise, try limiting the bit-depth below.
+#Sys.msg.DeSoDe#	Default Sound Device
+#Sys.msg.NAdwd#		No ASIO devices were detected.
+#Sys.msg.Nascstoois#	Not all sound cards support this option, or in some cases when combined with 32 bit output - disable this option if music files no longer play
+#Sys.msg.Nascs3bo-d#	Not all sound cards support 32 bit output - disable this option if music files no longer play
+
+! player tab - asio config opened from "Configure" button
+#ASIO.frm.57FC2BE0#	Asio Output Configuration
+#ASIO.ctl.566F807D#	driver:
+#ASIO.msg.None#		None
+#ASIO.msg.LeFr#		Left Front
+#ASIO.msg.RiFr#		Right Front
+#ASIO.msg.LeRe#		Left Rear
+#ASIO.msg.RiRe#		Right Rear
+#ASIO.msg.Center#	Center
+#ASIO.msg.LFE#		LFE
+#ASIO.msg.LeReCe#	Left Rear Center
+#ASIO.msg.RiReCe#	Right Rear Center
+#ASIO.btn.8A92D05B#	Configure
+
+! now playing tab
+#Sys.tab.F0558E40#	Now Playing
+#Sys.ctl.1B40B308#	  正在播放 list  
+#Sys.ctl.9C7C4FEF#	action when adding tracks using double-click and quick tracks:
+#Sys.ctl.3E247A86#	if playback is stopped:
+#Sys.msg.PlNo#		Play Now
+#Sys.msg.QuNe#		Queue Next
+#Sys.msg.QuLa#		Queue Last
+#Sys.ctl.28941771#	ask
+#Sys.ctl.9D928D4E#	when tracks are playing:
+#Sys.ctl.96819EB9#	ask
+#Sys.ctl.675C602A#	tracks added using Queue Next are always played in sequence - even when Shuffle is enabled (use Queue Last instead)
+#Sys.ctl.2ECC2403#	'Play Now' action:
+#Sys.ctl.BAECC9A1#	clear list and play selected tracks only
+#Sys.ctl.6ECE3D49#	clear list and play all tracks
+#Sys.ctl.222F64F#	queue selected tracks next and play now
+#Sys.ctl.15ACB967#	highlight playing track
+#Sys.ctl.F282A266#	and follow it in the main panel
+#Sys.ctl.8BA46CAC#	clear 正在播放 list and current playing track on restart
+#Sys.ctl.FDB4A18A#	  正在播放 notification  
+#Sys.ctl.F40D5A6A#	show popup for:
+#Sys.ctl.DCEF14B7#	seconds
+#Sys.ctl.69CB0404#	only when inactive
+#Sys.btn.46F59C3#	Customise
+#Sys.ctl.7C4BB616#	opaque
+#Sys.ctl.844FEA6F#	transparent
+#Sys.ctl.70BDBEC8#	show popup using:
+#Sys.ctl.8AC4086F#	MusicBee
+#Sys.ctl.F0E739EE#	Snarl
+#Sys.ctl.47530DE#	show in task bar as:
+#Sys.ctl.C5B81C15#	scroll in player as:
+#Sys.ctl.CF78F3DC#	show in IM client:
+#Sys.ctl.34A816BD#	display using format:
+#Sys.ctl.1DB3F874#	  正在播放 information  
+#Sys.ctl.8264044A#	show information for the playing artist
+#Sys.ctl.A655867A#	show in a tab
+#Sys.ctl.9219449B#	show on the bottom pane
+#Sys.ctl.DC4B255D#	biography source:
+#Sys.ctl.7A1C98A5#	last.fm formatted
+#Sys.ctl.C1245A59#	last.fm web-page
+#Sys.ctl.BB6C2FFE#	'send to clipboard' format:
+
+! library tab
+#Sys.tab.A0B3BB6D#	Library
+#Sys.ctl.C3FFA434#	settings in this panel only apply to the current library:  
+#Sys.ctl.B27EE2C4#	  music library  
+#Sys.ctl.547195DE#	auto-organise music library files
+#Sys.btn.79F75BD0#	Organisation
+#Sys.ctl.62BA05EA#	remove dead links on startup
+#Sys.ctl.561C2E1E#	save a copy of the library file tags as an iTunes formatted XML file
+#Sys.ctl.5B6A8C0E#	define filters:
+#Sys.btn.E12582FE#	Configure
+#Sys.ctl.12479D26#	filters enable you to view subsets of your library
+#Sys.ctl.E62AE712#	  monitored folders  
+#Sys.ctl.6D4F1697#	scan on startup only
+#Sys.ctl.2E59DC84#	continuously monitor
+#Sys.ctl.86323463#	activated on next restart
+#Sys.ctl.7FDDD233#	ignore tracks less than 
+#Sys.ctl.7FC91213#	KB in size
+#Sys.btn.B345D978#	Choose Folders
+#Sys.ctl.DF1A91EF#	new file action:
+#Sys.ctl.552ED68#	add to library
+#Sys.ctl.6BE16EA5#	add to inbox
+#Sys.ctl.DAA60165#	add to 正在播放
+#Sys.ctl.D2F5FC07#	automatically sweep and organise new files
+#Sys.btn.17D184F#	Organisation
+#Sys.ctl.81783EF7#	  podcasts  
+#Sys.ctl.31AE8E4B#	download to folder:
+#Sys.ctl.A04E3099#	check for updates:
+#Sys.ctl.3ED69FD#	new episode action:
+#Sys.ctl.2786B614#	keep:
+#Sys.ctl.96B8EEF#	  播放列表s  
+#Sys.ctl.2BA6BA80#	save to folder
+#Sys.ctl.C031FCF5#	format
+#Sys.ctl.69C5ADA9#	library 播放列表s:
+#Sys.ctl.24A4E1A9#	exported 播放列表s:
+#Sys.ctl.594765E9#	map base file paths in exported 播放列表s
+#Sys.ctl.86F3C5C9#	from:
+#Sys.ctl.2883604#	to:
+
+! tags(1) tab
+#Sys.tab.CE2A10C7#	Tags (1)
+#Sys.ctl.E696A6D1#	  tag storage  
+#Sys.ctl.908F2AD#	save MP3 tags as:
+#Sys.ctl.170D661D#	also save ID3v1 tags
+#Sys.ctl.1CBB04DB#	use UTF-8 for WAVE files
+#Sys.ctl.48BEF97C#	store ratings in the music file
+#Sys.ctl.C2F5E5E7#	disable half ratings
+#Sys.ctl.DCB36A1A#	don't update file modification time when saving tags
+#Sys.ctl.40B7AB18#	  custom tags  
+#Sys.ctl.7DFEDAE5#	display name
+#Sys.ctl.9004BD0#	save to music file as tag
+#Sys.btn.BED39E57#	Define New Tags...
+#Sys.ctl.8CC49FDC#	  artwork storage  
+#Sys.ctl.D3C58BC9#	embed picture in the music file
+#Sys.ctl.B643208B#	copy picture to folder.jpg
+#Sys.ctl.BA9353C1#	link to the original picture
+#Sys.ctl.117F3F8D#	copy to the same folder as the music file and name as:
+#Sys.ctl.6AEFF047#	do not show folder.jpg artwork
+#Sys.ctl.878B8BE4#	  lyrics storage  
+#Sys.ctl.A69C9D71#	embed lyrics in the music file
+#Sys.ctl.B1F9B5A6#	save as an external file <music filename>.txt
+#Sys.msg.Utrp-e#	Unable to relocate podcasts - error: {0}
+#Sys.msg.Utrp-e.2#	Unable to relocate 播放列表s - error: {0}
+#Sys.msg.Fmbloyc#	Folder must be located on your computer
+#Sys.msg.Fonofo#	Folder not found
+#Sys.msg.Strffpd#	Select the root folder for podcast downloads:
+#Sys.help.Mswnbautnr#	Monitoring settings will not be activated until the next restart
+#Sys.msg.ChFo#		Choose Folders...
+#Sys.msg.Sftbm#		Select folders to be monitored
+#Sys.help.Nmfwnbsutn#	New monitored folders will not be scanned until the next restart
+#Sys.msg.Ffmfnlotd#	Files from monitored folders not located on the {0} drive will be added to the library as a link and NOT automatically copied across disks to be organised with the rest of the library.
+#Sys.msg.Strffp#	Select the root folder for 播放列表s:
+#Sys.msg.Strffep#	Select the root folder for exported 播放列表s:
+#Sys.msg.stMdo#		save to MusicBee database only
+! custom tags editor - opened from the "Define New Tags..." button
+#cTag.frm.3526AE5#	New Custom Tag Definition
+#cTag.ctl.C035755C#	Custom tags are saved and retrieved from your music files like standard tags such as artist. You can assign each identifier to one of the 9 Custom Tag fields in the Preferences screen
+#cTag.ctl.C2A1CDAE#	identifier:
+#cTag.ctl.6C7F29FD#	id3 (.mp3):
+#cTag.ctl.67577B90#	vorbis (.flac;.ogg):
+#cTag.ctl.C05E13B3#	apeV2 (.wv;.mpc):
+#cTag.ctl.7475B41C#	mpeg (.aac;.m4a):
+#cTag.ctl.15A25458#	wma (.wma):
+#cTag.ctl.6DD5623#	Virtual tags are derived from standard or custom tags and can be used for display or filtering but are not stored in your music files
+#cTag.ctl.69E2C8DC#	label:
+#cTag.ctl.C0FF84D#	formula:
+#cTag.msg.Oomvhbc-dy#	One or more values has been changed - do you want to save the changes?
+#cTag.msg.Ttniakctai#	That tag name is a known custom tag already implemented in MusicBee - please choose another name
+
+! tags(2) tab
+#Sys.tab.63C7B46F#	Tags (2)
+#Sys.ctl.A2FC2D34#	  tag handling  
+#Sys.ctl.DDEDC68B#	enable direct editing of tags in the main panel
+#Sys.ctl.CA9A7AA9#	ignore diacritic marks when searching (à = a, ô = o, etc.)
+#Sys.ctl.4EB80419#	disc-track# format:
+#Sys.ctl.F76B75A9#	Artist, Title and Album Name tags:
+#Sys.ctl.972A59D#	ignore words:
+#Sys.ctl.FF9993D5#	when sorting
+#Sys.ctl.358AE9FF#	remove words:
+#Sys.ctl.B1406D9#	when scrobbling or searching artists and albums on websites
+#Sys.ctl.FCF7EFF5#	group genres:
+#Sys.btn.B085446C#	Categorise...
+#Sys.ctl.EF25947#	  auto-tagging  
+#Sys.ctl.F2A42B33#	lyrics:
+#Sys.ctl.BC9C22C0#	auto-retrieve missing lyrics for the playing track
+#Sys.ctl.F1DD3475#	and save without prompt
+#Sys.ctl.631C5F39#	artwork:
+#Sys.ctl.BF518538#	auto-retrieve missing artwork for the playing track
+#Sys.ctl.38C7754D#	and save without prompt
+#Sys.ctl.278D304A#	apply minimum image size filter:
+#Sys.ctl.34693252#	tags:
+#Sys.ctl.F8DAD736#	retrieve multiple genres limited to:
+#Sys.ctl.F9BDE8D6#	genres
+#Sys.btn.D733FC95#	Genre Filter
+#Sys.ctl.D1A5E62C#	freedb server:
+#Sys.msg.WNampsIt(W#	WARNING: Not all music players support ID3v2.4 tags (eg. Windows Media Player)
+#Sys.msg.Ywntra.fal#	You will need to rescan any .WAV files already loaded into the library. In the computer section of the left navigator, right click/ Rescan Files
+#Sys.msg.WNriysymtw#	WARNING: Not recommended if you synchronise your music tracks with a device - preserving the file timestamp will interfere with the synchronisation process
+#Sys.help.itlopwsbAA#	ignore the list of prefixes when sorting by Artist, Album or Track Title - enter as a comma separated list (A, The, etc)
+#Sys.help.rwfwsomaaa#	remove words from when scrobbling or matching artists and albums on websites - enter as a comma separated list ([Remastered], [Bonus Disc], etc)
+#Sys.msg.GeIn#		Genre Inclusions
+#Sys.msg.ealovtatbi#	enter a list of values that are to be included when retrieving genres from last.fm:
+
+! internet tab
+#Sys.tab.C0396A02#	Internet
+#Sys.ctl.8E875DF6#	  browser  
+#Sys.btn.2ED0C2B7#	Configure
+#Sys.ctl.32DAF421#	see the main panel to edit advanced browser settings
+#Sys.ctl.E9D21476#	  proxy settings  
+#Sys.ctl.4B30FA2C#	server:
+#Sys.ctl.8410F313#	port:
+#Sys.ctl.9A393979#	username:
+#Sys.ctl.49B5470#	password:
+#Sys.ctl.86B1181E#	  downloads  
+#Sys.ctl.CA927234#	maximum simultaneous downloads:  
+#Sys.ctl.36388980#	save files to folder
+#Sys.ctl.8AE411B7#	file naming
+#Sys.ctl.5626483A#	music tracks:
+#Sys.ctl.D6474E83#	artwork:
+
+! cd ripping tab
+#Sys.tab.34F5409E#	CD Ripping
+#CD.msg.CdRiSe#		Cd Rip Settings
+#Sys.ctl.1B082FFF#	  cd ripping  
+#CD.ctl.47E8EAC#	encode as:
+#CD.ctl.FA13966B#	profile:
+#CD.btn.6BE5FC22#	Encoder Settings...
+#CD.ctl.79B4DE2F#	save to folder:
+#CD.ctl.F9AC5B91#	add ripped files to the Inbox
+#CD.ctl.30CBC91E#	file naming when ripping each track as a separate file:
+#CD.ctl.D8DB39DE#	file naming when ripping the entire disc as a single file:
+#CD.ctl.A3BE217D#	pre-gap handling:
+#CD.ctl.62F2A93A#	append to prior track
+#CD.ctl.4A302972#	remove
+#CD.ctl.79254B01#	automatically start rip on CD insertion
+#CD.ctl.734C85B0#	automatically retrieve album artwork from the internet
+#CD.ctl.70608D56#	calculate track volume leveling values
+#CD.ctl.443BCAAB#	rip completion sound:
+#CD.ctl.1BDA313#	  drive settings  
+#CD.ctl.B1C7CFCE#	read offset:
+#CD.btn.2CAB15BB#	Lookup
+#CD.ctl.9D24298F#	rip speed:
+#CD.ctl.E53D87D8#	validate rips using AccurateRip.com
+#CD.ctl.EF68842A#	always show results
+#CD.ctl.CBDBAEC8#	quick rip
+#CD.ctl.21F5B9F9#	secure rip with error recovery
+#CD.ctl.1A3B649A#	check C2 errors
+#CD.msg.MerLwcbdwM#	MP3 encoding requires LAME.EXE which cannot be distributed with MusicBee due to license restrictions. However you can download LAME for personal use - see http://www.getmusicbee.com/help.html
+#CD.msg.Tdfcbafiyl#	The destination folder cannot be a folder in your library
+#CD.msg.Fdne#		Folder '{0}' does not exist
+#CD.msg.Stdftwctrf#	Select the destination folder that will contain the ripped files:
+#CD.msg.TfpntbreC#	The file path needs to be rooted eg. C:\WINDOWS\Media\notify.wav
+#CD.msg.Fdne.2#		File does not exist.
+#CD.msg.maximum#	maximum
+#CD.msg.Utftofycd-#	Unable to find the offset for your cd drive - please enter manually.
+#CD.msg.WCddnsti#	WARNING: CD drive '{0}:' does not support the 'stream is accurate' feature, which is needed to reliably verify the rip. It is recommended not to tick this option.
+#CD.msg.Cewbcarut1#	C2 errors will be checked and re-read up to 16 times for 8 successive matches. However, not all drives return C2 errors, and not all C2 errors actually mean there is a problem with the rip so only use this option for ultra-secure ripping
+#CD.msg.AvrtrofyCd#	AccurateRip validation requires the read offset for your CD drive - click the 'Lookup' button or enter the value first.
+
+! tools tab
+#Sys.tab.39A0A939#	Tools
+#Sys.ctl.837B40D1#	  external application  
+#Sys.ctl.CF79983#	configuration for an external application that can be invoked from the Send To menu:
+#Sys.ctl.ED4E48F#	name:
+#Sys.ctl.BCA235F5#	application path:
+#Sys.ctl.1D5969B2#	parameters:
+#Sys.ctl.548BE8DF#	placeholders such as <URL> are replaced with values from the selected file
+#Sys.ctl.292AE1ED#	wait for application to exit before next file is sent
+#Sys.ctl.6786E5B0#	  external audio editor  
+#Sys.ctl.FC5FD222#	configuration for an external audio editor invoked from the Send To menu:
+#Sys.ctl.FFAA22F4#	application path:
+#Sys.msg.Stffmfd#	Select the folder for music file downloads:
+#Sys.msg.Stffad#	Select the folder for artwork downloads:
+#Sys.msg.Utltet#	Unable to locate the external tool
+
+! file converters tab
+#Sys.tab.14899AE7#	File Converters
+#Sys.ctl.A17EAC9#	  encoding  
+#Sys.ctl.B3CCB1D#	maximum encoding threads:
+#Sys.ctl.F1425BDC#	thread priority:
+#Sys.ctl.5F414CFE#	Due to licensing restrictions, no MP3 or AAC encoder can be bundled with MusicBee.
+#Sys.ctl.5F414CFD#	You can download one for personal use - see
+#Sys.msg.Lowest#	Lowest
+#Sys.msg.BeNo#		Below Normal
+#Sys.msg.Normal#	Normal
+#Sys.msg.AbNo#		Above Normal
+#Sys.msg.0en#		{0} enabled
+#Sys.btn.Reset#		Reset
+#Sys.msg.enlo#		encoder location:
+#Sys.msg.rfsu#		reduce file size using
+#Sys.msg.enpa#		encoding parameters:
+#Sys.msg.smfisi#	small file size:
+#Sys.msg.pode#		portable device:
+#Sys.msg.hiqu#		high quality:
+#Sys.msg.fiar#		file archiving:
+#Sys.msg.WMen#		WMA enabled
+#Sys.msg.bity#		bitrate type:
+#Sys.msg.Constant#	Constant
+#Sys.msg.Variable#	Variable
+#Sys.msg.Utltep#	Unable to locate the encoder program
+
+! devices tab
+#Sys.tab.5ECDF7F9#	Devices
+#Sys.ctl.60B94811#	  devices  
+#Sys.ctl.99BFBA20#	detect MTP devices
+#Sys.ctl.6981F67B#	detect iPhone/ iTouch (not required for iPods)
+#Sys.msg.Noacde#	No active devices
+#Sys.msg.Seade#		Select a device
+#Sys.msg.Mcsfti3olI#	MusicBee can save files to iPhone/iTouch 3.1.1 or less. If you are using IOS 4.0, MusicBee will cause data corruption to the device music database.{0}A restart is required for the device to be recognised.
+#Dev.tab.5DE09B17#	Device Settings
+#Dev.ctl.97AE033B#	music root folder:
+#Dev.ctl.85FC86C7#	file naming:
+#Dev.ctl.CC1D6F08#	podcasts folder:
+#Dev.ctl.C8D0C1C2#	  on-the-fly conversion  
+#Dev.ctl.4AFFF0C#	convert to:
+#Dev.msg.Dncf#		Do not convert files
+#Dev.ctl.FA13966B#	encoding profile:
+#Dev.ctl.6A8E6746#	replace artist tag with sort-artist
+#Dev.ctl.239AB519#	only convert files with a format not supported by the device
+#Dev.ctl.93788D2C#	only convert files with a lossless format
+#Dev.ctl.A94D4026#	convert all files
+#Dev.ctl.2D395708#	except
+#Dev.ctl.B1830CBE#	k or less bitrate
+#Dev.ctl.8D2DA8DD#	level volume:
+#Dev.ctl.656ACA79#	tracks at same volume
+#Dev.ctl.6FF84587#	albums at same volume
+#Dev.ctl.96B8EEF#	  播放列表 storage  
+#Dev.ctl.518778E6#	播放列表s root folder:
+#Dev.ctl.C79F3BC5#	save as format:
+#Dev.msg.NaFo#		Native Format
+#Dev.ctl.2EDE870B#	path prefix for tracks:
+#Dev.ctl.8CC49FDC#	  artwork storage  
+#Dev.ctl.D7D34B77#	do not copy artwork
+#Dev.ctl.E0E3B88#	embed artwork in the music file
+#Dev.ctl.E855B331#	resize artwork to:
+#Dev.ctl.39192CD1#	px
+#Dev.ctl.72CC1EB#	copy to folder.jpg
+#Dev.ctl.6DDE49B5#	also embed artwork in the copied music files
+#Dev.ctl.97793EC3#	copy to the same folder as the music file
+#Dev.ctl.84205DB7#	file naming:
+#Dev.tab.DA343A8F#	Auto-Sync Settings
+#Dev.ctl.DC981DF5#	automatically synchronise when the device is connected
+#Dev.ctl.D1FE7348#	synchronise files from:
+#Dev.ctl.569C3DFD#	music library
+#Dev.ctl.7BA75CCE#	audio books
+#Dev.ctl.5A73D534#	folders:
+#Dev.ctl.F964AF36#	enable 2 way synchronisation:
+#Dev.ctl.55927918#	play counts
+#Dev.ctl.E565F6AB#	ratings
+#Dev.ctl.74EC57B6#	播放列表s:
+#Dev.ctl.F4AEAAAE#	podcasts:
+#Dev.ctl.128ED4A2#	synchronise unplayed episodes only
+#Dev.ctl.B8F36291#	delete tracks that are not on the auto-sync list from the device
+#Dev.ctl.AE14DC63#	confirm deletion (recommended)
+#Dev.ctl.7970DA13#	or delete all tracks from the device and fill with a random selection of tracks
+#Dev.msg.cattid#	copy artwork to the iPod database
+#Dev.msg.cttsfatmf#	copy to the same folder as the music file
+#Dev.msg.Tsdfmblotd#	The selected destination folder must be located on the device
+#Dev.msg.Tfdneotdaw#	This folder does not exist on the device and will be created on the first synchronisation
+#Dev.msg.MerLwcbdwM#	MP3 encoding requires LAME.EXE which cannot be distributed with MusicBee due to license restrictions. However you can download LAME for personal use - see http://www.getmusicbee.com/help.html
+#Dev.msg.efw#		except {0} files with
+#Dev.msg.ocfnafa#	only convert files not already formatted as {0}
+#Dev.msg.Wywlsqbrf#	WARNING: you will loose sound quality by re-encoding {0} files - this option is intended only to minimise the size of a file
+#Dev.msg.Eainr-satw#	Embeded artwork is not recommended - synching and tagging will perform much slower.
+#Dev.msg.Sntban#	Size needs to be a number
+#Dev.msg.Sntboo#	Size needs to be one of: {0}
+#Dev.msg.ChFo#		Choose Folders...
+#Dev.msg.Sfcmftbs#	Select folders containing music files to be synchronised
+
+! plugins tab
+#Sys.tab.9DE59E88#	Plugins
+#Sys.ctl.13D3564A#	Scrobble played music tracks to last.fm
+#Sys.ctl.F0A097F8#	scrobble tracks played on portable devices (when auto-synching)
+#Sys.ctl.AF68264F#	do not scrobble podcasts
+#Sys.ctl.859E8E21#	do not scrobble tracks in the following folders:
+#Sys.ctl.3B9F8E77#	scrobbling of tracks played on radio stations can be enabled per station (using Edit Station from the Radio Stations panel)
+#Sys.ctl.C3F8B5A5#	synchronise from last.fm to your library on startup:
+#Sys.ctl.A4FBA164#	synchronise Play Count
+#Sys.ctl.76D86FAB#	synchronise Loved tracks
+#Sys.ctl.A4277B1#	Show the current song cover in a customizable skin
+#Sys.ctl.94740902#	launch on startup
+#Sys.ctl.E39522B6#	Search and display lyrics from the mini-lyrics database
+#Sys.ctl.80644E9C#	retrieve and show new lyrics embedded by mini-lyrics
+#Sys.ctl.7DBBF8C3#	retrieve and show the downloaded lyrics file - configured in mini-lyrics as:
+#Sys.ctl.BCC52548#	same folder and name as the music file
+#Sys.ctl.D6F99DA9#	specific folder:
+#Sys.btn.Uninstall#	Uninstall
+#Sys.msg.tlfntbnats#	the lyrics file needs to be named as the song title in the mini-lyrics preferences
+#Sys.btn.Disable#	Disable
+#Sys.btn.Enable#	Enable
+#Sys.btn.Configure#	Configure
+#Sys.msg.LianptMacb#	Last.fm is a native plugin to MusicBee and cannot be uninstalled
+#Sys.msg.ScEx#		Scrobbling Exclusion
+#Sys.msg.Stftefs#	Select the folders to exclude from scrobbling
+#Sys.msg.CADdnatbio#	CD Art Display does not appear to be installed on your machine.
+#Sys.msg.YnCADv3oat#	You need CD Art Display version 3.0.1059 or above to be installed.
+#Sys.msg.CADianptMa#	CD Art Display is a native plugin to MusicBee and cannot be uninstalled
+#Sys.msg.CUtmp#		CONFIRMATION: Uninstall the mini-lyrics plugin?
+#Sys.msg.COUn{#		CONFIRMATION: Uninstall '{0}'?
+
+! auto-shutdown dialog (opened from File/ Activate Auto-Shutdown)
+#AutoSD.frm.EF864DCA#	Auto-Shutdown Settings
+#AutoSD.ctl.91A4C47B#	activate
+#AutoSD.msg.slco#	sleep computer
+#AutoSD.msg.tuofco#	turn off computer
+#AutoSD.msg.enofpl#	end of 播放列表
+#AutoSD.msg.elmi#	elapsed minutes
+#AutoSD.msg.WAhnbeDywt#	WARNING: Auto-shutdown has not been enabled. Do you want to enable it?
+
+! radio station editor
+#RSE.frm.EE8DC1AF#	Add Radio Station
+#RSE.ctl.7BA70F73#	category:
+#RSE.ctl.5515C266#	scrobble tracks to Last.fm
+#RSE.ctl.E364CF7A#	genre:
+#RSE.ctl.C0B323C8#	stream url:
+#RSE.ctl.8D92EB02#	last.fm radio:
+#RSE.msg.dahorctp#	drag artwork here or right click to paste
+#RSE.ctl.2E80F20#	format:
+#RSE.ctl.4897B99E#	bitrate:
+#RSE.ctl.6E252FD8#	genre:
+#RSE.ctl.9DE36B46#	description:
+#RSE.ctl.2703DD47#	name:
+#RSE.msg.Trsihbm-dy#	This radio station information has been modified - do you want to save the changes?
+#RSE.msg.AdRaSt#	Add Radio Station
+#RSE.msg.Utcttu#	Unable to connect to this url
+#RSE.msg.Utvtvotu#	Unable to verify the validity of this url
+#RSE.msg.TleitHpfts#	The link entered is the HTML page for the station website. You need to enter the listening stream link which may be listed on the station website
+#RSE.msg.genre:#	genre:
+#RSE.msg.name:#		name:
+#RSE.msg.usid#		user id:
+
+! File Scanner
+#Scan.frm.8677A7C7#	Rescan/ Add Files and Playlists
+#Scan.ctl.B384E1BB#	scan for new music files and 播放列表s in the following folders:
+#Scan.btn.EE79F85D#	Choose Folders
+#Scan.ctl.E922712D#	import 播放列表s
+#Scan.ctl.ACE5D672#	restrict scanned file types
+#Scan.btn.6146FC4#	Filter...
+#Scan.ctl.D18783F4#	remove dead links
+#Scan.ctl.BFE4C8CB#	re-scan files already in the library
+#Scan.ctl.310BC7C7#	destination for new music files:
+#Scan.ctl.14DF742D#	add to the Inbox
+#Scan.ctl.E5F0F6E0#	add to the Library - files will be linked to their existing location without re-organisation
+#Scan.ctl.7C803C5B#	minimise to status bar when scan starts
+#Scan.msg.attL-fwbou#	add to the Library - files will be organised using the following template:
+#Scan.msg.Fasbs-dywt#	Files are still being scanned - do you want to abort the process?
+#Scan.msg.ChFo#		Choose Folders...
+#Scan.msg.Sfcmtattl#	Select folders containing music to add to the library
+#Scan.msg.Ysnnntuto-#	You should not normally need to use this option - only use if out-of-date and incorrect track information is being displayed in the main panel.
+#Scan.msg.Imfi#		Importing files
+#Scan.msg.Sfmf#		Scanning for missing files
+#Scan.msg.Nnff#		No new files found...
+#Scan.msg.Imfi.2#	Importing files...
+#Scan.msg.Tffnleatel#	The following files no longer exist at their expected location - remove them from the library?
+#Scan.msg.arwa#		always remove without asking
+
+! file organiser
+#Org.frm.369CCCDB#	File Organiser
+#Org.ctl.C8A9AE5F#	file naming presets:
+#Org.ctl.CFA024E9#	move files to folder:
+#Org.btn.A6F506E7#	Filename Char Mapping...
+#Org.ctl.6364E422#	file naming template:
+#Org.col.880F920F#	original filename
+#Org.col.AB3037D4#	new filename
+#Org.col.FE85D7E7#	status
+#Org.ctl.7DD64CC8#	except when:
+#Org.ctl.9165F90#	exception file naming template:
+#Org.btn.973F7D05#	Add Exception
+#Org.ctl.F1A8AF4D#	exceptions are evaluated in reverse sequence. To reorder, press Alt Up/Down in a naming template 
+#Org.ctl.11A0534D#	  duplicate filenames exist - please edit and change those filenames  
+#Org.ctl.C4651C26#	do not reorganise files with missing naming tags
+#Org.ctl.E5F0F6E0#	add to library
+#Org.ctl.7C803C5B#	minimise to status bar when file reorganisation starts
+#Org.ctl.CA45CBE0#	delete folders that have no files remaining
+#Org.msg.<FNP#		<New File Naming Preset>
+#Org.msg.Sotfanlot#	Some of the files are not located on the {0} drive and will be skipped from reorganisation
+#Org.msg.Fasbo-dywt#	Files are still being organised - do you want to abort the re-organisation process?
+#Org.msg.Ynteapouf#	You need to enter a path or untick 'move files to folder' if you want to rename files only.
+#Org.msg.inarsd#	'{0}' is not a recognised storage device.
+#Org.msg.Fdneantbc#	Folder '{0}' does not exist and needs to be created first.
+#Org.msg.Ycc-tfiut#	You cannot choose '{0}' - that folder is used to store library files
+#Org.msg.ioardacbc#	'{0}' is on a removable device and cannot be chosen as the root folder for your organised library
+#Org.msg.ExCr#		Exception Criteria
+#Org.msg.S1EtCftE#	Step 1. Enter the Criteria for the Exception
+#Org.msg.Fdne-pcif#	Folder '{0}' does not exist - please create it first.
+#Org.msg.Rp(ans-p#	Relative paths ("\", ".\", "..\") are not supported - please remove this text from the naming template.
+#Org.msg.Tfesnbcise#	The filename extension should not be changed ie. should end with '{0}'
+#Org.msg.WFae#		WARNING: File '{0}' already exists
+#Org.msg.nolo#		not located
+#Org.msg.noonco#	not on computer
+#Org.msg.fl-pool#	filename locked - part of organised library
+#Org.msg.denosu#	device not supported
+#Org.msg.nod#		not on drive {0}
+#Org.msg.duplicate#	duplicate
+#Org.msg.noch#		no change
+#Org.msg.Fraiol#	 File remains at it's original location
+#Org.msg.<nch#		<no change>
+#Org.msg.Oomoyfinlo#	One or more of your files is not located on drive {0} and will not be re-organised. Do you want to proceed?{1}Click 'Cancel' and change the destination folder if appropriate
+#Org.msg.Oomoyfwbma#	One or more of your files will be moved across drives to the {0} drive. Do you want to proceed?
+#Org.msg.Oomoyfhtm-#	One or more of your files has tags missing - these files have been excluded and will not be re-organised. Do you want to proceed?
+#Org.msg.Oomoyfhtm-.2#	One or more of your files has tags missing - these files have not been excluded and will be re-organised using default generic values for the missing tags. Do you want to proceed?
+#Org.msg.Fireco#	File reorganisation completed
+#Org.msg.Rcwe#		Reorganisation completed with errors
+#Org.msg.Done#		Done
+! filename invalid char mapping (opened from the file organiser)
+#Char.msg.FiChMa#	Filename Char Mapping
+#Char.msg.with:#	with:
+#Char.msg.replace:#	replace:
+#Char.msg.Etrctbuwfn#	Enter the replacement character to be used when files named with tags have the following characters:
+#Char.msg.Ycuiaf#	You cannot use '{0}' in a filename.
+
+! Podcast Subscription editor
+#Sub.frm.32EB6567#	Create Subscription
+#Sub.ctl.BFF11268#	podcast/ blog url:
+#Sub.ctl.2703DD47#	name:
+#Sub.ctl.9DE36B46#	description:
+#Sub.ctl.1B37D0D0#	category:
+#Sub.ctl.94401738#	show no more than the
+#Sub.ctl.177C71A4#	most recent episodes (that are not downloaded)
+#Sub.ctl.4CA0831D#	override default folder for downloaded podcast files:
+#Sub.ctl.5DBEF012#	customise subscription rules:
+#Sub.msg.Manually#	Manually
+#Sub.msg.Onst#		On startup
+#Sub.msg.Evho#		Every hour
+#Sub.msg.Evda#		Every day
+#Sub.msg.Evwe#		Every week
+#Sub.ctl.C00066CA#	keep:
+#Sub.msg.Alep#		All episodes
+#Sub.msg.Alunep#	All unplayed episodes
+#Sub.msg.Moreep#	Most recent episode
+#Sub.msg.La2ep#		Last 2 episodes
+#Sub.msg.La3ep#		Last 3 episodes
+#Sub.msg.La4ep#		Last 4 episodes
+#Sub.msg.La5ep#		Last 5 episodes
+#Sub.msg.La10ep#	Last 10 episodes
+#Sub.ctl.3392C9AD#	new episode action:
+#Sub.msg.Dtmro#		Download the most recent one
+#Sub.msg.Donodo#	Do not download
+#Sub.msg.Dane#		Download all new episodes
+#Sub.ctl.6552A5A5#	scanning subscription for episode details...
+#Sub.msg.Tshbm-dywt#	This subscription has been modified - do you want to save the changes?
+#Sub.msg.CrSu#		Create Subscription
+#Sub.msg.Utvtvotu#	Unable to verify the validity of this url
+#Sub.msg.Stffpdftso#	Select the folder for podcast downloads for this subscription only:
+
+! Tag Editor panel
+#Tag.msg.dahorctp#	drag artwork here or right click to paste
+#Tag.msg.Safi#		Saving file...
+#Tag.msg.Fisaca#	File save cancelled
+#Tag.msg.Safi.2#	Saving files...
+#Tag.msg.1fhbu#		1 file has been updated
+#Tag.msg.fhbu#		{0} files have been updated
+#Tag.msg.Utsdttfe#	Unable to save due to the following error:{0}
+#Tag.msg.Ntwu#		No tags were updated.
+#Tag.ctl.alra#		album rating:
+#Tag.ctl.modified:#	modified:
+#Tag.ctl.website:#	website:
+#Tag.ctl.album:#	album:
+#Tag.ctl.tral#		track/ album:
+#Tag.ctl.trra#		track rating:
+#Tag.ctl.equaliser:#	equaliser:
+#Tag.msg.Apicnleoii#	A picture is corrupted, no longer exists or is inaccessible.
+#Tag.msg.pacnleoai#	{0} pictures are corrupted, no longer exist or are inaccessible.
+#Tag.help.Tvinv-fao#	The value is not valid - format as 'yyyy' or a valid date
+#Tag.ctl.Properties#	Properties
+#Tag.ctl.type:#		type:
+#Tag.ctl.tave#		tag version:
+#Tag.ctl.size:#		size:
+#Tag.ctl.duration:#	duration:
+#Tag.ctl.damo#		date modified:
+#Tag.ctl.lapl#		last played:
+#Tag.ctl.plco#		play count:
+#Tag.ctl.skco#		skipped count:
+#Tag.ctl.enwi#		encoded with:
+#Tag.ctl.channels:#	channels:
+#Tag.ctl.bitrate:#	bitrate:
+#Tag.ctl.sara#		sample rate:
+#Tag.ctl.vole#		volume leveling:
+#Tag.ctl.orwe#		origin website:
+#Tag.ctl.location:#	location:
+#Tag.help.Tfiiaolail#	This file is in an organised library and its location cannot be changed here
+#Tag.msg.invp#		'{0}' is not valid path
+#Tag.msg.Fae#		File '{0}' already exists
+#Tag.msg.Tfednraraf#	The file extension does not represent a recognised audio format
+#Tag.msg.Fdne#		Folder '{0}' does not exist
+#Tag.msg.Dcbwt#		Drive {0} cannot be written to
+#Tag.msg.Tfcbrtad#	The file cannot be renamed to another device
+#Tag.msg.Ycc-tfiut#	You cannot choose '{0}' - that folder is used to store library files
+#Tag.ctl.Tags   #	Tags   
+#Tag.ctl.artwork:#	artwork:
+#Tag.ctl.dahorctp#	drag artwork here or right click to paste
+#Tag.ctl.trti#		track title:
+#Tag.ctl.artist:#	artist:
+#Tag.ctl.alar#		album artist:
+#Tag.ctl.publisher:#	publisher:
+#Tag.ctl.year:#		year:
+#Tag.ctl.track:#	track:
+#Tag.ctl.of#		of
+#Tag.ctl.disc:#		disc:
+#Tag.ctl.composer:#	composer:
+#Tag.ctl.genre:#	genre:
+#Tag.ctl.comments:#	comments:
+#Tag.ctl.grouping:#	grouping:
+#Tag.btn.EdCu#		Edit Cuesheet
+#Tag.ctl.fiti#		file title:
+#Tag.ctl.nopi#		no picture
+#Tag.ctl.loading...#	loading...
+#Tag.msg.Scbdwtaaao#	Search cannot be done without the artist and album or title
+#Tag.ctl.sein#		searching internet...
+#Tag.msg.Utlapftb#	Unable to locate any pictures for title '{0}' by '{1}'
+#Tag.msg.Utlapfab#	Unable to locate any pictures for album '{0}' by '{1}'
+#Tag.msg.Nafitaabe-#	Not all files in the album are being edited - you need to apply the album rating to all the individual files in the album.
+#Tag.msg.Ttwatavtit#	The title will apply to all virtual tracks in this file - to amend a specific track title, use the Edit Cuesheet button
+#Tag.msg.Tawatavtit#	The artist will apply to all virtual tracks in this file - to amend a specific track artist, use the Edit Cuesheet button
+#Tag.msg.Tnaditac-u#	Track numbers are defined in the associated cuesheet - use the Edit Cuesheet button to amend.
+#Tag.msg.Tswatavtit#	The sort-artist will apply to all virtual tracks in this file - amending the sort-artist for a specific track from the CUE_TRACKnn_ARTISTSORTORDER tag is not currently supported
+#Tag.ctl.Ta(2#		Tags (2)
+#Tag.ctl.quality:#	quality:
+#Tag.ctl.tempo:#	tempo:
+#Tag.ctl.mood:#		mood:
+#Tag.ctl.bpm:#		bpm:
+#Tag.ctl.occasion:#	occasion:
+#Tag.ctl.keywords:#	keywords:
+#Tag.msg.Yntetanatt#	You need to enter the artist name and track title before any tags can be retrieved
+#Tag.msg.Ntlfa-#	No tags located for artist '{0}' - '{1}'
+#Tag.msg.Utrt#		Unable to retrieve tags
+#Tag.ctl.Artwork #	Artwork 
+#Tag.ctl.pity#		picture type:
+#Tag.ctl.prpi#		primary picture
+#Tag.btn.Delete#	Delete
+#Tag.btn.SaTo#		Save To...
+#Tag.btn.Add#		Add
+#Tag.ctl.Lyrics  #	Lyrics  
+#Tag.ctl.lyricist:#	lyricist:
+#Tag.ctl.edit:    #	edit:    
+#Tag.ctl.unsynchroni#	unsynchronised
+#Tag.ctl.syly#		synchronised lyrics
+#Tag.msg.Utll#		Unable to load lyrics:{0}
+#Tag.ctl.Settings#	Settings
+#Tag.ctl.voad#		volume adjustment:
+#Tag.ctl.none#		none
+#Tag.ctl.eqpr#		equaliser preset:
+#Tag.ctl.skwhsh#	skip when shuffling
+#Tag.ctl.donocr#	do not crossfade
+#Tag.ctl.replpo#	remember playback position
+#Tag.ctl.stti#		start time:
+#Tag.ctl.enti#		end time:
+#Tag.btn.SkSi#		Skip Silence
+#Tag.msg.None#		None
+! tag editor when displayed as a floating window
+#Tag.menu.Undo#		Undo
+#Tag.menu.TaIn#		Tag Inspector
+#Tag.menu.Rename#	Rename
+#Tag.menu.Auto-Tag#	Auto-Tag
+#Tag.menu.SiMP#		Show in Main Panel
+#Tag.help.Uaucm#	Undo all unsaved changes made
+#Tag.help.Vaeatrtsia#	View and edit all the raw tags stored in a music file
+#Tag.help.Rtmfoutv#	Rename this music file, organised using tag values
+#Tag.help.Aratlaaaft#	Automatically retrieve artist, track, lyrics, album and artwork for this track
+#Tag.msg.MuFi#		Multiple Files
+#Tag.msg.AFwEC#		Album File with Embedded Cuesheet
+#Tag.msg.Oomvhba-dy#	One or more values have been amended - do you want to save the changes?
+#Tag.menu.IT(aSS#	Identify Track (by analysing Sound Signature)
+#Tag.help.Iatbaidss#	Identifies a track by analysing its' digital sound signature
+#Tag.menu.UpTa#		Update Tags
+#Tag.menu.UAfW#		Update Artwork from Web
+#Tag.menu.ULfW#		Update Lyrics from Web
+#Tag.menu.ITfF#		Infer Tags from Filename
+! tag editor when docked in the main window
+#Tag.menu.SaCh#		Save Changes
+#Tag.menu.UnCh#		Undo Changes
+#Tag.menu.AuNo#		Auto-Tag Now
+#Tag.menu.AuSe#		Auto-Tag Settings
+#Tag.menu.ReFi#		Rename File
+#Tag.menu.SiFW#		Show in Floating Window
+! multiple artist splitter - opened from the tag editor artist "..." button
+#aSplit.msg.MuArSp#	Multiple Artist Splitter
+#aSplit.msg.role:#	role:
+#aSplit.msg.artists:#	artists:
+#aSplit.msg.diar#	display artist:
+#aSplit.msg.Oomvhbc-dy#	One or more values has been changed - do you want to save the changes?
+#aSplit.msg.Artist#	Artist
+#aSplit.msg.GuAr#	Guest Artist
+#aSplit.msg.Performer#	Performer
+#aSplit.msg.Remixer#	Remixer
+! multiple genre splitter - opened from the tag editor genre "..." button
+#gSplit.msg.MuGeSp#	Multiple Genre Splitter
+#gSplit.msg.SuGe#	Suggested Genres...
+#gSplit.msg.inge#	individual genres:
+#gSplit.msg.Oomvhbc-dy#	One or more values has been changed - do you want to save the changes?
+#gSplit.msg.Utlasgfta#	Unable to locate any suggested genres for this artist
+#gSplit.msg.SuGe.2#	Suggested Genres
+#gSplit.msg.soomotfg#	select one or more of the following genres:
+! multiple tag splitter - opened from the tag editor "..." button
+#tSplit.msg.MTVS#	Multiple Tag Values Splitter
+#tSplit.msg.tava#	tag values:
+#tSplit.msg.Oomvhbc-dy#	One or more values has been changed - do you want to save the changes?
+#tSplit.msg.MuTaSp#	Multiple Tag Splitter
+
+! device synchronisation and file transfer dialog
+#Tfr.ctl.6E781AC7#	Scanning device...
+#Tfr.ctl.7C803C5B#	minimise to status bar when synchronisation starts
+#Tfr.btn.32CDB12D#	Delete
+#Tfr.ctl.1C1ED037#	The following files will be deleted from the device:
+#Tfr.msg.DeSy#		Device Synchronisation...
+#Tfr.msg.Syfi#		Synchronising files
+#Tfr.msg.SyPl#		Synchronising Playlist...
+#Tfr.msg.Copl#		Copying 播放列表
+#Tfr.msg.MoFi#		Moving Files...
+#Tfr.msg.Moving  #	Moving  
+#Tfr.msg.CoFi#		Copying Files...
+#Tfr.msg.Copying  #	Copying  
+#Tfr.msg.DeFi#		Deleting Files...
+#Tfr.msg.Deleting  #	Deleting  
+#Tfr.msg.Encoding...#	Encoding...
+#Tfr.msg.Encoded#	Encoded
+#Tfr.msg.Copying...#	Copying...
+#Tfr.msg.Copied#	Copied
+#Tfr.msg.Renaming...#	Renaming...
+#Tfr.msg.Renamed#	Renamed
+#Tfr.msg.Moving...#	Moving...
+#Tfr.msg.Moved#		Moved
+#Tfr.msg.Deleting...#	Deleting...
+#Tfr.msg.Deleted#	Deleted
+#Tfr.msg.Aborted#	Aborted
+#Tfr.msg.Fasbt-dywt#	Files are still being transfered - do you want to abort the process?
+#Tfr.msg.DcbwtbMut#	Device '{0}' cannot be written to by MusicBee until the iPod is updated to the latest iTunes version.
+#Tfr.msg.Dinw#		Device '{0}' is not writeable
+#Tfr.msg.Synoco#	Synchronisation not completed
+#Tfr.msg.Syfa#		Synchronisation failed
+#Tfr.msg.Sysuco#	Synchronisation successfully completed
+#Tfr.msg.A-dd#		Aborted - device disconnected
+#Tfr.msg.SyFa#		Synchronisation Failed
+#Tfr.msg.FiMoFa#	File Move Failed
+#Tfr.msg.FiCoFa#	File Copy Failed
+#Tfr.msg.FiDeFa#	File Delete Failed
+
+! library selector
+#Lib.frm.6823ED3A#	Add Library
+#Lib.ctl.6414DA60#	create a new library located in folder:
+#Lib.ctl.E2A41647#	library name:
+#Lib.ctl.17EA94E7#	scan music files from the following folders:
+#Lib.btn.B345D978#	Choose Folders
+#Lib.ctl.E79A8A0F#	scan the folders for new files on each startup
+#Lib.ctl.BF417927#	and remove dead links
+#Lib.ctl.7FDDD233#	ignore tracks less than 
+#Lib.ctl.7FC91213#	KB in size
+#Lib.ctl.12AC12EF#	or choose an existing library that no longer appears in the selection list:
+#Lib.btn.32CDB12D#	Add Library
+#Lib.ctl.B3DCB49A#	Choose Music Library
+#Lib.btn.5B32C5ED#	Create New...
+#Lib.btn.EADBC431#	Select
+#Lib.btn.ED583255#	Remove
+#Lib.ctl.C87899CD#	always prompt for library selection when MusicBee starts up
+#Lib.ctl.9C1F404E#	A library needs to be selected to continue. You can choose an existing library or create a new one.
+#Lib.msg.Liaitlsl#	Library '{0}' is already in the library selection list
+#Lib.msg.OpMuLi#	Open Music Library
+#Lib.msg.Fdne-pcae#	Folder '{0}' does not exist - please choose an existing folder
+#Lib.msg.Stfywtlci#	Select the folder you want the library created in:
+#Lib.msg.Tiaaln-pe#	There is already a library named '{0}' - please enter another name
+#Lib.msg.ChFo#		Choose Folders...
+#Lib.msg.Sftbs#		Select folders to be scanned
+#Lib.msg.Ynteanftl#	You need to enter a name for the library
+
+! artwork save-as dialog (eg. when search internet for a picture)
+#Art.msg.Ar0#		Artwork: {0}
+#Art.ctl.C035755C#	save artwork to:
+#Art.ctl.5326BAC9#	embed the picture in the music file
+#Art.ctl.CBC44ECF#	link the picture to this music track:
+#Art.ctl.634B40CE#	save to folder.jpg
+#Art.ctl.4FA96BF8#	link to an organised copy of the picture
+#Art.ctl.36A3E1E0#	or link to the original picture file
+#Art.ctl.6527B16B#	choose the same next time without asking
+#Art.msg.diinpr#	disabled in preferences
+#Art.msg.noma#		no match
+#Art.msg.sttid#		save to the iPod database
+#Art.msg.lttopf#	link to the original picture file
+#Art.msg.WTffinwant#	WARNING: The folder.jpg file is not writeable and needs to be unprotected before saving this picture.
+#Art.msg.Ttfcbwt(tf#	The target file cannot be written to (check the file read-only, system settings)
+
+! album auto-tagger
+#aTag.frm.9B783590#	Album Auto-Tagger
+#aTag.ctl.64E276E7#	  search criteria  
+#aTag.btn.2D8806DD#	Find
+#aTag.ctl.19E75EDF#	album artist:
+#aTag.ctl.B4973BE1#	album:
+#aTag.ctl.461EAC79#	track on album:
+#aTag.ctl.BC1E04CA#	disc #
+#aTag.ctl.462ED09A#	tracks on disc:
+#aTag.col.E91B5253#	title
+#aTag.col.167B1166#	time  
+#aTag.col.72458960#	original title
+#aTag.col.41094975#	time 
+#aTag.col.8E058F32#	filename
+#aTag.col.D0FEAC0D#	album artist
+#aTag.col.B2F36DDC#	year
+#aTag.col.42FCF5C#	type
+#aTag.col.7F8BFDDD#	publisher
+#aTag.col.8B5C5504#	album
+#aTag.col.D337066E#	source
+#aTag.ctl.DA8A7EC4#	  selected album details  
+#aTag.ctl.53E4DF5D#	album artist:
+#aTag.ctl.6AE5A99#	composer:
+#aTag.ctl.A71F4734#	album:
+#aTag.ctl.3265428D#	publisher:
+#aTag.ctl.4294633F#	disc number:
+#aTag.ctl.50C48837#	of
+#aTag.ctl.A0904F6C#	year:
+#aTag.ctl.6F2F91B8#	genre:
+#aTag.ctl.CA4DDF43#	artwork
+#aTag.btn.32CDB12D#	Apply Tags
+#aTag.ctl.E5F0F6E0#	add to library
+#aTag.btn.D0A2D7EC#	Select None
+#aTag.btn.SeAl#		Select All
+#aTag.ctl.CC526F71#	searching...
+#aTag.ctl.EB53EDBA#	searching...
+#aTag.msg.Scbdwtaaa#	Search cannot be done without the artist and album
+#aTag.msg.sein#		searching internet...
+#aTag.msg.dahorctp#	drag artwork here or right click to paste
+#aTag.msg.Utlapfab#	Unable to locate any pictures for album '{0}' by '{1}'
+#aTag.btn.SeNo#		Select None
+#aTag.msg.Wsto#		Web service timed out
+#aTag.msg.Wsrae#	Web service returned an error
+#aTag.msg.Fwue#		Failed with unexpected error
+#aTag.msg.Nomafo#	No matches found
+#aTag.msg.SuGe#		Suggested Genres
+#aTag.msg.sootfg#	select one of the following genres:
+#aTag.msg.searching...#	searching...
+#aTag.msg.Wsre#		Web service returned error: {0}
+#aTag.help.tfibftsf#	this field is blank for the selected files
+#aTag.help.tsfhvvftf#	the selected files have various values for this field
+#aTag.help.ovi#		original value is '{0}'
+#aTag.msg.wefa#		web-service failed
+#aTag.msg.nopi#		no picture
+
+! auto-tag by track
+#tTag.frm.48027907#	Auto-Tag
+#tTag.col.8E058F32#	name
+#tTag.col.968C6761#	status
+#tTag.ctl.7C803C5B#	minimise to status bar when file auto-tag starts
+#tTag.msg.IatfidssiN#	Identifying a track from its digital sound signature is NOT 100% accurate. It is recommended only to use this option on tracks where the artist and track title are unknown
+#tTag.msg.Tffwhtu#	The following files will have tags updated:
+#tTag.msg.Tffwhmau#	The following files will have missing artwork updated:
+#tTag.msg.Tffwhmlsta#	The following files will have missing lyrics saved to an external file:
+#tTag.msg.Tffwhmlu#	The following files will have missing lyrics updated:
+#tTag.msg.TffwhtoutL#	The following files will have tags overwritten using the Last.fm tag cloud:
+#tTag.msg.Tffwhtiftf#	The following files will have tags inferred from the filename using the naming template below:
+#tTag.msg.upfi#		update fields:
+#tTag.msg.ittaatutds#	identify the track artist and title using the digital sound signature (30 secs/track)
+#tTag.msg.ubfo#		update blank fields only
+#tTag.msg.rerety#	restrict release types:
+#tTag.msg.album#	album
+#tTag.msg.live#		live
+#tTag.msg.remix#	remix
+#tTag.msg.compilation#	compilation
+#tTag.msg.rmgfettamo#	retrieve multiple genres for each track to a maximum of: 
+#tTag.msg.  genres#	  genres
+#tTag.msg.gsltcbf#	google search lyrics that cannot be found
+#tTag.msg.amisf#	apply minimum image size filter:
+#tTag.msg.oKtwtetc#	overwrite Keywords tag with the entire tag cloud
+#tTag.msg.exceptions#	exceptions...
+#tTag.msg.oGtwttccao#	overwrite Genre tag where the tag cloud contains any of
+#tTag.msg.genres...#	genres...
+#tTag.msg.oOtwttccao#	overwrite Occasion tag where the tag cloud contains any of
+#tTag.msg.occasions...#	occasions...
+#tTag.msg.oMtwttccao#	overwrite Mood tag where the tag cloud contains any of
+#tTag.msg.moods...#	moods...
+#tTag.msg.oGtwttccao.2#	overwrite Grouping tag where the tag cloud contains any of
+#tTag.msg.groupings...#	groupings...
+#tTag.msg.fite#		filename template:
+#tTag.msg.Changes#	Changes
+#tTag.btn.Preview#	Preview
+#tTag.msg.nolo#		not located
+#tTag.msg.noonco#	not on computer
+#tTag.msg.nowr#		not writeable
+#tTag.msg.alhaly#	already has lyrics
+#tTag.msg.fiaea#	file is an entire album
+#tTag.msg.Alsufi#	All supported fields
+#tTag.msg.AsfeAaL#	All supported fields except Artwork and Lyrics
+#tTag.msg.overwrite#	overwrite
+#tTag.msg.wttccao#	 where the tag cloud contains any of
+#tTag.msg.matches...#	matches...
+#tTag.msg.AITaUT#	Auto-Tag: Identify Track and Update Tags
+#tTag.msg.AUMA#		Auto-Tag: Update Missing Artwork
+#tTag.msg.AUML#		Auto-Tag: Update Missing Lyrics
+#tTag.msg.AOTuLTC#	Auto-Tag: Overwrite Tags using Last.fm Tag Cloud
+#tTag.msg.AIaOTftF#	Auto-Tag: Infer and Overwrite Tags from the Filename
+#tTag.msg.Yhmaitsf-w#	You have multiple albums in the same folder - when using folder.jpg for storing artwork, each album needs to be in its own folder. Alternatively see View/ Preferences/ Tagging to change the artwork storage method.
+#tTag.msg.Fasbp-dywt#	Files are still being processed - do you want to abort?
+#tTag.msg.KeEx#		Keyword Exceptions
+#tTag.msg.GeTa#		Genre Tags
+#tTag.msg.OcTa#		Occasion Tags
+#tTag.msg.MoTa#		Mood Tags
+#tTag.msg.GrTa#		Grouping Tags
+#tTag.msg.ealovtaeak#	enter a list of values that are excluded as keywords from the last.fm tag cloud:
+#tTag.msg.ealovtaca#	enter a list of values that are classified as {0} when matching against the tag cloud from last.fm:
+#tTag.btn.ApCh#		Apply Changes
+#tTag.msg.Status#	Status
+#tTag.btn.Retry#	Retry
+#tTag.btn.Select#	Select
+#tTag.msg.Pwswfttd#	Please wait, searching web for track tag data...
+#tTag.btn.StOv#		Start Over
+#tTag.msg.noch#		no changes
+#tTag.msg.AaAoTar#	Artist and Album or Title are required
+#tTag.msg.Adssf#	Analysing digital sound signature for '{0}'
+#tTag.msg.Pwatdsott#	Please wait, analysing the digital signature of this track...
+#tTag.msg.Ansi#		Analysing signature...
+#tTag.msg.Utittfidss#	Unable to identify the track from it's digital sound signature
+#tTag.msg.Utidssbotf#	Unable to identify digital sound signature because of the following error:{0}
+#tTag.msg.FUtitwe#	Failed: Unable to identify track with error '{0}'
+#tTag.msg.Searching...#	Searching...
+#tTag.msg.FNmfaom#	Failed: No match for artist '{0}' on musicbrainz.org
+#tTag.msg.FUtmnot#	Failed: Unable to match name of track
+#tTag.msg.Updated#	Updated
+#tTag.msg.Noch#		No changes
+#tTag.msg.Nomafo#	No match found
+#tTag.msg.Wfwe-pta#	Web-service failed with error: {0} - please try again.
+#tTag.msg.Wrid-pta#	Web-service returned invalid data - please try again.
+#tTag.msg.Taphbu#	The album picture has been updated.
+#tTag.msg.Tfthbu#	The following tags have been updated: 
+#tTag.msg.Afwae#	Auto-tag failed with an exception:
+#tTag.msg.Acwnu#	Auto-tag completed with no updates
+#tTag.msg.Ausuco#	Auto-tag successfully completed
+#tTag.msg.Acwe#		Auto-tag completed with errors
+#tTag.msg.Utfam-sa#	Unable to find any matching '{0}' - search aborted
+#tTag.msg.artist#	artist
+#tTag.msg.Utfaemfa-#	Unable to find an exact match for artist '{0}' - select one of the following:
+#tTag.msg.disambiguat#	disambiguation
+#tTag.msg.Tiomr-soo#	Track '{0}' is on multiple releases - select one of the following:
+#tTag.msg.title#	title
+#tTag.msg.time #	time 
+! auto-tag by track field selector
+#tTagF.frm.4A79D421#	Auto-Tag Fields
+#tTagF.btn.24144E7B#	Select All
+#tTagF.msg.SeNo#	Select None
+
+! cd ripper
+#Rip.frm.34F5300E#	Rip CD
+#Rip.ctl.9240FDC8#	this CD is HDCD encoded - rip as 24-bit output
+#Rip.ctl.F477FB62#	play sound
+#Rip.ctl.68254C06#	on completion:
+#Rip.ctl.BACB1150#	attempting to recover errors...
+#Rip.ctl.3F6A04FF#	eject CD
+#Rip.btn.FC916936#	Encode Selected
+#Rip.btn.CDBB1E5A#	Select All
+#Rip.ctl.7C803C5B#	minimise to status bar when rip starts
+#Rip.ctl.6117A79#	composer:
+#Rip.ctl.57C5FF3A#	rip tracks as:
+#Rip.ctl.CF108295#	file per disc with cuesheet
+#Rip.ctl.EAAAB211#	file per track
+#Rip.btn.4757E396#	Settings
+#Rip.ctl.6E252FD8#	genre:
+#Rip.btn.32CDB12D#	Start Rip
+#Rip.ctl.A0A72F8C#	year:
+#Rip.ctl.50C48837#	of
+#Rip.ctl.41F7821F#	disc number:
+#Rip.ctl.9F196C13#	album:
+#Rip.ctl.53D45E3D#	album artist:
+#Rip.ctl.182FB53E#	source:
+#Rip.col.6BC944AC#	track artist
+#Rip.col.D754DC6D#	track title
+#Rip.col.7F0AE190#	 time
+#Rip.col.87953FF1#	status
+#Rip.msg.dahorctp#	drag artwork here or right click to paste
+#Rip.msg.dnoA#		disc not on AccurateRip
+#Rip.msg.utqA#		unable to query AccurateRip
+#Rip.menu.ClPi#		Clear Picture
+#Rip.msg.NCil#		No CD is loaded
+#Rip.msg.Fasbr-dywt#	Files are still being ripped - do you want to abort the rip?
+#Rip.msg.Chbr#		CD has been removed
+#Rip.btn.StRi#		Start Rip
+#Rip.msg.Ydnhhi#	You do not have hdcd.exe installed.
+#Rip.msg.Scbdwtaaa#	Search cannot be done without the artist and album
+#Rip.msg.sein#		searching internet...
+#Rip.msg.Utlapfab#	Unable to locate any pictures for album '{0}' by '{1}'
+#Rip.msg.Caocflfanf#	Cuesheets are only created for lossless formats and not for '{0}'. A lossless encoder can be selected by clicking the 'Settings' button.
+#Rip.msg.Ycsitwrpd#	You cannot select individual tracks when ripping 'file per disc with cuesheet'
+#Rip.btn.SeAl#		Select All
+#Rip.btn.UnAl#		Unselect All
+#Rip.msg.UtltftC#	Unable to load tracks from this CD
+#Rip.msg.AAS#		Artist & Album Selector
+#Rip.msg.Cootftrad#	Choose one of the following to retrieve album details:
+#Rip.msg.sefoar#	searching for artwork...
+#Rip.msg.noarfo#	no artwork found
+#Rip.msg.seAc#		searching AccurateRip...
+#Rip.msg.EattCdirfr#	Exclusive access to the CD drive is required for read verification - please close down any other CD ripping applications and then click 'OK' to proceed.
+#Rip.msg.COtff#		CONFIRMATION: Overwrite the following files?
+#Rip.btn.Overwrite#	Overwrite
+#Rip.msg.Crsc#		CD rip successfully completed
+#Rip.msg.Natsv-ycet#	Not all tracks successfully verified - you can encode the failed tracks by clicking the 'Encode Selected' button
+#Rip.msg.Natwsrae#	Not all tracks were successfully ripped and encoded
+#Rip.msg.Ridu#		Rip duration
+#Rip.msg.UnAr#		Unknown Artist
+#Rip.msg.UnTi#		Unknown Title
+#Rip.msg.AcRe#		AccurateRip.com Results
+#Rip.btn.ReTr#		Re-rip Tracks
+#Rip.btn.Continue#	Continue
+#Rip.btn.CaRi#		Cancel Rip
+#Rip.msg.Rtttfavusr#	Re-rip the tracks that failed accuraterip validation using secure rip mode
+#Rip.msg.TrMwA#		The rip MATCHED with AccurateRip.com
+#Rip.msg.TrdNamA-lb#	The rip did NOT accurately match AccurateRip.com - listed below are the results for each track:
+#Rip.msg.AyCdroiuam#	As your CD drive read offset is unknown, all matches from AccurateRip.com are displayed - listed below are the results for each track for different drive offsets:
+#Rip.msg.[Rwsr#		#   [CRC]      Result/ #users with same result
+#Rip.msg.Acri#		Accurately ripped/ 
+#Rip.msg.Pama#		Partial match/ 
+#Rip.msg.Noma#		Not matched
+
+! Library Stats window
+#Stat.msg.LiSt#		Library Statistics
+#Stat.msg.Tracks#	Tracks
+#Stat.msg.FiSi#		File Size
+#Stat.msg.Le(h#		Length (h:mm:ss)
+#Stat.msg.LiTo#		Library Totals
+#Stat.btn.GoBa#		Go Back
+#Stat.msg.LiTo.2#	Library Total
+#Stat.msg.ToAr#		Top Artists
+#Stat.msg.MoPlAr#	Most Played Artists
+#Stat.msg.ToGe#		Top Genres
+#Stat.msg.MoPlGe#	Most Played Genres
+#Stat.msg.ToReYe#	Top Release Years
+#Stat.msg.MPA(tp#	Most Played Albums (total tracks played)
+
+! duplicates manager tool
+#Dup.frm.9FC74072#	Duplicates Manager
+#Dup.ctl.5D675CD#	filter files where the 
+#Dup.ctl.C0A52F5F#	are duplicated
+#Dup.ctl.26BE98DE#	drag/drop tracks from one side to the other to keep/mark as a duplicate
+#Dup.btn.B7EB08B8#	Select All
+#Dup.btn.D0A2D7EC#	Select None
+#Dup.col.8EB14484#	                  keep file
+#Dup.col.CF848806#	path
+#Dup.col.4B4BEED3#	attributes
+#Dup.col.352FB09C#	duplicate file
+#Dup.col.93E22649#	attributes
+#Dup.ctl.6608E6A6#	No new duplicates found for the selected files
+#Dup.ctl.46F789BD#	duplicates handling:
+#Dup.ctl.EA9D6EE1#	hide duplicates
+#Dup.ctl.E8093238#	delete
+#Dup.ctl.21E86E5B#	replace with reference to the kept file
+#Dup.ctl.731FF479#	save to 播放列表
+#Dup.ctl.3C69C320#	duplicates marked as hidden
+#Dup.btn.65554FD#	Unmark Ticked Files
+#Dup.ctl.DB904D5#	No duplicate files are marked as hidden
+#Dup.col.6F047A8A#	                  duplicate file
+#Dup.col.B9514648#	path
+#Dup.col.3876A01D#	attributes
+#Dup.btn.SeNo#		Select None
+#Dup.btn.SeAl#		Select All
+#Dup.msg.Hdfstandiy#	Hide duplicate files so they are not displayed in your library.
+#Dup.msg.RdfwaAftrt#	Replace duplicate files with an ASX file that refers to the kept track (so only one file physically remains but your albums are complete).
+#Dup.msg.Pddfftc#	Permenantly delete duplicate files from the computer.
+#Dup.msg.Sdftap#	Save duplicate files to a 播放列表.
+#Dup.msg.CPdtdf#	CONFIRMATION: Permanently delete the duplicate files?
+#Dup.msg.CPdtdfarwa#	CONFIRMATION: Permanently delete the duplicate files and replace with an ASX file that references the kept track?
+
+! Lock Settings opened from View/ Main Player (Locked Down)
+#Lock.frm.AC12382A#	Lockdown Settings
+#Lock.ctl.84E6C085#	disable web access
+#Lock.ctl.1E025FB3#	enter password to unlock:
+#Lock.ctl.D5CE173F#	full screen mode (switching to other applications disabled)
+#Lock.ctl.789A71B4#	require password to unlock:
+#Lock.btn.32CDB12D#	Lock
+#Lock.btn.Unlock#	Unlock
+#Lock.msg.Pinc-pri#	Password is not correct - please re-enter it
+
+! File converter
+#Cvt.frm.FF7BC363#	File Converter
+#Cvt.col.8CE727B4#	name
+#Cvt.col.88583FD8#	status
+#Cvt.ctl.88B397E4#	output to the source file folder
+#Cvt.ctl.B93141EB#	or a new folder:
+#Cvt.ctl.6364E422#	organise sub-folder and filename:
+#Cvt.ctl.F9AC5B91#	add converted files to the Inbox
+#Cvt.ctl.1FFE1903#	replace the source file
+#Cvt.ctl.6B82C9F2#	- the original file will be deleted
+#Cvt.ctl.47E8EAC#	encode as:
+#Cvt.ctl.FA13966B#	encoding profile:
+#Cvt.ctl.2F4A9A0#	artwork:
+#Cvt.ctl.12CD9693#	copy settings from source file
+#Cvt.ctl.75D086FD#	always embed in converted file
+#Cvt.ctl.70608D56#	level volume:
+#Cvt.ctl.8D1F1E51#	permanently adjust tracks to same volume
+#Cvt.ctl.801489EF#	permanently adjust albums to same volume
+#Cvt.ctl.D3DF1881#	when the output file already exists, skip conversion and synchronise tag values only
+#Cvt.ctl.7C803C5B#	minimise to status bar when file conversion starts
+#Cvt.msg.Fasbc-dywt#	Files are still being converted - do you want to abort the conversion process?
+#Cvt.msg.nolo#		not located
+#Cvt.msg.noonco#	not on computer
+#Cvt.msg.denosu#	device not supported
+#Cvt.msg.rB(QsiPP#	requires BASS_AAC.dll (see 'use QuickTime' setting in Player Preferences)
+#Cvt.msg.MerLwcbdwM#	MP3 encoding requires LAME.EXE which cannot be distributed with MusicBee due to license restrictions. However you can download LAME for personal use - see http://www.getmusicbee.com/help.html
+#Cvt.msg.Tdfcbafiyl#	The destination folder cannot be a folder in your library
+#Cvt.msg.Fdne#		Folder '{0}' does not exist
+#Cvt.msg.Stdftwctcf#	Select the destination folder that will contain the converted files:
+#Cvt.msg.NehbeitTO#	No {0} encoder has been enabled in the Tools/ Options/ File Converters menu.{1}Due to licensing restrictions, no MP3 or AAC encoder can be bundled with MusicBee. However you can download one for personal use - see www.getmusicbee.com/help.html
+#Cvt.msg.Ecnbl#		Encoder '{0}' could not be located
+#Cvt.msg.Nofico#	No files converted
+#Cvt.msg.Ficoco#	File conversion completed
+#Cvt.msg.Done#		Done
+
+! library backup
+#LBck.frm.2FEA01C#	Backup Library
+#LBck.ctl.8278A45A#	backup database and settings files only
+#LBck.ctl.EA0C2F10#	copy from:
+#LBck.ctl.DC3F439D#	to:
+#LBck.ctl.7C803C5B#	minimise to status bar when file backup starts
+#LBck.msg.Fasbc-dywt#	Files are still being copied - do you want to abort the backup?
+#LBck.msg.Yntsadittp#	You need to specify a drive in the target path
+#LBck.msg.Ttfntboadd#	The target folder needs to be on a different drive to {0}
+#LBck.msg.Fdne#		Folder '{0}' does not exist
+#LBck.msg.Sttdaffff#	Select the target drive and folder for files from {0}
+#LBck.msg.Yntuufmti#	You need to untick ""dont update file modification time"" in Tags(1) preferences - otherwise MusicBee will be unable to detect updated files for backup.
+#LBck.msg.Bcwe#		Backup completed with errors
+
+! device summary page (click on device icon in left navigator)
+#dSum.msg.five#		firmware version:
+#dSum.msg.frsp#		free space:
+#dSum.msg.battery:#	battery:
+#dSum.msg.capacity:#	capacity:
+#dSum.msg.model:#	model:
+#dSum.msg.manufactur#	manufacturer:
+#dSum.msg.senu#		serial number:
+#dSum.msg.name:#	name:
+#dSum.btn.Synchronise#	Synchronise
+
+! auto-number dialog (Tools/Tagging Tools)
+#aNum.frm.7702B9A1#	Renumber Tracks...
+#aNum.ctl.5D675CD#	Assign track numbers to the X selected files
+#aNum.ctl.E100B1F5#	starting at track number:
+#aNum.ctl.294E79EF#	include total track count:
+#aNum.ctl.8D9B6B69#	pad numbers to a maximum of:
+#aNum.ctl.B00EEF7E#	leading zeros eg. 01, 02 etc.
+#aNum.ctl.6BE8657F#	reset the track number and count for each disc
+#aNum.col.A4C19BF2#	original track details
+#aNum.col.CF10B99C#	new disc-track#
+#aNum.col.4D9800E3#	track count
+#aNum.msg.Atntt#	Assign track numbers to the {0}
+#aNum.msg.leze#		leading zeros
+
+! Device configuration editor
+#DCE.msg.DeSySe#	Device Synchronisation Settings
+#DCE.msg.Oomvhba-dy#	One or more values have been amended - do you want to save the changes?
+
+! cuesheet editor - opened from the tag editor when a file has an embeded cuesheet
+#Cue.frm.1555CA18#	Cuesheet Editor
+#Cue.ctl.6CC3DA9F#	cuesheet:
+#Cue.msg.Oomvhbc-dy#	One or more values has been changed - do you want to save the changes?
+#Cue.msg.Utpltca#	Unable to parse line: '{0}'{1}Save this cuesheet anyway?
+
+! library import
+#IMP.frm.FA72BBEB#	Import from Windows Media Player
+#IMP.btn.4BF55473#	Locate iTunes
+#IMP.ctl.9B83F55E#	overwrite rating and play counts only
+#IMP.ctl.9603EAB8#	do not update
+#IMP.ctl.9540A439#	handling for existing files already in your MusicBee library:
+#IMP.ctl.A6BC655F#	destination for new music files not in your MusicBee library:
+#IMP.ctl.E5F0F6E0#	add to the Library - files will be linked to their existing location without re-organisation
+#IMP.ctl.14DF742D#	add to the Inbox
+#IMP.msg.Imfr0#		Import from {0}
+#IMP.msg.Trapcwbifi#	Track, rating and play counts will be imported from iTunes
+#IMP.msg.TrapcwbifW#	Track, rating and play counts will be imported from Windows Media library
+#IMP.msg.Fasbi-dywt#	Files are still being imported - do you want to abort the import process?
+#IMP.msg.LiXF#		Locate iTunes XML File
+#IMP.msg.AftL#		Adding files to Library...
+
+! open music file dialog
+#OFU.msg.OFoU#		Open File or URL
+#OFU.msg.etfpoiUott#	enter the file path or internet URL of the track you want to open:
+#OFU.msg.OpMuFi#	Open Music File
+#OFU.msg.Nfeatl#	No file exists at this location
+
+! Popcast Subscription OPML import
+#SFE.msg.AdDi#		Add Directory
+#SFE.msg.etuoapOd#	enter the url of a podcast OPML directory:
+#SFE.msg.Twainwf#	The website address is not well formed
+#SFE.msg.Tuiaitpd#	The url is already in the podcast directory
+#SFE.msg.Utvtvotu#	Unable to verify the validity of this url
+
+! Tag Manager panel
+#TM.msg.TaMa#		Tag Manager
+#TM.menu.ShAlFi#	Show All Files
+#TM.menu.CuFi#		Custom Filter
+#TM.menu.ReAdFi#	Recently Added Files
+#TM.menu.AdTo#		Added Today
+#TM.menu.AiL3D#		Added in Last 3 Days
+#TM.menu.AiLW#		Added in Last Week
+#TM.menu.AiLM#		Added in Last Month
+#TM.menu.FwMT#		Files with Missing Tags
+#TM.menu.FwMA#		Files with Missing Artwork
+#TM.menu.FwML#		Files with Missing Lyrics
+#TM.menu.FwNVL#		Files with No Volume Leveling
+#TM.menu.FwIT#		Files with Inconsistent Tags
+#TM.menu.FwIAT#		Files with Inconsistent Album Tags
+#TM.menu.DeLi#		Dead Links
+#TM.menu.MoSkTr#	Most Skipped Tracks
+#TM.msg.whth#		where the
+#TM.msg.armi#		are missing
+#TM.msg.filter:#	filter:
+#TM.msg.CuFi#		Custom Filter
+#TM.msg.FiAdTo#		Files Added Today
+#TM.msg.FAiL3D#		Files Added in Last 3 Days
+#TM.msg.FAiLW#		Files Added in Last Week
+#TM.msg.FAiLM#		Files Added in Last Month
+#TM.msg.ardu#		are duplicated
+#TM.msg.Mita#		Missing tags: 
+#TM.msg.Arismi#		Artwork is missing
+#TM.msg.Lymi#		Lyrics missing
+#TM.msg.hilc#		have inconsistent letter casing
+#TM.msg.FwIT#		Files with Inconsistent Tags
+#TM.msg.,TNm#		, Track Number missing
+#TM.msg.,TN1im#		, Track Number 1 is missing
+#TM.msg.,AAinsa#	, Album Artist '{0}' is not same as '{1}'
+#TM.msg.,TNim#		, Track Number is missing
+#TM.msg.,TNinis#	, Track Number {0} is not in sequence
+#TM.msg.,Yinsa#		, Year '{0}' is not same as '{1}'
+#TM.msg.,Ginsa#		, Genre '{0}' is not same as '{1}'
+#TM.msg.Adiwot#		Album details inconsistent with other tracks: 
+
+! tag search and replace - opened from the Tagging Tools menu
+#sRpl.frm.1C73F55E#	Search and Replace
+#sRpl.ctl.2D61EB0B#	search criteria is a regular expression
+#sRpl.ctl.1F77F7BA#	The following changes will be made - Click the 'Replace' button to commit the changes
+#sRpl.ctl.B85CBAC7#	match whole word
+#sRpl.ctl.5CBC90C4#	match case
+#sRpl.ctl.3EC7ED#	replace with:
+#sRpl.ctl.256175C6#	in field:
+#sRpl.ctl.CBEBAA76#	search for:
+#sRpl.btn.32CDB12D#	Preview
+#sRpl.msg.sefose#	 selected for search
+#sRpl.btn.StOv#		Start Over
+#sRpl.btn.Preview#	Preview
+#sRpl.btn.ApCh#		Apply Changes
+#sRpl.msg.Navre#	No a valid regular expression:
+#sRpl.msg. before#	 before
+#sRpl.msg. after#	 after
+#sRpl.msg.Nomafo#	No matches found.
+
+! upcoming concerts service
+#UC.msg.Loading...#	Loading...
+#UC.msg.elfaaroce#	enable 'Touring?' library field and automatic refresh of concerts each day
+#UC.btn.Settings#	Settings
+#UC.msg.view:#		view:
+#UC.msg.coda#		concert dates
+#UC.msg.arna#		artist names
+#UC.msg.Tickets#	Tickets
+#UC.msg.ArDa#		Artist/ Date
+#UC.msg.OtAr#		Other Artists
+#UC.msg.Venue#		Venue
+#UC.msg.Date#		Date
+#UC.msg.Artists#	Artists
+#UC.msg.Locp#		Loading  {0} of {1} concert pages...
+#UC.msg.Naiylaotf#	No artists in your library are on tour for {0}
+#UC.msg.Utlcptal#	Unable to load concerts, please try again later.
+#UC.msg.SeCoLo#		Set Concerts Location...
+#UC.msg.UnLo#		Unknown Location
+#UC.msg.UtisPtal#	Unable to initialise settings. Please try again later
+#UC.msg.Stnctswaac#	Select the nearest cities to see which artists are coming to your area:
+#UC.msg.country:#	country:
+#UC.msg.city:#		city:
+
+! upcoming releases service
+#UR.msg.Loading...#	Loading...
+#UR.btn.Settings#	Settings
+#UR.msg.rtaitl#		restrict to artists in the library
+#UR.help.Tosoor#	Toggle sort order
+#UR.msg.UpReSe#		Upcoming Release Settings
+#UR.msg.uararfm#	upcoming album releases are retrieved from musicbrainz.org
+#UR.msg.stfr#		start from
+#UR.msg.dabeto#		days before today
+#UR.msg.alus#		also use
+#UR.msg.username:#	username:
+
+! volume adjuster tool
+#Vol.frm.8957FA87#	Analyse Volume
+#Vol.btn.CDBB1E5A#	Select All
+#Vol.ctl.7C803C5B#	minimise to status bar when volume analysis starts
+#Vol.ctl.801489EF#	on album basis
+#Vol.ctl.8D1F1E51#	on track basis
+#Vol.ctl.F01C5C98#	or permanently adjust the volume of each file (MP3 and AAC/MPEG only):
+#Vol.ctl.FFBD45DD#	analyse leveling values and write replaygain tags
+#Vol.msg.AnVo#		Analyse Volume
+#Vol.msg.ReOrVo#	Restore Original Volume
+#Vol.msg.Fasba-dywt#	Files are still being analysed - do you want to abort the process?
+#Vol.msg.nolo#		not located
+#Vol.msg.noonco#	not on computer
+#Vol.msg.denosu#	device not supported
+#Vol.msg.refi#		read-only file
+#Vol.btn.SeNo#		Select None
+#Vol.btn.SeAl#		Select All
+#Vol.msg.Nofiup#	No files updated
+
+! podcasts directory
+#pDir.msg.Loading#	Loading...
+#pDir.msg.Utld-wopmb#	Unable to load directory - website or podcast may be unavailable
+#pDir.msg.Utrdftw#	Unable to retrieve data from this website
+#pDir.menu.Unsubscribe#	Unsubscribe
+#pDir.menu.Subscribe#	Subscribe
+#pDir.msg.Redi{#	Remove directory '{0}'?
+
+! welcome dialog
+#Welc.frm.34585157#	Scan for Files...
+#Welc.ctl.26BE98DF#	You can change either after the scan has completed from the View menu
+#Welc.ctl.F1A8AF4D#	Want to change the layout or colour scheme?
+#Welc.ctl.5843C805#	Please wait, scanning for files...
+#Welc.ctl.B48C691C#	ask again next time MusicBee is started
+#Welc.ctl.219C226E#	import tracks and artwork from iTunes
+#Welc.ctl.30588D8F#	scan for existing tracks and artwork located in the following folders:
+#Welc.ctl.8ACE9C45#	import tracks and artwork from Windows Media Library
+#Welc.btn.EE79F85D#	Choose Folders
+#Welc.ctl.5D675CD#	Welcome to MusicBee - would you like your music files to be added to the library?
+#Welc.btn.32CDB12D#	Scan Now
+#Welc.msg.Fasbs-dywt#	Files are still being scanned - do you want to abort the import process?
+#Welc.msg.LoiTLi#	Locate iTunes Library
+#Welc.msg.ChFo#		Choose Folders...
+#Welc.msg.Sfcmtattl#	Select folders containing music to add to the library
+#Welc.msg.imff#		importing music files from 
+#Welc.msg.lmfoyc#	locating music files on your computer
+#Welc.msg.anyoco#	 and your computer
+#Welc.msg.Nnfwf#	No new files were found.
+! added 1-May-2011
+#Main.picture.3#	Album Cover
+#Main.picture.4#	Album Cover (back)
+#Main.picture.5#	Leaflet Page
+#Main.picture.6#	Media Label
+#Main.picture.7#	Lead Artist
+#Main.picture.8#	Artist
+#Main.picture.9#	Conductor
+#Main.picture.10#	Band
+#Main.picture.11#	Composer
+#Main.picture.12#	Lyricist
+#Main.picture.13#	Recording Location
+#Main.picture.14#	During Recording
+#Main.picture.15#	During Performance
+#Main.picture.16#	Video Screen Capture
+#Main.picture.18#	Illustration
+#Main.picture.19#	Band Logotype
+#Main.picture.20#	Publisher Logotype
+
+#Main.msg.Files0#	No files
+#Main.msg.Files1#	1 file
+#Main.msg.Files9#	{0} files
+#Main.msg.SelFiles0#	No selected files
+#Main.msg.SelFiles1#	1 selected file
+#Main.msg.SelFiles9#	{0} selected files
+#Main.msg.DupFiles0#	No duplicate files
+#Main.msg.DupFiles1#	1 duplicate file
+#Main.msg.DupFiles9#	{0} duplicate files
+#Main.msg.NewFiles0#	No new files
+#Main.msg.NewFiles1#	1 new file
+#Main.msg.NewFiles9#	{0} new files
+#Main.msg.Items0#	No items
+#Main.msg.Items1#	1 item
+#Main.msg.Items9#	{0} items
+#Main.msg.Albums0#	No albums
+#Main.msg.Albums1#	1 album
+#Main.msg.Albums9#	{0} albums
+#Main.msg.Tracks0#	No tracks
+#Main.msg.Tracks1#	1 track
+#Main.msg.Tracks9#	{0} tracks
+#Main.msg.Plays0#	No plays
+#Main.msg.Plays1#	1 play
+#Main.msg.Plays9#	{0} plays
+#Main.msg.Subs0#	No subscriptions
+#Main.msg.Subs1#	1 subscription
+#Main.msg.Subs9#	{0} subscriptions
+
+! status message eg. 5 files removed
+#Main.msg.0mo#		{0} moved
+#Main.msg.0re#		{0} removed
+#Main.msg.0de#		{0} deleted
+#Main.msg.0co#		{0} copied
+#Main.msg.0ad#		{0} added
+! track browser eg. All (5 items)
+#Main.msg.Al({#		All  ({0})
+
+#Sys.msg.PTST#		Playback: Toggle Skip Track
+#Sys.msg.custom#	custom
+
+#aSplit.msg.MuCoSp#	Multiple Composer Splitter
+
+!replace the existing value:
+#aSplit.msg.diar#	display {0}:
+
+#Scan.msg.Frac-nnff#	File rescan/ add completed - no new files found
+#Scan.msg.Frac-a#	File rescan/ add completed - {0} added
+#Scan.msg.,mlfd#	, missing library files detected
+#Scan.msg.Fiscfa#	File scan failed
+#Scan.msg.Eodtfs-pst#	Errors occurred during the file scan - please see the log in the View/ Error Log menu
+
+! added 3-May-2011
+
+! # column in the 正在播放 list
+#Main.field.78#		#
+
+! status bar statistics
+#Main.msg.selected:#	selected:
+#Main.msg.MB#		MB
+#Main.msg.GB#		GB
+#Main.msg.mins#		mins
+#Main.msg.hours#	hours
+#Main.msg.days#		days
+
+#Main.menu.FGiL#	Find Genre in Library
+#Main.menu.FGiL.2#	Find Genre '{0}' in Library
+
+! System Preferences - Yes is displayed in the global column of the hotkeys tab
+#Sys.msg.Yes#		Yes
+! player preferences: re-sample rates
+#Sys.msg.48K#		48K
+#Sys.msg.96K#		96K
+#Sys.msg.192K#		192K
+
+! Volume Analysis
+#Vol.col.8CE727B4#	name
+#Vol.col.88583FD8#	status
+#Vol.msg.CaVo#		Calculating Volume
+#Vol.msg.An{#		Analysing '{0}'
+#Vol.msg.Done#		Done
+#Vol.msg.Fa-0#		Failed - {0}
+#Vol.msg.UnVo#		Undoing Volume
+#Vol.msg.Rva#		Removing volume adjustment '{0}'
+#Vol.msg.ReVo#		Removing Volume Adjustment...
+#Vol.msg.Voreco#	Volume reset completed
+#Vol.msg.Voanco#	Volume analysis completed
+
+! Format Converter
+#Cvt.msg.Co{#		Converting '{0}'
+#Cvt.msg.Reading...#	Reading...
+#Cvt.msg.Encoding...#	Encoding...
+#Cvt.msg.Fa-0#		Failed - {0}
+
+! File organiser
+#Org.msg.Organising#	Organising
+#Org.msg.Or{#		Organising '{0}'
+#Org.msg.Er-0#		Error - {0}
+
+! CD Ripper
+#Rip.msg.ripping#	ripping
+#Rip.msg.verifying#	verifying
+#Rip.msg.encoding#	encoding
+#Rip.msg.Wfetc#		Wait for encoding to complete
+#Rip.msg.aborted#	aborted
+#Rip.msg.Ri{#		Ripping '{0}'
+#Rip.msg.cancelled#	cancelled
+#Rip.msg.no#		no
+#Rip.msg.vefa#		verify failed
+#Rip.msg.atre#		attempting to recover errors...
+#Rip.msg.rdw8mr#	recovery done with 8 matching re-reads
+#Rip.msg.Ri0{#		Ripping   {0}   '{1}'
+#Rip.msg.rico#		rip completed
+#Rip.msg.veOK#		verify OK
+#Rip.msg.saving...#	saving...
+#Rip.msg.En{#		Encoding '{0}'
+#Rip.msg.ripped#	ripped
+#Rip.msg.acri#		accurately ripped
+#Rip.msg.paacri#	partially accurate rip
+#Rip.msg.inri#		inaccurately ripped
+#Rip.msg.enfa0#		encoding failed: {0}
+#Rip.msg.Anvo#		Analysing volume
+#Rip.msg.rbvaf-#	ripped but volume analysis failed - {0}
+
+! auto-tag by track
+#tTag.msg.Sewe{#	Searching web '{0}'
+#tTag.msg.Auab#		Auto-tag aborted
+
+! genre category editor
+#gCat.frm.A03A88D3#	Genre Categorisation Editor
+#gCat.ctl.F1A8AF4D#	Genres can be grouped into broad categories and are available for sorting, filtering and file naming using the 'Genre Category' tag
+#gCat.ctl.7BA70F73#	category
+#gCat.ctl.6E252FD8#	genre
+#gCat.msg.Oomvhbc-dy#	One or more values has been changed - do you want to save the changes?
+
+! restrict file types - opened from the file scanner "Restrict Types" button
+#RFT.msg.ReFiTy#	Restrict File Types
+#RFT.msg.infity#	include file types:
+#RFT.btn.SeNo#		Select None
+#RFT.btn.SeAl#		Select All
+#RFT.msg.Ynttaloft#	You need to tick at least one file type
+
+! auto-showdown dialog
+#AutoSD.msg.@#		@
+
+
+! added 5-May-2011
+! library filter manager
+#LFM.msg.LiFiMa#	Library Filter Manager
+#LFM.msg.EoomfAfcba#	Enter one or more filters. A filter can be applied by right-clicking on the Music Library navigation node in the main window and selecting a filter.
+#LFM.msg.fina#		filter name:
+#LFM.msg.firu#		filter rules:
+#LFM.btn.AdNe#		Add New
+#LFM.help.Defi#		Delete filter
+#LFM.msg.FiEd#		Filter Editor
+
+! file scanner
+#Scan.msg.Ro#		Rescanning {0} of {1}
+#Scan.msg.Scanning...#	Scanning...
+#Scan.msg.So#		Scanning... {0} of {1}
+#Scan.msg.Uo#		Updating... {0} of {1}
+#Scan.msg.CUtwctvft#	CONFIRMATION: Update the {0} with cached tag values from the MusicBee database?
+#Scan.msg.Uftpw#	Updating file tags, please wait...
+#Scan.msg.Yntstfywts#	You need to select the files you want to synchronise
+#Main.menu.Advanced#	Advanced
+#Main.menu.SyTa#	Synchronise Tags...
+#Main.msg.0up#		{0} updated
+
+! radio station editor
+#RSE.ctl.F878C7D2#	stream uses ascii encoding  (tick if playing tracks display with unreadable text)
+
+! dialog in Tags(2) preferences when configuring artwork, lyrics and tag providers
+#Main.msg.lyar#		enable and order the priority where lyrics are retrieved from:
+#Main.msg.aris#		enable and order the priority where artwork is retrieved from:
+#Main.msg.taar#		enable and order the priority where tags are retrieved from:
+
+! Hotkey preferences columns
+#Sys.col.35643A5A#	Action
+#Sys.col.1ECF26C4#	Hotkey
+#Sys.col.3769276F#	Global
+#Sys.col.A0AD3495#	Action
+#Sys.col.B4B61F7C#	Hotkey
+#Sys.col.12995980#	Global
+
+! Tags(2) preferences - artwork minimum size
+#Sys.ctl.2682CE6A#	px
+
+! encoding presets - dropdown in the CD Rip Settings and Device setting panels
+#Main.msg.SmFiSi#	Small File Size
+#Main.msg.PoDeLi#	Portable Device Listening
+#Main.msg.HiQu#		High Quality
+#Main.msg.Archiving#	Archiving
+
+! device summary panel
+#dSum.msg.Unknown#	Unknown
+#dSum.msg.N/A#		N/A
+#dSum.msg.Tdina#	The device is not accessible
+#dSum.msg.TdiracbubM#	The device is read-only and cannot be updated by MusicBee
+#dSum.msg.({ofca#	   ({0}% of capacity)
+
+! auto-shutdown
+#AutoSD.493A25AE#	mins
+
+! 7-May-2011
+#Tag.ctl.conductor:#	conductor:
+! replace the following:
+#Main.msg.RtCtzft#	Reset the '{0}' to zero for the {1}?
+
+! 8-May-2011
+#Main.msg.Plwalo#	Please wait, loading...
+! [Empty] that is shown in the track browser for null values
+#Main.msg.[Empty]#	[Empty]
+! artwork panel eg. Albums by Genre/ Year
+#Main.msg.Alby0#	Albums by {0}
+! equaliser
+#EQ.ctl.4891BA2F#	L
+#EQ.ctl.4891BA31#	R
+#EQ.ctl.C624597#	+15 dB
+#EQ.ctl.98AF1701#	0 dB
+#EQ.ctl.C622C4A#	-15 dB
+#EQ.ctl.C260ECF3#	name
+#EQ.ctl.53358752#	description
+#EQ.ctl.19DFAFD2#	file
+#EQ.ctl.5702CBBC#	1K
+#EQ.ctl.50046B5D#	2K
+#EQ.ctl.408A8E72#	4K
+#EQ.ctl.4BA4AE13#	8K
+#EQ.ctl.ADF5384B#	16Khz
+
+! file properties
+#Main.chan.1#		Mono
+#Main.chan.2#		Stereo
+#Main.chan.3#		3 Channels
+#Main.chan.4#		4 Channels
+#Main.chan.5#		5 Channels
+#Main.chan.6#		5.1
+#Main.chan.7#		7 Channels
+#Main.chan.8#		8 Channels
+#Main.chan.9#		Joint Stereo
+#Main.chan.10#		Dual
+#Main.msg.dB#		dB
+#Main.msg.kHz#		kHz
+#Main.msg.PoRaSt#	Play-Once Radio Stream
+#Main.msg.Stream#	Stream
+! for radio streams - duration: Continuous
+#Main.msg.Continuous#	Continuous
+
+! combined with the file type eg. MP3 audio file
+#Main.msg.AudioFile#	audio file
+
+! plugin preferences
+#Sys.msg.disabled#	disabled
