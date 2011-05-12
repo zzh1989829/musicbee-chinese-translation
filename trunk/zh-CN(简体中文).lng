@@ -277,7 +277,7 @@
 #Main.tree.Playlists#	播放列表
 #Main.tree.NoPl#	正在播放
 #Main.tree.AuDJ#	Auto DJ
-#Main.tree.Internet#	因特网
+#Main.tree.Internet#	Internet
 #Main.msg.WeFi#		Webw文件
 #Main.tree.Services#	服务
 #Main.tree.UpRe#	将临的专辑
@@ -703,179 +703,179 @@
 #Radio.msg.RcNStcolrt#	右键单击/ 新电台 来创建其他Last.fm广播类型.
 #Radio.msg.J-sagtcatb#	Jamendo - 选择一个流派来创建基于标签的电台.
 #Radio.msg.BhwtMbtvtb#	用MusicBee内置的浏览器打开 http://www.jamendo.com with the 来查看艺术家和专辑的相关曲目.
-#Radio.msg.-sagtstas#	{0} - select a genre to see the available stations
-#Radio.msg.[ACo#	[All Countries]
-#Radio.msg.Utltspf#	Unable to load the selected presets file
-#Radio.msg.Sprae-#	Service provider returned an error - {0}
-#Radio.msg.Nomafo#	No matches found
-#Radio.msg.Dcoastpia#	Double click on a station to play it and 'Add to Library' to bookmark it.
-#Radio.msg.sagtstas#	select a genre to see the available stations
+#Radio.msg.-sagtstas#	{0} - 选择一个流派来查看可用的站台
+#Radio.msg.[ACo#	[所有国家]
+#Radio.msg.Utltspf#	无法载入选定的预置文件
+#Radio.msg.Sprae-#	服务提供商返回错误 - {0}
+#Radio.msg.Nomafo#	无匹配项
+#Radio.msg.Dcoastpia#	点击一个电台连接来收听,点击'添加到库'标记为书签.
+#Radio.msg.sagtstas#	选择一个流派来查看可用的站台
 
 ! auto-dj panel
-#DJ.ctl.B3DCB49A#	Auto-DJ Settings
-#DJ.btn.5FD00D9D#	Start DJ
-#DJ.ctl.6E3203DA#	initial list size:
-#DJ.ctl.717606B8#	maintain:
-#DJ.ctl.1EEA1BA7#	upcoming tracks
-#DJ.ctl.99D2717F#	source music tracks from:
-#DJ.ctl.423C7E7C#	library
+#DJ.ctl.B3DCB49A#	智能-DJ 设置
+#DJ.btn.5FD00D9D#	开始 DJ
+#DJ.ctl.6E3203DA#	开始列表大小:
+#DJ.ctl.717606B8#	维护:
+#DJ.ctl.1EEA1BA7#	将来的曲目
+#DJ.ctl.99D2717F#	音乐来源:
+#DJ.ctl.423C7E7C#	库
 #DJ.ctl.B55FE3E5#	播放列表
-#DJ.ctl.78DD8995#	folders
-#DJ.ctl.6605C404#	apply filter:
-#DJ.btn.7FB32EF2#	Custom Filter...
-#DJ.ctl.8CAE1334#	restrict genre to same as seed track
-#DJ.ctl.DDEDC91#	track selection
-#DJ.ctl.7E185C50#	selection mode:
-#DJ.ctl.F7BDD5EA#	minimum gap before the same artist is repeated: 
-#DJ.ctl.941D329F#	random
-#DJ.ctl.E10F6B40#	different/
-#DJ.ctl.916DD6B4#	/same artist prefered each track
-#DJ.ctl.F1B769CD#	higher rated tracks prefered
-#DJ.ctl.7C8B6185#	tracks from artists rated by last.fm as more than  
-#DJ.ctl.85FDBD34#	% similar
-#DJ.ctl.B63ECB97#	restrict selection to artists similar to the seed track only
-#DJ.ctl.79DFA6C7#	choose artists similar to the preceeding track in the 播放列表 (allows more drift)
-#DJ.ctl.1B058FAA#	also stream tracks from last.fm or jamendo to discover new artists not in your library
-#DJ.ctl.27B5E4D#	rarely/
-#DJ.ctl.11F847B0#	/ frequently
-#DJ.ctl.8DAA1A34#	stream tracks from:
-#DJ.ctl.66DEC15F#	stream tracks recommended by Last.fm
-#DJ.ctl.91B3158B#	stream tracks from artists similar to the current track in the 播放列表
-#DJ.msg.Ntmtsc#		No tracks matched the selection criteria
-#DJ.msg.AuSoFo#		Auto-DJ Source Folders
-#DJ.msg.Stftcmtywi#	Select the folders that contain music tracks you want included
-#DJ.help.Filter:#	Filter:
-#DJ.msg.AuCuFi#		AutoDJ Custom Filter
-#DJ.msg.Lryhapstlt#	Last.fm requires you have a paid subscription to listen to music streams via third party applications such as MusicBee
-#DJ.msg.genre:#		genre:
-#DJ.msg.rast#		radio station:
+#DJ.ctl.78DD8995#	文件夹
+#DJ.ctl.6605C404#	应用过滤器:
+#DJ.btn.7FB32EF2#	自定义过滤器...
+#DJ.ctl.8CAE1334#	限制流派相同
+#DJ.ctl.DDEDC91#	曲目选择
+#DJ.ctl.7E185C50#	选择模式:
+#DJ.ctl.F7BDD5EA#	相同艺术家再次出现的最小间隔: 
+#DJ.ctl.941D329F#	随机
+#DJ.ctl.E10F6B40#	各不相同/
+#DJ.ctl.916DD6B4#	/偏向于选择同一个艺术家
+#DJ.ctl.F1B769CD#	偏向高评分
+#DJ.ctl.7C8B6185#	在Last.fm上评分的艺术家大于  
+#DJ.ctl.85FDBD34#	% 相似性的曲目
+#DJ.ctl.B63ECB97#	选择:仅与种子曲目相似
+#DJ.ctl.79DFA6C7#	选择:可以在播放列表选择与之前艺术家相似的 (允许更多的偏移)
+#DJ.ctl.1B058FAA#	也从Last.fm和jamendo上获取流以便发现在库中不存在新的艺术家
+#DJ.ctl.27B5E4D#	较少/
+#DJ.ctl.11F847B0#	/ 经常
+#DJ.ctl.8DAA1A34#	流来源:
+#DJ.ctl.66DEC15F#	获取Last.fm推荐流
+#DJ.ctl.91B3158B#	在播放列表中获取与当前曲目艺术家相似的艺术家的曲目
+#DJ.msg.Ntmtsc#		未找到与选择条件匹配的曲目
+#DJ.msg.AuSoFo#		智能-DJ 源目录
+#DJ.msg.Stftcmtywi#	选择包含音乐的文件夹
+#DJ.help.Filter:#	过滤器:
+#DJ.msg.AuCuFi#		智能-DJ 自定义过滤器r
+#DJ.msg.Lryhapstlt#	Last.fm 需要一个付费订阅账户才能使用例如MusicBee的第三方程序欣赏音乐
+#DJ.msg.genre:#		流派:
+#DJ.msg.rast#		电台:
 
 ! equaliser window
-#EQ.frm.80A8E668#	Equaliser and DSP Settings
-#EQ.ctl.14379A25#	enable equaliser:
-#EQ.msg.Manual#		Manual
-#EQ.msg.AubyGe#		Auto-Select by Genre
-#EQ.btn.80DF2486#	Reset
-#EQ.btn.43E1E652#	Save Preset
+#EQ.frm.80A8E668#	均衡器和 DSP 设置
+#EQ.ctl.14379A25#	使用均衡器 :
+#EQ.msg.Manual#		手动
+#EQ.msg.AubyGe#		根据流派自动选择
+#EQ.btn.80DF2486#	重置
+#EQ.btn.43E1E652#	保存预置
 #EQ.msg.pre-amp#	pre-amp
-#EQ.ctl.5254C4E5#	balance
-#EQ.ctl.80DD32E7#	  DSP Plugins
-#EQ.ctl.362956C#	double click to configure a DSP
-#EQ.btn.99BF6D42#	Import Winamp
-#EQ.msg.YnaptiWpPr#	You need administrator permissions to import WinAmp plugins. Please restart MusicBee by right clicking on MusicBee.exe/ Run As Administrator and try this again.
-#EQ.msg.LWDP#		Locate Winamp DSP Plugin...
-#EQ.msg.Utlw#		Unable to locate winamp.exe
-#EQ.msg.UtitWp#		Unable to import the Winamp plugin:{0}
+#EQ.ctl.5254C4E5#	平衡
+#EQ.ctl.80DD32E7#	  DSP 插件
+#EQ.ctl.362956C#	双击来配置 DSP
+#EQ.btn.99BF6D42#	从Winamp导入
+#EQ.msg.YnaptiWpPr#	你需要管理员权限来导入WinAmp插件.请右键单击MusicBee应用程序,选择"以管理员身份运行",来重启程序并重试.
+#EQ.msg.LWDP#		定位Winamp DSP 插件...
+#EQ.msg.Utlw#		无法定位到 winamp.exe
+#EQ.msg.UtitWp#		无法导入 Winamp 插件:{0}
 
 ! Quick Layout dialog
-#Main.msg.QuLa#		Quick Layout
-#Main.msg.Sootfpc#	Select one of the following predefined configurations:
-#Main.msg.ReInLa#	Restore Initial Layout
-#Main.msg.Customise...#	Customise...
-#Main.msg.-NPLiRS#	-  Now Playing List in Right Sidebar  
-#Main.msg.1TDAaLiRS(#	1. Track Details, Artwork and Lyrics in Right Sidebar (MusicBee Default)
-#Main.msg.2TDaAiRSLF#	2. Track Details and Artwork in Right Sidebar, Lyrics Floating
-#Main.msg.-NPLiLS#	-  Now Playing List in Left Sidebar  
-#Main.msg.1TDAaLiRS#	1. Track Details, Artwork and Lyrics in Right Sidebar
-#Main.msg.2AiLSLoiRS#	2. Artwork in Left Sidebar, Lyrics only in Right Sidebar
-#Main.msg.-NNPL#	-  No Now Playing List  
-#Main.msg.1AiLSLOiRS#	1. Artwork in Left Sidebar, Lyrics Only in Right Sidebar
-#Main.msg.2AiLSnTDoL#	2. Artwork in Left Sidebar, no Track Details or Lyrics (iTunes style)
-#Main.msg.3TDAaLiLS#	3. Track Details, Artwork and Lyrics in Left Sidebar
-#Main.msg.4TDAaLiRS#	4. Track Details, Artwork and Lyrics in Right Sidebar
-#Main.msg.-NPLiMP#	-  Now Playing List in Main Panel  
-#Main.msg.2AiLSLOiRS#	2. Artwork in Left Sidebar, Lyrics Only in Right Sidebar
+#Main.msg.QuLa#		快速布局
+#Main.msg.Sootfpc#	选择以下预定义的设置:
+#Main.msg.ReInLa#	恢复初始布局
+#Main.msg.Customise...#	自定义...
+#Main.msg.-NPLiRS#	-  正在播放列表布局在右边栏  
+#Main.msg.1TDAaLiRS(#	1. 曲目详情, 封面和歌词布局在右边栏 (MusicBee 默认)
+#Main.msg.2TDaAiRSLF#	2. 曲目详情, 封面布局在右边栏, 歌词面板浮动
+#Main.msg.-NPLiLS#	-  正在播放列表布局在左边栏  
+#Main.msg.1TDAaLiRS#	1. 曲目详情, 封面和歌词布局在右边栏
+#Main.msg.2AiLSLoiRS#	2. 封面布局在左边栏, 右边栏只有歌词
+#Main.msg.-NNPL#	-  不显示正在播放列表  
+#Main.msg.1AiLSLOiRS#	1. 封面布局在左边栏, 右边栏只有歌词
+#Main.msg.2AiLSnTDoL#	2. 封面布局在左边栏, 不显示曲目详情和歌词 (iTunes 风格)
+#Main.msg.3TDAaLiLS#	3. 曲目详情, 封面和歌词布局在左边栏
+#Main.msg.4TDAaLiRS#	4. 曲目详情, 封面和歌词布局在右边栏
+#Main.msg.-NPLiMP#	-  正在播放列表显示在主面板
+#Main.msg.2AiLSLOiRS#	2. 封面布局在左边栏, 右边栏只有歌词
 
 ! Auto-Playlist editor
-#AP.frm.742E477B#	Auto-Playlist Editor
-#AP.msg.Au-0#		Auto-Playlist - {0}
-#AP.ctl.D1FE7348#	music track source:
-#AP.ctl.569C3DFD#	library
+#AP.frm.742E477B#	自动播放列表编辑器
+#AP.msg.Au-0#		自动播放列表 - {0}
+#AP.ctl.D1FE7348#	曲目来源:
+#AP.ctl.569C3DFD#	库
 #AP.ctl.95B61A84#	播放列表
-#AP.ctl.5A73D534#	folders
-#AP.ctl.50DBE52E#	display using view:
-#AP.msg.Default#	Default
-#AP.ctl.119CDBB0#	match
-#AP.msg.all#		all
-#AP.msg.any#		any
-#AP.msg.AnFi#		Any Field
-#AP.msg.is#		is
-#AP.msg.isno#		is not
-#AP.msg.isanof#		is any of
-#AP.msg.inao#		is not any of
-#AP.msg.haava#		has a value
-#AP.msg.hanova#		has no value
-#AP.msg.stwi#		starts with
-#AP.msg.enwi#		ends with
-#AP.msg.contains#	contains
-#AP.msg.donoco#		does not contain
-#AP.msg.maRe#		match RegEx
-#AP.msg.maRe.2#		match RegEx/i
-#AP.msg.isgrth#		is greater than
-#AP.msg.isleth#		is less than
-#AP.msg.inra#		in range
-#AP.msg.noinra#		not in range
-#AP.msg.isaf#		is after
-#AP.msg.isbe#		is before
-#AP.msg.iitl#		is in the last
-#AP.msg.initl#		is not in the last
-#AP.msg.days#		days
-#AP.msg.weeks#		weeks
-#AP.msg.months#		months
-#AP.msg.to#		to
-#AP.msg.and:#		and:
-#AP.ctl.322F8382#	of the following rules:
-#AP.ctl.CB92C4A4#	restrictions:
-#AP.ctl.CEAD930#	limit to
-#AP.msg.random#		random
-#AP.msg.hira#		highest rating
-#AP.msg.lora#		lowest rating
-#AP.msg.morepl#		most recently played
-#AP.msg.lerepl#		least recently played
-#AP.msg.moofpl#		most often played
-#AP.msg.leofpl#		least often played
-#AP.msg.moread#		most recently added
-#AP.msg.leread#		least recently added
-#AP.ctl.C01A26C4#	selected by:
-#AP.msg.minutes#	minutes
-#AP.msg.hours#		hours
+#AP.ctl.5A73D534#	文件夹
+#AP.ctl.50DBE52E#	使用视图:
+#AP.msg.Default#	默认
+#AP.ctl.119CDBB0#	匹配
+#AP.msg.all#		所有
+#AP.msg.any#		任意
+#AP.msg.AnFi#		任意字段
+#AP.msg.is#		等于
+#AP.msg.isno#		不等与
+#AP.msg.isanof#		是..其中之一
+#AP.msg.inao#		不是..中的任意一个
+#AP.msg.haava#		有值
+#AP.msg.hanova#		没有值
+#AP.msg.stwi#		开始于
+#AP.msg.enwi#		结束于
+#AP.msg.contains#	包含
+#AP.msg.donoco#		不包含
+#AP.msg.maRe#		匹配正则表达式
+#AP.msg.maRe.2#		匹配正则表达式/i
+#AP.msg.isgrth#		大于
+#AP.msg.isleth#		小于
+#AP.msg.inra#		在范围内
+#AP.msg.noinra#		不在范围内
+#AP.msg.isaf#		在...之前
+#AP.msg.isbe#		在..之后
+#AP.msg.iitl#		在..的最后
+#AP.msg.initl#		不在..的最后
+#AP.msg.days#		天
+#AP.msg.weeks#		星期
+#AP.msg.months#		月
+#AP.msg.to#		到
+#AP.msg.and:#		并且:
+#AP.ctl.322F8382#	符合如下规则:
+#AP.ctl.CB92C4A4#	限制:
+#AP.ctl.CEAD930#	限制在
+#AP.msg.random#		随机
+#AP.msg.hira#		最高评分
+#AP.msg.lora#		最低评分
+#AP.msg.morepl#		最近常播放的
+#AP.msg.lerepl#		最近不常播放的
+#AP.msg.moofpl#		最经常播放的
+#AP.msg.leofpl#		很少播放的
+#AP.msg.moread#		最近添加的
+#AP.msg.leread#		很久之前添加的
+#AP.ctl.C01A26C4#	选择根据:
+#AP.msg.minutes#	分钟
+#AP.msg.hours#		小时
 #AP.msg.MB#		MB
 #AP.msg.GB#		GB
-#AP.msg.items#		items
-#AP.msg.albums#		albums
-#AP.ctl.C3E49CF9#	automatically export a static copy
-#AP.msg.Oomvhba-dy#	One or more values have been amended - do you want to save the changes?
-#AP.msg.LiofVa#		List of Values
-#AP.msg.ealovtbf#	enter a list of values to be filtered:
-#AP.msg.AnCo#		And Conditions...
-#AP.msg.ChFo#		Choose Folders...
-#AP.msg.Sfcmfftp#	Select folders containing music files for the 播放列表
-#AP.msg.Navre#		Not a valid regular expression:{0}
+#AP.msg.items#		项目
+#AP.msg.albums#		专辑
+#AP.ctl.C3E49CF9#	自动导出到静态拷贝
+#AP.msg.Oomvhba-dy#	一个或多个值被改变 - 要保存吗?
+#AP.msg.LiofVa#		值列表
+#AP.msg.ealovtbf#	输入一个值的列表来进行过滤:
+#AP.msg.AnCo#		增加条件...
+#AP.msg.ChFo#		选择文件夹...
+#AP.msg.Sfcmfftp#	为播放列表选择包含音乐的文件夹
+#AP.msg.Navre#		不是一个有效的正则表达式:{0}
 
 ! radio playlist editor
-#RPL.frm.7542BFD3#	Radio Playlist Editor
-#RPL.ctl.F1A8AF4D#	Radio 播放列表s allow you to compose a 播放列表 constructed from a list of auto-播放列表 criteria, where a specified number of random tracks are selected from each auto-播放列表 and on completion the cycle is repeated
-#RPL.ctl.F7BDD5EA#	minimum gap before the same artist is repeated: 
-#RPL.ctl.293DF9CF#	track count
-#RPL.ctl.684D1AE5#	track selection criteria
-#RPL.ctl.748242BA#	to reorder, press Alt Up/Down in one of the track count boxes
-#RPL.btn.2FBF9C01#	Add Criteria
-#RPL.msg.RaPlCr#	Radio Playlist Criteria
+#RPL.frm.7542BFD3#	电台播放列表编辑器
+#RPL.ctl.F1A8AF4D#	Radio playlists allow you to compose a playlist constructed from a list of auto-playlist criteria, where a specified number of random tracks are selected from each auto-playlist and on completion the cycle is repeated
+#RPL.ctl.F7BDD5EA#	相同艺术家重复出现的最小间隔: 
+#RPL.ctl.293DF9CF#	曲目数
+#RPL.ctl.684D1AE5#	曲目选择查询条件
+#RPL.ctl.748242BA#	在曲目计数框按下 Alt Up/Down 来录音
+#RPL.btn.2FBF9C01#	增加查询条件
+#RPL.msg.RaPlCr#	电台列表查询条件
 
 ! Error Messages and dialog prompts
-#Main.msg.Nehbl#	No errors have been logged
-#Main.msg.AioMisrant#	Another instance of MusicBee is still running and needs to be terminated from the Windows Task Manager.
-#Main.msg.Aueho#	An unhandled exception has occured
-#Main.msg.Srfcbl-iya#	Some required files cannot be located - if you are updating MusicBee, copy MusicBee.exe (and any other unzipped files) to where MusicBee is installed.
-#Main.msg.Cfim#		Configuration file '{0}' is missing
-#Main.msg.Yhucc-dywt#	You have unsaved configuration changes - do you want to leave them unsaved and close MusicBee anyway?
-#Main.msg.Btasr-dywt#	Background tasks are still running - do you want to terminate them and close MusicBee anyway?
-#Main.msg.TMfcicacbl#	The MusicBee file cache is corrupted and cannot be loaded. The last backup has been recovered, but some of the changes you made last time might be lost.
-#Main.msg.Mwtbtfccbs#	MusicBee was terminated before the file cache could be saved. The last backup has been recovered, but some of the changes you made last time might be lost.
-#Main.msg.Utitmp#	Unable to initialise the music player:
-#Main.msg.MwatlyPahr#	MusicBee wasn't able to load your Preferences and has recovered the last backup - any Preferences changed the last time you used MusicBee will be lost.
-#Main.msg.AantMs#	Ask again next time MusicBee starts
-#Main.msg.VoMia-dyw#	Version {0}.{1}.{2} of MusicBee is available - do you want to upgrade?{3}
+#Main.msg.Nehbl#	未记录任何错误
+#Main.msg.AioMisrant#	MusicBee 的另外一个实例仍在运行,请在任务管理器中结束之.
+#Main.msg.Aueho#	发生了未处理的异常
+#Main.msg.Srfcbl-iya#	无法定位到请求的文件 - 如果你在更新 MusicBee, 拷贝 MusicBee.exe (以及压缩包中的其他文件) 到 MusicBee 安装目录.
+#Main.msg.Cfim#		配置文件 '{0}' 丢失
+#Main.msg.Yhucc-dywt#	未保存的配置 - 要忽略他们直接关掉 MusicBee 吗?
+#Main.msg.Btasr-dywt#	后台任务仍在运行 - 要忽略他们直接关掉 MusicBee 吗?
+#Main.msg.TMfcicacbl#	MusicBee 缓存文件崩溃. 已经恢复最后一次备份, 但你你最后一次更改可能已经丢失.
+#Main.msg.Mwtbtfccbs#	MusicBee 在保存缓存文件之前被结束,已经恢复最后一次备份, 但你你最后一次更改可能已经丢失.
+#Main.msg.Utitmp#	无法启动音乐播放器:
+#Main.msg.MwatlyPahr#	MusicBee 无法载入首选项,但是已经恢复最后一次备份 - 最后一次首选项更改已经丢失.
+#Main.msg.AantMs#	下次启动前询问我
+#Main.msg.VoMia-dyw#	MusicBee的 {0}.{1}.{2} 版本已经可下载 - 要升级吗{3}
 #Main.msg.YntctNPPdt#	You need to change the Now Playing Panel dock to the right sidebar first
 #Main.msg.Tansstl#	There are no saved settings to load
 #Main.msg.LMlsf#	Load MusicBee layout settings from...
