@@ -2931,7 +2931,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Main.msg.Archiving#	Archiving
 
 ! device summary panel
-#dSum.msg.Unknown#	Unknown
+#dSum.msg.Unknown#	未知
 #dSum.msg.N/A#		N/A
 #dSum.msg.Tdina#	The device is not accessible
 #dSum.msg.TdiracbubM#	The device is read-only and cannot be updated by MusicBee
