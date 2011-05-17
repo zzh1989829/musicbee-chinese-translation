@@ -1460,7 +1460,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Sys.ctl.8BA46CAC#	clear 正在播放 list and current playing track on restart
 #Sys.ctl.FDB4A18A#	  正在播放 notification  
 #Sys.ctl.F40D5A6A#	显示 popup for:
-#Sys.ctl.DCEF14B7#	seconds
+#Sys.ctl.DCEF14B7#	秒
 #Sys.ctl.69CB0404#	only when inactive
 #Sys.btn.46F59C3#	Customise
 #Sys.ctl.7C4BB616#	opaque
