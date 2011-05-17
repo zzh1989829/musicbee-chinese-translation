@@ -119,7 +119,7 @@
 #Main.menu.MaPa#	主面板
 #Main.menu.ShTrBr#	显示曲目浏览器
 #Main.menu.ShHiDu#	显示隐藏重复项
-#Main.menu.SAJB#	显示A-Z跳越栏
+#Main.menu.SAJB#	显示A-Z快速导航栏
 #Main.menu.NoPlAs#	正在播放助手
 #Main.menu.Artwork#	封面
 #Main.menu.AlanTr#	专辑和曲目
@@ -876,61 +876,61 @@
 #Main.msg.MwatlyPahr#	MusicBee 无法载入首选项,但是已经恢复最后一次备份 - 最后一次首选项更改已经丢失.
 #Main.msg.AantMs#	下次启动前询问我
 #Main.msg.VoMia-dyw#	MusicBee的 {0}.{1}.{2} 版本已经可下载 - 要升级吗{3}
-#Main.msg.YntctNPPdt#	You need to change the Now Playing Panel dock to the right sidebar first
-#Main.msg.Tansstl#	There are no saved settings to load
-#Main.msg.LMlsf#	Load MusicBee layout settings from...
-#Main.msg.Utss#		Unable to save settings
-#Main.msg.ScMlst#	Save current MusicBee layout settings to...
-#Main.msg.Utls#		Unable to load skin: {0}
-#Main.msg.Nvphbi#	No visualisation plugins have been installed.
-#Main.msg.Yhdwo-pctf#	You have dialog windows open - please close them first.
-#Main.msg.TcinaftNPL#	This command is not available from the Now Playing List
-#Main.msg.Neshbc-sPS#	No external service has been configured - see Preferences/ Services to set up one.
-#Main.msg.Uti#		Unable to invoke '{0}'
-#Main.msg.UtsMdttfe#	Unable to start MusicBee due to the following error:
-#Main.msg.Yanataf#	You are not authorised to access folder: {0}
-#Main.msg.Uta#		Unable to access: {0}
-#Main.msg.Tlcbcwbtas#	The library cannot be changed while background tasks are still running.
-#Main.msg.Utscmttcl#	Unable to save changes made to the current library:
-#Main.msg.Anlcbcwbta#	A new library cannot be created while background tasks are still running.
-#Main.msg.Tsfineacbd#	The selected folder is not empty and cannot be deleted
-#Main.msg.Tfineacbd#	The folder is not empty and cannot be deleted
-#Main.msg.Fim#		File '{0}' is missing.
-#Main.msg.Finaatpit#	File '{0}' is not accessible at this point in time
-#Main.msg.Utps#		Unable to play station '{0}'
-#Main.msg.Fmbc#		File '{0}' may be corrupted
-#Main.msg.TiaLrstcbp#	Track is a Last.fm radio stream that can be played only once and in sequence
-#Main.msg.TiaLrsthbp#	Track is a Last.fm radio stream that has been played or is now expired
-#Main.msg.fansfp#	{0} files are not supported for playback
-#Main.msg.UnAr#		Unknown Artist
-#Main.msg.UnTi#		Unknown Title
-#Main.msg.UnAl#		Unknown Album
-#Main.msg.TsioomLrs-#	The selection includes one or more Last.fm radio streams - these streams only temporarily exist and cannot be moved from the Now Playing window
-#Main.msg.YcrAftAaTv#	You cannot remove Artwork from the Album and Tracks view.
-#Main.msg.Tsfiaitl#	The selected file is already in the library
-#Main.msg.Oomotsfaai#	One or more of the selected files are already in the library
-#Main.msg.Tsfiaiti#	The selected file is already in the inbox
-#Main.msg.Oomotsfaai.2#	One or more of the selected files are already in the inbox
-#Main.msg.Tsthabd-dy#	The selected tracks have already been downloaded - do you want to download again?
-#Main.msg.Oomotsthab#	One or more of the selected tracks have already been downloaded - do you want to download again?
-#Main.msg.Pinlr-dyw#	Picture '{0}' is no longer referenced - do you want it deleted?
-#Main.msg.Dtptanlr#	Delete the pictures that are no longer referenced?
-#Main.msg.Utrf(#	Unable to retrieve files ({0})
-#Main.msg.Tsfiarstcb#	The selected file is a radio stream that cannot be replayed
-#Main.msg.UtrapfLf#	Unabled to retrieve a 播放列表 from Last.fm for '{0}'
-#Main.msg.Caftct-dyw#	Confirm action for the clicked track - do you want to:
-#Main.msg.Nitctp#	Nothing in the clipboard to paste
-#Main.msg.Pinaitp#	Paste is not allowed in this panel
-#Main.msg.Ynthoomfwc#	You need to highlight one or more files when copy/pasting tags
-#Main.msg.Tnocfdnmtn#	The number of copied files does not match the number highlighted for paste
-#Main.msg.COttotsfut#	CONFIRMATION: Overwrite the tags of the selected file using tags from the copied file?
-#Main.msg.COttotsut#	CONFIRMATION: Overwrite the tags of the selected {0} using tags from the copied {1}?
-#Main.msg.Dinr-piat#	Device {0} is not ready - please insert and try again
-#Main.msg.Oomvhba-dy#	One or more values have been amended - do you want to save the changes?
-#Main.msg.Caftst-dyw#	Confirm action for the selected track - do you want to:
-#Main.msg.Osmtcbr-rs#	Only single music tracks can be rated - radio streams are not supported.
-#Main.msg.Opmtcblntr#	Only playing music tracks can be loved, not the radio station itself - click the love icon on the player control panel
-#Main.msg.Uolf#		Update on last.fm failed: {0}
+#Main.msg.YntctNPPdt#	你需要把正在播放列表停靠在右边栏
+#Main.msg.Tansstl#	无法载入已保存配置
+#Main.msg.LMlsf#	载入 MusicBee 布局设置...
+#Main.msg.Utss#		无法保存设置
+#Main.msg.ScMlst#	将现在的布局保存到...
+#Main.msg.Utls#		无法载入皮肤: {0}
+#Main.msg.Nvphbi#	没有安装可视化插件
+#Main.msg.Yhdwo-pctf#	请先关闭已经打开的对话框.
+#Main.msg.TcinaftNPL#	无法在正在播放列表使用这个命令
+#Main.msg.Neshbc-sPS#	没有配置外部服务 - 请在 首选项/服务 处设置.
+#Main.msg.Uti#		无法调用 '{0}'
+#Main.msg.UtsMdttfe#	以下错误导致MusicBee无法启动:
+#Main.msg.Yanataf#	你无权访问这个文件夹: {0}
+#Main.msg.Uta#		无法访问: {0}
+#Main.msg.Tlcbcwbtas#	无法在后台程序运行时改变库.
+#Main.msg.Utscmttcl#	无法保存对库的更改:
+#Main.msg.Anlcbcwbta#	无法在后台程序运行时创建库.
+#Main.msg.Tsfineacbd#	被选中的文件夹非空,无法删除
+#Main.msg.Tfineacbd#	文件夹非空,无法删除
+#Main.msg.Fim#		文件丢失: '{0}' .
+#Main.msg.Finaatpit#	无法访问文件: '{0}' 
+#Main.msg.Utps#		无法播放电台: '{0}'
+#Main.msg.Fmbc#		文件可能损坏: '{0}' 
+#Main.msg.TiaLrstcbp#	该曲目是一个 Last.fm 电台音频流,只能在当时按顺序播放
+#Main.msg.TiaLrsthbp#	该曲目是一个 Last.fm 电台音频流,可能已过期
+#Main.msg.fansfp#	{0} 文件不被支持
+#Main.msg.UnAr#		未知艺术家
+#Main.msg.UnTi#		未知标题
+#Main.msg.UnAl#		未知专辑
+#Main.msg.TsioomLrs-#	选定了一个或多个Last.fm电台流 - 这些流只是短暂存在,不能被移动到正在播放列表中
+#Main.msg.YcrAftAaTv#	你不能在'专辑和曲目'视图中删除封面.
+#Main.msg.Tsfiaitl#	库中已经包含选定的文件
+#Main.msg.Oomotsfaai#	库中已经包含选定的一个或多个文件
+#Main.msg.Tsfiaiti#	 Inbox中已经包含选定的文件
+#Main.msg.Oomotsfaai.2#	Inbox中已经包含选定的一个或多个文件
+#Main.msg.Tsthabd-dy#	选定的曲目已经下载 - 要重新下载吗?
+#Main.msg.Oomotsthab#	选定的一个或多个曲目已经下载 - 要重新下载吗?
+#Main.msg.Pinlr-dyw#	无法引用图像 '{0}' - 要删除吗?
+#Main.msg.Dtptanlr#	要删除不再被引用的图像吗?
+#Main.msg.Utrf(#	无法获取文件 ({0})
+#Main.msg.Tsfiarstcb#	选定的文件是一个电台流,无法被重新播放
+#Main.msg.UtrapfLf#	无法从Last.fm上取得播放列表: '{0}'
+#Main.msg.Caftct-dyw#	操作确认 - 真的要:
+#Main.msg.Nitctp#	无法从剪贴板赋值
+#Main.msg.Pinaitp#	无法在这个面板上进行粘贴
+#Main.msg.Ynthoomfwc#	你需要高亮一个或多个标签来进行复制/粘贴
+#Main.msg.Tnocfdnmtn#	选定文件的数目与要黏贴的数目不符
+#Main.msg.COttotsfut#	确认: 从拷贝的文件中读取标签覆盖到选定文件?
+#Main.msg.COttotsut#	确认: 从拷贝的文件{1}中读取标签覆盖到选定文件{0}?
+#Main.msg.Dinr-piat#	设备 {0} 未准备好 - 请重新插入再试
+#Main.msg.Oomvhba-dy#	一个或多个值已经被修改 - 要保存吗?
+#Main.msg.Caftst-dyw#	操作确认 - 你确定要:
+#Main.msg.Osmtcbr-rs#	只有单个文件可以被评分 - 电台流不被支持.
+#Main.msg.Opmtcblntr#	只有正在播放的曲目才能被设置为喜爱, 电台是不能设为喜爱的 - 请点击主播放控制器的喜爱按钮
+#Main.msg.Uolf#		更新到 Last.fm 失败: {0}
 #Main.msg.Mdnslavtfa#	MusicBee does not support loving a virtual track from a single file album with embedded cuesheet
 #Main.msg.Utmf-peyhn#	Unable to move folder - please ensure you have no files open, tracks playing, or Windows File Manager open in '{0}' or it's sub-folders.
 #Main.msg.Pet#		Playlist exported to {0}
@@ -1002,7 +1002,7 @@
 #Main.msg.MuEr#		MusicBee Error
 #Main.msg.Aueo-prt#	An unexpected error occured - please report to 
 #Main.btn.CoEr#		Copy Error
-#Main.msg.Utctetttc#	Unable to copy the error text to the clipboard
+#Main.msg.Utctetttc#	Unable to copy the error text to the 剪贴板
 #Main.msg.Rscnbo#	Radio station '{0}' could not be opened
 #Main.msg.Tsfftcnbf.3#	The source file for track '{0}' could not be found
 #Main.msg.Ticto#	The internet connection timed out
@@ -1039,447 +1039,447 @@
 #Main.msg.NswITine#	Not supported when 'Show In Taskbar' is not enabled
 
 ! system preferences panel
-#Sys.frm.164AB831#	Preferences
-#Sys.msg.Oomvhba-dy#	One or more values have been amended - do you want to save the changes?
+#Sys.frm.164AB831#	首选项
+#Sys.msg.Oomvhba-dy#	一项或多项设置已经更改 - 要保存吗?
 ! General preferences tab
-#Sys.tab.E6571567#	General
-#Sys.ctl.7E4D71CC#	  application  
-#Sys.ctl.2A354467#	language:
-#Sys.ctl.3928F59#	restart is required
-#Sys.btn.D591DEAE#	 Select Icon...
-#Sys.ctl.71F8F68C#	check for updates on startup
-#Sys.ctl.586FEE43#	run as a portable application
-#Sys.ctl.7CB07E86#	start minimised
-#Sys.ctl.68521009#	show splash screen on startup
-#Sys.ctl.5F8541F#	minimise to:
-#Sys.ctl.FE76FD65#	taskbar
-#Sys.ctl.5D418347#	notification tray
-#Sys.ctl.6EBE6649#	mini player
-#Sys.ctl.1FBB9841#	  notification tray  
-#Sys.ctl.172C2EC#	always show tray icon
-#Sys.ctl.57003D87#	single click action:
-#Sys.msg.ShMaWi#	Show Main Window
-#Sys.msg.ShMiPl#	Show Mini Player
-#Sys.msg.ShTrIn#	Show Track Information
-#Sys.msg.Play/Pause#	Play/Pause
-#Sys.msg.SeVo#		Set Volume
-#Sys.ctl.928D5B04#	double click action:
-#Sys.ctl.98295B37#	  file types  
-#Sys.ctl.101577A9#	enable MusicBee in Windows Explorer and context menus
-#Sys.btn.85BA4697#	Select All
-#Sys.btn.8FB0A6DC#	Select None
-#Sys.ctl.C2AB6506#	  confirmations  
-#Sys.ctl.DBBC7DD0#	warn when duplicate tracks are added to a 播放列表
-#Sys.ctl.556990AB#	confirm pasting tags from one file into another file
-#Sys.ctl.899D3CA4#	confirm deletion of tracks from 播放列表s
-#Sys.ctl.B21CCDCF#	confirm picture storage options when adding artwork
-#Sys.ctl.31C503A6#	confirm deletion of artwork that is no longer referenced
-#Sys.ctl.A39D9ECE#	confirm removal of dead links when rescanning library
-#Sys.msg.Mirad-past#	MusicBee is relocating application data - please allow some time for the copy to complete.
-#Sys.msg.Utctpm#	Unable to change to portable mode:{0}
-#Sys.msg.MuApIc#	MusicBee Application Icon
-#Sys.msg.UtcadsitMa#	Unable to create a data sub-folder in the MusicBee application directory:{0}
-#Sys.msg.Ydnhtpntcf#	You do not have the permissions necessary to change file associations - you need to start MusicBee using Run As Administrator
+#Sys.tab.E6571567#	常用
+#Sys.ctl.7E4D71CC#	  程序  
+#Sys.ctl.2A354467#	语言:
+#Sys.ctl.3928F59#	需要重启
+#Sys.btn.D591DEAE#	 选择图标...
+#Sys.ctl.71F8F68C#	启动时检查更新
+#Sys.ctl.586FEE43#	绿色版模式
+#Sys.ctl.7CB07E86#	启动后	最小化
+#Sys.ctl.68521009#	显示启动界面
+#Sys.ctl.5F8541F#	最小化到:
+#Sys.ctl.FE76FD65#	任务栏
+#Sys.ctl.5D418347#	通知图标
+#Sys.ctl.6EBE6649#	Mini 播放器
+#Sys.ctl.1FBB9841#	  通知图标  
+#Sys.ctl.172C2EC#	总是显示托盘图标
+#Sys.ctl.57003D87#	单击动作:
+#Sys.msg.ShMaWi#	显示主窗口
+#Sys.msg.ShMiPl#	显示 Mini 播放器
+#Sys.msg.ShTrIn#	显示曲目详情
+#Sys.msg.Play/Pause#	播放/暂停
+#Sys.msg.SeVo#		设置音量
+#Sys.ctl.928D5B04#	双击动作:
+#Sys.ctl.98295B37#	  文件类型  
+#Sys.ctl.101577A9#	在 Windows Explorer 和 右键菜单中嵌入Musicbee
+#Sys.btn.85BA4697#	全选
+#Sys.btn.8FB0A6DC#	取消全选
+#Sys.ctl.C2AB6506#	  确认  
+#Sys.ctl.DBBC7DD0#	当重复曲目添加到播放列表提示我
+#Sys.ctl.556990AB#	从一个文件的标签复制到另一个文件提示我
+#Sys.ctl.899D3CA4#	从播放列表删除曲目提示我
+#Sys.ctl.B21CCDCF#	添加封面时弹出对话框
+#Sys.ctl.31C503A6#	删除不被引用封面时提示确认
+#Sys.ctl.A39D9ECE#	重新扫描库时删除死链接弹出确认
+#Sys.msg.Mirad-past#	MusicBee 正在整理数据 - 请稍等.
+#Sys.msg.Utctpm#	无法切换到绿色版模式:{0}
+#Sys.msg.MuApIc#	MusicBee 程序图标
+#Sys.msg.UtcadsitMa#	无法在MusicBee程序文件夹创建数据子目录:{0}
+#Sys.msg.Ydnhtpntcf#	无权更改文件注册信息 - 请以管理员身份运行
 
 ! layout tab
-#Sys.tab.344CEE48#	Layout
-#Sys.ctl.E05DC16#	  general  
-#Sys.ctl.BE757BEE#	automatically fit displayed columns to the width of the panel
-#Sys.btn.CCB86D0C#	Quick Layout...
-#Sys.ctl.C0503B4B#	use custom font:
-#Sys.btn.EFCF6829#	Set Font
-#Sys.ctl.64175171#	  left navigator panel  
-#Sys.ctl.763B1FDA#	show navigation tabs
-#Sys.ctl.41E1463#	library
-#Sys.ctl.869298AC#	internet
-#Sys.ctl.630AB6C9#	播放列表s
-#Sys.ctl.EF8F4E9B#	computer
-#Sys.ctl.954761EC#	show library categories
-#Sys.ctl.94C7ECB1#	podcasts
-#Sys.ctl.EEB27990#	audiobooks
-#Sys.ctl.75D0A34D#	radio stations
-#Sys.ctl.7698466E#	inbox
-#Sys.ctl.369D83BE#	play history
-#Sys.ctl.C53635C7#	  main panel  
-#Sys.btn.5C73ED21#	Configure File Views
-#Sys.ctl.BB2D485E#	show A-Z jump bar
-#Sys.ctl.D0C2DDF#	show track browser
+#Sys.tab.344CEE48#	布局
+#Sys.ctl.E05DC16#	  常用  
+#Sys.ctl.BE757BEE#	自动调整列宽
+#Sys.btn.CCB86D0C#	快速布局...
+#Sys.ctl.C0503B4B#	使用自定义字体:
+#Sys.btn.EFCF6829#	设置字体
+#Sys.ctl.64175171#	  左导航面板
+#Sys.ctl.763B1FDA#	显示导航标签页
+#Sys.ctl.41E1463#	库
+#Sys.ctl.869298AC#	Internet
+#Sys.ctl.630AB6C9#	播放列表
+#Sys.ctl.EF8F4E9B#	计算机
+#Sys.ctl.954761EC#	显示库类别
+#Sys.ctl.94C7ECB1#	播客
+#Sys.ctl.EEB27990#	有声读物
+#Sys.ctl.75D0A34D#	站台
+#Sys.ctl.7698466E#	Inbox
+#Sys.ctl.369D83BE#	播放历史
+#Sys.ctl.C53635C7#	  主面板  
+#Sys.btn.5C73ED21#	设置文件视图
+#Sys.ctl.BB2D485E#	显示 A-Z 快速导航栏
+#Sys.ctl.D0C2DDF#	显示曲目浏览器
 #Sys.ctl.8A23C30A#	  正在播放 panel  
-#Sys.btn.A8555525#	Configure Panel
-#Sys.btn.E7BB3483#	Notification Popup
-#Sys.ctl.9E53FA87#	show panel in:
-#Sys.ctl.D286157D#	floating window
-#Sys.ctl.B7E3B3FC#	left sidebar
-#Sys.ctl.79A93D87#	right sidebar
-#Sys.ctl.D5FFE453#	  player controls panel  
-#Sys.tab.B4B01190#	Main Player
-#Sys.ctl.FF0803C#	show spectrum visualisation
-#Sys.ctl.BFD2DA1B#	show track rating
-#Sys.ctl.565D229#	show last.fm "Love" track button
-#Sys.ctl.FE3F9D96#	enlarge progress bar height
-#Sys.ctl.88D30528#	use custom font:
-#Sys.btn.298B380A#	Set Font
-#Sys.ctl.9E91F4A6#	show panel in:
-#Sys.ctl.F682206D#	right sidebar top
-#Sys.ctl.7937DA69#	right sidebar bottom
-#Sys.ctl.E7264179#	bottom pane
-#Sys.tab.C69630B8#	Mini Player
-#Sys.ctl.6F3AC568#	show track rating
-#Sys.ctl.EADEF01E#	show last.fm "Love" track button
-#Sys.ctl.F95BDFC8#	show shuffle button
-#Sys.ctl.A301F55C#	large buttons
-#Sys.ctl.3E61BE4E#	use custom font:
-#Sys.btn.7D997438#	Set Font
-#Sys.tab.B7401B47#	Taskbar Player
-#Sys.ctl.B4879E18#	show buttons (max 7 buttons):
-#Sys.ctl.44581D1E#	player control (3)
-#Sys.ctl.E4405D48#	last.fm love (1)
-#Sys.ctl.EC555322#	volume up/ down (2)
-#Sys.ctl.FEBF85E1#	stop (1)
-#Sys.ctl.84C5B5AD#	rating up/ down (2)
-#Sys.ctl.69B2CD9E#	toggle shuffle mode (1)
-#Sys.ctl.F9112137#	playback progress:
+#Sys.btn.A8555525#	设置面板
+#Sys.btn.E7BB3483#	播放提示
+#Sys.ctl.9E53FA87#	在此显示面板:
+#Sys.ctl.D286157D#	浮动窗口
+#Sys.ctl.B7E3B3FC#	左边栏
+#Sys.ctl.79A93D87#	右边栏
+#Sys.ctl.D5FFE453#	  播放器控制面板  
+#Sys.tab.B4B01190#	主播放器
+#Sys.ctl.FF0803C#	显示频谱图
+#Sys.ctl.BFD2DA1B#	显示曲目评分
+#Sys.ctl.565D229#	显示 Last.fm "喜爱" 按钮
+#Sys.ctl.FE3F9D96#	提高进度栏高度
+#Sys.ctl.88D30528#	使用自定义字体:
+#Sys.btn.298B380A#	设置字体
+#Sys.ctl.9E91F4A6#	在此显示面板:
+#Sys.ctl.F682206D#	右边栏顶部  
+#Sys.ctl.7937DA69#	右边栏底部  
+#Sys.ctl.E7264179#	底面板
+#Sys.tab.C69630B8#	Mini 播放器
+#Sys.ctl.6F3AC568#	显示曲目评分 
+#Sys.ctl.EADEF01E#	显示 Last.fm "喜爱" 按钮
+#Sys.ctl.F95BDFC8#	显示打乱按钮
+#Sys.ctl.A301F55C#	使用大按钮
+#Sys.ctl.3E61BE4E#	使用自定义字体:
+#Sys.btn.7D997438#	设置字体
+#Sys.tab.B7401B47#	任务栏播放器
+#Sys.ctl.B4879E18#	显示的按钮 (最多 7 个按钮):
+#Sys.ctl.44581D1E#	播放控制器 (3)
+#Sys.ctl.E4405D48#	last.fm 喜爱 (1)
+#Sys.ctl.EC555322#	音量提升/降低 (2)
+#Sys.ctl.FEBF85E1#	停止 (1)
+#Sys.ctl.84C5B5AD#	提高/降低评 (2)
+#Sys.ctl.69B2CD9E#	开关打乱模式 (1)
+#Sys.ctl.F9112137#	播放进度:
 #Sys.ctl.9D24D6B9#	use same as the main player
-#Sys.ctl.F1BF72B2#	show duration
-#Sys.ctl.558466D7#	show time remaining
-#Sys.help.Rarbtfswba#	Requires a restart before the font setting will be applied.
-#Sys.help.Aytjdtatit#	Allows you to jump directly to a track in the main panel by clicking a letter.
-#Sys.msg.Hidden#	Hidden
-#Sys.msg.Rartte#	Requires a restart to take effect
-#Sys.msg.Tttpsamo7b#	The taskbar thumbnail player supports a maximum of 7 buttons which cannot be exceeded.
+#Sys.ctl.F1BF72B2#	显示持续时间
+#Sys.ctl.558466D7#	显示剩余时间
+#Sys.help.Rarbtfswba#	重启后字体设置才会生效.
+#Sys.help.Aytjdtatit#	点击一个字母即可跳至该项目.
+#Sys.msg.Hidden#	隐藏
+#Sys.msg.Rartte#	重启后生效
+#Sys.msg.Tttpsamo7b#	任务栏缩略图初最多只支持7个按钮.
 
 ! layout tab - Panel Layout Editor opened from "Configure File Views" button
-#PLE.frm.20E26BC8#	Views Configuration
-#PLE.ctl.387E3D73#	Artwork Layout
-#PLE.ctl.24BF3CD4#	tags appearing below artwork:
-#PLE.ctl.5FAF6635#	line 1:
-#PLE.ctl.4FEB0656#	line 2:
-#PLE.ctl.51FB0677#	line 3:
-#PLE.ctl.9C066E6B#	set custom font:
-#PLE.ctl.9E0177C2#	show album tracks at the bottom of the main panel
-#PLE.ctl.A8385922#	Album and Tracks Layout
-#PLE.ctl.3368E365#	fields appearing with artwork:
-#PLE.ctl.7243EE64#	line 1:
-#PLE.ctl.7031CE47#	line 2:
-#PLE.ctl.76A3CDA6#	line 3:
-#PLE.ctl.A8AAAD2E#	Album Name
-#PLE.ctl.BD9DCD30#	Album Artist
-#PLE.ctl.1E6CAE98#	Album Name
-#PLE.ctl.222914FA#	set custom font:
-#PLE.ctl.6E9421FD#	fields location:
-#PLE.ctl.7F3FE233#	below artwork
-#PLE.ctl.80637EC0#	right of artwork
-#PLE.ctl.C419046D#	do not show artwork for albums with less than
-#PLE.ctl.4F159B9F#	tracks
-#PLE.ctl.55FA3124#	Track Detail Layout
-#PLE.ctl.5D64439D#	no settings for this view
-#PLE.ctl.A978F39E#	Artist Information Layout
-#PLE.ctl.CD1EF162#	show the following links:
-#PLE.ctl.26BE248B#	biography only
-#PLE.ctl.2A364B37#	artist page on last.fm
-#PLE.ctl.20E7A3C0#	Sorting and Grouping
-#PLE.ctl.F85A3D66#	defined sorting - allows you to specify how the displayed tracks in the main panel are sorted when selected from the 'Sort By' context menu
-#PLE.ctl.B267CC3D#	sorting set 1:
-#PLE.ctl.B267CC3E#	sorting set 2:
-#PLE.ctl.F0714639#	album grouping - specify additional fields that distinguish your albums
-#PLE.ctl.184E8E06#	detect iTunes compilations and treat as Album Artist:
+#PLE.frm.20E26BC8#	视图设置
+#PLE.ctl.387E3D73#	'封面'布局
+#PLE.ctl.24BF3CD4#	显示在封面下的标签
+#PLE.ctl.5FAF6635#	第一行:
+#PLE.ctl.4FEB0656#	第二行:
+#PLE.ctl.51FB0677#	第三行:
+#PLE.ctl.9C066E6B#	设置自定义字体:
+#PLE.ctl.9E0177C2#	在主面板下显示专辑曲目
+#PLE.ctl.A8385922#	'专辑和曲目'布局
+#PLE.ctl.3368E365#	随着封面显示的标签:
+#PLE.ctl.7243EE64#	第一行:
+#PLE.ctl.7031CE47#	第二行:
+#PLE.ctl.76A3CDA6#	第三行:
+#PLE.ctl.A8AAAD2E#	专辑名称
+#PLE.ctl.BD9DCD30#	专辑艺术家
+#PLE.ctl.1E6CAE98#	专辑名称
+#PLE.ctl.222914FA#	设置自定义字体:
+#PLE.ctl.6E9421FD#	字段位置:
+#PLE.ctl.7F3FE233#	封面下方
+#PLE.ctl.80637EC0#	封面右方
+#PLE.ctl.C419046D#	不显示专辑封面当专辑曲目少于
+#PLE.ctl.4F159B9F#	时
+#PLE.ctl.55FA3124#	'曲目详情'布局
+#PLE.ctl.5D64439D#	暂无设置项
+#PLE.ctl.A978F39E#	'艺术家信息'布局
+#PLE.ctl.CD1EF162#	显示如下链接:
+#PLE.ctl.26BE248B#	只有艺术家介绍
+#PLE.ctl.2A364B37#	Last.fm上的艺术家页面
+#PLE.ctl.20E7A3C0#	排序和分组
+#PLE.ctl.F85A3D66#	排序设置 - 允许你定义在主面板显示曲目的顺序
+#PLE.ctl.B267CC3D#	排序方式 1:
+#PLE.ctl.B267CC3E#	排序方式 2:
+#PLE.ctl.F0714639#	专辑分组 - 指定另外的字段来区分专辑
+#PLE.ctl.184E8E06#	检测 iTunes 合集并以专辑艺术家对待:
 
 ! layout tab - Now Playing Layout opened from the "Configure Panel" button
-#NPL.frm.12A453AC#	Now Playing Layout Configuration
-#NPL.ctl.DFA6DB32#	  panel settings 
-#NPL.ctl.116F33F6#	show 正在播放 list
-#NPL.ctl.39837F11#	stack panels using tabs
-#NPL.ctl.17B4F50D#	show all panels vertically
-#NPL.ctl.663348A1#	floating window transparency:
-#NPL.ctl.844FEA6F#	transparent
-#NPL.ctl.7C4BB616#	opaque
-#NPL.ctl.13F74E53#	show artwork panel 
-#NPL.msg.SAwPC#		Show Artwork with Player Controls
-#NPL.msg.SAdiaT#	Show Artwork docked in a Tab
-#NPL.msg.SAiLS#		Show Artwork in Left Sidebar
-#NPL.msg.DiTDP#		Displayed in Track Details Panel
-#NPL.ctl.A8DF747E#	show lyrics panel 
-#NPL.msg.SLiFW#		Show Lyrics in Floating Window
-#NPL.msg.SLdiaT#	Show Lyrics docked in a Tab
-#NPL.msg.SLaTD#		Show Lyrics above Track Details
-#NPL.msg.SLbTD#		Show Lyrics below Track Details
-#NPL.ctl.E325DF3C#	use custom font
-#NPL.btn.6301699E#	Set Font
-#NPL.ctl.99DA61ED#	show track details panel 
-#NPL.msg.stdwpc#	show track details with player controls 
-#NPL.msg.DnDA#		Do not Display Artwork
-#NPL.msg.SAloF#		Show Artwork left of Fields
-#NPL.msg.SAaF#		Show Artwork above Fields
-#NPL.msg.SAroF#		Show Artwork right of Fields
-#NPL.msg.SAbF#		Show Artwork below Fields
-#NPL.ctl.7BB12552#	px
-#NPL.ctl.6B0966A3#	use custom font
-#NPL.btn.746A4B01#	Set Font
-#NPL.tab.AF995F42#	Display Fields
-#NPL.ctl.1DC51887#	prompt:
-#NPL.ctl.774682F2#	fields:
-#NPL.ctl.D61CDE74#	split multi-value tags into rows
-#NPL.ctl.31E584AA#	row span:
-#NPL.ctl.F2892F01#	show track rating
-#NPL.ctl.EBD7E277#	and last.fm "Love" status
-#NPL.ctl.53E6F98B#	show file url
-#NPL.ctl.8EB6C56F#	show track properties (bitrate, sample rate, channels, duration)
-#NPL.tab.AE6098D0#	Web Links
-#NPL.ctl.94D46BA0#	show web links:
-#NPL.ctl.36209200#	open all links in the same tab
-#NPL.ctl.8B0D6E4C#	open each link in it's own tab
-#NPL.msg.Oomvhbc-dy#	One or more values has been changed - do you want to save the changes?
+#NPL.frm.12A453AC#	正在播放布局管理
+#NPL.ctl.DFA6DB32#	面板设置
+#NPL.ctl.116F33F6#	显示正在播放列表
+#NPL.ctl.39837F11#	使用标签页堆叠面板
+#NPL.ctl.17B4F50D#	垂直显示所有面板
+#NPL.ctl.663348A1#	浮动窗口透明度:
+#NPL.ctl.844FEA6F#	透明
+#NPL.ctl.7C4BB616#	不透明
+#NPL.ctl.13F74E53#	显示封面面板 
+#NPL.msg.SAwPC#		显示封面和播放控制器
+#NPL.msg.SAdiaT#	在停靠的标签页中显示封面
+#NPL.msg.SAiLS#		在左边栏显示显示封面
+#NPL.msg.DiTDP#		在曲目的详情初显示
+#NPL.ctl.A8DF747E#	显示歌词面板 
+#NPL.msg.SLiFW#		在浮动窗口显示歌词
+#NPL.msg.SLdiaT#	在停靠的标签页中显示歌词
+#NPL.msg.SLaTD#		在曲目详情上方显示歌词
+#NPL.msg.SLbTD#		在曲目详情下方显示歌词
+#NPL.ctl.E325DF3C#	使用自定义字体
+#NPL.btn.6301699E#	字体
+#NPL.ctl.99DA61ED#	显示曲目详情面板
+NPL.msg.stdwpc#		显示曲目详情和播放控制器 
+#NPL.msg.DnDA#		不显示专辑封面
+#NPL.msg.SAloF#		在字段左方显示封面
+#NPL.msg.SAaF#		在字段上方显示封面 
+#NPL.msg.SAroF#		在字段右方显示封面
+#NPL.msg.SAbF#		在字段下方显示封面
+#NPL.ctl.7BB12552#	像素
+#NPL.ctl.6B0966A3#	使用自定义字体
+#NPL.btn.746A4B01#	字体
+#NPL.tab.AF995F42#	显示的字段
+#NPL.ctl.1DC51887#	弹出:
+#NPL.ctl.774682F2#	字段:
+#NPL.ctl.D61CDE74#	将多值标签分割成几行
+#NPL.ctl.31E584AA#	行跨度:
+#NPL.ctl.F2892F01#	显示曲目评分
+#NPL.ctl.EBD7E277#	 last.fm "喜爱" 状态
+#NPL.ctl.53E6F98B#	显示文件 URL
+#NPL.ctl.8EB6C56F#	显示曲目属性(比特率, 采样频率, 频道数, 持续时间)
+#NPL.tab.AE6098D0#	Web 连接
+#NPL.ctl.94D46BA0#	显示 Web 连接:
+#NPL.ctl.36209200#	在相同标签中打开所有连接
+#NPL.ctl.8B0D6E4C#	在新标签打开连接
+#NPL.msg.Oomvhbc-dy#	一项或多项配置已经修改 - 要保存吗?
 
 ! layout tab - Now Playing Notification opened from the "Notification Popup" button 
-#NPP.frm.89994ADC#	Customise Now Playing Notification
-#NPP.ctl.13D7A7EC#	override popup window size:
+#NPP.frm.89994ADC#	自定义正在播放提示信息
+#NPP.ctl.13D7A7EC#	提示框大小
 #NPP.ctl.91BF89BF#	px
-#NPP.ctl.522050DD#	displayed tags:
-#NPP.ctl.C035755C#	header:
-#NPP.ctl.E199F81C#	line 1:
-#NPP.ctl.D5F1577F#	line 2:
-#NPP.ctl.D3E1575E#	line 3:
-#NPP.ctl.EC6996B9#	line 4:
-#NPP.ctl.C39522C2#	set custom font:
-#NPP.ctl.9FE2CFEE#	show track rating
-#NPP.ctl.EBD7E277#	and last.fm love status
-#NPP.ctl.FB4E57E1#	show file properties
+#NPP.ctl.522050DD#	显示的标签:
+#NPP.ctl.C035755C#	标题:
+#NPP.ctl.E199F81C#	第一行:
+#NPP.ctl.D5F1577F#	第二行:
+#NPP.ctl.D3E1575E#	第三行:
+#NPP.ctl.EC6996B9#	第四行:
+#NPP.ctl.C39522C2#	自定义字体:
+#NPP.ctl.9FE2CFEE#	显示曲目评分
+#NPP.ctl.EBD7E277#	Last.fm 喜爱状态
+#NPP.ctl.FB4E57E1#	显示文件属性
 
 ! hotkeys tab
-#Sys.tab.B78A12E5#	Hotkeys
-#Sys.ctl.3C97878D#	  hotkeys  
-#Sys.ctl.7B36D394#	assigned hotkeys:
-#Sys.ctl.7A51EFED#	actions available for hotkey assignment:
-#Sys.ctl.C40CB394#	hotkey:
-#Sys.ctl.5CEA70C3#	global
-#Sys.btn.5238E3B0#	Assign
-#Sys.btn.152A2B7D#	Delete
-#Sys.ctl.FDE47985#	assign to a toolbar button labeled as:
-#Sys.ctl.258A9850#	on:
-#Sys.ctl.258A9853#	off:
-#Sys.msg.iarkacbu#	'{0}' is a reserved key and cannot be used
-#Sys.msg.Tkicuf#	This key is currently used for '{0}'
-#Sys.msg.iuf-dywt#	{0} is used for '{1}' - do you want to reassign it to '{2}'?
-#Sys.msg.Dtsh#		Delete the selected hotkey?
-#Sys.msg.EdSeAl#	Edit: Select All
-#Sys.msg.ESA(P#		Edit: Select All (Now Playing)
-#Sys.msg.EACC#		Edit: Amend Clicked Column
-#Sys.msg.EAFT#		Edit: Amend File Tags
-#Sys.msg.EdCuSe#	Edit: Custom Search
-#Sys.msg.ECMP#		Edit: Configure MusicBee Preferences
-#Sys.msg.EITiSL#	Edit: Insert Timestamp in Synchronised Lyrics
-#Sys.msg.FSfNM#		File: Scan for New Media
-#Sys.msg.GGTSB#		General: Goto Text Search Box
-#Sys.msg.GGPTiNPL#	General: Goto Playing Track in Now Playing List
-#Sys.msg.GFPTiCT#	General: Find Playing Track in Current Tab
-#Sys.msg.GSI(ttilb#	General: Search Internet (using text typed in location bar)
-#Sys.msg.GLSTiWE#	General: Locate Selected Track in Windows Explorer
-#Sys.msg.GeRe#		General: Refresh
-#Sys.msg.TCNT#		Tabs: Create New Tab
-#Sys.msg.TaClTa#	Tabs: Close Tab
-#Sys.msg.TCPiaNT#	Tabs: Create Playlist in a New Tab
-#Sys.msg.GeExMu#	General: Exit MusicBee
-#Sys.msg.GeAcAu#	General: Activate Auto-Shutdown
-#Sys.msg.MuNe#		Multimedia: Next
-#Sys.msg.MuPl#		Multimedia: Play/Pause
-#Sys.msg.MuPr#		Multimedia: Previous
-#Sys.msg.MuSt#		Multimedia: Stop
-#Sys.msg.NPLC#		Now Playing List: Clear
-#Sys.msg.NPLCBST#	Now Playing List: Clear Before Selected Track
-#Sys.msg.PPNT#		Playback: Play Next Track
-#Sys.msg.PPNA#		Playback: Play Next Album
-#Sys.msg.PlPl#		Playback: Play/Pause
-#Sys.msg.PlPrTr#	Playback: Previous Track
-#Sys.msg.PlPrAl#	Playback: Previous Album
-#Sys.msg.PRGT#		Playback: Replay Gain Toggle
-#Sys.msg.PRGA#		Playback: Replay Gain Album
-#Sys.msg.PRGS#		Playback: Replay Gain Smart
-#Sys.msg.PRGT.2#	Playback: Replay Gain Track
-#Sys.msg.PSB5s#		Playback: Skip Back 5 seconds
-#Sys.msg.PSF5s#		Playback: Skip Forward 5 seconds
-#Sys.msg.PlSt#		Playback: Stop
-#Sys.msg.PSAC#		Playback: Stop After Current
-#Sys.msg.PlPlNo#	Playback: Play Now
-#Sys.msg.PlQuNe#	Playback: Queue Next
-#Sys.msg.PlQuLa#	Playback: Queue Last
-#Sys.msg.PlStAu#	Playback: Start/Stop Auto-DJ
-#Sys.msg.PPLS#		Playback: Play Library Shuffled
-#Sys.msg.PTSM#		Player: Toggle Shuffle Mode
-#Sys.msg.PTRM#		Player: Toggle Repeat Mode
-#Sys.msg.PVMO#		Player: Volume Mute On/Off
-#Sys.msg.PlVoDo#	Player: Volume Down
-#Sys.msg.PlVoUp#	Player: Volume Up
-#Sys.msg.RST0sD#	Rating Selected Tracks: 0.5 stars Down
-#Sys.msg.RST0sU#	Rating Selected Tracks: 0.5 stars Up
-#Sys.msg.RSTNs#		Rating Selected Tracks: No stars
-#Sys.msg.RST0s#		Rating Selected Tracks: 0.5 stars
-#Sys.msg.RST1s#		Rating Selected Tracks: 1 star
-#Sys.msg.RST1s.2#	Rating Selected Tracks: 1.5 stars
-#Sys.msg.RST2s#		Rating Selected Tracks: 2 stars
-#Sys.msg.RST2s.2#	Rating Selected Tracks: 2.5 stars
-#Sys.msg.RST3s#		Rating Selected Tracks: 3 stars
-#Sys.msg.RST3s.2#	Rating Selected Tracks: 3.5 stars
-#Sys.msg.RST4s#		Rating Selected Tracks: 4 stars
-#Sys.msg.RST4s.2#	Rating Selected Tracks: 4.5 stars
-#Sys.msg.RST5s#		Rating Selected Tracks: 5 stars
-#Sys.msg.RSTU#		Rating Selected Tracks: Unrated
-#Sys.msg.RSTTL(L#	Rating Selected Tracks: Toggle Love (on Last.fm)
-#Sys.msg.RNP0sD#	Rating Now Playing: 0.5 stars Down
-#Sys.msg.RNP0sU#	Rating Now Playing: 0.5 stars Up
-#Sys.msg.RNPNs#		Rating Now Playing: No stars
-#Sys.msg.RNP0s#		Rating Now Playing: 0.5 stars
-#Sys.msg.RNP1s#		Rating Now Playing: 1 star
-#Sys.msg.RNP1s.2#	Rating Now Playing: 1.5 stars
-#Sys.msg.RNP2s#		Rating Now Playing: 2 stars
-#Sys.msg.RNP2s.2#	Rating Now Playing: 2.5 stars
-#Sys.msg.RNP3s#		Rating Now Playing: 3 stars
-#Sys.msg.RNP3s.2#	Rating Now Playing: 3.5 stars
-#Sys.msg.RNP4s#		Rating Now Playing: 4 stars
-#Sys.msg.RNP4s.2#	Rating Now Playing: 4.5 stars
-#Sys.msg.RNP5s#		Rating Now Playing: 5 stars
-#Sys.msg.RNPU#		Rating Now Playing: Unrated
-#Sys.msg.RNPTL(L#	Rating Now Playing: Toggle Love (on Last.fm)
-#Sys.msg.STC(f#		Send To: Clipboard (selected files)
-#Sys.msg.STC(p#		Send To: Clipboard (正在播放)
-#Sys.msg.STEA(f#	Send To: External Application (selected files)
-#Sys.msg.STEA(p#	Send To: External Application (正在播放)
-#Sys.msg.SeToLi#	Send To: Library
-#Sys.msg.SeToIn#	Send To: Inbox
-#Sys.msg.TSaR#		Tools: Search and Replace
-#Sys.msg.ToAuTr#	Tools: Auto-Number Tracks
-#Sys.msg.ToAuFi#	Tools: Auto-Organise Files
-#Sys.msg.TAbA#		Tools: Auto-Tag by Album
-#Sys.msg.TAbT-UT#	Tools: Auto-Tag by Track - Update Tags
-#Sys.msg.TAbT-UMT#	Tools: Auto-Tag by Track - Update Missing Tags
-#Sys.msg.TAbT-UMAP#	Tools: Auto-Tag by Track - Update Misssing Album Pictures
-#Sys.msg.TAbT-OuLTC#	Tools: Auto-Tag by Track - Overwrite using Last.fm Tag Cloud
-#Sys.msg.ToCoFo#	Tools: Convert Format
-#Sys.msg.ToAnVo#	Tools: Analyse Volume
-#Sys.msg.TUVL#		Tools: Undo Volume Leveling
-#Sys.msg.ToRiCD#	Tools: Rip CD
-#Sys.msg.TSPCtL#	Tools: Synchronise Play Count to Last.fm
-#Sys.msg.WDCD#		Web: Download/ Cancel Download
-#Sys.msg.ViApMi#	View: Application Minimise
-#Sys.msg.ViApRe#	View: Application Restore
-#Sys.msg.VPLA#		View: Panel Layout: Artwork
-#Sys.msg.VPLAaT#	View: Panel Layout: Album and Tracks
-#Sys.msg.VPLTD#		View: Panel Layout: Track Details
-#Sys.msg.ViShEq#	View: Show Equaliser
-#Sys.msg.VSHM#		View: Show/ Hide Mini-Lyrics
-#Sys.msg.VSLiFW#	View: Show Lyrics in Floating Window
-#Sys.msg.VSNPN#		View: Show Now Playing Notification
-#Sys.msg.VSNPTF#	View: Show Now Playing Track Finder
-#Sys.msg.VTLM#		View: Toggle Lockdown Mode
-#Sys.msg.VSTM#		View: Show Tag Manager
-#Sys.msg.VSLE#		View: Show Library Explorer
-#Sys.msg.VSMP#		View: Show Mini Player
-#Sys.msg.VSCP#		View: Show Compact Player
-#Sys.msg.VSNPA#		View: Show Now Playing Assistant
-#Sys.msg.VLFD#		View: Lyrics Font Decrease
-#Sys.msg.VLFI#		View: Lyrics Font Increase
-#Sys.msg.VSLF#		View: Show Library Filter
-#Sys.msg.VSLS#		View: Show Library Selector
+#Sys.tab.B78A12E5#	快捷键
+#Sys.ctl.3C97878D#	  快捷键  
+#Sys.ctl.7B36D394#	已设置的操作:
+#Sys.ctl.7A51EFED#	所有的操作:
+#Sys.ctl.C40CB394#	快捷键:
+#Sys.ctl.5CEA70C3#	全局
+#Sys.btn.5238E3B0#	设置
+#Sys.btn.152A2B7D#	删除
+#Sys.ctl.FDE47985#	定义为一个工具栏按钮,命名为:
+#Sys.ctl.258A9850#	开:
+#Sys.ctl.258A9853#	关:
+#Sys.msg.iarkacbu#	'{0}' 是保留键,不能使用
+#Sys.msg.Tkicuf#	这个按键正在被使用 '{0}'
+#Sys.msg.iuf-dywt#	{0} 正在被使用 '{1}' - 用设置为 '{2}'?
+#Sys.msg.Dtsh#		删除选定的快捷键?
+#Sys.msg.EdSeAl#	编辑: 全选
+#Sys.msg.ESA(P#		编辑: 全选(正在播放的)
+#Sys.msg.EACC#		编辑: 修改点击的列
+#Sys.msg.EAFT#		编辑: 修改文件标签
+#Sys.msg.EdCuSe#	编辑: 自定义查找
+#Sys.msg.ECMP#		编辑: 设置 MusicBee 首选项
+#Sys.msg.EITiSL#	编辑: 在同步歌词中插入时间戳
+#Sys.msg.FSfNM#		文件: 扫描新媒体
+#Sys.msg.GGTSB#		通用: 跳至下个搜索框
+#Sys.msg.GGPTiNPL#	通用: 在正在播放列表中定位当前曲目
+#Sys.msg.GFPTiCT#	通用: 在当前标签页中查找当前曲目
+#Sys.msg.GSI(ttilb#	通用: 在 Internet 上查找(使用位置栏的文本)
+#Sys.msg.GLSTiWE#	通用: 在 Windows Explorer 中定位当前曲目
+#Sys.msg.GeRe#		通用: 刷新
+#Sys.msg.TCNT#		标签页: 打开新标签页
+#Sys.msg.TaClTa#	标签页: 关闭标签页
+#Sys.msg.TCPiaNT#	标签页: 在新标签页中创建播放列表
+#Sys.msg.GeExMu#	通用: 退出 MusicBee
+#Sys.msg.GeAcAu#	通用: 激活自动关机
+#Sys.msg.MuNe#		多媒体: 下一个
+#Sys.msg.MuPl#		多媒体: 播放/暂停
+#Sys.msg.MuPr#		多媒体: 上一个
+#Sys.msg.MuSt#		多媒体: 停止
+#Sys.msg.NPLC#		正在播放列表: 清空列表
+#Sys.msg.NPLCBST#	正在播放列表: 清空选定曲目之前的项目
+#Sys.msg.PPNT#		回放: 播放下个曲目
+#Sys.msg.PPNA#		回放: 播放下个专辑
+#Sys.msg.PlPl#		回放: 播放/暂停
+#Sys.msg.PlPrTr#	回放: 上一曲
+#Sys.msg.PlPrAl#	回放: 上一专辑
+#Sys.msg.PRGT#		回放: Replay Gain Toggle
+#Sys.msg.PRGA#		回放: Replay Gain Album
+#Sys.msg.PRGS#		回放: Replay Gain Smart
+#Sys.msg.PRGT.2#	回放: Replay Gain Track
+#Sys.msg.PSB5s#		回放: 回退5秒
+#Sys.msg.PSF5s#		回放: 快进5秒
+#Sys.msg.PlSt#		回放: 停止
+#Sys.msg.PSAC#		回放: 当前曲目后停止
+#Sys.msg.PlPlNo#	回放: 现在播放
+#Sys.msg.PlQuNe#	回放: 插入到队首
+#Sys.msg.PlQuLa#	回放: 插入到队尾
+#Sys.msg.PlStAu#	回放: 打开/关闭 智能-DJ
+#Sys.msg.PPLS#		回放: 随机播放库
+#Sys.msg.PTSM#		播放器: 切换 打乱模式
+#Sys.msg.PTRM#		播放器: 切换 重复模式
+#Sys.msg.PVMO#		播放器: 静音 开/关
+#Sys.msg.PlVoDo#	播放器: 降低音量
+#Sys.msg.PlVoUp#	播放器: 提高音量
+#Sys.msg.RST0sD#	选定曲目的评分: 降低 0.5 星
+#Sys.msg.RST0sU#	选定曲目的评分: 提高 0.5 星
+#Sys.msg.RSTNs#		选定曲目的评分: 无评分
+#Sys.msg.RST0s#		选定曲目的评分: 0.5 星
+#Sys.msg.RST1s#		选定曲目的评分: 1 星
+#Sys.msg.RST1s.2#	选定曲目的评分: 1.5 星
+#Sys.msg.RST2s#		选定曲目的评分: 2 星
+#Sys.msg.RST2s.2#	选定曲目的评分: 2.5 星
+#Sys.msg.RST3s#		选定曲目的评分: 3 星
+#Sys.msg.RST3s.2#	选定曲目的评分: 3.5 星
+#Sys.msg.RST4s#		选定曲目的评分: 4 星
+#Sys.msg.RST4s.2#	选定曲目的评分: 4.5 星
+#Sys.msg.RST5s#		选定曲目的评分: 5 星
+#Sys.msg.RSTU#		选定曲目的评分: 取消评分
+#Sys.msg.RSTTL(L#	选定曲目的评分: 切换喜爱与否 (on Last.fm)
+#Sys.msg.RNP0sD#	正在播放曲目的评分: 0.5 星 Down
+#Sys.msg.RNP0sU#	正在播放曲目的评分: 0.5 星 Up
+#Sys.msg.RNPNs#		正在播放曲目的评分: No 星
+#Sys.msg.RNP0s#		正在播放曲目的评分: 0.5 星
+#Sys.msg.RNP1s#		正在播放曲目的评分: 1 星
+#Sys.msg.RNP1s.2#	正在播放曲目的评分: 1.5 星
+#Sys.msg.RNP2s#		正在播放曲目的评分: 2 星
+#Sys.msg.RNP2s.2#	正在播放曲目的评分: 2.5 星
+#Sys.msg.RNP3s#		正在播放曲目的评分: 3 星
+#Sys.msg.RNP3s.2#	正在播放曲目的评分: 3.5 星
+#Sys.msg.RNP4s#		正在播放曲目的评分: 4 星
+#Sys.msg.RNP4s.2#	正在播放曲目的评分: 4.5 星
+#Sys.msg.RNP5s#		正在播放曲目的评分: 5 星
+#Sys.msg.RNPU#		正在播放曲目的评分: 取消评分
+#Sys.msg.RNPTL(L#	正在播放曲目的评分: 切换喜爱与否 (Last.fm)
+#Sys.msg.STC(f#		发送到: 剪贴板 (选定的文件)
+#Sys.msg.STC(p#		发送到: 剪贴板 (正在播放)
+#Sys.msg.STEA(f#	发送到: 外部程序 (选定的文件)
+#Sys.msg.STEA(p#	发送到: 外部程序 (正在播放)
+#Sys.msg.SeToLi#	发送到: 库
+#Sys.msg.SeToIn#	发送到: Inbox
+#Sys.msg.TSaR#		工具: 查找并替换
+#Sys.msg.ToAuTr#	工具: 曲目自动编号
+#Sys.msg.ToAuFi#	工具: 自动整理文件
+#Sys.msg.TAbA#		工具: 根据专辑自动更新标签
+#Sys.msg.TAbT-UT#	工具: 根据曲目自动更新标签 - 更新标签
+#Sys.msg.TAbT-UMT#	工具: 根据曲目自动更新标签 - 更新空值的标签
+#Sys.msg.TAbT-UMAP#	工具: 根据曲目自动更新标签 - 更新为空的封面
+#Sys.msg.TAbT-OuLTC#	工具: 根据曲目自动更新标签 - 使用 Last.fm 标签云重写标签
+#Sys.msg.ToCoFo#	工具: 格式转换
+#Sys.msg.ToAnVo#	工具: 音量分析
+#Sys.msg.TUVL#		工具: 撤销音量分析
+#Sys.msg.ToRiCD#	工具: Rip CD
+#Sys.msg.TSPCtL#	工具: 与 Last.fm 同步播放次数
+#Sys.msg.WDCD#		Web: 开始/取消 下载
+#Sys.msg.ViApMi#	视图: 最小化程序
+#Sys.msg.ViApRe#	视图: 恢复程序
+#Sys.msg.VPLA#		视图: 面板布局: 封面
+#Sys.msg.VPLAaT#	视图: 面板布局: 专辑和曲目
+#Sys.msg.VPLTD#		视图: 面板布局: 曲目详情
+#Sys.msg.ViShEq#	视图: 显示 均衡器
+#Sys.msg.VSHM#		视图: 显示/ 隐藏 Mini-Lyrics
+#Sys.msg.VSLiFW#	视图: 在浮动窗口查找显示歌词
+#Sys.msg.VSNPN#		视图: 显示正在播放提示
+#Sys.msg.VSNPTF#	视图: 显示正在播放曲目查找器
+#Sys.msg.VTLM#		视图: 切换锁定模式
+#Sys.msg.VSTM#		视图: 显示标签管理器
+#Sys.msg.VSLE#		视图: 显示库浏览器
+#Sys.msg.VSMP#		视图: 显示 Mini 播放器
+#Sys.msg.VSCP#		视图: 显示 Compact 播放器
+#Sys.msg.VSNPA#		视图: 显示 正在播放助手
+#Sys.msg.VLFD#		视图: 减小歌词字体
+#Sys.msg.VLFI#		视图: 增大歌词字体
+#Sys.msg.VSLF#		视图: 显示库过滤器
+#Sys.msg.VSLS#		视图: 显示库选择器
 
 ! player tab
-#Sys.tab.F3383E21#	Player
-#Sys.ctl.2B512AC9#	  player  
+#Sys.tab.F3383E21#	播放器
+#Sys.ctl.2B512AC9#	  播放器  
 #Sys.ctl.A26C3495#	MusicBee
-#Sys.ctl.DA072C65#	use QuickTime for playback of AAC/MPEG files
-#Sys.ctl.9835812F#	output:
+#Sys.ctl.DA072C65#	使用 QuickTime 播放 AAC/MPEG 文件
+#Sys.ctl.9835812F#	输出:
 #Sys.ctl.8655BB38#	DirectSound
 #Sys.ctl.5A4B4342#	ASIO
 #Sys.ctl.F0E913CB#	WASAPI
-#Sys.btn.376F95FE#	Configure
-#Sys.ctl.C7C687EB#	sound device:
-#Sys.ctl.70334B69#	use hardware mixing
-#Sys.ctl.EAD3E8E1#	limit output bit-depth:
-#Sys.ctl.7A833D77#	use 32 bit output
-#Sys.ctl.D69E9E62#	increase buffer size (if tracks stutter during playback)
-#Sys.ctl.BA920A95#	upmix stereo to 5.1
-#Sys.ctl.4861D7A6#	resample to:
-#Sys.ctl.B36CD295#	on startup:
-#Sys.ctl.311DDF85#	do nothing
-#Sys.ctl.A91A9F33#	resume position
-#Sys.ctl.236A79E5#	resume playback
-#Sys.ctl.D1DB6714#	  external player  
-#Sys.ctl.3ED4D906#	external application to play podcast videos:
-#Sys.ctl.46221450#	player location:
-#Sys.ctl.59F319BD#	  sound effects  
-#Sys.ctl.BA4B4859#	crossfade tracks for:
-#Sys.ctl.7F639CA4#	seconds
-#Sys.ctl.969EE060#	fade in new track
-#Sys.ctl.65B3566A#	do not crossfade when playing albums
-#Sys.ctl.B9D9929F#	smooth fade when stopping
-#Sys.ctl.F0EF8779#	dynamically normalise volume of streams
-#Sys.ctl.EE3EDBF6#	normalise volume of tracks with replay gain tags
-#Sys.ctl.997FB0F8#	remove silence at start and end of track
-#Sys.btn.C07CA343#	Equaliser && DSP...
+#Sys.btn.376F95FE#	设置
+#Sys.ctl.C7C687EB#	音频设备:
+#Sys.ctl.70334B69#	使用硬件混音
+#Sys.ctl.EAD3E8E1#	限制输出比特深度:
+#Sys.ctl.7A833D77#	使用32位输出
+#Sys.ctl.D69E9E62#	增大缓存 (如果播放出现卡的情况)
+#Sys.ctl.BA920A95#	立体声混音至 5.1
+#Sys.ctl.4861D7A6#	重新采样到:
+#Sys.ctl.B36CD295#	启动时:
+#Sys.ctl.311DDF85#	误动作
+#Sys.ctl.A91A9F33#	恢复上次播放位置
+#Sys.ctl.236A79E5#	恢复上次播放
+#Sys.ctl.D1DB6714#	  外部播放器  
+#Sys.ctl.3ED4D906#	播客外置播放器:
+#Sys.ctl.46221450#	播放器位置:
+#Sys.ctl.59F319BD#	  音效  
+#Sys.ctl.BA4B4859#	淡入淡出持续时间:
+#Sys.ctl.7F639CA4#	秒
+#Sys.ctl.969EE060#	淡入到新曲目
+#Sys.ctl.65B3566A#	播放专辑是不使用淡入淡出
+#Sys.ctl.B9D9929F#	停止时淡出
+#Sys.ctl.F0EF8779#	动态调整音量
+#Sys.ctl.EE3EDBF6#	使用回放增益动态调整音量
+#Sys.ctl.997FB0F8#	曲目开始和结束时移除静音
+#Sys.btn.C07CA343#	均衡器 && DSP...
 #Sys.help.CpbqsafVWc#	Can produce better quality sound and for VISTA/ Windows7 computers, performance is better
 #Sys.help.LtobUtowyh#	Limit the output bit-depth. Use this option when you hear no sound or static noise.
 #Sys.help.YnthQai(cw#	You need to have QuickTime already installed (it comes with iTunes). Also note that the BASS_AAC.dll addon provides a better solution - see http://getmusicbee.com/help.html
-#Sys.msg.PrSoDr#	Primary Sound Driver
-#Sys.msg.NWdwd#		No WASAPI devices were detected.
-#Sys.msg.Iyhnsosntl#	If you hear no sound or static noise, try limiting the bit-depth below.
-#Sys.msg.DeSoDe#	Default Sound Device
-#Sys.msg.NAdwd#		No ASIO devices were detected.
+#Sys.msg.PrSoDr#	默认音频驱动器
+#Sys.msg.NWdwd#		未发现 WASAPI 设备.
+#Sys.msg.Iyhnsosntl#	如果播放效果不好,请尝试降低比特深度.
+#Sys.msg.DeSoDe#	默认音频设备
+#Sys.msg.NAdwd#		未发现 ASIO 设备.
 #Sys.msg.Nascstoois#	Not all sound cards support this option, or in some cases when combined with 32 bit output - disable this option if music files no longer play
 #Sys.msg.Nascs3bo-d#	Not all sound cards support 32 bit output - disable this option if music files no longer play
 
 ! player tab - asio config opened from "Configure" button
-#ASIO.frm.57FC2BE0#	Asio Output Configuration
-#ASIO.ctl.566F807D#	driver:
-#ASIO.msg.None#		None
-#ASIO.msg.LeFr#		Left Front
-#ASIO.msg.RiFr#		Right Front
-#ASIO.msg.LeRe#		Left Rear
-#ASIO.msg.RiRe#		Right Rear
-#ASIO.msg.Center#	Center
+#ASIO.frm.57FC2BE0#	Asio 输出设置
+#ASIO.ctl.566F807D#	驱动:
+#ASIO.msg.None#		无
+#ASIO.msg.LeFr#		左前
+#ASIO.msg.RiFr#		右前
+#ASIO.msg.LeRe#		左后
+#ASIO.msg.RiRe#		右后
+#ASIO.msg.Center#	中间
 #ASIO.msg.LFE#		LFE
 #ASIO.msg.LeReCe#	Left Rear Center
 #ASIO.msg.RiReCe#	Right Rear Center
-#ASIO.btn.8A92D05B#	Configure
+#ASIO.btn.8A92D05B#	设置
 
 ! now playing tab
-#Sys.tab.F0558E40#	Now Playing
-#Sys.ctl.1B40B308#	  正在播放 list  
-#Sys.ctl.9C7C4FEF#	action when adding tracks using double-click and quick tracks:
-#Sys.ctl.3E247A86#	if playback is stopped:
-#Sys.msg.PlNo#		Play Now
-#Sys.msg.QuNe#		Queue Next
-#Sys.msg.QuLa#		Queue Last
-#Sys.ctl.28941771#	ask
-#Sys.ctl.9D928D4E#	when tracks are playing:
-#Sys.ctl.96819EB9#	ask
-#Sys.ctl.675C602A#	tracks added using Queue Next are always played in sequence - even when Shuffle is enabled (use Queue Last instead)
-#Sys.ctl.2ECC2403#	'Play Now' action:
-#Sys.ctl.BAECC9A1#	clear list and play selected tracks only
-#Sys.ctl.6ECE3D49#	clear list and play all tracks
-#Sys.ctl.222F64F#	queue selected tracks next and play now
+#Sys.tab.F0558E40#	正在播放
+#Sys.ctl.1B40B308#	  正在播放列表  
+#Sys.ctl.9C7C4FEF#	使用双击或快速曲目添加曲目时的动作:
+#Sys.ctl.3E247A86#	如果如果停止:
+#Sys.msg.PlNo#		现在播放
+#Sys.msg.QuNe#		插入到队首
+#Sys.msg.QuLa#		插入到队尾
+#Sys.ctl.28941771#	询问
+#Sys.ctl.9D928D4E#	当曲目在播放时:
+#Sys.ctl.96819EB9#	询问
+#Sys.ctl.675C602A#	使用插入到队首命令添加的曲目是按顺序播放的 - 即使打乱模式开启(使用插入到队尾则会打乱)
+#Sys.ctl.2ECC2403#	'现在播放' 动作:
+#Sys.ctl.BAECC9A1#	清除列表,播放选定的曲目
+#Sys.ctl.6ECE3D49#	清除列表,播放所有的曲目
+#Sys.ctl.222F64F#	将选定的曲目添加到队首并播放
 #Sys.ctl.15ACB967#	highlight playing track
 #Sys.ctl.F282A266#	and follow it in the main panel
 #Sys.ctl.8BA46CAC#	clear 正在播放 list and current playing track on restart
 #Sys.ctl.FDB4A18A#	  正在播放 notification  
-#Sys.ctl.F40D5A6A#	show popup for:
+#Sys.ctl.F40D5A6A#	显示 popup for:
 #Sys.ctl.DCEF14B7#	seconds
 #Sys.ctl.69CB0404#	only when inactive
 #Sys.btn.46F59C3#	Customise
 #Sys.ctl.7C4BB616#	opaque
 #Sys.ctl.844FEA6F#	transparent
-#Sys.ctl.70BDBEC8#	show popup using:
+#Sys.ctl.70BDBEC8#	显示 popup using:
 #Sys.ctl.8AC4086F#	MusicBee
 #Sys.ctl.F0E739EE#	Snarl
-#Sys.ctl.47530DE#	show in task bar as:
+#Sys.ctl.47530DE#	显示 in task bar as:
 #Sys.ctl.C5B81C15#	scroll in player as:
-#Sys.ctl.CF78F3DC#	show in IM client:
+#Sys.ctl.CF78F3DC#	显示 in IM client:
 #Sys.ctl.34A816BD#	display using format:
 #Sys.ctl.1DB3F874#	  正在播放 information  
-#Sys.ctl.8264044A#	show information for the playing artist
-#Sys.ctl.A655867A#	show in a tab
-#Sys.ctl.9219449B#	show on the bottom pane
-#Sys.ctl.DC4B255D#	biography source:
-#Sys.ctl.7A1C98A5#	last.fm formatted
-#Sys.ctl.C1245A59#	last.fm web-page
-#Sys.ctl.BB6C2FFE#	'send to clipboard' format:
+#Sys.ctl.8264044A#	显示 information for the playing artist
+#Sys.ctl.A655867A#	显示 in a tab
+#Sys.ctl.9219449B#	显示 on the bottom pane
+#Sys.ctl.DC4B255D#	任务:
+#Sys.ctl.7A1C98A5#	last.fm 格式
+#Sys.ctl.C1245A59#	last.fm 网页
+#Sys.ctl.BB6C2FFE#	'发送到剪贴板' 格式:
 
 ! library tab
 #Sys.tab.A0B3BB6D#	Library
@@ -1660,16 +1660,16 @@
 #CD.msg.AvrtrofyCd#	AccurateRip validation requires the read offset for your CD drive - click the 'Lookup' button or enter the value first.
 
 ! tools tab
-#Sys.tab.39A0A939#	Tools
+#Sys.tab.39A0A939#	工具
 #Sys.ctl.837B40D1#	  external application  
-#Sys.ctl.CF79983#	configuration for an external application that can be invoked from the Send To menu:
+#Sys.ctl.CF79983#	configuration for an external application that can be invoked from the 发送到 menu:
 #Sys.ctl.ED4E48F#	name:
 #Sys.ctl.BCA235F5#	application path:
 #Sys.ctl.1D5969B2#	parameters:
 #Sys.ctl.548BE8DF#	placeholders such as <URL> are replaced with values from the selected file
 #Sys.ctl.292AE1ED#	wait for application to exit before next file is sent
 #Sys.ctl.6786E5B0#	  external audio editor  
-#Sys.ctl.FC5FD222#	configuration for an external audio editor invoked from the Send To menu:
+#Sys.ctl.FC5FD222#	configuration for an external audio editor invoked from the 发送到 menu:
 #Sys.ctl.FFAA22F4#	application path:
 #Sys.msg.Stffmfd#	Select the folder for music file downloads:
 #Sys.msg.Stffad#	Select the folder for artwork downloads:
@@ -1960,7 +1960,7 @@
 #Tag.ctl.album:#	album:
 #Tag.ctl.tral#		track/ album:
 #Tag.ctl.trra#		track rating:
-#Tag.ctl.equaliser:#	equaliser:
+#Tag.ctl.equaliser:#	均衡器:
 #Tag.msg.Apicnleoii#	A picture is corrupted, no longer exists or is inaccessible.
 #Tag.msg.pacnleoai#	{0} pictures are corrupted, no longer exist or are inaccessible.
 #Tag.help.Tvinv-fao#	The value is not valid - format as 'yyyy' or a valid date
@@ -2041,7 +2041,7 @@
 #Tag.ctl.Settings#	Settings
 #Tag.ctl.voad#		volume adjustment:
 #Tag.ctl.none#		none
-#Tag.ctl.eqpr#		equaliser preset:
+#Tag.ctl.eqpr#		均衡器 preset:
 #Tag.ctl.skwhsh#	skip when shuffling
 #Tag.ctl.donocr#	do not crossfade
 #Tag.ctl.replpo#	remember playback position
@@ -2494,7 +2494,7 @@
 #Cvt.msg.Tdfcbafiyl#	The destination folder cannot be a folder in your library
 #Cvt.msg.Fdne#		Folder '{0}' does not exist
 #Cvt.msg.Stdftwctcf#	Select the destination folder that will contain the converted files:
-#Cvt.msg.NehbeitTO#	No {0} encoder has been enabled in the Tools/ Options/ File Converters menu.{1}Due to licensing restrictions, no MP3 or AAC encoder can be bundled with MusicBee. However you can download one for personal use - see www.getmusicbee.com/help.html
+#Cvt.msg.NehbeitTO#	No {0} encoder has been enabled in the 工具/ Options/ File Converters menu.{1}Due to licensing restrictions, no MP3 or AAC encoder can be bundled with MusicBee. However you can download one for personal use - see www.getmusicbee.com/help.html
 #Cvt.msg.Ecnbl#		Encoder '{0}' could not be located
 #Cvt.msg.Nofico#	No files converted
 #Cvt.msg.Ficoco#	File conversion completed
@@ -2985,7 +2985,7 @@
 #Main.msg.Continuous#	Continuous
 
 ! combined with the file type eg. MP3 audio file
-#Main.msg.AudioFile#	audio file
+#Main.msg.AudioFile#	音频文件
 
 ! plugin preferences
-#Sys.msg.disabled#	disabled
+#Sys.msg.disabled#	已禁用
