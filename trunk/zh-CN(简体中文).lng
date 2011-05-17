@@ -2692,64 +2692,64 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Vol.msg.Nofiup#	No files updated
 
 ! podcasts directory
-#pDir.msg.Loading#	Loading...
-#pDir.msg.Utld-wopmb#	Unable to load directory - website or podcast may be unavailable
-#pDir.msg.Utrdftw#	Unable to retrieve data from this website
-#pDir.menu.Unsubscribe#	Unsubscribe
-#pDir.menu.Subscribe#	Subscribe
-#pDir.msg.Redi{#	Remove directory '{0}'?
+#pDir.msg.Loading#	载入中...
+#pDir.msg.Utld-wopmb#	载入目录失败 - 网站或播客不可用
+#pDir.msg.Utrdftw#	不能从这个网站获取数据
+#pDir.menu.Unsubscribe#	取消订阅
+#pDir.menu.Subscribe#	订阅
+#pDir.msg.Redi{#	移除目录 '{0}'?
 
 ! welcome dialog
-#Welc.frm.34585157#	Scan for Files...
-#Welc.ctl.26BE98DF#	You can change either after the scan has completed from the View menu
-#Welc.ctl.F1A8AF4D#	Want to change the layout or colour scheme?
-#Welc.ctl.5843C805#	Please wait, scanning for files...
-#Welc.ctl.B48C691C#	ask again next time MusicBee is started
-#Welc.ctl.219C226E#	import tracks and artwork from iTunes
-#Welc.ctl.30588D8F#	scan for existing tracks and artwork located in the following folders:
-#Welc.ctl.8ACE9C45#	import tracks and artwork from Windows Media Library
-#Welc.btn.EE79F85D#	Choose Folders
-#Welc.ctl.5D675CD#	Welcome to MusicBee - would you like your music files to be added to the library?
-#Welc.btn.32CDB12D#	Scan Now
-#Welc.msg.Fasbs-dywt#	Files are still being scanned - do you want to abort the import process?
-#Welc.msg.LoiTLi#	Locate iTunes Library
-#Welc.msg.ChFo#		Choose Folders...
-#Welc.msg.Sfcmtattl#	Select folders containing music to add to the library
-#Welc.msg.imff#		importing music files from 
-#Welc.msg.lmfoyc#	locating music files on your computer
-#Welc.msg.anyoco#	 and your computer
-#Welc.msg.Nnfwf#	No new files were found.
+#Welc.frm.34585157#	正在扫描文件...
+#Welc.ctl.26BE98DF#	你也可以在扫描完成之后在 视图 菜单里修改
+#Welc.ctl.F1A8AF4D#	要改变布局或者主题吗?
+#Welc.ctl.5843C805#	请稍候，扫描文件中...
+#Welc.ctl.B48C691C#	下一次MusicBee启动时再询问我
+#Welc.ctl.219C226E#	从iTunes导入曲目及封面
+#Welc.ctl.30588D8F#	扫描以下文件夹中的曲目及封面:
+#Welc.ctl.8ACE9C45#	从Windows Media Library导入曲目及封面
+#Welc.btn.EE79F85D#	选择目录
+#Welc.ctl.5D675CD#	Welcome to MusicBee - 你要添加音乐文件到库吗?
+#Welc.btn.32CDB12D#	立即扫描
+#Welc.msg.Fasbs-dywt#	扫描文件中 - 要取消导入吗?
+#Welc.msg.LoiTLi#	查找iTunes Library
+#Welc.msg.ChFo#		选择目录...
+#Welc.msg.Sfcmtattl#	选择包含有音乐文件的目录添加到库
+#Welc.msg.imff#		正从以下目录导入音乐文件 
+#Welc.msg.lmfoyc#	在你的电脑上查找音乐文件
+#Welc.msg.anyoco#	 以及的你的电脑
+#Welc.msg.Nnfwf#	没发现新文件.
 ! added 1-May-2011
-#Main.picture.3#	Album Cover
-#Main.picture.4#	Album Cover (back)
+#Main.picture.3#	专辑封面
+#Main.picture.4#	专辑封面 (背面)
 #Main.picture.5#	Leaflet Page
-#Main.picture.6#	Media Label
+#Main.picture.6#	媒体标签
 #Main.picture.7#	Lead Artist
-#Main.picture.8#	Artist
-#Main.picture.9#	Conductor
-#Main.picture.10#	Band
-#Main.picture.11#	Composer
-#Main.picture.12#	Lyricist
+#Main.picture.8#	艺术家
+#Main.picture.9#	指挥家
+#Main.picture.10#	乐队
+#Main.picture.11#	作曲家
+#Main.picture.12#	歌词作者
 #Main.picture.13#	Recording Location
 #Main.picture.14#	During Recording
 #Main.picture.15#	During Performance
 #Main.picture.16#	Video Screen Capture
 #Main.picture.18#	Illustration
-#Main.picture.19#	Band Logotype
-#Main.picture.20#	Publisher Logotype
+#Main.picture.19#	乐队商标
+#Main.picture.20#	发行商标
 
-#Main.msg.Files0#	No files
-#Main.msg.Files1#	1 file
-#Main.msg.Files9#	{0} files
-#Main.msg.SelFiles0#	No selected files
-#Main.msg.SelFiles1#	1 selected file
-#Main.msg.SelFiles9#	{0} selected files
-#Main.msg.DupFiles0#	No duplicate files
-#Main.msg.DupFiles1#	1 duplicate file
-#Main.msg.DupFiles9#	{0} duplicate files
-#Main.msg.NewFiles0#	No new files
-#Main.msg.NewFiles1#	1 new file
-#Main.msg.NewFiles9#	{0} new files
+#Main.msg.Files0#	无文件
+#Main.msg.Files1#	1个文件
+#Main.msg.Files9#	{0}个文件
+#Main.msg.SelFiles0#	无选定文件
+#Main.msg.SelFiles1#	1个选定文件
+#Main.msg.SelFiles9#	{0}个选定文件
+#Main.msg.DupFiles0#	无重复文件
+#Main.msg.DupFiles1#	1个重复文件
+#Main.msg.DupFiles9#	{0} 个重复文件
+#Main.msg.NewFiles0#	无新文件
+#Main.msg.NewFiles1#	1个新文件
+#Main.msg.NewFiles9#	{0} 个新文件
 #Main.msg.Items0#	No items
 #Main.msg.Items1#	1 item
 #Main.msg.Items9#	{0} items
@@ -2767,13 +2767,13 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Main.msg.Subs9#	{0} subscriptions
 
 ! status message eg. 5 files removed
-#Main.msg.0mo#		{0} moved
-#Main.msg.0re#		{0} removed
-#Main.msg.0de#		{0} deleted
-#Main.msg.0co#		{0} copied
-#Main.msg.0ad#		{0} added
+#Main.msg.0mo#		{0} 被移动
+#Main.msg.0re#		{0} 被移除
+#Main.msg.0de#		{0} 被删除
+#Main.msg.0co#		{0} 被复制
+#Main.msg.0ad#		{0} 被添加
 ! track browser eg. All (5 items)
-#Main.msg.Al({#		All  ({0})
+#Main.msg.Al({#		全部  ({0})
 
 #Sys.msg.PTST#		Playback: Toggle Skip Track
 #Sys.msg.custom#	custom
@@ -2783,11 +2783,11 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 !replace the existing value:
 #aSplit.msg.diar#	display {0}:
 
-#Scan.msg.Frac-nnff#	File rescan/ add completed - no new files found
-#Scan.msg.Frac-a#	File rescan/ add completed - {0} added
-#Scan.msg.,mlfd#	, missing library files detected
-#Scan.msg.Fiscfa#	File scan failed
-#Scan.msg.Eodtfs-pst#	Errors occurred during the file scan - please see the log in the View/ Error Log menu
+#Scan.msg.Frac-nnff#	文件重新扫描/添加完成-没发现新文件
+#Scan.msg.Frac-a#	文件重新扫描/添加完成- 新增 {0} 
+#Scan.msg.,mlfd#	, 检测到有库文件缺失
+#Scan.msg.Fiscfa#	扫描文件失败
+#Scan.msg.Eodtfs-pst#	扫描文件出错- 请查看 视图/ 错误日志 菜单
 
 ! added 3-May-2011
 
@@ -2802,23 +2802,23 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Main.msg.hours#	hours
 #Main.msg.days#		days
 
-#Main.menu.FGiL#	Find Genre in Library
-#Main.menu.FGiL.2#	Find Genre '{0}' in Library
+#Main.menu.FGiL#	在库中查找流派
+#Main.menu.FGiL.2#	在库中查找流派 '{0}' 
 
 ! System Preferences - Yes is displayed in the global column of the hotkeys tab
-#Sys.msg.Yes#		Yes
+#Sys.msg.Yes#		是
 ! player preferences: re-sample rates
 #Sys.msg.48K#		48K
 #Sys.msg.96K#		96K
 #Sys.msg.192K#		192K
 
 ! Volume Analysis
-#Vol.col.8CE727B4#	name
-#Vol.col.88583FD8#	status
+#Vol.col.8CE727B4#	名称
+#Vol.col.88583FD8#	状态
 #Vol.msg.CaVo#		Calculating Volume
 #Vol.msg.An{#		Analysing '{0}'
-#Vol.msg.Done#		Done
-#Vol.msg.Fa-0#		Failed - {0}
+#Vol.msg.Done#		完成
+#Vol.msg.Fa-0#		失败 - {0}
 #Vol.msg.UnVo#		Undoing Volume
 #Vol.msg.Rva#		Removing volume adjustment '{0}'
 #Vol.msg.ReVo#		Removing Volume Adjustment...
@@ -2826,58 +2826,58 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Vol.msg.Voanco#	Volume analysis completed
 
 ! Format Converter
-#Cvt.msg.Co{#		Converting '{0}'
-#Cvt.msg.Reading...#	Reading...
-#Cvt.msg.Encoding...#	Encoding...
-#Cvt.msg.Fa-0#		Failed - {0}
+#Cvt.msg.Co{#		正在转换 '{0}'
+#Cvt.msg.Reading...#	正在读取...
+#Cvt.msg.Encoding...#	正在编码...
+#Cvt.msg.Fa-0#		失败 - {0}
 
 ! File organiser
-#Org.msg.Organising#	Organising
-#Org.msg.Or{#		Organising '{0}'
-#Org.msg.Er-0#		Error - {0}
+#Org.msg.Organising#	整理中
+#Org.msg.Or{#		正在整理 '{0}'
+#Org.msg.Er-0#		错误 - {0}
 
 ! CD Ripper
 #Rip.msg.ripping#	ripping
-#Rip.msg.verifying#	verifying
-#Rip.msg.encoding#	encoding
-#Rip.msg.Wfetc#		Wait for encoding to complete
-#Rip.msg.aborted#	aborted
+#Rip.msg.verifying#	正在检验
+#Rip.msg.encoding#	编码
+#Rip.msg.Wfetc#		等待编码完成
+#Rip.msg.aborted#	已终止
 #Rip.msg.Ri{#		Ripping '{0}'
-#Rip.msg.cancelled#	cancelled
+#Rip.msg.cancelled#	已取消
 #Rip.msg.no#		no
-#Rip.msg.vefa#		verify failed
+#Rip.msg.vefa#		检验失败
 #Rip.msg.atre#		attempting to recover errors...
 #Rip.msg.rdw8mr#	recovery done with 8 matching re-reads
 #Rip.msg.Ri0{#		Ripping   {0}   '{1}'
 #Rip.msg.rico#		rip completed
-#Rip.msg.veOK#		verify OK
-#Rip.msg.saving...#	saving...
-#Rip.msg.En{#		Encoding '{0}'
+#Rip.msg.veOK#		检验成功
+#Rip.msg.saving...#	正在保存...
+#Rip.msg.En{#		正在编码 '{0}'
 #Rip.msg.ripped#	ripped
 #Rip.msg.acri#		accurately ripped
 #Rip.msg.paacri#	partially accurate rip
 #Rip.msg.inri#		inaccurately ripped
-#Rip.msg.enfa0#		encoding failed: {0}
+#Rip.msg.enfa0#		编码失败: {0}
 #Rip.msg.Anvo#		Analysing volume
 #Rip.msg.rbvaf-#	ripped but volume analysis failed - {0}
 
 ! auto-tag by track
-#tTag.msg.Sewe{#	Searching web '{0}'
-#tTag.msg.Auab#		Auto-tag aborted
+#tTag.msg.Sewe{#	搜索站点 '{0}'
+#tTag.msg.Auab#		Auto-tag 已终止
 
 ! genre category editor
-#gCat.frm.A03A88D3#	Genre Categorisation Editor
-#gCat.ctl.F1A8AF4D#	Genres can be grouped into broad categories and are available for sorting, filtering and file naming using the 'Genre Category' tag
-#gCat.ctl.7BA70F73#	category
-#gCat.ctl.6E252FD8#	genre
-#gCat.msg.Oomvhbc-dy#	One or more values has been changed - do you want to save the changes?
+#gCat.frm.A03A88D3#	流派类型编辑
+#gCat.ctl.F1A8AF4D#	流派可合并成大类，并用于排序、过滤和使用'Genre Category'标签来命名文件
+#gCat.ctl.7BA70F73#	类别
+#gCat.ctl.6E252FD8#	流派
+#gCat.msg.Oomvhbc-dy#	一个或多个值已经被修改-要保存吗？
 
 ! restrict file types - opened from the file scanner "Restrict Types" button
-#RFT.msg.ReFiTy#	Restrict File Types
-#RFT.msg.infity#	include file types:
-#RFT.btn.SeNo#		Select None
-#RFT.btn.SeAl#		Select All
-#RFT.msg.Ynttaloft#	You need to tick at least one file type
+#RFT.msg.ReFiTy#	限制文件类型
+#RFT.msg.infity#	包含文件类型:
+#RFT.btn.SeNo#		全不选
+#RFT.btn.SeAl#		全选
+#RFT.msg.Ynttaloft#	你至少要选择一种文件类型
 
 ! auto-showdown dialog
 #AutoSD.msg.@#		@
@@ -2885,68 +2885,68 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 
 ! added 5-May-2011
 ! library filter manager
-#LFM.msg.LiFiMa#	Library Filter Manager
-#LFM.msg.EoomfAfcba#	Enter one or more filters. A filter can be applied by right-clicking on the Music Library navigation node in the main window and selecting a filter.
-#LFM.msg.fina#		filter name:
-#LFM.msg.firu#		filter rules:
-#LFM.btn.AdNe#		Add New
-#LFM.help.Defi#		Delete filter
-#LFM.msg.FiEd#		Filter Editor
+#LFM.msg.LiFiMa#	库过滤器管理
+#LFM.msg.EoomfAfcba#	输入一个或多个过滤器。可通过右键主窗口导航栏音乐库来选择一个要应用的过滤器
+#LFM.msg.fina#		过滤器名称:
+#LFM.msg.firu#		过滤规则:
+#LFM.btn.AdNe#		添加新的
+#LFM.help.Defi#		删除过滤器
+#LFM.msg.FiEd#		过滤器编辑
 
 ! file scanner
-#Scan.msg.Ro#		Rescanning {0} of {1}
-#Scan.msg.Scanning...#	Scanning...
-#Scan.msg.So#		Scanning... {0} of {1}
-#Scan.msg.Uo#		Updating... {0} of {1}
-#Scan.msg.CUtwctvft#	CONFIRMATION: Update the {0} with cached tag values from the MusicBee database?
-#Scan.msg.Uftpw#	Updating file tags, please wait...
-#Scan.msg.Yntstfywts#	You need to select the files you want to synchronise
-#Main.menu.Advanced#	Advanced
-#Main.menu.SyTa#	Synchronise Tags...
-#Main.msg.0up#		{0} updated
+#Scan.msg.Ro#		重新扫描 {0} of {1}
+#Scan.msg.Scanning...#	正在扫描...
+#Scan.msg.So#		正在扫描... {0} of {1}
+#Scan.msg.Uo#		正在更新... {0} of {1}
+#Scan.msg.CUtwctvft#	CONFIRMATION: 确定要用Musicbee数据库中的缓存标签更新 {0} ?
+#Scan.msg.Uftpw#	正在更新文件标签，请稍候...
+#Scan.msg.Yntstfywts#	你需要选定要同步的文件
+#Main.menu.Advanced#	高级
+#Main.menu.SyTa#	正在同步标签...
+#Main.msg.0up#		{0} 更新完成
 
 ! radio station editor
-#RSE.ctl.F878C7D2#	stream uses ascii encoding  (tick if playing tracks display with unreadable text)
+#RSE.ctl.F878C7D2#	使用ASCII编码流(若有不可读文本会发出滴答声)
 
 ! dialog in Tags(2) preferences when configuring artwork, lyrics and tag providers
-#Main.msg.lyar#		enable and order the priority where lyrics are retrieved from:
-#Main.msg.aris#		enable and order the priority where artwork is retrieved from:
-#Main.msg.taar#		enable and order the priority where tags are retrieved from:
+#Main.msg.lyar#		选择歌词提供者及其优先级:
+#Main.msg.aris#		选择艺术家提供者及其优先级:
+#Main.msg.taar#		选择标签提供者及其优先级:
 
 ! Hotkey preferences columns
-#Sys.col.35643A5A#	Action
-#Sys.col.1ECF26C4#	Hotkey
-#Sys.col.3769276F#	Global
-#Sys.col.A0AD3495#	Action
-#Sys.col.B4B61F7C#	Hotkey
-#Sys.col.12995980#	Global
+#Sys.col.35643A5A#	操作
+#Sys.col.1ECF26C4#	快捷键
+#Sys.col.3769276F#	全局
+#Sys.col.A0AD3495#	操作
+#Sys.col.B4B61F7C#	快捷键
+#Sys.col.12995980#	全局
 
 ! Tags(2) preferences - artwork minimum size
-#Sys.ctl.2682CE6A#	px
+#Sys.ctl.2682CE6A#	像素
 
 ! encoding presets - dropdown in the CD Rip Settings and Device setting panels
-#Main.msg.SmFiSi#	Small File Size
+#Main.msg.SmFiSi#	小文件
 #Main.msg.PoDeLi#	Portable Device Listening
-#Main.msg.HiQu#		High Quality
-#Main.msg.Archiving#	Archiving
+#Main.msg.HiQu#		高质量
+#Main.msg.Archiving#	存档
 
 ! device summary panel
 #dSum.msg.Unknown#	未知
 #dSum.msg.N/A#		N/A
-#dSum.msg.Tdina#	The device is not accessible
-#dSum.msg.TdiracbubM#	The device is read-only and cannot be updated by MusicBee
+#dSum.msg.Tdina#	设备不可用
+#dSum.msg.TdiracbubM#	只读设备，不能由Musicbee更新
 #dSum.msg.({ofca#	   ({0}% of capacity)
 
 ! auto-shutdown
-#AutoSD.493A25AE#	mins
+#AutoSD.493A25AE#	分钟
 
 ! 7-May-2011
-#Tag.ctl.conductor:#	conductor:
+#Tag.ctl.conductor:#	指挥家:
 ! replace the following:
 #Main.msg.RtCtzft#	Reset the '{0}' to zero for the {1}?
 
 ! 8-May-2011
-#Main.msg.Plwalo#	Please wait, loading...
+#Main.msg.Plwalo#	请稍候...
 ! [Empty] that is shown in the track browser for null values
 #Main.msg.[Empty]#	[Empty]
 ! artwork panel eg. Albums by Genre/ Year
@@ -2957,9 +2957,9 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #EQ.ctl.C624597#	+15 dB
 #EQ.ctl.98AF1701#	0 dB
 #EQ.ctl.C622C4A#	-15 dB
-#EQ.ctl.C260ECF3#	name
-#EQ.ctl.53358752#	description
-#EQ.ctl.19DFAFD2#	file
+#EQ.ctl.C260ECF3#	名称
+#EQ.ctl.53358752#	描述
+#EQ.ctl.19DFAFD2#	文件
 #EQ.ctl.5702CBBC#	1K
 #EQ.ctl.50046B5D#	2K
 #EQ.ctl.408A8E72#	4K
@@ -2967,16 +2967,16 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #EQ.ctl.ADF5384B#	16Khz
 
 ! file properties
-#Main.chan.1#		Mono
-#Main.chan.2#		Stereo
+#Main.chan.1#		单声道
+#Main.chan.2#		立体声
 #Main.chan.3#		3 Channels
 #Main.chan.4#		4 Channels
 #Main.chan.5#		5 Channels
 #Main.chan.6#		5.1
 #Main.chan.7#		7 Channels
 #Main.chan.8#		8 Channels
-#Main.chan.9#		Joint Stereo
-#Main.chan.10#		Dual
+#Main.chan.9#		混合立体声
+#Main.chan.10#		双声道
 #Main.msg.dB#		dB
 #Main.msg.kHz#		kHz
 #Main.msg.PoRaSt#	Play-Once Radio Stream
