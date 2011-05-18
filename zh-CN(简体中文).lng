@@ -1455,100 +1455,100 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Sys.ctl.BAECC9A1#	清除列表,播放选定的曲目
 #Sys.ctl.6ECE3D49#	清除列表,播放所有的曲目
 #Sys.ctl.222F64F#	将选定的曲目添加到队首并播放
-#Sys.ctl.15ACB967#	highlight playing track
-#Sys.ctl.F282A266#	and follow it in the main panel
-#Sys.ctl.8BA46CAC#	clear 正在播放 list and current playing track on restart
-#Sys.ctl.FDB4A18A#	  正在播放 notification  
-#Sys.ctl.F40D5A6A#	显示 popup for:
+#Sys.ctl.15ACB967#	高亮正在播放曲目
+#Sys.ctl.F282A266#	并在主面板中定位之
+#Sys.ctl.8BA46CAC#	重启时清除正在播放列表和正在播放曲目
+#Sys.ctl.FDB4A18A#	  正在播放提示  
+#Sys.ctl.F40D5A6A#	提示持续时间:
 #Sys.ctl.DCEF14B7#	秒
-#Sys.ctl.69CB0404#	only when inactive
-#Sys.btn.46F59C3#	Customise
-#Sys.ctl.7C4BB616#	opaque
-#Sys.ctl.844FEA6F#	transparent
-#Sys.ctl.70BDBEC8#	显示 popup using:
+#Sys.ctl.69CB0404#	只在不活动时显示
+#Sys.btn.46F59C3#	自定义
+#Sys.ctl.7C4BB616#	不透明
+#Sys.ctl.844FEA6F#	透明
+#Sys.ctl.70BDBEC8#	弹出窗口使用:
 #Sys.ctl.8AC4086F#	MusicBee
 #Sys.ctl.F0E739EE#	Snarl
-#Sys.ctl.47530DE#	显示 in task bar as:
-#Sys.ctl.C5B81C15#	scroll in player as:
-#Sys.ctl.CF78F3DC#	显示 in IM client:
-#Sys.ctl.34A816BD#	display using format:
-#Sys.ctl.1DB3F874#	  正在播放 information  
-#Sys.ctl.8264044A#	显示 information for the playing artist
-#Sys.ctl.A655867A#	显示 in a tab
-#Sys.ctl.9219449B#	显示 on the bottom pane
+#Sys.ctl.47530DE#	在任务栏显示为:
+#Sys.ctl.C5B81C15#	在播放器中滚动显示:
+#Sys.ctl.CF78F3DC#	在IM客户端显示:
+#Sys.ctl.34A816BD#	显示格式:
+#Sys.ctl.1DB3F874#	  正在播放信息  
+#Sys.ctl.8264044A#	显示正在播放艺术家信息
+#Sys.ctl.A655867A#	在标签页中显示
+#Sys.ctl.9219449B#	在底面板中显示
 #Sys.ctl.DC4B255D#	任务:
 #Sys.ctl.7A1C98A5#	last.fm 格式
 #Sys.ctl.C1245A59#	last.fm 网页
 #Sys.ctl.BB6C2FFE#	'发送到剪贴板' 格式:
 
 ! library tab
-#Sys.tab.A0B3BB6D#	Library
-#Sys.ctl.C3FFA434#	settings in this panel only apply to the current library:  
-#Sys.ctl.B27EE2C4#	  music library  
-#Sys.ctl.547195DE#	auto-organise music library files
-#Sys.btn.79F75BD0#	Organisation
-#Sys.ctl.62BA05EA#	remove dead links on startup
-#Sys.ctl.561C2E1E#	save a copy of the library file tags as an iTunes formatted XML file
-#Sys.ctl.5B6A8C0E#	define filters:
-#Sys.btn.E12582FE#	Configure
-#Sys.ctl.12479D26#	filters enable you to view subsets of your library
-#Sys.ctl.E62AE712#	  monitored folders  
-#Sys.ctl.6D4F1697#	scan on startup only
-#Sys.ctl.2E59DC84#	continuously monitor
-#Sys.ctl.86323463#	activated on next restart
-#Sys.ctl.7FDDD233#	ignore tracks less than 
-#Sys.ctl.7FC91213#	KB in size
-#Sys.btn.B345D978#	Choose Folders
-#Sys.ctl.DF1A91EF#	new file action:
-#Sys.ctl.552ED68#	add to library
-#Sys.ctl.6BE16EA5#	add to inbox
-#Sys.ctl.DAA60165#	add to 正在播放
-#Sys.ctl.D2F5FC07#	automatically sweep and organise new files
-#Sys.btn.17D184F#	Organisation
-#Sys.ctl.81783EF7#	  podcasts  
-#Sys.ctl.31AE8E4B#	download to folder:
-#Sys.ctl.A04E3099#	check for updates:
-#Sys.ctl.3ED69FD#	new episode action:
-#Sys.ctl.2786B614#	keep:
-#Sys.ctl.96B8EEF#	  播放列表s  
-#Sys.ctl.2BA6BA80#	save to folder
-#Sys.ctl.C031FCF5#	format
-#Sys.ctl.69C5ADA9#	library 播放列表s:
-#Sys.ctl.24A4E1A9#	exported 播放列表s:
-#Sys.ctl.594765E9#	map base file paths in exported 播放列表s
-#Sys.ctl.86F3C5C9#	from:
-#Sys.ctl.2883604#	to:
+#Sys.tab.A0B3BB6D#	库
+#Sys.ctl.C3FFA434#	此页的设置只对当前库有效:  
+#Sys.ctl.B27EE2C4#	  音乐库  
+#Sys.ctl.547195DE#	自动整理音乐文件
+#Sys.btn.79F75BD0#	整理
+#Sys.ctl.62BA05EA#	启动时删除死链接
+#Sys.ctl.561C2E1E#	保存库文件标签到一份iTunes格式的xml文件
+#Sys.ctl.5B6A8C0E#	设置过滤器:
+#Sys.btn.E12582FE#	设置
+#Sys.ctl.12479D26#	过滤器允许你查看你的库的子集
+#Sys.ctl.E62AE712#	  监控的文件夹 
+#Sys.ctl.6D4F1697#	只在启动时扫描
+#Sys.ctl.2E59DC84#	持续监控
+#Sys.ctl.86323463#	下次启动时显示
+#Sys.ctl.7FDDD233#	忽略小于指定大小的文件 
+#Sys.ctl.7FC91213#	KB 
+#Sys.btn.B345D978#	选择文件夹
+#Sys.ctl.DF1A91EF#	新文件操作:
+#Sys.ctl.552ED68#	添加到库
+#Sys.ctl.6BE16EA5#	添加到 Inbox
+#Sys.ctl.DAA60165#	添加到正在播放
+#Sys.ctl.D2F5FC07#	自动整理新文件
+#Sys.btn.17D184F#	整理
+#Sys.ctl.81783EF7#	  播客  
+#Sys.ctl.31AE8E4B#	下载到:
+#Sys.ctl.A04E3099#	检查更新频率:
+#Sys.ctl.3ED69FD#	新项目操作:
+#Sys.ctl.2786B614#	保留:
+#Sys.ctl.96B8EEF#	  播放列表
+#Sys.ctl.2BA6BA80#	保存到文件夹
+#Sys.ctl.C031FCF5#	格式
+#Sys.ctl.69C5ADA9#	库 播放列表:
+#Sys.ctl.24A4E1A9#	导出的 播放列表:
+#Sys.ctl.594765E9#	从文件件路径映射到导出的播放列表
+#Sys.ctl.86F3C5C9#	从:
+#Sys.ctl.2883604#	到:
 
 ! tags(1) tab
-#Sys.tab.CE2A10C7#	Tags (1)
-#Sys.ctl.E696A6D1#	  tag storage  
-#Sys.ctl.908F2AD#	save MP3 tags as:
-#Sys.ctl.170D661D#	also save ID3v1 tags
-#Sys.ctl.1CBB04DB#	use UTF-8 for WAVE files
-#Sys.ctl.48BEF97C#	store ratings in the music file
-#Sys.ctl.C2F5E5E7#	disable half ratings
-#Sys.ctl.DCB36A1A#	保存时不更新文件修改时间
-#Sys.ctl.40B7AB18#	  custom tags  
-#Sys.ctl.7DFEDAE5#	display name
-#Sys.ctl.9004BD0#	save to music file as tag
-#Sys.btn.BED39E57#	Define New Tags...
-#Sys.ctl.8CC49FDC#	  artwork storage  
-#Sys.ctl.D3C58BC9#	embed picture in the music file
-#Sys.ctl.B643208B#	copy picture to folder.jpg
-#Sys.ctl.BA9353C1#	link to the original picture
-#Sys.ctl.117F3F8D#	copy to the same folder as the music file and name as:
-#Sys.ctl.6AEFF047#	do not show folder.jpg artwork
-#Sys.ctl.878B8BE4#	  lyrics storage  
-#Sys.ctl.A69C9D71#	embed lyrics in the music file
-#Sys.ctl.B1F9B5A6#	save as an external file <music filename>.txt
-#Sys.msg.Utrp-e#	Unable to relocate podcasts - error: {0}
-#Sys.msg.Utrp-e.2#	Unable to relocate 播放列表s - error: {0}
-#Sys.msg.Fmbloyc#	Folder must be located on your computer
-#Sys.msg.Fonofo#	Folder not found
-#Sys.msg.Strffpd#	Select the root folder for podcast downloads:
-#Sys.help.Mswnbautnr#	Monitoring settings will not be activated until the next restart
-#Sys.msg.ChFo#		Choose Folders...
-#Sys.msg.Sftbm#		Select folders to be monitored
+#Sys.tab.CE2A10C7#	标签 (1)
+#Sys.ctl.E696A6D1#	  标签存储  
+#Sys.ctl.908F2AD#	保存 MP3 标签到:
+#Sys.ctl.170D661D#	同样保存 ID3v1 标签
+#Sys.ctl.1CBB04DB#	对 WAVE 文件使用 UTF-8
+#Sys.ctl.48BEF97C#	保存评分到音乐文件
+#Sys.ctl.C2F5E5E7#	禁用半颗星的评分
+#Sys.ctl.DCB36A1A#	保存标签时不要更新文件修改时间
+#Sys.ctl.40B7AB18#	  自定义标签 
+#Sys.ctl.7DFEDAE5#	显示名称
+#Sys.ctl.9004BD0#	以标签保存到文件
+#Sys.btn.BED39E57#	定义新标签...
+#Sys.ctl.8CC49FDC#	  封面存储  
+#Sys.ctl.D3C58BC9#	嵌入图片到音乐文件中
+#Sys.ctl.B643208B#	拷贝为 folder.jpg
+#Sys.ctl.BA9353C1#	连接到原始文件	
+#Sys.ctl.117F3F8D#	拷贝到音乐所在的文件夹并命名为:
+#Sys.ctl.6AEFF047#	不要显示 folder.jpg 封面
+#Sys.ctl.878B8BE4#	  歌词存储
+#Sys.ctl.A69C9D71#	嵌入歌词到音乐文件
+#Sys.ctl.B1F9B5A6#	保存到外部文件 <music filename>.txt
+#Sys.msg.Utrp-e#	无法迁移播客 - 错误: {0}
+#Sys.msg.Utrp-e.2#	无法迁移播放列表 - 错误: {0}
+#Sys.msg.Fmbloyc#	文件夹必须在本地计算机中
+#Sys.msg.Fonofo#	文件夹未找到
+#Sys.msg.Strffpd#	选择播客下载根目录:
+#Sys.help.Mswnbautnr#	监视设置会在下次启动时生效
+#Sys.msg.ChFo#		选择文件夹...
+#Sys.msg.Sftbm#		选择要监视的文件夹
 #Sys.help.Nmfwnbsutn#	New monitored folders will not be scanned until the next restart
 #Sys.msg.Ffmfnlotd#	Files from monitored folders not located on the {0} drive will be added to the library as a link and NOT automatically copied across disks to be organised with the rest of the library.
 #Sys.msg.Strffp#	Select the root folder for 播放列表s:
@@ -2935,7 +2935,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #dSum.msg.N/A#		N/A
 #dSum.msg.Tdina#	设备不可用
 #dSum.msg.TdiracbubM#	只读设备，不能由Musicbee更新
-#dSum.msg.({ofca#	   ({0}% of capacity)
+#dSum.msg.({ofca#	   ({0}% 容量)
 
 ! auto-shutdown
 #AutoSD.493A25AE#	分钟
@@ -2982,7 +2982,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Main.msg.PoRaSt#	Play-Once Radio Stream
 #Main.msg.Stream#	Stream
 ! for radio streams - duration: Continuous
-#Main.msg.Continuous#	Continuous
+#Main.msg.Continuous#	持续的
 
 ! combined with the file type eg. MP3 audio file
 #Main.msg.AudioFile#	音频文件
