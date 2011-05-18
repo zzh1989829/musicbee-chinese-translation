@@ -1527,7 +1527,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Sys.ctl.1CBB04DB#	use UTF-8 for WAVE files
 #Sys.ctl.48BEF97C#	store ratings in the music file
 #Sys.ctl.C2F5E5E7#	disable half ratings
-#Sys.ctl.DCB36A1A#	don't update file modification time when saving tags
+#Sys.ctl.DCB36A1A#	保存时不更新文件修改时间
 #Sys.ctl.40B7AB18#	  custom tags  
 #Sys.ctl.7DFEDAE5#	display name
 #Sys.ctl.9004BD0#	save to music file as tag
@@ -2408,15 +2408,15 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Rip.msg.Noma#		Not matched
 
 ! Library Stats window
-#Stat.msg.LiSt#		Library Statistics
-#Stat.msg.Tracks#	Tracks
-#Stat.msg.FiSi#		File Size
-#Stat.msg.Le(h#		Length (h:mm:ss)
-#Stat.msg.LiTo#		Library Totals
+#Stat.msg.LiSt#		库统计
+#Stat.msg.Tracks#	曲目数
+#Stat.msg.FiSi#		文件大小
+#Stat.msg.Le(h#		长度 (h:mm:ss)
+#Stat.msg.LiTo#		合计
 #Stat.btn.GoBa#		Go Back
 #Stat.msg.LiTo.2#	Library Total
 #Stat.msg.ToAr#		Top Artists
-#Stat.msg.MoPlAr#	Most Played Artists
+#Stat.msg.MoPlAr#	播放最多的艺术家
 #Stat.msg.ToGe#		Top Genres
 #Stat.msg.MoPlGe#	Most Played Genres
 #Stat.msg.ToReYe#	Top Release Years
@@ -2427,27 +2427,27 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Dup.ctl.5D675CD#	filter files where the 
 #Dup.ctl.C0A52F5F#	are duplicated
 #Dup.ctl.26BE98DE#	drag/drop tracks from one side to the other to keep/mark as a duplicate
-#Dup.btn.B7EB08B8#	Select All
-#Dup.btn.D0A2D7EC#	Select None
-#Dup.col.8EB14484#	                  keep file
-#Dup.col.CF848806#	path
-#Dup.col.4B4BEED3#	attributes
-#Dup.col.352FB09C#	duplicate file
-#Dup.col.93E22649#	attributes
-#Dup.ctl.6608E6A6#	No new duplicates found for the selected files
-#Dup.ctl.46F789BD#	duplicates handling:
-#Dup.ctl.EA9D6EE1#	hide duplicates
-#Dup.ctl.E8093238#	delete
+#Dup.btn.B7EB08B8#	全选
+#Dup.btn.D0A2D7EC#	全不选
+#Dup.col.8EB14484#	                  保留文件
+#Dup.col.CF848806#	路径
+#Dup.col.4B4BEED3#	属性
+#Dup.col.352FB09C#	重复文件
+#Dup.col.93E22649#	属性
+#Dup.ctl.6608E6A6#	没有发现新的重复文件
+#Dup.ctl.46F789BD#	正处理重复项:
+#Dup.ctl.EA9D6EE1#	隐藏重复项
+#Dup.ctl.E8093238#	删除
 #Dup.ctl.21E86E5B#	replace with reference to the kept file
-#Dup.ctl.731FF479#	save to 播放列表
+#Dup.ctl.731FF479#	保存到播放列表
 #Dup.ctl.3C69C320#	duplicates marked as hidden
 #Dup.btn.65554FD#	Unmark Ticked Files
 #Dup.ctl.DB904D5#	No duplicate files are marked as hidden
 #Dup.col.6F047A8A#	                  duplicate file
-#Dup.col.B9514648#	path
-#Dup.col.3876A01D#	attributes
-#Dup.btn.SeNo#		Select None
-#Dup.btn.SeAl#		Select All
+#Dup.col.B9514648#	路径
+#Dup.col.3876A01D#	属性
+#Dup.btn.SeNo#		全不选
+#Dup.btn.SeAl#		全先
 #Dup.msg.Hdfstandiy#	Hide duplicate files so they are not displayed in your library.
 #Dup.msg.RdfwaAftrt#	Replace duplicate files with an ASX file that refers to the kept track (so only one file physically remains but your albums are complete).
 #Dup.msg.Pddfftc#	Permenantly delete duplicate files from the computer.
@@ -2456,74 +2456,74 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Dup.msg.CPdtdfarwa#	CONFIRMATION: Permanently delete the duplicate files and replace with an ASX file that references the kept track?
 
 ! Lock Settings opened from View/ Main Player (Locked Down)
-#Lock.frm.AC12382A#	Lockdown Settings
-#Lock.ctl.84E6C085#	disable web access
-#Lock.ctl.1E025FB3#	enter password to unlock:
-#Lock.ctl.D5CE173F#	full screen mode (switching to other applications disabled)
-#Lock.ctl.789A71B4#	require password to unlock:
-#Lock.btn.32CDB12D#	Lock
-#Lock.btn.Unlock#	Unlock
-#Lock.msg.Pinc-pri#	Password is not correct - please re-enter it
+#Lock.frm.AC12382A#	锁定设置
+#Lock.ctl.84E6C085#	禁止访问web
+#Lock.ctl.1E025FB3#	输入密码解锁:
+#Lock.ctl.D5CE173F#	全屏模式 (switching to other applications disabled)
+#Lock.ctl.789A71B4#	需要密码解锁:
+#Lock.btn.32CDB12D#	锁定
+#Lock.btn.Unlock#	解锁
+#Lock.msg.Pinc-pri#	密码错误 - 请重新输入
 
 ! File converter
-#Cvt.frm.FF7BC363#	File Converter
-#Cvt.col.8CE727B4#	name
-#Cvt.col.88583FD8#	status
-#Cvt.ctl.88B397E4#	output to the source file folder
-#Cvt.ctl.B93141EB#	or a new folder:
-#Cvt.ctl.6364E422#	organise sub-folder and filename:
-#Cvt.ctl.F9AC5B91#	add converted files to the Inbox
-#Cvt.ctl.1FFE1903#	replace the source file
-#Cvt.ctl.6B82C9F2#	- the original file will be deleted
-#Cvt.ctl.47E8EAC#	encode as:
+#Cvt.frm.FF7BC363#	文件转换器
+#Cvt.col.8CE727B4#	名称
+#Cvt.col.88583FD8#	状态
+#Cvt.ctl.88B397E4#	输出到初始文件夹
+#Cvt.ctl.B93141EB#	或者一个新文件夹:
+#Cvt.ctl.6364E422#	整理子文件夹和文件名:
+#Cvt.ctl.F9AC5B91#	转换完成添加到Inbox
+#Cvt.ctl.1FFE1903#	替换初始文件夹
+#Cvt.ctl.6B82C9F2#	- 原文件将被删除
+#Cvt.ctl.47E8EAC#	编码成:
 #Cvt.ctl.FA13966B#	encoding profile:
-#Cvt.ctl.2F4A9A0#	artwork:
-#Cvt.ctl.12CD9693#	copy settings from source file
-#Cvt.ctl.75D086FD#	always embed in converted file
+#Cvt.ctl.2F4A9A0#	封面:
+#Cvt.ctl.12CD9693#	从原文件复制设置
+#Cvt.ctl.75D086FD#	总是嵌入到转换文件中
 #Cvt.ctl.70608D56#	level volume:
 #Cvt.ctl.8D1F1E51#	permanently adjust tracks to same volume
 #Cvt.ctl.801489EF#	permanently adjust albums to same volume
-#Cvt.ctl.D3DF1881#	when the output file already exists, skip conversion and synchronise tag values only
-#Cvt.ctl.7C803C5B#	minimise to status bar when file conversion starts
-#Cvt.msg.Fasbc-dywt#	Files are still being converted - do you want to abort the conversion process?
-#Cvt.msg.nolo#		not located
-#Cvt.msg.noonco#	not on computer
-#Cvt.msg.denosu#	device not supported
-#Cvt.msg.rB(QsiPP#	requires BASS_AAC.dll (see 'use QuickTime' setting in Player Preferences)
-#Cvt.msg.MerLwcbdwM#	MP3 encoding requires LAME.EXE which cannot be distributed with MusicBee due to license restrictions. However you can download LAME for personal use - see http://www.getmusicbee.com/help.html
-#Cvt.msg.Tdfcbafiyl#	The destination folder cannot be a folder in your library
-#Cvt.msg.Fdne#		Folder '{0}' does not exist
-#Cvt.msg.Stdftwctcf#	Select the destination folder that will contain the converted files:
-#Cvt.msg.NehbeitTO#	No {0} encoder has been enabled in the 工具/ Options/ File Converters menu.{1}Due to licensing restrictions, no MP3 or AAC encoder can be bundled with MusicBee. However you can download one for personal use - see www.getmusicbee.com/help.html
-#Cvt.msg.Ecnbl#		Encoder '{0}' could not be located
-#Cvt.msg.Nofico#	No files converted
-#Cvt.msg.Ficoco#	File conversion completed
-#Cvt.msg.Done#		Done
+#Cvt.ctl.D3DF1881#	输出文件已存在时，跳过转换仅同步标签值
+#Cvt.ctl.7C803C5B#	文件转换时最小化到状态栏
+#Cvt.msg.Fasbc-dywt#	文件转换中 - 要取消转换吗?
+#Cvt.msg.nolo#		找不到
+#Cvt.msg.noonco#	不在电脑上
+#Cvt.msg.denosu#	设备不支持
+#Cvt.msg.rB(QsiPP#	需要 BASS_AAC.dll (查看参数设置里 '使用 QuickTime' 一项)
+#Cvt.msg.MerLwcbdwM#	由于许可限制的总是，MusicBee的MP3编码需要LAME.EXE . 不过你可以下载私用版的 LAME - 更多请查看 http://www.getmusicbee.com/help.html
+#Cvt.msg.Tdfcbafiyl#	目标文件夹不能是你的库中的文件夹
+#Cvt.msg.Fdne#		文件夹'{0}' 不存在
+#Cvt.msg.Stdftwctcf#	选择包含需要转换的文件的目标文件夹:
+#Cvt.msg.NehbeitTO#	菜单工具/ 选项/ 文件转换 中的编码器 {0} 未开启，{1}由于许可限制，Musinbee不能捆挷MP3或AAC编码器.但你可以下载私用版的，更多请查看 www.getmusicbee.com/help.html
+#Cvt.msg.Ecnbl#		找不到编码器 '{0}' 
+#Cvt.msg.Nofico#	没胡文件被转换
+#Cvt.msg.Ficoco#	文件转换完成
+#Cvt.msg.Done#		完成
 
 ! library backup
-#LBck.frm.2FEA01C#	Backup Library
-#LBck.ctl.8278A45A#	backup database and settings files only
-#LBck.ctl.EA0C2F10#	copy from:
-#LBck.ctl.DC3F439D#	to:
-#LBck.ctl.7C803C5B#	minimise to status bar when file backup starts
-#LBck.msg.Fasbc-dywt#	Files are still being copied - do you want to abort the backup?
-#LBck.msg.Yntsadittp#	You need to specify a drive in the target path
-#LBck.msg.Ttfntboadd#	The target folder needs to be on a different drive to {0}
-#LBck.msg.Fdne#		Folder '{0}' does not exist
-#LBck.msg.Sttdaffff#	Select the target drive and folder for files from {0}
-#LBck.msg.Yntuufmti#	You need to untick ""dont update file modification time"" in Tags(1) preferences - otherwise MusicBee will be unable to detect updated files for backup.
+#LBck.frm.2FEA01C#	备份库
+#LBck.ctl.8278A45A#	仅备份数据库和配置文件
+#LBck.ctl.EA0C2F10#	从:
+#LBck.ctl.DC3F439D#	复制到:
+#LBck.ctl.7C803C5B#	备份开始时最小化到状态栏
+#LBck.msg.Fasbc-dywt#	文件复制中 - 要取消复制吗?
+#LBck.msg.Yntsadittp#	你要在目标路径中指定一个设备
+#LBck.msg.Ttfntboadd#	目标文件夹必须在不同于{0}的一个设备上
+#LBck.msg.Fdne#		文件夹 '{0}' 不存在
+#LBck.msg.Sttdaffff#	为 {0} 上的文件选定一个目标设备和目标文件夹
+#LBck.msg.Yntuufmti#	你需要取消在参数设置Tags(1)里"不更新文件修改时间"一项 - 否则MusicBee备份时检测不到已更新文件.
 #LBck.msg.Bcwe#		Backup completed with errors
 
 ! device summary page (click on device icon in left navigator)
-#dSum.msg.five#		firmware version:
-#dSum.msg.frsp#		free space:
-#dSum.msg.battery:#	battery:
-#dSum.msg.capacity:#	capacity:
-#dSum.msg.model:#	model:
-#dSum.msg.manufactur#	manufacturer:
-#dSum.msg.senu#		serial number:
-#dSum.msg.name:#	name:
-#dSum.btn.Synchronise#	Synchronise
+#dSum.msg.five#		软件版本:
+#dSum.msg.frsp#		可用空间:
+#dSum.msg.battery:#	电量:
+#dSum.msg.capacity:#	容量:
+#dSum.msg.model:#	型号:
+#dSum.msg.manufactur#	制造商:
+#dSum.msg.senu#		序列号:
+#dSum.msg.name:#	名称:
+#dSum.btn.Synchronise#	同步
 
 ! auto-number dialog (Tools/Tagging Tools)
 #aNum.frm.7702B9A1#	Renumber Tracks...
@@ -2535,13 +2535,13 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #aNum.ctl.6BE8657F#	reset the track number and count for each disc
 #aNum.col.A4C19BF2#	original track details
 #aNum.col.CF10B99C#	new disc-track#
-#aNum.col.4D9800E3#	track count
+#aNum.col.4D9800E3#	曲目数
 #aNum.msg.Atntt#	Assign track numbers to the {0}
 #aNum.msg.leze#		leading zeros
 
 ! Device configuration editor
-#DCE.msg.DeSySe#	Device Synchronisation Settings
-#DCE.msg.Oomvhba-dy#	One or more values have been amended - do you want to save the changes?
+#DCE.msg.DeSySe#	设备同步设置
+#DCE.msg.Oomvhba-dy#	一个或多个值已经被修改-要保存吗？
 
 ! cuesheet editor - opened from the tag editor when a file has an embeded cuesheet
 #Cue.frm.1555CA18#	Cuesheet Editor
@@ -2550,61 +2550,61 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Cue.msg.Utpltca#	Unable to parse line: '{0}'{1}Save this cuesheet anyway?
 
 ! library import
-#IMP.frm.FA72BBEB#	Import from Windows Media Player
-#IMP.btn.4BF55473#	Locate iTunes
-#IMP.ctl.9B83F55E#	overwrite rating and play counts only
-#IMP.ctl.9603EAB8#	do not update
-#IMP.ctl.9540A439#	handling for existing files already in your MusicBee library:
-#IMP.ctl.A6BC655F#	destination for new music files not in your MusicBee library:
-#IMP.ctl.E5F0F6E0#	add to the Library - files will be linked to their existing location without re-organisation
-#IMP.ctl.14DF742D#	add to the Inbox
-#IMP.msg.Imfr0#		Import from {0}
-#IMP.msg.Trapcwbifi#	Track, rating and play counts will be imported from iTunes
-#IMP.msg.TrapcwbifW#	Track, rating and play counts will be imported from Windows Media library
-#IMP.msg.Fasbi-dywt#	Files are still being imported - do you want to abort the import process?
-#IMP.msg.LiXF#		Locate iTunes XML File
-#IMP.msg.AftL#		Adding files to Library...
+#IMP.frm.FA72BBEB#	从Windows Media Player导入
+#IMP.btn.4BF55473#	查找iTunes
+#IMP.ctl.9B83F55E#	仅覆盖评分与播放次数
+#IMP.ctl.9603EAB8#	不更新
+#IMP.ctl.9540A439#	正处理库中的文件:
+#IMP.ctl.A6BC655F#	新导入到库的文件的存放位置:
+#IMP.ctl.E5F0F6E0#	添加到库 - 文件仅与其所在位置关联不重新
+#IMP.ctl.14DF742D#	添加到Inbox
+#IMP.msg.Imfr0#		从 {0} 导入
+#IMP.msg.Trapcwbifi#	曲目，评分和播放次数将从iTunes导入
+#IMP.msg.TrapcwbifW#	曲目，评分和播放次数将从Windows Media library导入
+#IMP.msg.Fasbi-dywt#	文件导入中 - 要取消导入吗?
+#IMP.msg.LiXF#		查找iTunes XML 文件
+#IMP.msg.AftL#		正添加文件到库...
 
 ! open music file dialog
-#OFU.msg.OFoU#		Open File or URL
-#OFU.msg.etfpoiUott#	enter the file path or internet URL of the track you want to open:
-#OFU.msg.OpMuFi#	Open Music File
-#OFU.msg.Nfeatl#	No file exists at this location
+#OFU.msg.OFoU#		打开文件或URL
+#OFU.msg.etfpoiUott#	输入要打开文件的路径或URL:
+#OFU.msg.OpMuFi#	打开音乐文件
+#OFU.msg.Nfeatl#	当前位置找不到文件
 
 ! Popcast Subscription OPML import
-#SFE.msg.AdDi#		Add Directory
-#SFE.msg.etuoapOd#	enter the url of a podcast OPML directory:
-#SFE.msg.Twainwf#	The website address is not well formed
-#SFE.msg.Tuiaitpd#	The url is already in the podcast directory
-#SFE.msg.Utvtvotu#	Unable to verify the validity of this url
+#SFE.msg.AdDi#		添加目录
+#SFE.msg.etuoapOd#	输入一个url或者播客OPML目录:
+#SFE.msg.Twainwf#	网站地址不完整
+#SFE.msg.Tuiaitpd#	url已在播客目录中
+#SFE.msg.Utvtvotu#	不能验证url的有效性
 
 ! Tag Manager panel
-#TM.msg.TaMa#		Tag Manager
-#TM.menu.ShAlFi#	Show All Files
-#TM.menu.CuFi#		Custom Filter
-#TM.menu.ReAdFi#	Recently Added Files
-#TM.menu.AdTo#		Added Today
-#TM.menu.AiL3D#		Added in Last 3 Days
-#TM.menu.AiLW#		Added in Last Week
-#TM.menu.AiLM#		Added in Last Month
+#TM.msg.TaMa#		标签管理
+#TM.menu.ShAlFi#	显示所有
+#TM.menu.CuFi#		自定义过滤器
+#TM.menu.ReAdFi#	最近添加的
+#TM.menu.AdTo#		今天添加的
+#TM.menu.AiL3D#		最近三天添加的
+#TM.menu.AiLW#		上周添加的
+#TM.menu.AiLM#		上月添加的
 #TM.menu.FwMT#		Files with Missing Tags
 #TM.menu.FwMA#		Files with Missing Artwork
 #TM.menu.FwML#		Files with Missing Lyrics
 #TM.menu.FwNVL#		Files with No Volume Leveling
 #TM.menu.FwIT#		Files with Inconsistent Tags
 #TM.menu.FwIAT#		Files with Inconsistent Album Tags
-#TM.menu.DeLi#		Dead Links
+#TM.menu.DeLi#		无效链接
 #TM.menu.MoSkTr#	Most Skipped Tracks
 #TM.msg.whth#		where the
 #TM.msg.armi#		are missing
-#TM.msg.filter:#	filter:
-#TM.msg.CuFi#		Custom Filter
-#TM.msg.FiAdTo#		Files Added Today
-#TM.msg.FAiL3D#		Files Added in Last 3 Days
-#TM.msg.FAiLW#		Files Added in Last Week
-#TM.msg.FAiLM#		Files Added in Last Month
+#TM.msg.filter:#	过滤器:
+#TM.msg.CuFi#		自定义过滤器
+#TM.msg.FiAdTo#		今天添加的
+#TM.msg.FAiL3D#		最近三天添加的
+#TM.msg.FAiLW#		上周添加的
+#TM.msg.FAiLM#		上月添加的
 #TM.msg.ardu#		are duplicated
-#TM.msg.Mita#		Missing tags: 
+#TM.msg.Mita#		缺失标签: 
 #TM.msg.Arismi#		Artwork is missing
 #TM.msg.Lymi#		Lyrics missing
 #TM.msg.hilc#		have inconsistent letter casing
@@ -2619,77 +2619,77 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #TM.msg.Adiwot#		Album details inconsistent with other tracks: 
 
 ! tag search and replace - opened from the Tagging Tools menu
-#sRpl.frm.1C73F55E#	Search and Replace
-#sRpl.ctl.2D61EB0B#	search criteria is a regular expression
+#sRpl.frm.1C73F55E#	查找并替换
+#sRpl.ctl.2D61EB0B#	使用正则表达式
 #sRpl.ctl.1F77F7BA#	The following changes will be made - Click the 'Replace' button to commit the changes
-#sRpl.ctl.B85CBAC7#	match whole word
-#sRpl.ctl.5CBC90C4#	match case
-#sRpl.ctl.3EC7ED#	replace with:
+#sRpl.ctl.B85CBAC7#	全词匹配
+#sRpl.ctl.5CBC90C4#	匹配大小写
+#sRpl.ctl.3EC7ED#	替换为:
 #sRpl.ctl.256175C6#	in field:
-#sRpl.ctl.CBEBAA76#	search for:
-#sRpl.btn.32CDB12D#	Preview
+#sRpl.ctl.CBEBAA76#	查找目标:
+#sRpl.btn.32CDB12D#	预览
 #sRpl.msg.sefose#	 selected for search
-#sRpl.btn.StOv#		Start Over
-#sRpl.btn.Preview#	Preview
-#sRpl.btn.ApCh#		Apply Changes
-#sRpl.msg.Navre#	No a valid regular expression:
-#sRpl.msg. before#	 before
-#sRpl.msg. after#	 after
-#sRpl.msg.Nomafo#	No matches found.
+#sRpl.btn.StOv#		重新开始
+#sRpl.btn.Preview#	预览
+#sRpl.btn.ApCh#		应用
+#sRpl.msg.Navre#	不是有效的正则表达式:
+#sRpl.msg. before#	 向上
+#sRpl.msg. after#	 向下
+#sRpl.msg.Nomafo#	无匹配项.
 
 ! upcoming concerts service
-#UC.msg.Loading...#	Loading...
+#UC.msg.Loading...#	载入中...
 #UC.msg.elfaaroce#	enable 'Touring?' library field and automatic refresh of concerts each day
-#UC.btn.Settings#	Settings
-#UC.msg.view:#		view:
-#UC.msg.coda#		concert dates
-#UC.msg.arna#		artist names
-#UC.msg.Tickets#	Tickets
-#UC.msg.ArDa#		Artist/ Date
-#UC.msg.OtAr#		Other Artists
-#UC.msg.Venue#		Venue
-#UC.msg.Date#		Date
-#UC.msg.Artists#	Artists
+#UC.btn.Settings#	设置
+#UC.msg.view:#		视图:
+#UC.msg.coda#		音乐会日期
+#UC.msg.arna#		艺术家名字
+#UC.msg.Tickets#	票数
+#UC.msg.ArDa#		艺术家/ 日期
+#UC.msg.OtAr#		其他艺术家
+#UC.msg.Venue#		地点
+#UC.msg.Date#		日期
+#UC.msg.Artists#	艺术家
 #UC.msg.Locp#		Loading  {0} of {1} concert pages...
 #UC.msg.Naiylaotf#	No artists in your library are on tour for {0}
-#UC.msg.Utlcptal#	Unable to load concerts, please try again later.
-#UC.msg.SeCoLo#		Set Concerts Location...
-#UC.msg.UnLo#		Unknown Location
-#UC.msg.UtisPtal#	Unable to initialise settings. Please try again later
-#UC.msg.Stnctswaac#	Select the nearest cities to see which artists are coming to your area:
-#UC.msg.country:#	country:
-#UC.msg.city:#		city:
+#UC.msg.Utlcptal#	载入演唱会数据失败，请稍候再试.
+#UC.msg.SeCoLo#		设置音乐会地点...
+#UC.msg.UnLo#		未知地点
+#UC.msg.UtisPtal#	设置初始化失败，请稍候再试
+#UC.msg.Stnctswaac#	选择一个最靠近的城市，看看谁要来这里了:
+#UC.msg.country:#	国家:
+#UC.msg.city:#		城市:
 
 ! upcoming releases service
-#UR.msg.Loading...#	Loading...
-#UR.btn.Settings#	Settings
-#UR.msg.rtaitl#		restrict to artists in the library
-#UR.help.Tosoor#	Toggle sort order
-#UR.msg.UpReSe#		Upcoming Release Settings
+#UR.msg.Loading...#	载入中...
+#UR.btn.Settings#	设置
+#UR.msg.rtaitl#		仅限库中的艺术家
+#UR.help.Tosoor#	切换排序方式
+#UR.msg.UpReSe#		Upcoming Release设置
 #UR.msg.uararfm#	upcoming album releases are retrieved from musicbrainz.org
-#UR.msg.stfr#		start from
-#UR.msg.dabeto#		days before today
-#UR.msg.alus#		also use
-#UR.msg.username:#	username:
+#UR.msg.stfr#		从今天之前
+#UR.msg.dabeto#		天开始
+#UR.msg.alus#		另加
+#UR.msg.username:#	用户名:
 
 ! volume adjuster tool
-#Vol.frm.8957FA87#	Analyse Volume
-#Vol.btn.CDBB1E5A#	Select All
-#Vol.ctl.7C803C5B#	minimise to status bar when volume analysis starts
-#Vol.ctl.801489EF#	on album basis
-#Vol.ctl.8D1F1E51#	on track basis
-#Vol.ctl.F01C5C98#	or permanently adjust the volume of each file (MP3 and AAC/MPEG only):
-#Vol.ctl.FFBD45DD#	analyse leveling values and write replaygain tags
-#Vol.msg.AnVo#		Analyse Volume
-#Vol.msg.ReOrVo#	Restore Original Volume
-#Vol.msg.Fasba-dywt#	Files are still being analysed - do you want to abort the process?
-#Vol.msg.nolo#		not located
-#Vol.msg.noonco#	not on computer
-#Vol.msg.denosu#	device not supported
-#Vol.msg.refi#		read-only file
-#Vol.btn.SeNo#		Select None
-#Vol.btn.SeAl#		Select All
-#Vol.msg.Nofiup#	No files updated
+#Vol.frm.8957FA87#	音量分析
+#Vol.btn.CDBB1E5A#	全选
+#Vol.ctl.7C803C5B#	音量分析开始时最小化到状态栏
+#Vol.ctl.801489EF#	基于专辑
+#Vol.ctl.8D1F1E51#	基于曲目
+#Vol.ctl.F01C5C98#	或始终调整每个文件的音量(仅支持MP3 and AAC/MPEG):
+#Vol.ctl.FFBD45DD#	分析平衡值和写入播放增益标签
+#Vol.msg.AnVo#		音量分析
+#Vol.msg.ReOrVo#	重置为原始音量
+#Vol.msg.Fasba-dywt#	文件分析中 - 要取消操作吗？
+#Vol.msg.nolo#		找不到
+#Vol.msg.noonco#	不在电脑上
+#Vol.msg.denosu#	设备不支持
+#Vol.msg.refi#		只读文件
+#Vol.btn.SeNo#		全不选
+#Vol.btn.SeAl#		全选
+#Vol.msg.Nofiup#	0个文件被更新
 
 ! podcasts directory
 #pDir.msg.Loading#	载入中...
@@ -2724,7 +2724,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Main.picture.4#	专辑封面 (背面)
 #Main.picture.5#	Leaflet Page
 #Main.picture.6#	媒体标签
-#Main.picture.7#	Lead Artist
+#Main.picture.7#	艺术总监
 #Main.picture.8#	艺术家
 #Main.picture.9#	指挥家
 #Main.picture.10#	乐队
@@ -2776,7 +2776,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Main.msg.Al({#		全部  ({0})
 
 #Sys.msg.PTST#		Playback: Toggle Skip Track
-#Sys.msg.custom#	custom
+#Sys.msg.custom#	自定义
 
 #aSplit.msg.MuCoSp#	Multiple Composer Splitter
 
