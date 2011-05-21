@@ -12,8 +12,8 @@
 #Main.field.4#		种类
 #Main.field.5#		类型
 #Main.field.7#		大小
-#Main.field.8#		频道
-#Main.field.9#		样本频率
+#Main.field.8#		声道
+#Main.field.9#		采样频率
 #Main.field.10#		比特率
 #Main.field.11#		修改日期
 #Main.field.12#		添加日期
@@ -34,8 +34,8 @@
 #Main.field.53#		曲目#
 #Main.field.54#		曲目数
 #Main.field.55#		编码器
-#Main.field.56#		Episode Date
-#Main.field.57#		Episode Description
+#Main.field.56#		剧集日期
+#Main.field.57#		剧集描述
 #Main.field.59#		流派
 #Main.field.60#		流派类别
 #Main.field.61#		分组
@@ -56,8 +56,8 @@
 #Main.field.86#		曲目#
 #Main.field.87#		曲目数
 #Main.field.88#		年份
-#Main.field.94#		Track Gain
-#Main.field.95#		Album Gain
+#Main.field.94#		曲目增益
+#Main.field.95#		专辑增益
 #Main.field.100#	扩展名
 #Main.field.104#	专辑评分
 #Main.field.105#	Decade
@@ -157,53 +157,53 @@
 #Main.menu.Shuffle#	随机
 #Main.menu.Scrobble#	同步
 #Main.menu.Crossfade#	淡入淡出
-#Main.menu.ReGaOf#	Replay Gain Off
-#Main.menu.SmGa#	Smart Gain
-#Main.menu.TrGaOn#	Track Gain Only
-#Main.menu.AlGaOn#	Album Gain Only
-#Main.menu.StAu#	停止 Auto-DJ
-#Main.menu.TuonAu#	打开 Auto-DJ
+#Main.menu.ReGaOf#	关闭回放增益
+#Main.menu.SmGa#	智能增益
+#Main.menu.TrGaOn#	曲目增益
+#Main.menu.AlGaOn#	专辑增益
+#Main.menu.StAu#	关闭 智能-DJ
+#Main.menu.TuonAu#	打开 智能-DJ
 
 #Main.menu.Tools#	&工具
-#Main.menu.OrFi#	组织文件
+#Main.menu.OrFi#	整理文件
 #Main.menu.MaDu#	管理重复项
 #Main.menu.CoFo#	格式转换
-#Main.menu.RiCD#	烧录CD
+#Main.menu.RiCD#	翻录CD
 #Main.menu.AnVo#	分析音量
 #Main.menu.ReOrVo#	恢复初始音量
 #Main.menu.TaTo#	标签工具
-#Main.menu.SFwMT#	显示标签不全的文件
+#Main.menu.SFwMT#	显示缺失标签的文件
 #Main.menu.SFwMA#	显示没有封面的文件
 #Main.menu.SFwML#	显示没有歌词的文件
 #Main.menu.OtEF#	其他'待编辑文件'过滤器
 #Main.menu.SRAF#	显示最近添加的文件
-#Main.menu.ShDeLi#	显示死链接
+#Main.menu.ShDeLi#	显示无效链接
 #Main.menu.SFwIAT#	显示专辑标签不一致的文件
 #Main.menu.SFwITLC#	显示标签大小写不一致的文件
 #Main.menu.SFwNVA#	显示没有经过音量分析的文件
-#Main.menu.ReTr#	曲目重新编号
-#Main.menu.AubyAl#	根据专辑自动更新标签
-#Main.menu.AubyTr#	根据曲目自动更新标签
-#Main.menu.ITaUT#	认证曲目并更新标签
+#Main.menu.ReTr#	曲目重新编号...
+#Main.menu.AubyAl#	根据专辑自动更新标签...
+#Main.menu.AubyTr#	根据曲目自动更新标签...
+#Main.menu.ITaUT#	识别曲目并更新标签...
 #Main.menu.UpMiAr#	更新缺少的封面
 #Main.menu.UpMiLy#	更新缺少的歌词
-#Main.menu.UTuLTC#	用Last.fm云更新标签
+#Main.menu.UTuLTC#	用 Last.fm 云更新标签
 #Main.menu.IaUTfF#	根据文件名猜测标签
 #Main.menu.ReTa#	删除标签
 #Main.menu.Capitalise#	改为大写
-#Main.menu.SeanRe#	查找并替换
+#Main.menu.SeanRe#	查找并替换...
 #Main.menu.SAaT#	交换艺术家和标题  
 #Main.menu.RePlCo#	重置播放次数
 #Main.menu.ReSkCo#	重置跳过次数
-#Main.menu.SPCfL#	与Last.fm同步播放次数
-#Main.menu.SLLT#	与Last.fm同步喜爱歌曲
+#Main.menu.SPCfL#	与 Last.fm 同步播放次数
+#Main.menu.SLLT#	与 Last.fm 同步喜爱歌曲
 
 #Main.menu.Help#	帮助
 #Main.menu.OnHe#	在线帮助
 #Main.menu.Support#	支持
 #Main.menu.ViErLo#	查看错误日志
 #Main.menu.ViSeFi#	查看设置文件
-#Main.menu.VLSL#	查看Last.fm同步日志
+#Main.menu.VLSL#	查看 Last.fm 同步日志
 #Main.menu.About#	关于
 
 ! Notify icon menu
@@ -245,8 +245,8 @@
 #Main.menu.EP#		首选项...
 #Main.menu.QL#		快速布局...
 #Main.menu.StMP.2#	切换到主播放器
-#Main.menu.StMP#	切换到Mini播放器
-#Main.menu.StCP#	切换到Compact播放器
+#Main.menu.StMP#	切换到 Mini 播放器
+#Main.menu.StCP#	切换到 Compact 播放器
 #Main.menu.SNPA#	显示正在播放助手
 #Main.menu.AlonTo#	总在最前
 #Main.menu.EdPr#	首选项
@@ -276,9 +276,9 @@
 #Main.tree.Downloads#	下载
 #Main.tree.Playlists#	播放列表
 #Main.tree.NoPl#	正在播放
-#Main.tree.AuDJ#	Auto DJ
+#Main.tree.AuDJ#	智能 DJ
 #Main.tree.Internet#	Internet
-#Main.msg.WeFi#		Webw文件
+#Main.msg.WeFi#		Web 文件
 #Main.tree.Services#	服务
 #Main.tree.UpRe#	将临的专辑
 #Main.tree.UpCo#	将临的演唱会
@@ -396,7 +396,7 @@
 #Main.menu.QMotSL#	在队尾插入更多相同
 #Main.menu.PN#		立刻播放 {0} '{1}' 
 #Main.menu.QN#		队首插入 {0} '{1}' 
-#Main.menu.QL.3#	对尾插入 {0} '{1}' 
+#Main.menu.QL.3#	队尾插入 {0} '{1}' 
 #Main.menu.FMiL#	在库中查找更多 '{0}'
 #Main.menu.PlAr#	播放艺术家
 #Main.menu.PlAr{#	播放艺术家 '{0}'
@@ -613,7 +613,7 @@
 #Main.btn.Close#	关闭
 #Main.btn.Save#		保存
 #Main.btn.Update#	更新
-#Main.btn.Next#		下一下
+#Main.btn.Next#		下一步
 #Main.btn.Execute#	执行
 #Main.btn.Select#	选择
 #Main.btn.Cancel#	取消
@@ -702,7 +702,7 @@
 #Radio.msg.L-sagtcatb#	Last.fm - 选择一个流派来创建基于标签的电台.
 #Radio.msg.RcNStcolrt#	右键单击/ 新电台 来创建其他Last.fm广播类型.
 #Radio.msg.J-sagtcatb#	Jamendo - 选择一个流派来创建基于标签的电台.
-#Radio.msg.BhwtMbtvtb#	用MusicBee内置的浏览器打开 http://www.jamendo.com with the 来查看艺术家和专辑的相关曲目.
+#Radio.msg.BhwtMbtvtb#	用MusicBee内置的浏览器打开 http://www.jamendo.com 来查看艺术家和专辑的相关曲目.
 #Radio.msg.-sagtstas#	{0} - 选择一个流派来查看可用的站台
 #Radio.msg.[ACo#	[所有国家]
 #Radio.msg.Utltspf#	无法载入选定的预置文件
@@ -1074,7 +1074,7 @@
 #Sys.ctl.899D3CA4#	从播放列表删除曲目提示我
 #Sys.ctl.B21CCDCF#	添加封面时弹出对话框
 #Sys.ctl.31C503A6#	删除不被引用封面时提示确认
-#Sys.ctl.A39D9ECE#	重新扫描库时删除死链接弹出确认
+#Sys.ctl.A39D9ECE#	重新扫描库时删除无效链接弹出确认
 #Sys.msg.Mirad-past#	MusicBee 正在整理数据 - 请稍等.
 #Sys.msg.Utctpm#	无法切换到绿色版模式:{0}
 #Sys.msg.MuApIc#	MusicBee 程序图标
@@ -1223,7 +1223,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #NPL.ctl.F2892F01#	显示曲目评分
 #NPL.ctl.EBD7E277#	 last.fm "喜爱" 状态
 #NPL.ctl.53E6F98B#	显示文件 URL
-#NPL.ctl.8EB6C56F#	显示曲目属性(比特率, 采样频率, 频道数, 持续时间)
+#NPL.ctl.8EB6C56F#	显示曲目属性(比特率, 采样频率, 声道, 持续时间)
 #NPL.tab.AE6098D0#	Web 连接
 #NPL.ctl.94D46BA0#	显示 Web 连接:
 #NPL.ctl.36209200#	在相同标签中打开所有连接
@@ -1291,10 +1291,10 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Sys.msg.PlPl#		回放: 播放/暂停
 #Sys.msg.PlPrTr#	回放: 上一曲
 #Sys.msg.PlPrAl#	回放: 上一专辑
-#Sys.msg.PRGT#		回放: Replay Gain Toggle
-#Sys.msg.PRGA#		回放: Replay Gain Album
-#Sys.msg.PRGS#		回放: Replay Gain Smart
-#Sys.msg.PRGT.2#	回放: Replay Gain Track
+#Sys.msg.PRGT#		回放: 开关回放增益
+#Sys.msg.PRGA#		回放: 专辑增益
+#Sys.msg.PRGS#		回放: 智能增益
+#Sys.msg.PRGT.2#	回放: 曲目曾其 
 #Sys.msg.PSB5s#		回放: 回退5秒
 #Sys.msg.PSF5s#		回放: 快进5秒
 #Sys.msg.PlSt#		回放: 停止
@@ -1356,7 +1356,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Sys.msg.ToCoFo#	工具: 格式转换
 #Sys.msg.ToAnVo#	工具: 音量分析
 #Sys.msg.TUVL#		工具: 撤销音量分析
-#Sys.msg.ToRiCD#	工具: Rip CD
+#Sys.msg.ToRiCD#	工具: 翻录 CD
 #Sys.msg.TSPCtL#	工具: 与 Last.fm 同步播放次数
 #Sys.msg.WDCD#		Web: 开始/取消 下载
 #Sys.msg.ViApMi#	视图: 最小化程序
@@ -1487,7 +1487,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Sys.ctl.B27EE2C4#	  音乐库  
 #Sys.ctl.547195DE#	自动整理音乐文件
 #Sys.btn.79F75BD0#	整理
-#Sys.ctl.62BA05EA#	启动时删除死链接
+#Sys.ctl.62BA05EA#	启动时删除无效链接
 #Sys.ctl.561C2E1E#	保存库文件标签到一份iTunes格式的xml文件
 #Sys.ctl.5B6A8C0E#	设置过滤器:
 #Sys.btn.E12582FE#	设置
@@ -1549,466 +1549,466 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Sys.help.Mswnbautnr#	监视设置会在下次启动时生效
 #Sys.msg.ChFo#		选择文件夹...
 #Sys.msg.Sftbm#		选择要监视的文件夹
-#Sys.help.Nmfwnbsutn#	New monitored folders will not be scanned until the next restart
-#Sys.msg.Ffmfnlotd#	Files from monitored folders not located on the {0} drive will be added to the library as a link and NOT automatically copied across disks to be organised with the rest of the library.
-#Sys.msg.Strffp#	Select the root folder for 播放列表s:
-#Sys.msg.Strffep#	Select the root folder for exported 播放列表s:
-#Sys.msg.stMdo#		save to MusicBee database only
+#Sys.help.Nmfwnbsutn#	下次启动时将会监视新设置的文件夹
+#Sys.msg.Ffmfnlotd#	不在磁盘 {0} 上的监视文件夹下的文件将会以连接的形式添加到库中,并且不会随着库的其他文件自动跨驱动器拷贝. 
+#Sys.msg.Strffp#	选择播放列表的根文件夹:
+#Sys.msg.Strffep#	选择导出的播放列表的根文件夹:
+#Sys.msg.stMdo#		仅保存到 MusicBee 数据库
 ! custom tags editor - opened from the "Define New Tags..." button
-#cTag.frm.3526AE5#	New Custom Tag Definition
-#cTag.ctl.C035755C#	Custom tags are saved and retrieved from your music files like standard tags such as artist. You can assign each identifier to one of the 9 Custom Tag fields in the Preferences screen
-#cTag.ctl.C2A1CDAE#	identifier:
+#cTag.frm.3526AE5#	新自定义标签定义
+#cTag.ctl.C035755C#	自定义标签会像'艺术家'这样的标准标签一样保存在音乐文件中. 你可以在首选项处将标识定义为9个自定义标签中的任意一个
+#cTag.ctl.C2A1CDAE#	标识:
 #cTag.ctl.6C7F29FD#	id3 (.mp3):
 #cTag.ctl.67577B90#	vorbis (.flac;.ogg):
 #cTag.ctl.C05E13B3#	apeV2 (.wv;.mpc):
 #cTag.ctl.7475B41C#	mpeg (.aac;.m4a):
 #cTag.ctl.15A25458#	wma (.wma):
-#cTag.ctl.6DD5623#	Virtual tags are derived from standard or custom tags and can be used for display or filtering but are not stored in your music files
-#cTag.ctl.69E2C8DC#	label:
-#cTag.ctl.C0FF84D#	formula:
-#cTag.msg.Oomvhbc-dy#	One or more values has been changed - do you want to save the changes?
-#cTag.msg.Ttniakctai#	That tag name is a known custom tag already implemented in MusicBee - please choose another name
+#cTag.ctl.6DD5623#	虚拟标签从标准标签继承而来,可用在显示和过滤器上.但是他们不是存储在音乐文件中的
+#cTag.ctl.69E2C8DC#	标签:
+#cTag.ctl.C0FF84D#	表达式:
+#cTag.msg.Oomvhbc-dy#	一项或多项设置已经改变 - 要保存吗?
+#cTag.msg.Ttniakctai#	这个标签名已经在MusicBee中实现 - 请更换一个
 
 ! tags(2) tab
-#Sys.tab.63C7B46F#	Tags (2)
-#Sys.ctl.A2FC2D34#	  tag handling  
-#Sys.ctl.DDEDC68B#	enable direct editing of tags in the main panel
-#Sys.ctl.CA9A7AA9#	ignore diacritic marks when searching (à = a, ô = o, etc.)
-#Sys.ctl.4EB80419#	disc-track# format:
-#Sys.ctl.F76B75A9#	Artist, Title and Album Name tags:
-#Sys.ctl.972A59D#	ignore words:
-#Sys.ctl.FF9993D5#	when sorting
-#Sys.ctl.358AE9FF#	remove words:
-#Sys.ctl.B1406D9#	when scrobbling or searching artists and albums on websites
-#Sys.ctl.FCF7EFF5#	group genres:
-#Sys.btn.B085446C#	Categorise...
-#Sys.ctl.EF25947#	  auto-tagging  
-#Sys.ctl.F2A42B33#	lyrics:
-#Sys.ctl.BC9C22C0#	auto-retrieve missing lyrics for the playing track
-#Sys.ctl.F1DD3475#	and save without prompt
-#Sys.ctl.631C5F39#	artwork:
-#Sys.ctl.BF518538#	auto-retrieve missing artwork for the playing track
-#Sys.ctl.38C7754D#	and save without prompt
-#Sys.ctl.278D304A#	apply minimum image size filter:
-#Sys.ctl.34693252#	tags:
-#Sys.ctl.F8DAD736#	retrieve multiple genres limited to:
-#Sys.ctl.F9BDE8D6#	genres
-#Sys.btn.D733FC95#	Genre Filter
-#Sys.ctl.D1A5E62C#	freedb server:
-#Sys.msg.WNampsIt(W#	WARNING: Not all music players support ID3v2.4 tags (eg. Windows Media Player)
-#Sys.msg.Ywntra.fal#	You will need to rescan any .WAV files already loaded into the library. In the computer section of the left navigator, right click/ Rescan Files
-#Sys.msg.WNriysymtw#	WARNING: Not recommended if you synchronise your music tracks with a device - preserving the file timestamp will interfere with the synchronisation process
-#Sys.help.itlopwsbAA#	ignore the list of prefixes when sorting by Artist, Album or Track Title - enter as a comma separated list (A, The, etc)
-#Sys.help.rwfwsomaaa#	remove words from when scrobbling or matching artists and albums on websites - enter as a comma separated list ([Remastered], [Bonus Disc], etc)
-#Sys.msg.GeIn#		Genre Inclusions
-#Sys.msg.ealovtatbi#	enter a list of values that are to be included when retrieving genres from last.fm:
+#Sys.tab.63C7B46F#	标签 (2)
+#Sys.ctl.A2FC2D34#	 标签处理  
+#Sys.ctl.DDEDC68B#	允许直接在主面板编辑标签
+#Sys.ctl.CA9A7AA9#	查找时忽略发音符号 (à = a, ô = o, 等.)
+#Sys.ctl.4EB80419#	曲目-编号# 格式:
+#Sys.ctl.F76B75A9#	艺术家, 标题 , 专辑名称标签:
+#Sys.ctl.972A59D#	忽略单词:
+#Sys.ctl.FF9993D5#	在查找时
+#Sys.ctl.358AE9FF#	删除单词:
+#Sys.ctl.B1406D9#	在同步和在网络上查找艺术家和专辑时
+#Sys.ctl.FCF7EFF5#	分组流派:
+#Sys.btn.B085446C#	类别...
+#Sys.ctl.EF25947#	  自动查找标签  
+#Sys.ctl.F2A42B33#	歌词:
+#Sys.ctl.BC9C22C0#	自动查找正在播放曲目缺失的歌词
+#Sys.ctl.F1DD3475#	保存时不提示
+#Sys.ctl.631C5F39#	封面:
+#Sys.ctl.BF518538#	自动查找正在播放曲目缺失的封面
+#Sys.ctl.38C7754D#	并且不确认直接保存
+#Sys.ctl.278D304A#	使用最小图片过滤器:
+#Sys.ctl.34693252#	标签:
+#Sys.ctl.F8DAD736#	限制查找的多流派的最大数量:
+#Sys.ctl.F9BDE8D6#	流派
+#Sys.btn.D733FC95#	流派过滤器
+#Sys.ctl.D1A5E62C#	freedb 服务器:
+#Sys.msg.WNampsIt(W#	警告: 并不是所有的音乐播放器支持 ID3v2.4 标签 (例如 Windows Media Player)
+#Sys.msg.Ywntra.fal#	你需要重新扫描库中已经存在的所有 .wav.请在右边栏导航器处右键点击重新扫描文件
+#Sys.msg.WNriysymtw#	警告: Not recommended if you synchronise your music 专辑s with a device - preserving the file timestamp will interfere with the synchronisation process
+#Sys.help.itlopwsbAA#	排序艺术家,专辑,曲目标题是要忽略的前缀(以逗号分隔) (A, The, 等)
+#Sys.help.rwfwsomaaa#	在同步和匹配艺术家和专辑时眼删除的单词(以逗号分隔)([Remastered], [Bonus Disc], 等)
+#Sys.msg.GeIn#		流派选定
+#Sys.msg.ealovtatbi#	在Last.fm查找流派的项目:
 
 ! internet tab
 #Sys.tab.C0396A02#	Internet
-#Sys.ctl.8E875DF6#	  browser  
-#Sys.btn.2ED0C2B7#	Configure
-#Sys.ctl.32DAF421#	see the main panel to edit advanced browser settings
-#Sys.ctl.E9D21476#	  proxy settings  
-#Sys.ctl.4B30FA2C#	server:
-#Sys.ctl.8410F313#	port:
-#Sys.ctl.9A393979#	username:
-#Sys.ctl.49B5470#	password:
-#Sys.ctl.86B1181E#	  downloads  
-#Sys.ctl.CA927234#	maximum simultaneous downloads:  
-#Sys.ctl.36388980#	save files to folder
-#Sys.ctl.8AE411B7#	file naming
-#Sys.ctl.5626483A#	music tracks:
-#Sys.ctl.D6474E83#	artwork:
+#Sys.ctl.8E875DF6#	  浏览器  
+#Sys.btn.2ED0C2B7#	设置
+#Sys.ctl.32DAF421#	请在主窗口设置浏览器高级设置
+#Sys.ctl.E9D21476#	  代理设置  
+#Sys.ctl.4B30FA2C#	服务器:
+#Sys.ctl.8410F313#	端口:
+#Sys.ctl.9A393979#	用户名:
+#Sys.ctl.49B5470#	密码:
+#Sys.ctl.86B1181E#	  下载  
+#Sys.ctl.CA927234#	最高并发任务数:  
+#Sys.ctl.36388980#	保存文件到文件夹
+#Sys.ctl.8AE411B7#	文件命名
+#Sys.ctl.5626483A#	音乐曲目:
+#Sys.ctl.D6474E83#	封面:
 
 ! cd ripping tab
-#Sys.tab.34F5409E#	CD Ripping
-#CD.msg.CdRiSe#		Cd Rip Settings
-#Sys.ctl.1B082FFF#	  cd ripping  
-#CD.ctl.47E8EAC#	encode as:
-#CD.ctl.FA13966B#	profile:
-#CD.btn.6BE5FC22#	Encoder Settings...
-#CD.ctl.79B4DE2F#	save to folder:
-#CD.ctl.F9AC5B91#	add ripped files to the Inbox
-#CD.ctl.30CBC91E#	file naming when ripping each track as a separate file:
-#CD.ctl.D8DB39DE#	file naming when ripping the entire disc as a single file:
-#CD.ctl.A3BE217D#	pre-gap handling:
-#CD.ctl.62F2A93A#	append to prior track
-#CD.ctl.4A302972#	remove
-#CD.ctl.79254B01#	automatically start rip on CD insertion
-#CD.ctl.734C85B0#	automatically retrieve album artwork from the internet
-#CD.ctl.70608D56#	calculate track volume leveling values
-#CD.ctl.443BCAAB#	rip completion sound:
-#CD.ctl.1BDA313#	  drive settings  
-#CD.ctl.B1C7CFCE#	read offset:
-#CD.btn.2CAB15BB#	Lookup
-#CD.ctl.9D24298F#	rip speed:
-#CD.ctl.E53D87D8#	validate rips using AccurateRip.com
-#CD.ctl.EF68842A#	always show results
-#CD.ctl.CBDBAEC8#	quick rip
-#CD.ctl.21F5B9F9#	secure rip with error recovery
-#CD.ctl.1A3B649A#	check C2 errors
-#CD.msg.MerLwcbdwM#	MP3 encoding requires LAME.EXE which cannot be distributed with MusicBee due to license restrictions. However you can download LAME for personal use - see http://www.getmusicbee.com/help.html
-#CD.msg.Tdfcbafiyl#	The destination folder cannot be a folder in your library
-#CD.msg.Fdne#		Folder '{0}' does not exist
-#CD.msg.Stdftwctrf#	Select the destination folder that will contain the ripped files:
+#Sys.tab.34F5409E#	CD 翻录
+#CD.msg.CdRiSe#		Cd 翻录设置
+#Sys.ctl.1B082FFF#	  CD 翻录 
+#CD.ctl.47E8EAC#	编码:
+#CD.ctl.FA13966B#	级别:
+#CD.btn.6BE5FC22#	编码设置...
+#CD.ctl.79B4DE2F#	保存到文件夹:
+#CD.ctl.F9AC5B91#	添加翻录文件到 Inbox
+#CD.ctl.30CBC91E#	每个曲目翻录到一个单独文件时的命名规则:
+#CD.ctl.D8DB39DE#	整个CD翻录到一个文件时的命名规则:
+#CD.ctl.A3BE217D#	前置间隙处理:
+#CD.ctl.62F2A93A#	附加在之前的曲目之后
+#CD.ctl.4A302972#	移除
+#CD.ctl.79254B01#	CD插入时自动开始翻录
+#CD.ctl.734C85B0#	自动在Internet查找专辑封面
+#CD.ctl.70608D56#	计算曲目音量级别
+#CD.ctl.443BCAAB#	完成提示音:
+#CD.ctl.1BDA313#	  设备设置  
+#CD.ctl.B1C7CFCE#	读偏离量:
+#CD.btn.2CAB15BB#	查找
+#CD.ctl.9D24298F#	翻录速度:
+#CD.ctl.E53D87D8#	使用 AccurateRip.com 验证
+#CD.ctl.EF68842A#	总是显示结果
+#CD.ctl.CBDBAEC8#	快速翻录
+#CD.ctl.21F5B9F9#	使用安全恢复机制进行翻录
+#CD.ctl.1A3B649A#	检查 C2 错误
+#CD.msg.MerLwcbdwM#	需要 LAME.EXE 来进行 MP3 编码,但是由于许可限制没有跟随MusicBee发布.你可以从 http://www.getmusicbee.com/help.html 下载LAME以供个人使用.
+#CD.msg.Tdfcbafiyl#	目标文件夹不能设为库中的文件夹
+#CD.msg.Fdne#		文件夹不存在 '{0}' 
+#CD.msg.Stdftwctrf#	选择要保存翻录文件的文件夹:
 #CD.msg.TfpntbreC#	The file path needs to be rooted eg. C:\WINDOWS\Media\notify.wav
-#CD.msg.Fdne.2#		File does not exist.
-#CD.msg.maximum#	maximum
-#CD.msg.Utftofycd-#	Unable to find the offset for your cd drive - please enter manually.
-#CD.msg.WCddnsti#	WARNING: CD drive '{0}:' does not support the 'stream is accurate' feature, which is needed to reliably verify the rip. It is recommended not to tick this option.
+#CD.msg.Fdne.2#		文件存在
+#CD.msg.maximum#	最大值
+#CD.msg.Utftofycd-#	无法定位偏移量 - 请手动指定.
+#CD.msg.WCddnsti#	警告: CD 驱动器 '{0}:' 不支持用来验证翻录的 'stream is accurate' 特性. 推荐不要勾选此选项.
 #CD.msg.Cewbcarut1#	C2 errors will be checked and re-read up to 16 times for 8 successive matches. However, not all drives return C2 errors, and not all C2 errors actually mean there is a problem with the rip so only use this option for ultra-secure ripping
-#CD.msg.AvrtrofyCd#	AccurateRip validation requires the read offset for your CD drive - click the 'Lookup' button or enter the value first.
+#CD.msg.AvrtrofyCd#	AccurateRip 验证需要读取CD驱动器的偏移量 - 点击'查找'按钮或输入一个值.
 
 ! tools tab
 #Sys.tab.39A0A939#	工具
-#Sys.ctl.837B40D1#	  external application  
-#Sys.ctl.CF79983#	configuration for an external application that can be invoked from the 发送到 menu:
-#Sys.ctl.ED4E48F#	name:
-#Sys.ctl.BCA235F5#	application path:
-#Sys.ctl.1D5969B2#	parameters:
-#Sys.ctl.548BE8DF#	placeholders such as <URL> are replaced with values from the selected file
-#Sys.ctl.292AE1ED#	wait for application to exit before next file is sent
-#Sys.ctl.6786E5B0#	  external audio editor  
-#Sys.ctl.FC5FD222#	configuration for an external audio editor invoked from the 发送到 menu:
-#Sys.ctl.FFAA22F4#	application path:
-#Sys.msg.Stffmfd#	Select the folder for music file downloads:
-#Sys.msg.Stffad#	Select the folder for artwork downloads:
-#Sys.msg.Utltet#	Unable to locate the external tool
+#Sys.ctl.837B40D1#	  外部程序  
+#Sys.ctl.CF79983#	配置的外部程序可在以'发送到'菜单激活:
+#Sys.ctl.ED4E48F#	名称:
+#Sys.ctl.BCA235F5#	程序路径:
+#Sys.ctl.1D5969B2#	参数:
+#Sys.ctl.548BE8DF#	形如<URL>的占位符将会被选定文件的值替代
+#Sys.ctl.292AE1ED#	发送下个文件前等待程序退出
+#Sys.ctl.6786E5B0#	  外部音频编辑器  
+#Sys.ctl.FC5FD222#	配置的外部音频编辑器程序可在以'发送到'菜单激活:
+#Sys.ctl.FFAA22F4#	程序路径:
+#Sys.msg.Stffmfd#	音乐文件下载路径:
+#Sys.msg.Stffad#	封面下载路径:
+#Sys.msg.Utltet#	无法定位到外部文件
 
 ! file converters tab
-#Sys.tab.14899AE7#	File Converters
-#Sys.ctl.A17EAC9#	  encoding  
-#Sys.ctl.B3CCB1D#	maximum encoding threads:
-#Sys.ctl.F1425BDC#	thread priority:
-#Sys.ctl.5F414CFE#	Due to licensing restrictions, no MP3 or AAC encoder can be bundled with MusicBee.
-#Sys.ctl.5F414CFD#	You can download one for personal use - see
-#Sys.msg.Lowest#	Lowest
-#Sys.msg.BeNo#		Below Normal
-#Sys.msg.Normal#	Normal
-#Sys.msg.AbNo#		Above Normal
-#Sys.msg.0en#		{0} enabled
-#Sys.btn.Reset#		Reset
-#Sys.msg.enlo#		encoder location:
-#Sys.msg.rfsu#		reduce file size using
-#Sys.msg.enpa#		encoding parameters:
-#Sys.msg.smfisi#	small file size:
-#Sys.msg.pode#		portable device:
-#Sys.msg.hiqu#		high quality:
-#Sys.msg.fiar#		file archiving:
-#Sys.msg.WMen#		WMA enabled
-#Sys.msg.bity#		bitrate type:
-#Sys.msg.Constant#	Constant
-#Sys.msg.Variable#	Variable
-#Sys.msg.Utltep#	Unable to locate the encoder program
+#Sys.tab.14899AE7#	格式转换
+#Sys.ctl.A17EAC9#	  编码  
+#Sys.ctl.B3CCB1D#	最大编码线程:
+#Sys.ctl.F1425BDC#	线程优先级:
+#Sys.ctl.5F414CFE#	由于许可限制, MusicBee 没有绑定 MP3 或 AAC 编码器.
+#Sys.ctl.5F414CFD#	仅限下载供个人使用 - 查看
+#Sys.msg.Lowest#	最低
+#Sys.msg.BeNo#		较低
+#Sys.msg.Normal#	正常
+#Sys.msg.AbNo#		高
+#Sys.msg.0en#		启用 {0}
+#Sys.btn.Reset#		重置
+#Sys.msg.enlo#		编码器位置:
+#Sys.msg.rfsu#		减小文件大小
+#Sys.msg.enpa#		编码参数:
+#Sys.msg.smfisi#	小文件:
+#Sys.msg.pode#		移动设备:
+#Sys.msg.hiqu#		高音质:
+#Sys.msg.fiar#		文件归档:
+#Sys.msg.WMen#		启用 WMA
+#Sys.msg.bity#		比特率类型:
+#Sys.msg.Constant#	固定
+#Sys.msg.Variable#	可变
+#Sys.msg.Utltep#	无法定位编码器
 
 ! devices tab
-#Sys.tab.5ECDF7F9#	Devices
-#Sys.ctl.60B94811#	  devices  
-#Sys.ctl.99BFBA20#	detect MTP devices
-#Sys.ctl.6981F67B#	detect iPhone/ iTouch (not required for iPods)
-#Sys.msg.Noacde#	No active devices
-#Sys.msg.Seade#		Select a device
-#Sys.msg.Mcsfti3olI#	MusicBee can save files to iPhone/iTouch 3.1.1 or less. If you are using IOS 4.0, MusicBee will cause data corruption to the device music database.{0}A restart is required for the device to be recognised.
-#Dev.tab.5DE09B17#	Device Settings
-#Dev.ctl.97AE033B#	music root folder:
-#Dev.ctl.85FC86C7#	file naming:
-#Dev.ctl.CC1D6F08#	podcasts folder:
-#Dev.ctl.C8D0C1C2#	  on-the-fly conversion  
-#Dev.ctl.4AFFF0C#	convert to:
-#Dev.msg.Dncf#		Do not convert files
-#Dev.ctl.FA13966B#	encoding profile:
+#Sys.tab.5ECDF7F9#	设备
+#Sys.ctl.60B94811#	  设备  
+#Sys.ctl.99BFBA20#	检测 MTP 设备
+#Sys.ctl.6981F67B#	检测 iPhone/ iTouch (iPods 没必要勾选)
+#Sys.msg.Noacde#	没有激活的设备
+#Sys.msg.Seade#		选择一个设备
+#Sys.msg.Mcsfti3olI#	MusicBee 支持 iPhone/iTouch 3.1.1 或更低. 如果你使用 IOS 4.0, MusicBee 会使设备的音乐数据库发生数据异常.{0}要重新整理设备,其重启程序.
+#Dev.tab.5DE09B17#	设备设置
+#Dev.ctl.97AE033B#	音乐根目录:
+#Dev.ctl.85FC86C7#	文件命名:
+#Dev.ctl.CC1D6F08#	播客目录:
+#Dev.ctl.C8D0C1C2#	  on-the-fly 转换 (拷贝时自动转换) 
+#Dev.ctl.4AFFF0C#	编码为:
+#Dev.msg.Dncf#		不要转化文件
+#Dev.ctl.FA13966B#	编码方案:
 #Dev.ctl.6A8E6746#	replace artist tag with sort-artist
-#Dev.ctl.239AB519#	only convert files with a format not supported by the device
-#Dev.ctl.93788D2C#	only convert files with a lossless format
-#Dev.ctl.A94D4026#	convert all files
-#Dev.ctl.2D395708#	except
-#Dev.ctl.B1830CBE#	k or less bitrate
-#Dev.ctl.8D2DA8DD#	level volume:
-#Dev.ctl.656ACA79#	tracks at same volume
-#Dev.ctl.6FF84587#	albums at same volume
-#Dev.ctl.96B8EEF#	  播放列表 storage  
-#Dev.ctl.518778E6#	播放列表s root folder:
-#Dev.ctl.C79F3BC5#	save as format:
-#Dev.msg.NaFo#		Native Format
-#Dev.ctl.2EDE870B#	path prefix for tracks:
-#Dev.ctl.8CC49FDC#	  artwork storage  
-#Dev.ctl.D7D34B77#	do not copy artwork
-#Dev.ctl.E0E3B88#	embed artwork in the music file
-#Dev.ctl.E855B331#	resize artwork to:
-#Dev.ctl.39192CD1#	px
-#Dev.ctl.72CC1EB#	copy to folder.jpg
-#Dev.ctl.6DDE49B5#	also embed artwork in the copied music files
-#Dev.ctl.97793EC3#	copy to the same folder as the music file
-#Dev.ctl.84205DB7#	file naming:
-#Dev.tab.DA343A8F#	Auto-Sync Settings
-#Dev.ctl.DC981DF5#	automatically synchronise when the device is connected
-#Dev.ctl.D1FE7348#	synchronise files from:
-#Dev.ctl.569C3DFD#	music library
-#Dev.ctl.7BA75CCE#	audio books
-#Dev.ctl.5A73D534#	folders:
-#Dev.ctl.F964AF36#	enable 2 way synchronisation:
-#Dev.ctl.55927918#	play counts
-#Dev.ctl.E565F6AB#	ratings
-#Dev.ctl.74EC57B6#	播放列表s:
-#Dev.ctl.F4AEAAAE#	podcasts:
-#Dev.ctl.128ED4A2#	synchronise unplayed episodes only
-#Dev.ctl.B8F36291#	delete tracks that are not on the auto-sync list from the device
-#Dev.ctl.AE14DC63#	confirm deletion (recommended)
-#Dev.ctl.7970DA13#	or delete all tracks from the device and fill with a random selection of tracks
-#Dev.msg.cattid#	copy artwork to the iPod database
-#Dev.msg.cttsfatmf#	copy to the same folder as the music file
-#Dev.msg.Tsdfmblotd#	The selected destination folder must be located on the device
-#Dev.msg.Tfdneotdaw#	This folder does not exist on the device and will be created on the first synchronisation
-#Dev.msg.MerLwcbdwM#	MP3 encoding requires LAME.EXE which cannot be distributed with MusicBee due to license restrictions. However you can download LAME for personal use - see http://www.getmusicbee.com/help.html
-#Dev.msg.efw#		except {0} files with
-#Dev.msg.ocfnafa#	only convert files not already formatted as {0}
-#Dev.msg.Wywlsqbrf#	WARNING: you will loose sound quality by re-encoding {0} files - this option is intended only to minimise the size of a file
-#Dev.msg.Eainr-satw#	Embeded artwork is not recommended - synching and tagging will perform much slower.
-#Dev.msg.Sntban#	Size needs to be a number
-#Dev.msg.Sntboo#	Size needs to be one of: {0}
-#Dev.msg.ChFo#		Choose Folders...
-#Dev.msg.Sfcmftbs#	Select folders containing music files to be synchronised
+#Dev.ctl.239AB519#	只转换设备不支持的文件格式
+#Dev.ctl.93788D2C#	只转换无损格式
+#Dev.ctl.A94D4026#	转换所有文件
+#Dev.ctl.2D395708#	除去
+#Dev.ctl.B1830CBE#	k比特
+#Dev.ctl.8D2DA8DD#	音量级别:
+#Dev.ctl.656ACA79#	所有曲目同一级别
+#Dev.ctl.6FF84587#	所有专辑同一级别
+#Dev.ctl.96B8EEF#	  播放列表存储  
+#Dev.ctl.518778E6#	播放列表根目录:
+#Dev.ctl.C79F3BC5#	保存格式:
+#Dev.msg.NaFo#		原生格式
+#Dev.ctl.2EDE870B#	曲目路径前缀:
+#Dev.ctl.8CC49FDC#	  封面存储  
+#Dev.ctl.D7D34B77#	不拷贝封面
+#Dev.ctl.E0E3B88#	嵌入封面到音乐文件
+#Dev.ctl.E855B331#	封面大小:
+#Dev.ctl.39192CD1#	像素
+#Dev.ctl.72CC1EB#	拷贝到 folder.jpg
+#Dev.ctl.6DDE49B5#	嵌入封面到音乐文件
+#Dev.ctl.97793EC3#	拷贝到音乐文件所在的文件夹
+#Dev.ctl.84205DB7#	命名规则:
+#Dev.tab.DA343A8F#	自动同步 设置
+#Dev.ctl.DC981DF5#	当设备连接时自动同步
+#Dev.ctl.D1FE7348#	同步内容:
+#Dev.ctl.569C3DFD#	音乐库
+#Dev.ctl.7BA75CCE#	有声读物
+#Dev.ctl.5A73D534#	文件夹
+#Dev.ctl.F964AF36#	启用双向同步:
+#Dev.ctl.55927918#	播放次数
+#Dev.ctl.E565F6AB#	评分
+#Dev.ctl.74EC57B6#	播放列表:
+#Dev.ctl.F4AEAAAE#	播客:
+#Dev.ctl.128ED4A2#	只同步未播放的项目
+#Dev.ctl.B8F36291#	删除设备上不在自动同步列表中的项目
+#Dev.ctl.AE14DC63#	删除时确认 (推荐)`
+#Dev.ctl.7970DA13#	删除设备中的所有曲目,然后随机填充
+#Dev.msg.cattid#	拷贝封面至 iPod 数据库
+#Dev.msg.cttsfatmf#	拷贝到音乐文件所在的文件夹
+#Dev.msg.Tsdfmblotd#	目标文件夹必须在设备上
+#Dev.msg.Tfdneotdaw#	此文件夹在设备上不存在,第一次同步时将会被创建
+#Dev.msg.MerLwcbdwM#	需要 LAME.EXE 来进行 MP3 编码,但是由于许可限制没有跟随MusicBee发布.你可以从 http://www.getmusicbee.com/help.html 下载LAME以供个人使用.
+#Dev.msg.efw#		例外: {0} 文件音质小于等于
+#Dev.msg.ocfnafa#	不转换已经是{0}格式的文件
+#Dev.msg.Wywlsqbrf#	警告: 重新编码文件 {0} 将会损失音质 - 只有在需要减小文件大小时才需勾选
+#Dev.msg.Eainr-satw#	不推荐嵌入封面 - 同步和设置标签会变慢.
+#Dev.msg.Sntban#	大小必须是一个数字
+#Dev.msg.Sntboo#	大小必须是一下其中之一: {0}
+#Dev.msg.ChFo#		选择文件夹...
+#Dev.msg.Sfcmftbs#	选择要同步的文件夹
 
 ! plugins tab
-#Sys.tab.9DE59E88#	Plugins
-#Sys.ctl.13D3564A#	Scrobble played music tracks to last.fm
-#Sys.ctl.F0A097F8#	scrobble tracks played on portable devices (when auto-synching)
-#Sys.ctl.AF68264F#	do not scrobble podcasts
-#Sys.ctl.859E8E21#	do not scrobble tracks in the following folders:
-#Sys.ctl.3B9F8E77#	scrobbling of tracks played on radio stations can be enabled per station (using Edit Station from the Radio Stations panel)
-#Sys.ctl.C3F8B5A5#	synchronise from last.fm to your library on startup:
-#Sys.ctl.A4FBA164#	synchronise Play Count
-#Sys.ctl.76D86FAB#	synchronise Loved tracks
-#Sys.ctl.A4277B1#	Show the current song cover in a customizable skin
-#Sys.ctl.94740902#	launch on startup
-#Sys.ctl.E39522B6#	Search and display lyrics from the mini-lyrics database
-#Sys.ctl.80644E9C#	retrieve and show new lyrics embedded by mini-lyrics
-#Sys.ctl.7DBBF8C3#	retrieve and show the downloaded lyrics file - configured in mini-lyrics as:
-#Sys.ctl.BCC52548#	same folder and name as the music file
-#Sys.ctl.D6F99DA9#	specific folder:
-#Sys.btn.Uninstall#	Uninstall
-#Sys.msg.tlfntbnats#	the lyrics file needs to be named as the song title in the mini-lyrics preferences
-#Sys.btn.Disable#	Disable
-#Sys.btn.Enable#	Enable
-#Sys.btn.Configure#	Configure
-#Sys.msg.LianptMacb#	Last.fm is a native plugin to MusicBee and cannot be uninstalled
-#Sys.msg.ScEx#		Scrobbling Exclusion
-#Sys.msg.Stftefs#	Select the folders to exclude from scrobbling
-#Sys.msg.CADdnatbio#	CD Art Display does not appear to be installed on your machine.
-#Sys.msg.YnCADv3oat#	You need CD Art Display version 3.0.1059 or above to be installed.
-#Sys.msg.CADianptMa#	CD Art Display is a native plugin to MusicBee and cannot be uninstalled
-#Sys.msg.CUtmp#		CONFIRMATION: Uninstall the mini-lyrics plugin?
-#Sys.msg.COUn{#		CONFIRMATION: Uninstall '{0}'?
+#Sys.tab.9DE59E88#	插件
+#Sys.ctl.13D3564A#	同步播放的曲目到 last.fm
+#Sys.ctl.F0A097F8#	同步移动设备上播放的曲目 (设置了自动同步时)
+#Sys.ctl.AF68264F#	不同步播客
+#Sys.ctl.859E8E21#	不同步下列文件夹内的曲目:
+#Sys.ctl.3B9F8E77#	可以为每个站台单独启用同步播放过的曲目 (在站台面板设置)
+#Sys.ctl.C3F8B5A5#	启动时从 last.fm 同步数据到你的库:
+#Sys.ctl.A4FBA164#	同步播放次数
+#Sys.ctl.76D86FAB#	同步喜爱的曲目
+#Sys.ctl.A4277B1#	在自定义皮肤显示正在播放曲目的封面
+#Sys.ctl.94740902#	程序启动时启动
+#Sys.ctl.E39522B6#	在 mini-lyrics 数据库查找并显示歌词
+#Sys.ctl.80644E9C#	检索并查看 mini-lyrics 嵌入的新歌词
+#Sys.ctl.7DBBF8C3#	检索并查看下载的歌词文件 - 在 mini-lyrics 处设置为:
+#Sys.ctl.BCC52548#	与音乐文件文件夹和名称相同
+#Sys.ctl.D6F99DA9#	指定文件夹:
+#Sys.btn.Uninstall#	删除
+#Sys.msg.tlfntbnats#	需要在 mini-lyrics 首选项处设置成与音乐文件同名
+#Sys.btn.Disable#	禁用
+#Sys.btn.Enable#	启用
+#Sys.btn.Configure#	设置
+#Sys.msg.LianptMacb#	Last.fm 是 MusicBee 附带的插件,不能卸载
+#Sys.msg.ScEx#		同步排除选择
+#Sys.msg.Stftefs#	选择要同步时要排除的文件夹
+#Sys.msg.CADdnatbio#	你尚未安装 CD Art Display.
+#Sys.msg.YnCADv3oat#	你需要安装 CD Art Display 3.0.1059 或以上的版本.
+#Sys.msg.CADianptMa#	CD Art Display 是 MusicBee 附带的插件,不能卸载
+#Sys.msg.CUtmp#		确认: 删除 mini-lyrics 插件?
+#Sys.msg.COUn{#		确认: 删除 '{0}'?
 
 ! auto-shutdown dialog (opened from File/ Activate Auto-Shutdown)
-#AutoSD.frm.EF864DCA#	Auto-Shutdown Settings
-#AutoSD.ctl.91A4C47B#	activate
-#AutoSD.msg.slco#	sleep computer
-#AutoSD.msg.tuofco#	turn off computer
-#AutoSD.msg.enofpl#	end of 播放列表
-#AutoSD.msg.elmi#	elapsed minutes
-#AutoSD.msg.WAhnbeDywt#	WARNING: Auto-shutdown has not been enabled. Do you want to enable it?
+#AutoSD.frm.EF864DCA#	自动关机设置
+#AutoSD.ctl.91A4C47B#	激活
+#AutoSD.msg.slco#	睡眠
+#AutoSD.msg.tuofco#	关机
+#AutoSD.msg.enofpl#	播放列表结束
+#AutoSD.msg.elmi#	若干分钟后
+#AutoSD.msg.WAhnbeDywt#	警告: 自动关机未启用. 要启用吗?
 
 ! radio station editor
-#RSE.frm.EE8DC1AF#	Add Radio Station
-#RSE.ctl.7BA70F73#	category:
-#RSE.ctl.5515C266#	scrobble tracks to Last.fm
-#RSE.ctl.E364CF7A#	genre:
-#RSE.ctl.C0B323C8#	stream url:
-#RSE.ctl.8D92EB02#	last.fm radio:
-#RSE.msg.dahorctp#	drag artwork here or right click to paste
-#RSE.ctl.2E80F20#	format:
-#RSE.ctl.4897B99E#	bitrate:
-#RSE.ctl.6E252FD8#	genre:
-#RSE.ctl.9DE36B46#	description:
-#RSE.ctl.2703DD47#	name:
-#RSE.msg.Trsihbm-dy#	This radio station information has been modified - do you want to save the changes?
-#RSE.msg.AdRaSt#	Add Radio Station
-#RSE.msg.Utcttu#	Unable to connect to this url
-#RSE.msg.Utvtvotu#	Unable to verify the validity of this url
-#RSE.msg.TleitHpfts#	The link entered is the HTML page for the station website. You need to enter the listening stream link which may be listed on the station website
-#RSE.msg.genre:#	genre:
-#RSE.msg.name:#		name:
-#RSE.msg.usid#		user id:
+#RSE.frm.EE8DC1AF#	添加电台
+#RSE.ctl.7BA70F73#	类别:
+#RSE.ctl.5515C266#	同步曲目到 Last.fm
+#RSE.ctl.E364CF7A#	流派:
+#RSE.ctl.C0B323C8#	流 url:
+#RSE.ctl.8D92EB02#	last.fm 电台:
+#RSE.msg.dahorctp#	拖动封面至此或右键点击粘贴
+#RSE.ctl.2E80F20#	格式:
+#RSE.ctl.4897B99E#	比特率:
+#RSE.ctl.6E252FD8#	流派:
+#RSE.ctl.9DE36B46#	描述:
+#RSE.ctl.2703DD47#	名称:
+#RSE.msg.Trsihbm-dy#	电台信息已经更改 - 要保存吗?
+#RSE.msg.AdRaSt#	添加电台
+#RSE.msg.Utcttu#	无法连接到该 url
+#RSE.msg.Utvtvotu#	无法验证该 url
+#RSE.msg.TleitHpfts#	你输入的电台网站的HTML连接. 你需要输入音频流的连接,该链接可能列在电台网站上
+#RSE.msg.genre:#	流派:
+#RSE.msg.name:#		名称:
+#RSE.msg.usid#		用户 id:
 
 ! File Scanner
-#Scan.frm.8677A7C7#	Rescan/ Add Files and Playlists
-#Scan.ctl.B384E1BB#	scan for new music files and 播放列表s in the following folders:
-#Scan.btn.EE79F85D#	Choose Folders
-#Scan.ctl.E922712D#	import 播放列表s
-#Scan.ctl.ACE5D672#	restrict scanned file types
-#Scan.btn.6146FC4#	Filter...
-#Scan.ctl.D18783F4#	remove dead links
-#Scan.ctl.BFE4C8CB#	re-scan files already in the library
-#Scan.ctl.310BC7C7#	destination for new music files:
-#Scan.ctl.14DF742D#	add to the Inbox
-#Scan.ctl.E5F0F6E0#	add to the Library - files will be linked to their existing location without re-organisation
-#Scan.ctl.7C803C5B#	minimise to status bar when scan starts
-#Scan.msg.attL-fwbou#	add to the Library - files will be organised using the following template:
-#Scan.msg.Fasbs-dywt#	Files are still being scanned - do you want to abort the process?
-#Scan.msg.ChFo#		Choose Folders...
-#Scan.msg.Sfcmtattl#	Select folders containing music to add to the library
-#Scan.msg.Ysnnntuto-#	You should not normally need to use this option - only use if out-of-date and incorrect track information is being displayed in the main panel.
-#Scan.msg.Imfi#		Importing files
-#Scan.msg.Sfmf#		Scanning for missing files
-#Scan.msg.Nnff#		No new files found...
-#Scan.msg.Imfi.2#	Importing files...
-#Scan.msg.Tffnleatel#	The following files no longer exist at their expected location - remove them from the library?
-#Scan.msg.arwa#		always remove without asking
+#Scan.frm.8677A7C7#	重新扫描/添加 文件和列表
+#Scan.ctl.B384E1BB#	在如下文件夹扫描新文件和播放列表:
+#Scan.btn.EE79F85D#	选择文件夹
+#Scan.ctl.E922712D#	导入播放列表
+#Scan.ctl.ACE5D672#	限制扫描文件类型
+#Scan.btn.6146FC4#	过滤器...
+#Scan.ctl.D18783F4#	删除无效链接
+#Scan.ctl.BFE4C8CB#	重新扫描已经存在库中的文件
+#Scan.ctl.310BC7C7#	扫描后处理:
+#Scan.ctl.14DF742D#	添加到 Inbox
+#Scan.ctl.E5F0F6E0#	添加到库 - 文件不会被自动整理,而是建立一个连接
+#Scan.ctl.7C803C5B#	扫描开始后最小化到状态栏
+#Scan.msg.attL-fwbou#	添加到库 - 按如下模板整理文件:
+#Scan.msg.Fasbs-dywt#	扫描正在进行 - 要放弃吗?
+#Scan.msg.ChFo#		选择文件夹...
+#Scan.msg.Sfcmtattl#	选择要添加到库的文件夹
+#Scan.msg.Ysnnntuto-#	通常你不需要勾选次选项 - 主面板上过期或不正确时曲目信息时再勾选即可.
+#Scan.msg.Imfi#		导入文件
+#Scan.msg.Sfmf#		扫描缺失的文件
+#Scan.msg.Nnff#		未发现新文件...
+#Scan.msg.Imfi.2#	导入文件...
+#Scan.msg.Tffnleatel#	文件已经不存在 - 要从库中删除吗?
+#Scan.msg.arwa#		删除时不提示确认
 
 ! file organiser
-#Org.frm.369CCCDB#	File Organiser
-#Org.ctl.C8A9AE5F#	file naming presets:
-#Org.ctl.CFA024E9#	move files to folder:
-#Org.btn.A6F506E7#	Filename Char Mapping...
-#Org.ctl.6364E422#	file naming template:
-#Org.col.880F920F#	original filename
-#Org.col.AB3037D4#	new filename
-#Org.col.FE85D7E7#	status
-#Org.ctl.7DD64CC8#	except when:
-#Org.ctl.9165F90#	exception file naming template:
-#Org.btn.973F7D05#	Add Exception
-#Org.ctl.F1A8AF4D#	exceptions are evaluated in reverse sequence. To reorder, press Alt Up/Down in a naming template 
-#Org.ctl.11A0534D#	  duplicate filenames exist - please edit and change those filenames  
-#Org.ctl.C4651C26#	do not reorganise files with missing naming tags
-#Org.ctl.E5F0F6E0#	add to library
-#Org.ctl.7C803C5B#	minimise to status bar when file reorganisation starts
-#Org.ctl.CA45CBE0#	delete folders that have no files remaining
-#Org.msg.<FNP#		<New File Naming Preset>
-#Org.msg.Sotfanlot#	Some of the files are not located on the {0} drive and will be skipped from reorganisation
-#Org.msg.Fasbo-dywt#	Files are still being organised - do you want to abort the re-organisation process?
-#Org.msg.Ynteapouf#	You need to enter a path or untick 'move files to folder' if you want to rename files only.
-#Org.msg.inarsd#	'{0}' is not a recognised storage device.
-#Org.msg.Fdneantbc#	Folder '{0}' does not exist and needs to be created first.
-#Org.msg.Ycc-tfiut#	You cannot choose '{0}' - that folder is used to store library files
-#Org.msg.ioardacbc#	'{0}' is on a removable device and cannot be chosen as the root folder for your organised library
-#Org.msg.ExCr#		Exception Criteria
-#Org.msg.S1EtCftE#	Step 1. Enter the Criteria for the Exception
-#Org.msg.Fdne-pcif#	Folder '{0}' does not exist - please create it first.
-#Org.msg.Rp(ans-p#	Relative paths ("\", ".\", "..\") are not supported - please remove this text from the naming template.
-#Org.msg.Tfesnbcise#	The filename extension should not be changed ie. should end with '{0}'
-#Org.msg.WFae#		WARNING: File '{0}' already exists
-#Org.msg.nolo#		not located
-#Org.msg.noonco#	not on computer
-#Org.msg.fl-pool#	filename locked - part of organised library
-#Org.msg.denosu#	device not supported
-#Org.msg.nod#		not on drive {0}
-#Org.msg.duplicate#	duplicate
-#Org.msg.noch#		no change
-#Org.msg.Fraiol#	 File remains at it's original location
-#Org.msg.<nch#		<no change>
-#Org.msg.Oomoyfinlo#	One or more of your files is not located on drive {0} and will not be re-organised. Do you want to proceed?{1}Click 'Cancel' and change the destination folder if appropriate
-#Org.msg.Oomoyfwbma#	One or more of your files will be moved across drives to the {0} drive. Do you want to proceed?
-#Org.msg.Oomoyfhtm-#	One or more of your files has tags missing - these files have been excluded and will not be re-organised. Do you want to proceed?
-#Org.msg.Oomoyfhtm-.2#	One or more of your files has tags missing - these files have not been excluded and will be re-organised using default generic values for the missing tags. Do you want to proceed?
-#Org.msg.Fireco#	File reorganisation completed
-#Org.msg.Rcwe#		Reorganisation completed with errors
-#Org.msg.Done#		Done
+#Org.frm.369CCCDB#	文件整理器
+#Org.ctl.C8A9AE5F#	文件命名预置:
+#Org.ctl.CFA024E9#	移动文件到:
+#Org.btn.A6F506E7#	字符替换...
+#Org.ctl.6364E422#	文件命名模板:
+#Org.col.880F920F#	旧文件夹
+#Org.col.AB3037D4#	新文件名
+#Org.col.FE85D7E7#	状态
+#Org.ctl.7DD64CC8#	例外:
+#Org.ctl.9165F90#	例外项目的命名模板:
+#Org.btn.973F7D05#	添加例外
+#Org.ctl.F1A8AF4D#	例外是逆序对应的,可以按 Alt Up/Down重新排列命名模板 
+#Org.ctl.11A0534D#	  存在重名文件 - 请重命名那些文件  
+#Org.ctl.C4651C26#	不重新排列缺失标签的文件
+#Org.ctl.E5F0F6E0#	添加到库
+#Org.ctl.7C803C5B#	整理文件时最小化到状态栏
+#Org.ctl.CA45CBE0#	删除空文件夹
+#Org.msg.<FNP#		<新建命名模板>
+#Org.msg.Sotfanlot#	某些文件在驱动器 {0} 上,整理时将会跳过他们
+#Org.msg.Fasbo-dywt#	仍在整理文件 - 要中止重新整理的进程吗?
+#Org.msg.Ynteapouf#	如果只想重命名文件,你需要输入一个路径或取消勾选 '移动文件到文件夹'
+#Org.msg.inarsd#	不能识别存储设备 '{0}' 
+#Org.msg.Fdneantbc#	文件夹 '{0}' 不存在,要先创建之.
+#Org.msg.Ycc-tfiut#	你不能选择 '{0}' - 该文件夹是用来存储库的信息文件的
+#Org.msg.ioardacbc#	'{0}' 是一个可移动设备,不能作为整理后库的根目录
+#Org.msg.ExCr#		例外条件
+#Org.msg.S1EtCftE#	步骤 1. 输入例外条件
+#Org.msg.Fdne-pcif#	文件夹 '{0}' 不存在 - 请先创建它.
+#Org.msg.Rp(ans-p#	不支持相对路径("\", ".\", "..\") - 请在命名模板中删除它们.
+#Org.msg.Tfesnbcise#	不应该修改文件扩展名 例如,应该以 '{0}' 结尾
+#Org.msg.WFae#		警告: 文件 '{0}' 已经存在
+#Org.msg.nolo#		未发现
+#Org.msg.noonco#	不在电脑上
+#Org.msg.fl-pool#	文件名被锁 - 是整理过的库的一部分
+#Org.msg.denosu#	设备不支持
+#Org.msg.nod#		不在驱动器 {0} 上
+#Org.msg.duplicate#	重复
+#Org.msg.noch#		没有改变
+#Org.msg.Fraiol#	 文件仍在其原始文件夹中
+#Org.msg.<nch#		<没有改变>
+#Org.msg.Oomoyfinlo#	一个或多个文件不在驱动器 {0},它们将不会被整理. 要开始整理吗?{1}点击 '取消' 可以更改目标文件夹
+#Org.msg.Oomoyfwbma#	一个或多个文件会跨驱动器被移动到驱动器 {0} . 要开始吗?
+#Org.msg.Oomoyfhtm-#	一个或多个文件有缺失的标签 - 整理时将会排除这些文件. 要开始吗?
+#Org.msg.Oomoyfhtm-.2#	一个或多个文件有缺失的标签 - 这些文件没有被排除. 将会用使用默认的标签, 要开始吗?
+#Org.msg.Fireco#	文件重新整理完毕
+#Org.msg.Rcwe#		文件重新整理完毕,但发生了错误
+#Org.msg.Done#		完成
 ! filename invalid char mapping (opened from the file organiser)
-#Char.msg.FiChMa#	Filename Char Mapping
-#Char.msg.with:#	with:
-#Char.msg.replace:#	replace:
-#Char.msg.Etrctbuwfn#	Enter the replacement character to be used when files named with tags have the following characters:
-#Char.msg.Ycuiaf#	You cannot use '{0}' in a filename.
+#Char.msg.FiChMa#	文件名字符替换
+#Char.msg.with:#	替换:
+#Char.msg.replace:#	为:
+#Char.msg.Etrctbuwfn#	输入要替换的字符:
+#Char.msg.Ycuiaf#	你不能在文件名中使用 '{0}'
 
 ! Podcast Subscription editor
-#Sub.frm.32EB6567#	Create Subscription
-#Sub.ctl.BFF11268#	podcast/ blog url:
-#Sub.ctl.2703DD47#	name:
-#Sub.ctl.9DE36B46#	description:
-#Sub.ctl.1B37D0D0#	category:
-#Sub.ctl.94401738#	show no more than the
-#Sub.ctl.177C71A4#	most recent episodes (that are not downloaded)
-#Sub.ctl.4CA0831D#	override default folder for downloaded podcast files:
-#Sub.ctl.5DBEF012#	customise subscription rules:
-#Sub.msg.Manually#	Manually
-#Sub.msg.Onst#		On startup
-#Sub.msg.Evho#		Every hour
-#Sub.msg.Evda#		Every day
-#Sub.msg.Evwe#		Every week
-#Sub.ctl.C00066CA#	keep:
-#Sub.msg.Alep#		All episodes
-#Sub.msg.Alunep#	All unplayed episodes
-#Sub.msg.Moreep#	Most recent episode
-#Sub.msg.La2ep#		Last 2 episodes
-#Sub.msg.La3ep#		Last 3 episodes
-#Sub.msg.La4ep#		Last 4 episodes
-#Sub.msg.La5ep#		Last 5 episodes
-#Sub.msg.La10ep#	Last 10 episodes
-#Sub.ctl.3392C9AD#	new episode action:
-#Sub.msg.Dtmro#		Download the most recent one
-#Sub.msg.Donodo#	Do not download
-#Sub.msg.Dane#		Download all new episodes
-#Sub.ctl.6552A5A5#	scanning subscription for episode details...
-#Sub.msg.Tshbm-dywt#	This subscription has been modified - do you want to save the changes?
-#Sub.msg.CrSu#		Create Subscription
-#Sub.msg.Utvtvotu#	Unable to verify the validity of this url
-#Sub.msg.Stffpdftso#	Select the folder for podcast downloads for this subscription only:
+#Sub.frm.32EB6567#	创建订阅
+#Sub.ctl.BFF11268#	播客 url:
+#Sub.ctl.2703DD47#	名称:
+#Sub.ctl.9DE36B46#	描述:
+#Sub.ctl.1B37D0D0#	类别:
+#Sub.ctl.94401738#	最多显示
+#Sub.ctl.177C71A4#	最新剧集 (没有被下载的)
+#Sub.ctl.4CA0831D#	指定下载目录:
+#Sub.ctl.5DBEF012#	自定义订阅规则:
+#Sub.msg.Manually#	手动
+#Sub.msg.Onst#		启动时
+#Sub.msg.Evho#		每小时
+#Sub.msg.Evda#		每天
+#Sub.msg.Evwe#		每星期
+#Sub.ctl.C00066CA#	保留:
+#Sub.msg.Alep#		所有剧集
+#Sub.msg.Alunep#	所有未播放的剧集
+#Sub.msg.Moreep#	最新的剧集
+#Sub.msg.La2ep#		最后 2 集
+#Sub.msg.La3ep#		最后 3 集
+#Sub.msg.La4ep#		最后 4 集
+#Sub.msg.La5ep#		最后 5 集
+#Sub.msg.La10ep#	最后 10 集
+#Sub.ctl.3392C9AD#	新剧集动作:
+#Sub.msg.Dtmro#		下载最新的
+#Sub.msg.Donodo#	不下载
+#Sub.msg.Dane#		下载所有最新的剧集
+#Sub.ctl.6552A5A5#	扫描订阅以获取剧集详情...
+#Sub.msg.Tshbm-dywt#	这个订阅已经被修改 - 要保存吗?
+#Sub.msg.CrSu#		创建订阅n
+#Sub.msg.Utvtvotu#	无法验证 URL 
+#Sub.msg.Stffpdftso#	选择订阅下载路径:
 
 ! Tag Editor panel
-#Tag.msg.dahorctp#	drag artwork here or right click to paste
-#Tag.msg.Safi#		Saving file...
-#Tag.msg.Fisaca#	File save cancelled
-#Tag.msg.Safi.2#	Saving files...
-#Tag.msg.1fhbu#		1 file has been updated
-#Tag.msg.fhbu#		{0} files have been updated
-#Tag.msg.Utsdttfe#	Unable to save due to the following error:{0}
-#Tag.msg.Ntwu#		No tags were updated.
-#Tag.ctl.alra#		album rating:
-#Tag.ctl.modified:#	modified:
-#Tag.ctl.website:#	website:
-#Tag.ctl.album:#	album:
-#Tag.ctl.tral#		track/ album:
-#Tag.ctl.trra#		track rating:
+#Tag.msg.dahorctp#	拖动封面或右键点击粘贴
+#Tag.msg.Safi#		正在保存...
+#Tag.msg.Fisaca#	取消保存
+#Tag.msg.Safi.2#	正在保存...
+#Tag.msg.1fhbu#		1 个文件已经被更新
+#Tag.msg.fhbu#		{0} 个文件已经被更新
+#Tag.msg.Utsdttfe#	由于如下错误,无法保存:{0}
+#Tag.msg.Ntwu#		未更新.
+#Tag.ctl.alra#		专辑评分:
+#Tag.ctl.modified:#	修改日期:
+#Tag.ctl.website:#	网站:
+#Tag.ctl.album:#	专辑:
+#Tag.ctl.tral#		曲目/专辑:
+#Tag.ctl.trra#		曲目评分:
 #Tag.ctl.equaliser:#	均衡器:
-#Tag.msg.Apicnleoii#	A picture is corrupted, no longer exists or is inaccessible.
-#Tag.msg.pacnleoai#	{0} pictures are corrupted, no longer exist or are inaccessible.
-#Tag.help.Tvinv-fao#	The value is not valid - format as 'yyyy' or a valid date
-#Tag.ctl.Properties#	Properties
-#Tag.ctl.type:#		type:
-#Tag.ctl.tave#		tag version:
-#Tag.ctl.size:#		size:
-#Tag.ctl.duration:#	duration:
-#Tag.ctl.damo#		date modified:
-#Tag.ctl.lapl#		last played:
-#Tag.ctl.plco#		play count:
-#Tag.ctl.skco#		skipped count:
-#Tag.ctl.enwi#		encoded with:
-#Tag.ctl.channels:#	channels:
-#Tag.ctl.bitrate:#	bitrate:
-#Tag.ctl.sara#		sample rate:
-#Tag.ctl.vole#		volume leveling:
-#Tag.ctl.orwe#		origin website:
-#Tag.ctl.location:#	location:
-#Tag.help.Tfiiaolail#	This file is in an organised library and its location cannot be changed here
-#Tag.msg.invp#		'{0}' is not valid path
-#Tag.msg.Fae#		File '{0}' already exists
-#Tag.msg.Tfednraraf#	The file extension does not represent a recognised audio format
-#Tag.msg.Fdne#		Folder '{0}' does not exist
-#Tag.msg.Dcbwt#		Drive {0} cannot be written to
-#Tag.msg.Tfcbrtad#	The file cannot be renamed to another device
-#Tag.msg.Ycc-tfiut#	You cannot choose '{0}' - that folder is used to store library files
-#Tag.ctl.Tags   #	Tags   
-#Tag.ctl.artwork:#	artwork:
-#Tag.ctl.dahorctp#	drag artwork here or right click to paste
-#Tag.ctl.trti#		track title:
-#Tag.ctl.artist:#	artist:
-#Tag.ctl.alar#		album artist:
-#Tag.ctl.publisher:#	publisher:
-#Tag.ctl.year:#		year:
-#Tag.ctl.track:#	track:
-#Tag.ctl.of#		of
-#Tag.ctl.disc:#		disc:
-#Tag.ctl.composer:#	composer:
-#Tag.ctl.genre:#	genre:
-#Tag.ctl.comments:#	comments:
-#Tag.ctl.grouping:#	grouping:
-#Tag.btn.EdCu#		Edit Cuesheet
-#Tag.ctl.fiti#		file title:
-#Tag.ctl.nopi#		no picture
-#Tag.ctl.loading...#	loading...
-#Tag.msg.Scbdwtaaao#	Search cannot be done without the artist and album or title
-#Tag.ctl.sein#		searching internet...
+#Tag.msg.Apicnleoii#	封面文件损坏, 可能已经不存在或不可访问.
+#Tag.msg.pacnleoai#	{0} 封面文件损坏, 可能已经不存在或不可访问.
+#Tag.help.Tvinv-fao#	无效值, - 以 'yyyy' 或其他有效格式赋值
+#Tag.ctl.Properties#	属性
+#Tag.ctl.type:#		类型:
+#Tag.ctl.tave#		标签版本:
+#Tag.ctl.size:#		大小:
+#Tag.ctl.duration:#	持续时间:
+#Tag.ctl.damo#		修改日期:
+#Tag.ctl.lapl#		最后播放:
+#Tag.ctl.plco#		播放计数:
+#Tag.ctl.skco#		跳过计数:
+#Tag.ctl.enwi#		编码器:
+#Tag.ctl.channels:#	声道:
+#Tag.ctl.bitrate:#	比特率:
+#Tag.ctl.sara#		采样频率:
+#Tag.ctl.vole#		音量级别:
+#Tag.ctl.orwe#		原始网站:
+#Tag.ctl.location:#	位置:
+#Tag.help.Tfiiaolail#	文件存在于一个受到整理的库中,不能在这里改变其位置
+#Tag.msg.invp#		'{0}' 为无效路径
+#Tag.msg.Fae#		文件 '{0}' 已经存在
+#Tag.msg.Tfednraraf#	无法识别的扩展名
+#Tag.msg.Fdne#		文件夹 '{0}' 不存在
+#Tag.msg.Dcbwt#		驱动器 {0} 不可写
+#Tag.msg.Tfcbrtad#	不能重命名到另外一个驱动器
+#Tag.msg.Ycc-tfiut#	不能选择 '{0}' - 该目录只能用于存储库文件
+#Tag.ctl.Tags   #	标签   
+#Tag.ctl.artwork:#	封面:
+#Tag.ctl.dahorctp#	拖动封面或右键点击粘贴
+#Tag.ctl.trti#		曲目标题:
+#Tag.ctl.artist:#	艺术家:
+#Tag.ctl.alar#		专辑艺术家:
+#Tag.ctl.publisher:#	发布者:
+#Tag.ctl.year:#		年份:
+#Tag.ctl.专辑:#	曲目:
+#Tag.ctl.of#		共
+#Tag.ctl.disc:#		碟:
+#Tag.ctl.composer:#	作曲家:
+#Tag.ctl.genre:#	流派:
+#Tag.ctl.comments:#	评论:
+#Tag.ctl.grouping:#	分组:
+#Tag.btn.EdCu#		编辑 Cue文件
+#Tag.ctl.fiti#		文件标题:
+#Tag.ctl.nopi#		无封面
+#Tag.ctl.loading...#	载入中...
+#Tag.msg.Scbdwtaaao#	查找需要输入艺术家或专辑或标题
+#Tag.ctl.sein#		正在查找 Internet...
 #Tag.msg.Utlapftb#	Unable to locate any pictures for title '{0}' by '{1}'
 #Tag.msg.Utlapfab#	Unable to locate any pictures for album '{0}' by '{1}'
 #Tag.msg.Nafitaabe-#	Not all files in the album are being edited - you need to apply the album rating to all the individual files in the album.
@@ -2016,396 +2016,396 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Tag.msg.Tawatavtit#	The artist will apply to all virtual tracks in this file - to amend a specific track artist, use the Edit Cuesheet button
 #Tag.msg.Tnaditac-u#	Track numbers are defined in the associated cuesheet - use the Edit Cuesheet button to amend.
 #Tag.msg.Tswatavtit#	The sort-artist will apply to all virtual tracks in this file - amending the sort-artist for a specific track from the CUE_TRACKnn_ARTISTSORTORDER tag is not currently supported
-#Tag.ctl.Ta(2#		Tags (2)
-#Tag.ctl.quality:#	quality:
-#Tag.ctl.tempo:#	tempo:
-#Tag.ctl.mood:#		mood:
+#Tag.ctl.Ta(2#		标签 (2)
+#Tag.ctl.quality:#	质量:
+#Tag.ctl.tempo:#	速度:
+#Tag.ctl.mood:#		情绪:
 #Tag.ctl.bpm:#		bpm:
-#Tag.ctl.occasion:#	occasion:
-#Tag.ctl.keywords:#	keywords:
-#Tag.msg.Yntetanatt#	You need to enter the artist name and track title before any tags can be retrieved
-#Tag.msg.Ntlfa-#	No tags located for artist '{0}' - '{1}'
-#Tag.msg.Utrt#		Unable to retrieve tags
-#Tag.ctl.Artwork #	Artwork 
-#Tag.ctl.pity#		picture type:
+#Tag.ctl.occasion:#	场合:
+#Tag.ctl.keywords:#	关键字:
+#Tag.msg.Yntetanatt#	你需要输入艺术家名称和曲目标题来进行标签查找
+#Tag.msg.Ntlfa-#	无法找到艺术家标签 '{0}' - '{1}'
+#Tag.msg.Utrt#		无法查询标签
+#Tag.ctl.Artwork #	封面 
+#Tag.ctl.pity#		照片类型:
 #Tag.ctl.prpi#		primary picture
-#Tag.btn.Delete#	Delete
-#Tag.btn.SaTo#		Save To...
-#Tag.btn.Add#		Add
-#Tag.ctl.Lyrics  #	Lyrics  
-#Tag.ctl.lyricist:#	lyricist:
-#Tag.ctl.edit:    #	edit:    
-#Tag.ctl.unsynchroni#	unsynchronised
-#Tag.ctl.syly#		synchronised lyrics
-#Tag.msg.Utll#		Unable to load lyrics:{0}
-#Tag.ctl.Settings#	Settings
-#Tag.ctl.voad#		volume adjustment:
-#Tag.ctl.none#		none
-#Tag.ctl.eqpr#		均衡器 preset:
-#Tag.ctl.skwhsh#	skip when shuffling
-#Tag.ctl.donocr#	do not crossfade
-#Tag.ctl.replpo#	remember playback position
-#Tag.ctl.stti#		start time:
-#Tag.ctl.enti#		end time:
-#Tag.btn.SkSi#		Skip Silence
-#Tag.msg.None#		None
+#Tag.btn.Delete#	删除
+#Tag.btn.SaTo#		保存到...
+#Tag.btn.Add#		添加
+#Tag.ctl.Lyrics  #	歌词  
+#Tag.ctl.lyricist:#	词作者:
+#Tag.ctl.edit:    #	编辑:    
+#Tag.ctl.unsynchroni#	静态歌词
+#Tag.ctl.syly#		同步歌词
+#Tag.msg.Utll#		无法载入歌词:{0}
+#Tag.ctl.Settings#	设置
+#Tag.ctl.voad#		音量调整:
+#Tag.ctl.none#		无
+#Tag.ctl.eqpr#		均衡器预置:
+#Tag.ctl.skwhsh#	打乱时跳过
+#Tag.ctl.donocr#	不要淡入淡出
+#Tag.ctl.replpo#	记住播放位置
+#Tag.ctl.stti#		开始时间:
+#Tag.ctl.enti#		结束时间:
+#Tag.btn.SkSi#		跳过静音时间
+#Tag.msg.None#		无
 ! tag editor when displayed as a floating window
-#Tag.menu.Undo#		Undo
-#Tag.menu.TaIn#		Tag Inspector
-#Tag.menu.Rename#	Rename
-#Tag.menu.Auto-Tag#	Auto-Tag
-#Tag.menu.SiMP#		Show in Main Panel
-#Tag.help.Uaucm#	Undo all unsaved changes made
-#Tag.help.Vaeatrtsia#	View and edit all the raw tags stored in a music file
-#Tag.help.Rtmfoutv#	Rename this music file, organised using tag values
-#Tag.help.Aratlaaaft#	Automatically retrieve artist, track, lyrics, album and artwork for this track
-#Tag.msg.MuFi#		Multiple Files
-#Tag.msg.AFwEC#		Album File with Embedded Cuesheet
-#Tag.msg.Oomvhba-dy#	One or more values have been amended - do you want to save the changes?
-#Tag.menu.IT(aSS#	Identify Track (by analysing Sound Signature)
-#Tag.help.Iatbaidss#	Identifies a track by analysing its' digital sound signature
-#Tag.menu.UpTa#		Update Tags
-#Tag.menu.UAfW#		Update Artwork from Web
-#Tag.menu.ULfW#		Update Lyrics from Web
-#Tag.menu.ITfF#		Infer Tags from Filename
+#Tag.menu.Undo#		撤销
+#Tag.menu.TaIn#		标签查看
+#Tag.menu.Rename#	重命名
+#Tag.menu.Auto-Tag#	自动获取标签
+#Tag.menu.SiMP#		在主面板显示
+#Tag.help.Uaucm#	撤销所有未保存的改变
+#Tag.help.Vaeatrtsia#	查看并编辑存储在音乐文件中的标签
+#Tag.help.Rtmfoutv#	重命名该文件, 使用标签值来整理
+#Tag.help.Aratlaaaft#	为此曲目自动查询艺术家,曲目,歌词,专辑,封面
+#Tag.msg.MuFi#		多个文件
+#Tag.msg.AFwEC#		嵌入Cue文件的专辑
+#Tag.msg.Oomvhba-dy#	一项或多项值已经改变 - 要保存吗?
+#Tag.menu.IT(aSS#	识别曲目 (通过分析音频签名)
+#Tag.help.Iatbaidss#	通过分析数字音频签名识别去吧
+#Tag.menu.UpTa#		更小标签
+#Tag.menu.UAfW#		从 Web 更新封面
+#Tag.menu.ULfW#		从 Web 更新歌词
+#Tag.menu.ITfF#		从文件名推测标签
 ! tag editor when docked in the main window
-#Tag.menu.SaCh#		Save Changes
-#Tag.menu.UnCh#		Undo Changes
-#Tag.menu.AuNo#		Auto-Tag Now
-#Tag.menu.AuSe#		Auto-Tag Settings
-#Tag.menu.ReFi#		Rename File
-#Tag.menu.SiFW#		Show in Floating Window
+#Tag.menu.SaCh#		保存
+#Tag.menu.UnCh#		撤销
+#Tag.menu.AuNo#		现在自动获取标签
+#Tag.menu.AuSe#		自动获取标签设置
+#Tag.menu.ReFi#		文件冲名称
+#Tag.menu.SiFW#		在浮动窗口显示
 ! multiple artist splitter - opened from the tag editor artist "..." button
-#aSplit.msg.MuArSp#	Multiple Artist Splitter
-#aSplit.msg.role:#	role:
-#aSplit.msg.artists:#	artists:
-#aSplit.msg.diar#	display artist:
-#aSplit.msg.Oomvhbc-dy#	One or more values has been changed - do you want to save the changes?
+#aSplit.msg.MuArSp#	多艺术家编辑器
+#aSplit.msg.role:#	角色:
+#aSplit.msg.artists:#	艺术家:
+#aSplit.msg.diar#	显示艺术家:
+#aSplit.msg.Oomvhbc-dy#	一项或多项值已经改变 - 要保存吗?
 #aSplit.msg.Artist#	Artist
 #aSplit.msg.GuAr#	Guest Artist
 #aSplit.msg.Performer#	Performer
 #aSplit.msg.Remixer#	Remixer
 ! multiple genre splitter - opened from the tag editor genre "..." button
-#gSplit.msg.MuGeSp#	Multiple Genre Splitter
-#gSplit.msg.SuGe#	Suggested Genres...
-#gSplit.msg.inge#	individual genres:
-#gSplit.msg.Oomvhbc-dy#	One or more values has been changed - do you want to save the changes?
-#gSplit.msg.Utlasgfta#	Unable to locate any suggested genres for this artist
-#gSplit.msg.SuGe.2#	Suggested Genres
-#gSplit.msg.soomotfg#	select one or more of the following genres:
+#gSplit.msg.MuGeSp#	多流派编辑器
+#gSplit.msg.SuGe#	建议的流派...
+#gSplit.msg.inge#	独立流派:
+#gSplit.msg.Oomvhbc-dy#	一项或多项值已经改变 - 要保存吗?
+#gSplit.msg.Utlasgfta#	无法找到对应此艺术家的建议流派
+#gSplit.msg.SuGe.2#	建议的流派
+#gSplit.msg.soomotfg#	选择一个或多个流派:
 ! multiple tag splitter - opened from the tag editor "..." button
-#tSplit.msg.MTVS#	Multiple Tag Values Splitter
-#tSplit.msg.tava#	tag values:
-#tSplit.msg.Oomvhbc-dy#	One or more values has been changed - do you want to save the changes?
-#tSplit.msg.MuTaSp#	Multiple Tag Splitter
+#tSplit.msg.MTVS#	多值标签编辑器
+#tSplit.msg.tava#	标签值:
+#tSplit.msg.Oomvhbc-dy#	一项或多项值已经改变 - 要保存吗?
+#tSplit.msg.MuTaSp#	多值标签编辑器
 
 ! device synchronisation and file transfer dialog
-#Tfr.ctl.6E781AC7#	Scanning device...
-#Tfr.ctl.7C803C5B#	minimise to status bar when synchronisation starts
-#Tfr.btn.32CDB12D#	Delete
-#Tfr.ctl.1C1ED037#	The following files will be deleted from the device:
-#Tfr.msg.DeSy#		Device Synchronisation...
-#Tfr.msg.Syfi#		Synchronising files
-#Tfr.msg.SyPl#		Synchronising Playlist...
-#Tfr.msg.Copl#		Copying 播放列表
-#Tfr.msg.MoFi#		Moving Files...
-#Tfr.msg.Moving  #	Moving  
-#Tfr.msg.CoFi#		Copying Files...
-#Tfr.msg.Copying  #	Copying  
-#Tfr.msg.DeFi#		Deleting Files...
-#Tfr.msg.Deleting  #	Deleting  
-#Tfr.msg.Encoding...#	Encoding...
-#Tfr.msg.Encoded#	Encoded
-#Tfr.msg.Copying...#	Copying...
-#Tfr.msg.Copied#	Copied
-#Tfr.msg.Renaming...#	Renaming...
-#Tfr.msg.Renamed#	Renamed
-#Tfr.msg.Moving...#	Moving...
-#Tfr.msg.Moved#		Moved
-#Tfr.msg.Deleting...#	Deleting...
-#Tfr.msg.Deleted#	Deleted
-#Tfr.msg.Aborted#	Aborted
-#Tfr.msg.Fasbt-dywt#	Files are still being transfered - do you want to abort the process?
-#Tfr.msg.DcbwtbMut#	Device '{0}' cannot be written to by MusicBee until the iPod is updated to the latest iTunes version.
-#Tfr.msg.Dinw#		Device '{0}' is not writeable
-#Tfr.msg.Synoco#	Synchronisation not completed
-#Tfr.msg.Syfa#		Synchronisation failed
-#Tfr.msg.Sysuco#	Synchronisation successfully completed
-#Tfr.msg.A-dd#		Aborted - device disconnected
-#Tfr.msg.SyFa#		Synchronisation Failed
-#Tfr.msg.FiMoFa#	File Move Failed
-#Tfr.msg.FiCoFa#	File Copy Failed
-#Tfr.msg.FiDeFa#	File Delete Failed
+#Tfr.ctl.6E781AC7#	扫描设备...
+#Tfr.ctl.7C803C5B#	同步开始后最小化到状态栏
+#Tfr.btn.32CDB12D#	删除
+#Tfr.ctl.1C1ED037#	将会从设备中删除下列文件:
+#Tfr.msg.DeSy#		设备同步...
+#Tfr.msg.Syfi#		同步文件
+#Tfr.msg.SyPl#		同步播放列表t...
+#Tfr.msg.Copl#		正在复制播放列表
+#Tfr.msg.MoFi#		移动文件...
+#Tfr.msg.Moving  #	正在移动  
+#Tfr.msg.CoFi#		复制文件...
+#Tfr.msg.Copying  #	复制中  
+#Tfr.msg.DeFi#		删除文件...
+#Tfr.msg.Deleting  #	删除中  
+#Tfr.msg.Encoding...#	编码...
+#Tfr.msg.Encoded#	编码完毕
+#Tfr.msg.Copying...#	复制中...
+#Tfr.msg.Copied#	复制完毕
+#Tfr.msg.Renaming...#	重命名...
+#Tfr.msg.Renamed#	重命名完毕
+#Tfr.msg.Moving...#	移动中...
+#Tfr.msg.Moved#		移动完毕
+#Tfr.msg.Deleting...#	删除中...
+#Tfr.msg.Deleted#	删除完毕
+#Tfr.msg.Aborted#	已取消
+#Tfr.msg.Fasbt-dywt#	正在进行文件传送 - 要取消吗?
+#Tfr.msg.DcbwtbMut#	MusicBee 不能写入设备 '{0}' ,请升级 iPod 到最新的 iTunes 版本.
+#Tfr.msg.Dinw#		设备 '{0}' 不可写
+#Tfr.msg.Synoco#	同步未完成
+#Tfr.msg.Syfa#		同步失败
+#Tfr.msg.Sysuco#	同步成功
+#Tfr.msg.A-dd#		已取消 - 设备已断开
+#Tfr.msg.SyFa#		同步失败
+#Tfr.msg.FiMoFa#	文件移动失败
+#Tfr.msg.FiCoFa#	文件复制失败
+#Tfr.msg.FiDeFa#	文件删除失败 
 
 ! library selector
-#Lib.frm.6823ED3A#	Add Library
-#Lib.ctl.6414DA60#	create a new library located in folder:
-#Lib.ctl.E2A41647#	library name:
-#Lib.ctl.17EA94E7#	scan music files from the following folders:
-#Lib.btn.B345D978#	Choose Folders
-#Lib.ctl.E79A8A0F#	scan the folders for new files on each startup
-#Lib.ctl.BF417927#	and remove dead links
-#Lib.ctl.7FDDD233#	ignore tracks less than 
-#Lib.ctl.7FC91213#	KB in size
-#Lib.ctl.12AC12EF#	or choose an existing library that no longer appears in the selection list:
-#Lib.btn.32CDB12D#	Add Library
-#Lib.ctl.B3DCB49A#	Choose Music Library
-#Lib.btn.5B32C5ED#	Create New...
-#Lib.btn.EADBC431#	Select
-#Lib.btn.ED583255#	Remove
-#Lib.ctl.C87899CD#	always prompt for library selection when MusicBee starts up
-#Lib.ctl.9C1F404E#	A library needs to be selected to continue. You can choose an existing library or create a new one.
-#Lib.msg.Liaitlsl#	Library '{0}' is already in the library selection list
-#Lib.msg.OpMuLi#	Open Music Library
-#Lib.msg.Fdne-pcae#	Folder '{0}' does not exist - please choose an existing folder
-#Lib.msg.Stfywtlci#	Select the folder you want the library created in:
-#Lib.msg.Tiaaln-pe#	There is already a library named '{0}' - please enter another name
-#Lib.msg.ChFo#		Choose Folders...
-#Lib.msg.Sftbs#		Select folders to be scanned
-#Lib.msg.Ynteanftl#	You need to enter a name for the library
+#Lib.frm.6823ED3A#	添加库
+#Lib.ctl.6414DA60#	在此文件夹创建新库:
+#Lib.ctl.E2A41647#	库名称:
+#Lib.ctl.17EA94E7#	从如下文件夹扫描音乐文件:
+#Lib.btn.B345D978#	选择文件夹
+#Lib.ctl.E79A8A0F#	每次启动时扫描新文件
+#Lib.ctl.BF417927#	并删除无效链接
+#Lib.ctl.7FDDD233#	忽略小于  
+#Lib.ctl.7FC91213#	KB 的文件
+#Lib.ctl.12AC12EF#	或选择一个已经存在但没有在此列出的库:
+#Lib.btn.32CDB12D#	添加库
+#Lib.ctl.B3DCB49A#	选择音乐库
+#Lib.btn.5B32C5ED#	创建新的...
+#Lib.btn.EADBC431#	选择
+#Lib.btn.ED583255#	删除
+#Lib.ctl.C87899CD#	启动 MusicBee 时总是弹出库选择器
+#Lib.ctl.9C1F404E#	需要选择一个库. 你可以选择一个现有的库或创建一个新的.
+#Lib.msg.Liaitlsl#	库 '{0}' 已经列在选择列表中
+#Lib.msg.OpMuLi#	打开音乐库
+#Lib.msg.Fdne-pcae#	文件夹 '{0}' 不存在 - 请选择一个文件夹
+#Lib.msg.Stfywtlci#	选择库的存放位置:
+#Lib.msg.Tiaaln-pe#	名称为 '{0}' 的库已经存在 - 请输入其他的名称
+#Lib.msg.ChFo#		选择文件夹...
+#Lib.msg.Sftbs#		选择要扫描的文件夹
+#Lib.msg.Ynteanftl#	需要输入一个库名称
 
 ! artwork save-as dialog (eg. when search internet for a picture)
-#Art.msg.Ar0#		Artwork: {0}
-#Art.ctl.C035755C#	save artwork to:
-#Art.ctl.5326BAC9#	embed the picture in the music file
-#Art.ctl.CBC44ECF#	link the picture to this music track:
-#Art.ctl.634B40CE#	save to folder.jpg
-#Art.ctl.4FA96BF8#	link to an organised copy of the picture
-#Art.ctl.36A3E1E0#	or link to the original picture file
-#Art.ctl.6527B16B#	choose the same next time without asking
-#Art.msg.diinpr#	disabled in preferences
-#Art.msg.noma#		no match
-#Art.msg.sttid#		save to the iPod database
-#Art.msg.lttopf#	link to the original picture file
-#Art.msg.WTffinwant#	WARNING: The folder.jpg file is not writeable and needs to be unprotected before saving this picture.
-#Art.msg.Ttfcbwt(tf#	The target file cannot be written to (check the file read-only, system settings)
+#Art.msg.Ar0#		封面: {0}
+#Art.ctl.C035755C#	保存封面到:
+#Art.ctl.5326BAC9#	嵌入图片到音乐文件中
+#Art.ctl.CBC44ECF#	建立图片到曲目的连接:
+#Art.ctl.634B40CE#	保存到 folder.jpg
+#Art.ctl.4FA96BF8#	连接到整理过的图片拷贝
+#Art.ctl.36A3E1E0#	或连接到原始的图片文件
+#Art.ctl.6527B16B#	下次选择相同选项,不要再询问
+#Art.msg.diinpr#	在首选项处禁用
+#Art.msg.noma#		无匹配
+#Art.msg.sttid#		保存到 iPod 数据库
+#Art.msg.lttopf#	或连接到原始的图片文件
+#Art.msg.WTffinwant#	警告: folder.jpg 文件不可写,要保存请去掉只读属性.
+#Art.msg.Ttfcbwt(tf#	无法写入目标文件 (检查是否设置了只读)
 
 ! album auto-tagger
-#aTag.frm.9B783590#	Album Auto-Tagger
-#aTag.ctl.64E276E7#	  search criteria  
-#aTag.btn.2D8806DD#	Find
-#aTag.ctl.19E75EDF#	album artist:
-#aTag.ctl.B4973BE1#	album:
-#aTag.ctl.461EAC79#	track on album:
-#aTag.ctl.BC1E04CA#	disc #
-#aTag.ctl.462ED09A#	tracks on disc:
-#aTag.col.E91B5253#	title
-#aTag.col.167B1166#	time  
-#aTag.col.72458960#	original title
-#aTag.col.41094975#	time 
-#aTag.col.8E058F32#	filename
-#aTag.col.D0FEAC0D#	album artist
-#aTag.col.B2F36DDC#	year
-#aTag.col.42FCF5C#	type
-#aTag.col.7F8BFDDD#	publisher
-#aTag.col.8B5C5504#	album
-#aTag.col.D337066E#	source
-#aTag.ctl.DA8A7EC4#	  selected album details  
-#aTag.ctl.53E4DF5D#	album artist:
-#aTag.ctl.6AE5A99#	composer:
-#aTag.ctl.A71F4734#	album:
-#aTag.ctl.3265428D#	publisher:
-#aTag.ctl.4294633F#	disc number:
-#aTag.ctl.50C48837#	of
-#aTag.ctl.A0904F6C#	year:
-#aTag.ctl.6F2F91B8#	genre:
-#aTag.ctl.CA4DDF43#	artwork
-#aTag.btn.32CDB12D#	Apply Tags
-#aTag.ctl.E5F0F6E0#	add to library
-#aTag.btn.D0A2D7EC#	Select None
-#aTag.btn.SeAl#		Select All
-#aTag.ctl.CC526F71#	searching...
-#aTag.ctl.EB53EDBA#	searching...
-#aTag.msg.Scbdwtaaa#	Search cannot be done without the artist and album
-#aTag.msg.sein#		searching internet...
-#aTag.msg.dahorctp#	drag artwork here or right click to paste
-#aTag.msg.Utlapfab#	Unable to locate any pictures for album '{0}' by '{1}'
-#aTag.btn.SeNo#		Select None
-#aTag.msg.Wsto#		Web service timed out
-#aTag.msg.Wsrae#	Web service returned an error
-#aTag.msg.Fwue#		Failed with unexpected error
-#aTag.msg.Nomafo#	No matches found
-#aTag.msg.SuGe#		Suggested Genres
-#aTag.msg.sootfg#	select one of the following genres:
-#aTag.msg.searching...#	searching...
-#aTag.msg.Wsre#		Web service returned error: {0}
-#aTag.help.tfibftsf#	this field is blank for the selected files
-#aTag.help.tsfhvvftf#	the selected files have various values for this field
-#aTag.help.ovi#		original value is '{0}'
-#aTag.msg.wefa#		web-service failed
-#aTag.msg.nopi#		no picture
+#aTag.frm.9B783590#	专辑标签自动更新器
+#aTag.ctl.64E276E7#	  查询条件  
+#aTag.btn.2D8806DD#	查找
+#aTag.ctl.19E75EDF#	专辑艺术家:
+#aTag.ctl.B4973BE1#	专辑:
+#aTag.ctl.461EAC79#	专辑上的曲目:
+#aTag.ctl.BC1E04CA#	磁碟 #
+#aTag.ctl.462ED09A#	磁碟曲目数:
+#aTag.col.E91B5253#	标题
+#aTag.col.167B1166#	时间  
+#aTag.col.72458960#	原始标题
+#aTag.col.41094975#	时间 
+#aTag.col.8E058F32#	文件名
+#aTag.col.D0FEAC0D#	专辑艺术家
+#aTag.col.B2F36DDC#	年份
+#aTag.col.42FCF5C#	类型
+#aTag.col.7F8BFDDD#	发布者
+#aTag.col.8B5C5504#	专辑
+#aTag.col.D337066E#	源
+#aTag.ctl.DA8A7EC4#	  选择的专辑详情  
+#aTag.ctl.53E4DF5D#	专辑艺术家:
+#aTag.ctl.6AE5A99#	作曲者:
+#aTag.ctl.A71F4734#	专辑:
+#aTag.ctl.3265428D#	发布者:
+#aTag.ctl.4294633F#	磁碟号:
+#aTag.ctl.50C48837#	,共
+#aTag.ctl.A0904F6C#	年份:
+#aTag.ctl.6F2F91B8#	流派:
+#aTag.ctl.CA4DDF43#	封面
+#aTag.btn.32CDB12D#	应用
+#aTag.ctl.E5F0F6E0#	添加到库
+#aTag.btn.D0A2D7EC#	取消选择
+#aTag.btn.SeAl#		全选
+#aTag.ctl.CC526F71#	正在搜索...
+#aTag.ctl.EB53EDBA#	正在搜索...
+#aTag.msg.Scbdwtaaa#	查找需要输入艺术家或专辑名称
+#aTag.msg.sein#		正在查询 Internet...
+#aTag.msg.dahorctp#	拖动封面或右键点击粘贴
+#aTag.msg.Utlapfab#	无法找到 '{1}' 的 '{0}'专辑封面
+#aTag.btn.SeNo#		取消选择
+#aTag.msg.Wsto#		Web 服务超时
+#aTag.msg.Wsrae#	Web 服务返回错误
+#aTag.msg.Fwue#		出现异常,更新失败
+#aTag.msg.Nomafo#	未找到匹配项
+#aTag.msg.SuGe#		建议的流派
+#aTag.msg.sootfg#	选择下列流派中的一个:
+#aTag.msg.searching...#	正在搜索...
+#aTag.msg.Wsre#		Web 服务错误: {0}
+#aTag.help.tfibftsf#	选定文件的该字段为空
+#aTag.help.tsfhvvftf#	选定文件的该字段有多个值
+#aTag.help.ovi#		初始值是 '{0}'
+#aTag.msg.wefa#		无法获取 web 服务
+#aTag.msg.nopi#		无封面
 
 ! auto-tag by track
-#tTag.frm.48027907#	Auto-Tag
-#tTag.col.8E058F32#	name
-#tTag.col.968C6761#	status
-#tTag.ctl.7C803C5B#	minimise to status bar when file auto-tag starts
-#tTag.msg.IatfidssiN#	Identifying a track from its digital sound signature is NOT 100% accurate. It is recommended only to use this option on tracks where the artist and track title are unknown
-#tTag.msg.Tffwhtu#	The following files will have tags updated:
-#tTag.msg.Tffwhmau#	The following files will have missing artwork updated:
-#tTag.msg.Tffwhmlsta#	The following files will have missing lyrics saved to an external file:
-#tTag.msg.Tffwhmlu#	The following files will have missing lyrics updated:
-#tTag.msg.TffwhtoutL#	The following files will have tags overwritten using the Last.fm tag cloud:
-#tTag.msg.Tffwhtiftf#	The following files will have tags inferred from the filename using the naming template below:
-#tTag.msg.upfi#		update fields:
-#tTag.msg.ittaatutds#	identify the track artist and title using the digital sound signature (30 secs/track)
-#tTag.msg.ubfo#		update blank fields only
-#tTag.msg.rerety#	restrict release types:
-#tTag.msg.album#	album
+#tTag.frm.48027907#	标签自动更新
+#tTag.col.8E058F32#	名称
+#tTag.col.968C6761#	状态
+#tTag.ctl.7C803C5B#	开始后最小化到状态栏
+#tTag.msg.IatfidssiN#	根据数字签名识别曲目不能保证100%准确. 只有当艺术家和曲目标题未知时才推荐勾选
+#tTag.msg.Tffwhtu#	将会更新下述文件的标签:
+#tTag.msg.Tffwhmau#	将会更新下述文件的缺失的封面:
+#tTag.msg.Tffwhmlsta#	将会更新下述文件的缺失的歌词并保存到外部文件:
+#tTag.msg.Tffwhmlu#	将会更新下述文件的缺失的歌词:
+#tTag.msg.TffwhtoutL#	将会使用 Last.fm 标签云重写下述文件的标签:
+#tTag.msg.Tffwhtiftf#	将会根据下面的模板,利用下述文件的文件名推测其标签:
+#tTag.msg.upfi#		更新字段:
+#tTag.msg.ittaatutds#	根据数字签名识别曲目,艺术家和标题 (耗时30 秒/曲目)
+#tTag.msg.ubfo#		只更新空白字段
+#tTag.msg.rerety#	限制发行版本:
+#tTag.msg.album#	专辑
 #tTag.msg.live#		live
 #tTag.msg.remix#	remix
 #tTag.msg.compilation#	compilation
-#tTag.msg.rmgfettamo#	retrieve multiple genres for each track to a maximum of: 
-#tTag.msg.  genres#	  genres
-#tTag.msg.gsltcbf#	google search lyrics that cannot be found
-#tTag.msg.amisf#	apply minimum image size filter:
-#tTag.msg.oKtwtetc#	overwrite Keywords tag with the entire tag cloud
-#tTag.msg.exceptions#	exceptions...
-#tTag.msg.oGtwttccao#	overwrite Genre tag where the tag cloud contains any of
-#tTag.msg.genres...#	genres...
-#tTag.msg.oOtwttccao#	overwrite Occasion tag where the tag cloud contains any of
-#tTag.msg.occasions...#	occasions...
-#tTag.msg.oMtwttccao#	overwrite Mood tag where the tag cloud contains any of
-#tTag.msg.moods...#	moods...
-#tTag.msg.oGtwttccao.2#	overwrite Grouping tag where the tag cloud contains any of
-#tTag.msg.groupings...#	groupings...
-#tTag.msg.fite#		filename template:
-#tTag.msg.Changes#	Changes
-#tTag.btn.Preview#	Preview
-#tTag.msg.nolo#		not located
-#tTag.msg.noonco#	not on computer
-#tTag.msg.nowr#		not writeable
-#tTag.msg.alhaly#	already has lyrics
-#tTag.msg.fiaea#	file is an entire album
-#tTag.msg.Alsufi#	All supported fields
-#tTag.msg.AsfeAaL#	All supported fields except Artwork and Lyrics
-#tTag.msg.overwrite#	overwrite
-#tTag.msg.wttccao#	 where the tag cloud contains any of
-#tTag.msg.matches...#	matches...
-#tTag.msg.AITaUT#	Auto-Tag: Identify Track and Update Tags
-#tTag.msg.AUMA#		Auto-Tag: Update Missing Artwork
-#tTag.msg.AUML#		Auto-Tag: Update Missing Lyrics
-#tTag.msg.AOTuLTC#	Auto-Tag: Overwrite Tags using Last.fm Tag Cloud
-#tTag.msg.AIaOTftF#	Auto-Tag: Infer and Overwrite Tags from the Filename
-#tTag.msg.Yhmaitsf-w#	You have multiple albums in the same folder - when using folder.jpg for storing artwork, each album needs to be in its own folder. Alternatively see View/ Preferences/ Tagging to change the artwork storage method.
-#tTag.msg.Fasbp-dywt#	Files are still being processed - do you want to abort?
-#tTag.msg.KeEx#		Keyword Exceptions
-#tTag.msg.GeTa#		Genre Tags
-#tTag.msg.OcTa#		Occasion Tags
-#tTag.msg.MoTa#		Mood Tags
-#tTag.msg.GrTa#		Grouping Tags
-#tTag.msg.ealovtaeak#	enter a list of values that are excluded as keywords from the last.fm tag cloud:
-#tTag.msg.ealovtaca#	enter a list of values that are classified as {0} when matching against the tag cloud from last.fm:
-#tTag.btn.ApCh#		Apply Changes
-#tTag.msg.Status#	Status
-#tTag.btn.Retry#	Retry
-#tTag.btn.Select#	Select
-#tTag.msg.Pwswfttd#	Please wait, searching web for track tag data...
-#tTag.btn.StOv#		Start Over
-#tTag.msg.noch#		no changes
-#tTag.msg.AaAoTar#	Artist and Album or Title are required
-#tTag.msg.Adssf#	Analysing digital sound signature for '{0}'
-#tTag.msg.Pwatdsott#	Please wait, analysing the digital signature of this track...
-#tTag.msg.Ansi#		Analysing signature...
-#tTag.msg.Utittfidss#	Unable to identify the track from it's digital sound signature
-#tTag.msg.Utidssbotf#	Unable to identify digital sound signature because of the following error:{0}
-#tTag.msg.FUtitwe#	Failed: Unable to identify track with error '{0}'
-#tTag.msg.Searching...#	Searching...
-#tTag.msg.FNmfaom#	Failed: No match for artist '{0}' on musicbrainz.org
-#tTag.msg.FUtmnot#	Failed: Unable to match name of track
-#tTag.msg.Updated#	Updated
-#tTag.msg.Noch#		No changes
-#tTag.msg.Nomafo#	No match found
-#tTag.msg.Wfwe-pta#	Web-service failed with error: {0} - please try again.
-#tTag.msg.Wrid-pta#	Web-service returned invalid data - please try again.
-#tTag.msg.Taphbu#	The album picture has been updated.
-#tTag.msg.Tfthbu#	The following tags have been updated: 
-#tTag.msg.Afwae#	Auto-tag failed with an exception:
-#tTag.msg.Acwnu#	Auto-tag completed with no updates
-#tTag.msg.Ausuco#	Auto-tag successfully completed
-#tTag.msg.Acwe#		Auto-tag completed with errors
-#tTag.msg.Utfam-sa#	Unable to find any matching '{0}' - search aborted
-#tTag.msg.artist#	artist
-#tTag.msg.Utfaemfa-#	Unable to find an exact match for artist '{0}' - select one of the following:
-#tTag.msg.disambiguat#	disambiguation
-#tTag.msg.Tiomr-soo#	Track '{0}' is on multiple releases - select one of the following:
-#tTag.msg.title#	title
-#tTag.msg.time #	time 
+#tTag.msg.rmgfettamo#	每首曲目最多查询的流派数: 
+#tTag.msg.  genres#	  
+#tTag.msg.gsltcbf#	无法通过 Google 搜索到歌词
+#tTag.msg.amisf#	限制封面图片最小值:
+#tTag.msg.oKtwtetc#	使用整个标签云重写关键字标签
+#tTag.msg.exceptions#	例外...
+#tTag.msg.oGtwttccao#	当标签云包含某些值时重写流派标签
+#tTag.msg.genres...#	流派...
+#tTag.msg.oOtwttccao#	当标签云包含某些值时重写场合标签
+#tTag.msg.occasions...#	场合...
+#tTag.msg.oMtwttccao#	当标签云包含某些值时重写情绪标签 
+#tTag.msg.moods...#	情绪...
+#tTag.msg.oGtwttccao.2#	当标签云包含某些值时重写分组标签
+#tTag.msg.groupings...#	分组...
+#tTag.msg.fite#		文件名模板:
+#tTag.msg.Changes#	修改
+#tTag.btn.Preview#	预览
+#tTag.msg.nolo#		无法找到
+#tTag.msg.noonco#	不在本地计算机
+#tTag.msg.nowr#		不可写
+#tTag.msg.alhaly#	歌词已存在
+#tTag.msg.fiaea#	整个专辑为一个文件
+#tTag.msg.Alsufi#	所有支持的字段
+#tTag.msg.AsfeAaL#	除去封面和歌词所有支持的字段
+#tTag.msg.overwrite#	重写
+#tTag.msg.wttccao#	 当标签云包含某些值时
+#tTag.msg.matches...#	匹配...
+#tTag.msg.AITaUT#	标签自动更新: 识别曲目并更新标签
+#tTag.msg.AUMA#		标签自动更新: 更新缺失的封面
+#tTag.msg.AUML#		标签自动更新: 更新缺失的歌词
+#tTag.msg.AOTuLTC#	标签自动更新: 使用 Last.fm 标签云重写标签
+#tTag.msg.AIaOTftF#	标签自动更新: 根据文件名重写标签
+#tTag.msg.Yhmaitsf-w#	你在同一个文件夹下存储了多个专辑, - 若想使用 folder.jpg 存储封面,每张专辑必须位于自己独立的文件夹下. 或者可以在 首选项/标签 中更改封面的存储方式.
+#tTag.msg.Fasbp-dywt#	文件仍在被处理 - 要取消吗?
+#tTag.msg.KeEx#		关键字例外
+#tTag.msg.GeTa#		流派
+#tTag.msg.OcTa#		场合
+#tTag.msg.MoTa#		情绪
+#tTag.msg.GrTa#		分组
+#tTag.msg.ealovtaeak#	输入一系列的值,这些值将会将会从 Last.fm 标签云的关键字中排除:
+#tTag.msg.ealovtaca#	输入一系列的值,当从 Last.fm 标签云中进行匹配时,这些值将会被分类为:
+#tTag.btn.ApCh#		应用
+#tTag.msg.Status#	状态
+#tTag.btn.Retry#	重试
+#tTag.btn.Select#	选择
+#tTag.msg.Pwswfttd#	请稍等,正在搜索曲目标签信息...
+#tTag.btn.StOv#		重新开始
+#tTag.msg.noch#		无改变
+#tTag.msg.AaAoTar#	需要艺术家和专辑 或 标题 
+#tTag.msg.Adssf#	正在分析 '{0}' 的音频签名
+#tTag.msg.Pwatdsott#	请稍等,正在分析音频签名...
+#tTag.msg.Ansi#		分析音频签名中...
+#tTag.msg.Utittfidss#	无法识别曲目
+#tTag.msg.Utidssbotf#	无法识别曲目, 发生错误:'{0}'
+#tTag.msg.FUtitwe#	失败: 无法识别曲目, 发生错误:'{0}'
+#tTag.msg.Searching...#	正在搜索...
+#tTag.msg.FNmfaom#	失败: 没有在 musicbrainz.org 找到艺术家 '{0}'
+#tTag.msg.FUtmnot#	失败: 无法匹配曲目名称
+#tTag.msg.Updated#	已更新
+#tTag.msg.Noch#		未改变
+#tTag.msg.Nomafo#	没有找到匹配
+#tTag.msg.Wfwe-pta#	Web 服务发生错误: {0} - 请重试.
+#tTag.msg.Wrid-pta#	Web 服务返回了无效数据 - 请重试.
+#tTag.msg.Taphbu#	专辑封面已经更新.
+#tTag.msg.Tfthbu#	下列标签已经被更新: 
+#tTag.msg.Afwae#	标签自动更新失败,发生了异常:
+#tTag.msg.Acwnu#	标签自动更新完成,但未更新任何内容
+#tTag.msg.Ausuco#	标签自动更新完成
+#tTag.msg.Acwe#		标签自动更新完成, 但发生了错误
+#tTag.msg.Utfam-sa#	无法找到与 '{0}' 匹配的任何项目 - 搜索取消
+#tTag.msg.artist#	艺术家
+#tTag.msg.Utfaemfa-#	无法找到艺术家 '{0}'的精确匹配 - 请选择下面中的一个:
+#tTag.msg.disambiguat#	消除歧义
+#tTag.msg.Tiomr-soo#	曲目 '{0}' 有多个发行版 - 请选择下列中的一个:
+#tTag.msg.title#	标题
+#tTag.msg.time #	时间 
 ! auto-tag by track field selector
-#tTagF.frm.4A79D421#	Auto-Tag Fields
-#tTagF.btn.24144E7B#	Select All
-#tTagF.msg.SeNo#	Select None
+#tTagF.frm.4A79D421#	标签自动更新
+#tTagF.btn.24144E7B#	全选
+#tTagF.msg.SeNo#	取消选择
 
 ! cd ripper
-#Rip.frm.34F5300E#	Rip CD
-#Rip.ctl.9240FDC8#	this CD is HDCD encoded - rip as 24-bit output
-#Rip.ctl.F477FB62#	play sound
-#Rip.ctl.68254C06#	on completion:
-#Rip.ctl.BACB1150#	attempting to recover errors...
-#Rip.ctl.3F6A04FF#	eject CD
-#Rip.btn.FC916936#	Encode Selected
-#Rip.btn.CDBB1E5A#	Select All
-#Rip.ctl.7C803C5B#	minimise to status bar when rip starts
-#Rip.ctl.6117A79#	composer:
-#Rip.ctl.57C5FF3A#	rip tracks as:
-#Rip.ctl.CF108295#	file per disc with cuesheet
-#Rip.ctl.EAAAB211#	file per track
-#Rip.btn.4757E396#	Settings
-#Rip.ctl.6E252FD8#	genre:
-#Rip.btn.32CDB12D#	Start Rip
-#Rip.ctl.A0A72F8C#	year:
-#Rip.ctl.50C48837#	of
-#Rip.ctl.41F7821F#	disc number:
-#Rip.ctl.9F196C13#	album:
-#Rip.ctl.53D45E3D#	album artist:
-#Rip.ctl.182FB53E#	source:
-#Rip.col.6BC944AC#	track artist
-#Rip.col.D754DC6D#	track title
-#Rip.col.7F0AE190#	 time
-#Rip.col.87953FF1#	status
-#Rip.msg.dahorctp#	drag artwork here or right click to paste
-#Rip.msg.dnoA#		disc not on AccurateRip
-#Rip.msg.utqA#		unable to query AccurateRip
-#Rip.menu.ClPi#		Clear Picture
-#Rip.msg.NCil#		No CD is loaded
-#Rip.msg.Fasbr-dywt#	Files are still being ripped - do you want to abort the rip?
-#Rip.msg.Chbr#		CD has been removed
-#Rip.btn.StRi#		Start Rip
-#Rip.msg.Ydnhhi#	You do not have hdcd.exe installed.
-#Rip.msg.Scbdwtaaa#	Search cannot be done without the artist and album
-#Rip.msg.sein#		searching internet...
-#Rip.msg.Utlapfab#	Unable to locate any pictures for album '{0}' by '{1}'
-#Rip.msg.Caocflfanf#	Cuesheets are only created for lossless formats and not for '{0}'. A lossless encoder can be selected by clicking the 'Settings' button.
-#Rip.msg.Ycsitwrpd#	You cannot select individual tracks when ripping 'file per disc with cuesheet'
-#Rip.btn.SeAl#		Select All
-#Rip.btn.UnAl#		Unselect All
-#Rip.msg.UtltftC#	Unable to load tracks from this CD
-#Rip.msg.AAS#		Artist & Album Selector
-#Rip.msg.Cootftrad#	Choose one of the following to retrieve album details:
-#Rip.msg.sefoar#	searching for artwork...
-#Rip.msg.noarfo#	no artwork found
-#Rip.msg.seAc#		searching AccurateRip...
-#Rip.msg.EattCdirfr#	Exclusive access to the CD drive is required for read verification - please close down any other CD ripping applications and then click 'OK' to proceed.
-#Rip.msg.COtff#		CONFIRMATION: Overwrite the following files?
-#Rip.btn.Overwrite#	Overwrite
-#Rip.msg.Crsc#		CD rip successfully completed
-#Rip.msg.Natsv-ycet#	Not all tracks successfully verified - you can encode the failed tracks by clicking the 'Encode Selected' button
-#Rip.msg.Natwsrae#	Not all tracks were successfully ripped and encoded
-#Rip.msg.Ridu#		Rip duration
-#Rip.msg.UnAr#		Unknown Artist
-#Rip.msg.UnTi#		Unknown Title
-#Rip.msg.AcRe#		AccurateRip.com Results
-#Rip.btn.ReTr#		Re-rip Tracks
-#Rip.btn.Continue#	Continue
-#Rip.btn.CaRi#		Cancel Rip
-#Rip.msg.Rtttfavusr#	Re-rip the tracks that failed accuraterip validation using secure rip mode
-#Rip.msg.TrMwA#		The rip MATCHED with AccurateRip.com
-#Rip.msg.TrdNamA-lb#	The rip did NOT accurately match AccurateRip.com - listed below are the results for each track:
-#Rip.msg.AyCdroiuam#	As your CD drive read offset is unknown, all matches from AccurateRip.com are displayed - listed below are the results for each track for different drive offsets:
-#Rip.msg.[Rwsr#		#   [CRC]      Result/ #users with same result
-#Rip.msg.Acri#		Accurately ripped/ 
-#Rip.msg.Pama#		Partial match/ 
-#Rip.msg.Noma#		Not matched
+#Rip.frm.34F5300E#	翻录 CD
+#Rip.ctl.9240FDC8#	CD 是以 HDCD 编码的 - 翻录为24位输出
+#Rip.ctl.F477FB62#	播放
+#Rip.ctl.68254C06#	翻录完成时:
+#Rip.ctl.BACB1150#	尝试恢复错误...
+#Rip.ctl.3F6A04FF#	弹出 CD
+#Rip.btn.FC916936#	编码选定的
+#Rip.btn.CDBB1E5A#	全选
+#Rip.ctl.7C803C5B#	开始后最小化到状态栏
+#Rip.ctl.6117A79#	作曲者:
+#Rip.ctl.57C5FF3A#	翻录为:
+#Rip.ctl.CF108295#	使用 cue 格式,整个光碟一个文件
+#Rip.ctl.EAAAB211#	每个曲目一个文件
+#Rip.btn.4757E396#	设置
+#Rip.ctl.6E252FD8#	流派:
+#Rip.btn.32CDB12D#	开始翻录
+#Rip.ctl.A0A72F8C#	年份:
+#Rip.ctl.50C48837#	,共
+#Rip.ctl.41F7821F#	#disc:
+#Rip.ctl.9F196C13#	专辑:
+#Rip.ctl.53D45E3D#	专辑艺术家:
+#Rip.ctl.182FB53E#	源:
+#Rip.col.6BC944AC#	曲目艺术家
+#Rip.col.D754DC6D#	曲目标题
+#Rip.col.7F0AE190#	 时间
+#Rip.col.87953FF1#	状态
+#Rip.msg.dahorctp#	拖动封面或右键点击粘贴
+#Rip.msg.dnoA#		AccurateRip 上不存在此唱片
+#Rip.msg.utqA#		无法查询 AccurateRip
+#Rip.menu.ClPi#		清除图片
+#Rip.msg.NCil#		未载入 CD
+#Rip.msg.Fasbr-dywt#	翻录正在进行中 - 要取消吗?
+#Rip.msg.Chbr#		CD 已经被移除
+#Rip.btn.StRi#		开始翻录 
+#Rip.msg.Ydnhhi#	你没有安装 hdcd.exe
+#Rip.msg.Scbdwtaaa#	需要输入艺术家和专辑来进行搜索
+#Rip.msg.sein#		正在搜索 Internet...
+#Rip.msg.Utlapfab#	找不到 '{1}'的 '{0}' 专辑封面
+#Rip.msg.Caocflfanf#	Cue 格式是用来保存无损音乐的,不能用于{0}. 无损编码器可以在'设置'处选择.
+#Rip.msg.Ycsitwrpd#	选择'使用 cue 格式,整个光碟一个文件'时不能选择独立的文件
+#Rip.btn.SeAl#		全选
+#Rip.btn.UnAl#		取消选择
+#Rip.msg.UtltftC#	无法从CD中载入曲目
+#Rip.msg.AAS#		艺术家 & 专辑选择器
+#Rip.msg.Cootftrad#	选择下面的一个来获取专辑详情:
+#Rip.msg.sefoar#	正在搜索封面...
+#Rip.msg.noarfo#	封面未找到
+#Rip.msg.seAc#		正在搜索 AccurateRip...
+#Rip.msg.EattCdirfr#	需要获得对 CD 驱动器的完整访问 - 请关闭其他 CD 翻录程序后点击确定.
+#Rip.msg.COtff#		确认: 重写下列文件?
+#Rip.btn.Overwrite#	重写
+#Rip.msg.Crsc#		CD 翻录完成
+#Rip.msg.Natsv-ycet#	部分曲目没有被验证 - 你可以点击 '编码选定的' 来对翻录失败的文件进行编码
+#Rip.msg.Natwsrae#	部分曲目没有翻录成功
+#Rip.msg.Ridu#		翻录时间
+#Rip.msg.UnAr#		未知艺术家 
+#Rip.msg.UnTi#		未知标题
+#Rip.msg.AcRe#		AccurateRip.com 结果
+#Rip.btn.ReTr#		重写翻录
+#Rip.btn.Continue#	继续
+#Rip.btn.CaRi#		取消翻录
+#Rip.msg.Rtttfavusr#	使用安全模式重新翻录那些精确验证失败的曲目
+#Rip.msg.TrMwA#		翻录与 AccurateRip.com 匹配
+#Rip.msg.TrdNamA-lb#	翻录没有完全匹配 AccurateRip.com - 翻录结果如下:
+#Rip.msg.AyCdroiuam#	CD 驱动器偏移量未知, 所有从 AccurateRip.com 的匹配结果如下 - 不同偏移量有不同的结果:
+#Rip.msg.[Rwsr#		#   [CRC]      结果/ #结果相同的用户
+#Rip.msg.Acri#		精确匹配/ 
+#Rip.msg.Pama#		部分匹配/ 
+#Rip.msg.Noma#		不匹配
 
 ! Library Stats window
 #Stat.msg.LiSt#		库统计
@@ -2413,20 +2413,20 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Stat.msg.FiSi#		文件大小
 #Stat.msg.Le(h#		长度 (h:mm:ss)
 #Stat.msg.LiTo#		合计
-#Stat.btn.GoBa#		Go Back
-#Stat.msg.LiTo.2#	Library Total
-#Stat.msg.ToAr#		Top Artists
-#Stat.msg.MoPlAr#	播放最多的艺术家
-#Stat.msg.ToGe#		Top Genres
-#Stat.msg.MoPlGe#	Most Played Genres
-#Stat.msg.ToReYe#	Top Release Years
-#Stat.msg.MPA(tp#	Most Played Albums (total tracks played)
+#Stat.btn.GoBa#		后退
+#Stat.msg.LiTo.2#	总计 
+#Stat.msg.ToAr#		艺术家
+#Stat.msg.MoPlAr#	艺术家播放
+#Stat.msg.ToGe#		流派
+#Stat.msg.MoPlGe#	流派播放
+#Stat.msg.ToReYe#	发行年代
+#Stat.msg.MPA(tp#	专辑最多播放 (所有曲目之和)
 
 ! duplicates manager tool
-#Dup.frm.9FC74072#	Duplicates Manager
-#Dup.ctl.5D675CD#	filter files where the 
-#Dup.ctl.C0A52F5F#	are duplicated
-#Dup.ctl.26BE98DE#	drag/drop tracks from one side to the other to keep/mark as a duplicate
+#Dup.frm.9FC74072#	重复项管理
+#Dup.ctl.5D675CD#	当 
+#Dup.ctl.C0A52F5F#	重复时显示
+#Dup.ctl.26BE98DE#	拖动曲目来 保留/标记为重复项
 #Dup.btn.B7EB08B8#	全选
 #Dup.btn.D0A2D7EC#	全不选
 #Dup.col.8EB14484#	                  保留文件
@@ -2438,28 +2438,28 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Dup.ctl.46F789BD#	正处理重复项:
 #Dup.ctl.EA9D6EE1#	隐藏重复项
 #Dup.ctl.E8093238#	删除
-#Dup.ctl.21E86E5B#	replace with reference to the kept file
+#Dup.ctl.21E86E5B#	用指向保留文件的连接替换重复项
 #Dup.ctl.731FF479#	保存到播放列表
-#Dup.ctl.3C69C320#	duplicates marked as hidden
-#Dup.btn.65554FD#	Unmark Ticked Files
-#Dup.ctl.DB904D5#	No duplicate files are marked as hidden
-#Dup.col.6F047A8A#	                  duplicate file
+#Dup.ctl.3C69C320#	标记为隐藏的重复文件
+#Dup.btn.65554FD#	取消标记选中的文件
+#Dup.ctl.DB904D5#	没有标记为重复的重复项
+#Dup.col.6F047A8A#	                  重复文件
 #Dup.col.B9514648#	路径
 #Dup.col.3876A01D#	属性
 #Dup.btn.SeNo#		全不选
-#Dup.btn.SeAl#		全先
-#Dup.msg.Hdfstandiy#	Hide duplicate files so they are not displayed in your library.
-#Dup.msg.RdfwaAftrt#	Replace duplicate files with an ASX file that refers to the kept track (so only one file physically remains but your albums are complete).
-#Dup.msg.Pddfftc#	Permenantly delete duplicate files from the computer.
-#Dup.msg.Sdftap#	Save duplicate files to a 播放列表.
-#Dup.msg.CPdtdf#	CONFIRMATION: Permanently delete the duplicate files?
-#Dup.msg.CPdtdfarwa#	CONFIRMATION: Permanently delete the duplicate files and replace with an ASX file that references the kept track?
+#Dup.btn.SeAl#		全选
+#Dup.msg.Hdfstandiy#	从库中隐藏重复的项目.
+#Dup.msg.RdfwaAftrt#	用 asx 文件(指向保留的文件的连接)替换重复的项目 (这样只有一个文件物理上存在,但是专辑都是完整的).
+#Dup.msg.Pddfftc#	从计算机上删除重复的项目(删除到回收站).
+#Dup.msg.Sdftap#	保存重复的项目到一个播放列表中.
+#Dup.msg.CPdtdf#	确认: 删除重复的文件?
+#Dup.msg.CPdtdfarwa#	确认: 删除重复的文件并用 asx 文件替换吗?
 
 ! Lock Settings opened from View/ Main Player (Locked Down)
 #Lock.frm.AC12382A#	锁定设置
-#Lock.ctl.84E6C085#	禁止访问web
+#Lock.ctl.84E6C085#	禁止访问 web
 #Lock.ctl.1E025FB3#	输入密码解锁:
-#Lock.ctl.D5CE173F#	全屏模式 (switching to other applications disabled)
+#Lock.ctl.D5CE173F#	全屏模式 (无法切换到其他程序)
 #Lock.ctl.789A71B4#	需要密码解锁:
 #Lock.btn.32CDB12D#	锁定
 #Lock.btn.Unlock#	解锁
@@ -2472,17 +2472,17 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Cvt.ctl.88B397E4#	输出到初始文件夹
 #Cvt.ctl.B93141EB#	或者一个新文件夹:
 #Cvt.ctl.6364E422#	整理子文件夹和文件名:
-#Cvt.ctl.F9AC5B91#	转换完成添加到Inbox
+#Cvt.ctl.F9AC5B91#	转换完成添加到 Inbox
 #Cvt.ctl.1FFE1903#	替换初始文件夹
 #Cvt.ctl.6B82C9F2#	- 原文件将被删除
 #Cvt.ctl.47E8EAC#	编码成:
-#Cvt.ctl.FA13966B#	encoding profile:
+#Cvt.ctl.FA13966B#	编码方案:
 #Cvt.ctl.2F4A9A0#	封面:
 #Cvt.ctl.12CD9693#	从原文件复制设置
 #Cvt.ctl.75D086FD#	总是嵌入到转换文件中
-#Cvt.ctl.70608D56#	level volume:
-#Cvt.ctl.8D1F1E51#	permanently adjust tracks to same volume
-#Cvt.ctl.801489EF#	permanently adjust albums to same volume
+#Cvt.ctl.70608D56#	音量级别:
+#Cvt.ctl.8D1F1E51#	永久调整曲目到相同级别音量
+#Cvt.ctl.801489EF#	永久调整专辑到相同级别音量
 #Cvt.ctl.D3DF1881#	输出文件已存在时，跳过转换仅同步标签值
 #Cvt.ctl.7C803C5B#	文件转换时最小化到状态栏
 #Cvt.msg.Fasbc-dywt#	文件转换中 - 要取消转换吗?
@@ -2490,7 +2490,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Cvt.msg.noonco#	不在电脑上
 #Cvt.msg.denosu#	设备不支持
 #Cvt.msg.rB(QsiPP#	需要 BASS_AAC.dll (查看参数设置里 '使用 QuickTime' 一项)
-#Cvt.msg.MerLwcbdwM#	由于许可限制的总是，MusicBee的MP3编码需要LAME.EXE . 不过你可以下载私用版的 LAME - 更多请查看 http://www.getmusicbee.com/help.html
+#Cvt.msg.MerLwcbdwM#	由于许可限制，MusicBee的MP3编码需要LAME.EXE . 不过你可以下载私用版的 LAME - 更多请查看 http://www.getmusicbee.com/help.html
 #Cvt.msg.Tdfcbafiyl#	目标文件夹不能是你的库中的文件夹
 #Cvt.msg.Fdne#		文件夹'{0}' 不存在
 #Cvt.msg.Stdftwctcf#	选择包含需要转换的文件的目标文件夹:
@@ -2511,8 +2511,8 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #LBck.msg.Ttfntboadd#	目标文件夹必须在不同于{0}的一个设备上
 #LBck.msg.Fdne#		文件夹 '{0}' 不存在
 #LBck.msg.Sttdaffff#	为 {0} 上的文件选定一个目标设备和目标文件夹
-#LBck.msg.Yntuufmti#	你需要取消在参数设置Tags(1)里"不更新文件修改时间"一项 - 否则MusicBee备份时检测不到已更新文件.
-#LBck.msg.Bcwe#		Backup completed with errors
+#LBck.msg.Yntuufmti#	你需要取消在参数设置Tags(1)里'不更新文件修改时间'一项 - 否则MusicBee备份时检测不到已更新文件.
+#LBck.msg.Bcwe#		备份完成,但发生了错误
 
 ! device summary page (click on device icon in left navigator)
 #dSum.msg.five#		软件版本:
@@ -2526,57 +2526,57 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #dSum.btn.Synchronise#	同步
 
 ! auto-number dialog (Tools/Tagging Tools)
-#aNum.frm.7702B9A1#	Renumber Tracks...
-#aNum.ctl.5D675CD#	Assign track numbers to the X selected files
-#aNum.ctl.E100B1F5#	starting at track number:
-#aNum.ctl.294E79EF#	include total track count:
-#aNum.ctl.8D9B6B69#	pad numbers to a maximum of:
-#aNum.ctl.B00EEF7E#	leading zeros eg. 01, 02 etc.
-#aNum.ctl.6BE8657F#	reset the track number and count for each disc
-#aNum.col.A4C19BF2#	original track details
-#aNum.col.CF10B99C#	new disc-track#
+#aNum.frm.7702B9A1#	曲目重新编号...
+#aNum.ctl.5D675CD#	为选定的 X 文件重新编号
+#aNum.ctl.E100B1F5#	起始值:
+#aNum.ctl.294E79EF#	包含曲目计数:
+#aNum.ctl.8D9B6B69#	填充到:
+#aNum.ctl.B00EEF7E#	位  例如. 01, 02 等.
+#aNum.ctl.6BE8657F#	重置曲目编号,每个光碟重新计数
+#aNum.col.A4C19BF2#	原始曲目详情
+#aNum.col.CF10B99C#	新的 光碟-曲目#
 #aNum.col.4D9800E3#	曲目数
-#aNum.msg.Atntt#	Assign track numbers to the {0}
-#aNum.msg.leze#		leading zeros
+#aNum.msg.Atntt#	为曲目编号赋值 {0}
+#aNum.msg.leze#		前导0
 
 ! Device configuration editor
 #DCE.msg.DeSySe#	设备同步设置
 #DCE.msg.Oomvhba-dy#	一个或多个值已经被修改-要保存吗？
 
 ! cuesheet editor - opened from the tag editor when a file has an embeded cuesheet
-#Cue.frm.1555CA18#	Cuesheet Editor
-#Cue.ctl.6CC3DA9F#	cuesheet:
-#Cue.msg.Oomvhbc-dy#	One or more values has been changed - do you want to save the changes?
-#Cue.msg.Utpltca#	Unable to parse line: '{0}'{1}Save this cuesheet anyway?
+#Cue.frm.1555CA18#	Cue 编辑器
+#Cue.ctl.6CC3DA9F#	cue:
+#Cue.msg.Oomvhbc-dy#	一个或多个值已经被修改-要保存吗?
+#Cue.msg.Utpltca#	无法解析行 '{0}'{1} 要保存吗?
 
 ! library import
 #IMP.frm.FA72BBEB#	从Windows Media Player导入
-#IMP.btn.4BF55473#	查找iTunes
+#IMP.btn.4BF55473#	查找 iTunes
 #IMP.ctl.9B83F55E#	仅覆盖评分与播放次数
 #IMP.ctl.9603EAB8#	不更新
 #IMP.ctl.9540A439#	正处理库中的文件:
 #IMP.ctl.A6BC655F#	新导入到库的文件的存放位置:
-#IMP.ctl.E5F0F6E0#	添加到库 - 文件仅与其所在位置关联不重新
+#IMP.ctl.E5F0F6E0#	添加到库 - 文件仅与其所在位置关联不重新整理
 #IMP.ctl.14DF742D#	添加到Inbox
 #IMP.msg.Imfr0#		从 {0} 导入
 #IMP.msg.Trapcwbifi#	曲目，评分和播放次数将从iTunes导入
 #IMP.msg.TrapcwbifW#	曲目，评分和播放次数将从Windows Media library导入
 #IMP.msg.Fasbi-dywt#	文件导入中 - 要取消导入吗?
 #IMP.msg.LiXF#		查找iTunes XML 文件
-#IMP.msg.AftL#		正添加文件到库...
+#IMP.msg.AftL#		添加文件到库...
 
 ! open music file dialog
-#OFU.msg.OFoU#		打开文件或URL
-#OFU.msg.etfpoiUott#	输入要打开文件的路径或URL:
+#OFU.msg.OFoU#		打开文件或 URL
+#OFU.msg.etfpoiUott#	输入要打开文件的路径或 URL:
 #OFU.msg.OpMuFi#	打开音乐文件
 #OFU.msg.Nfeatl#	当前位置找不到文件
 
 ! Popcast Subscription OPML import
 #SFE.msg.AdDi#		添加目录
-#SFE.msg.etuoapOd#	输入一个url或者播客OPML目录:
+#SFE.msg.etuoapOd#	输入一个 url 或者播客 OPML 目录:
 #SFE.msg.Twainwf#	网站地址不完整
-#SFE.msg.Tuiaitpd#	url已在播客目录中
-#SFE.msg.Utvtvotu#	不能验证url的有效性
+#SFE.msg.Tuiaitpd#	url 已在播客目录中
+#SFE.msg.Utvtvotu#	不能验证 url 的有效性
 
 ! Tag Manager panel
 #TM.msg.TaMa#		标签管理
@@ -2587,48 +2587,48 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #TM.menu.AiL3D#		最近三天添加的
 #TM.menu.AiLW#		上周添加的
 #TM.menu.AiLM#		上月添加的
-#TM.menu.FwMT#		Files with Missing Tags
-#TM.menu.FwMA#		Files with Missing Artwork
-#TM.menu.FwML#		Files with Missing Lyrics
-#TM.menu.FwNVL#		Files with No Volume Leveling
-#TM.menu.FwIT#		Files with Inconsistent Tags
-#TM.menu.FwIAT#		Files with Inconsistent Album Tags
+#TM.menu.FwMT#		缺失标签的
+#TM.menu.FwMA#		缺失封面的 
+#TM.menu.FwML#		缺失歌词的
+#TM.menu.FwNVL#		没有经过音量分析的 
+#TM.menu.FwIT#		标签不一致的 
+#TM.menu.FwIAT#		专辑标签不一致的
 #TM.menu.DeLi#		无效链接
-#TM.menu.MoSkTr#	Most Skipped Tracks
-#TM.msg.whth#		where the
-#TM.msg.armi#		are missing
+#TM.menu.MoSkTr#	跳过最多的
+#TM.msg.whth#		标签:
+#TM.msg.armi#		缺失
 #TM.msg.filter:#	过滤器:
 #TM.msg.CuFi#		自定义过滤器
 #TM.msg.FiAdTo#		今天添加的
 #TM.msg.FAiL3D#		最近三天添加的
 #TM.msg.FAiLW#		上周添加的
 #TM.msg.FAiLM#		上月添加的
-#TM.msg.ardu#		are duplicated
+#TM.msg.ardu#		是重复的
 #TM.msg.Mita#		缺失标签: 
-#TM.msg.Arismi#		Artwork is missing
-#TM.msg.Lymi#		Lyrics missing
-#TM.msg.hilc#		have inconsistent letter casing
-#TM.msg.FwIT#		Files with Inconsistent Tags
-#TM.msg.,TNm#		, Track Number missing
-#TM.msg.,TN1im#		, Track Number 1 is missing
-#TM.msg.,AAinsa#	, Album Artist '{0}' is not same as '{1}'
-#TM.msg.,TNim#		, Track Number is missing
-#TM.msg.,TNinis#	, Track Number {0} is not in sequence
-#TM.msg.,Yinsa#		, Year '{0}' is not same as '{1}'
-#TM.msg.,Ginsa#		, Genre '{0}' is not same as '{1}'
-#TM.msg.Adiwot#		Album details inconsistent with other tracks: 
+#TM.msg.Arismi#		缺失封面
+#TM.msg.Lymi#		缺失歌词
+#TM.msg.hilc#		有不一致的大小写
+#TM.msg.FwIT#		有不一致的标签
+#TM.msg.,TNm#		, 缺失曲目编号
+#TM.msg.,TN1im#		, 缺失编号为 1 的曲目
+#TM.msg.,AAinsa#	, 专辑艺术家 '{0}' 与 '{1}' 不用
+#TM.msg.,TNim#		, 缺失曲目编号
+#TM.msg.,TNinis#	, 曲目编号 {0} 不在序列
+#TM.msg.,Yinsa#		, 年份 '{0}' 与 '{1}' 不同
+#TM.msg.,Ginsa#		, 流派 '{0}' 与 '{1}' 不同
+#TM.msg.Adiwot#		专辑详情与其他曲目不一致: 
 
 ! tag search and replace - opened from the Tagging Tools menu
 #sRpl.frm.1C73F55E#	查找并替换
 #sRpl.ctl.2D61EB0B#	使用正则表达式
-#sRpl.ctl.1F77F7BA#	The following changes will be made - Click the 'Replace' button to commit the changes
+#sRpl.ctl.1F77F7BA#	下列将会改变 - 点击 '替换' 确认修改
 #sRpl.ctl.B85CBAC7#	全词匹配
 #sRpl.ctl.5CBC90C4#	匹配大小写
 #sRpl.ctl.3EC7ED#	替换为:
-#sRpl.ctl.256175C6#	in field:
+#sRpl.ctl.256175C6#	搜索标签:
 #sRpl.ctl.CBEBAA76#	查找目标:
 #sRpl.btn.32CDB12D#	预览
-#sRpl.msg.sefose#	 selected for search
+#sRpl.msg.sefose#	 选择以搜索
 #sRpl.btn.StOv#		重新开始
 #sRpl.btn.Preview#	预览
 #sRpl.btn.ApCh#		应用
@@ -2639,7 +2639,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 
 ! upcoming concerts service
 #UC.msg.Loading...#	载入中...
-#UC.msg.elfaaroce#	enable 'Touring?' library field and automatic refresh of concerts each day
+#UC.msg.elfaaroce#	启用库标签 'Touring?' ,每天将会更新此标签
 #UC.btn.Settings#	设置
 #UC.msg.view:#		视图:
 #UC.msg.coda#		音乐会日期
@@ -2650,8 +2650,8 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #UC.msg.Venue#		地点
 #UC.msg.Date#		日期
 #UC.msg.Artists#	艺术家
-#UC.msg.Locp#		Loading  {0} of {1} concert pages...
-#UC.msg.Naiylaotf#	No artists in your library are on tour for {0}
+#UC.msg.Locp#		正在载入  {0} / {1} ...
+#UC.msg.Naiylaotf#	你库中的艺术家没有为 {0} 巡演
 #UC.msg.Utlcptal#	载入演唱会数据失败，请稍候再试.
 #UC.msg.SeCoLo#		设置音乐会地点...
 #UC.msg.UnLo#		未知地点
@@ -2665,11 +2665,11 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #UR.btn.Settings#	设置
 #UR.msg.rtaitl#		仅限库中的艺术家
 #UR.help.Tosoor#	切换排序方式
-#UR.msg.UpReSe#		Upcoming Release设置
-#UR.msg.uararfm#	upcoming album releases are retrieved from musicbrainz.org
+#UR.msg.UpReSe#		将临的专辑 - 设置
+#UR.msg.uararfm#	从 musicbrainz.org 查询将临的专辑
 #UR.msg.stfr#		从今天之前
 #UR.msg.dabeto#		天开始
-#UR.msg.alus#		另加
+#UR.msg.alus#		也使用
 #UR.msg.username:#	用户名:
 
 ! volume adjuster tool
@@ -2704,15 +2704,15 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Welc.ctl.26BE98DF#	你也可以在扫描完成之后在 视图 菜单里修改
 #Welc.ctl.F1A8AF4D#	要改变布局或者主题吗?
 #Welc.ctl.5843C805#	请稍候，扫描文件中...
-#Welc.ctl.B48C691C#	下一次MusicBee启动时再询问我
-#Welc.ctl.219C226E#	从iTunes导入曲目及封面
+#Welc.ctl.B48C691C#	下一次 MusicBee 启动时再询问我
+#Welc.ctl.219C226E#	从 iTunes 导入曲目及封面
 #Welc.ctl.30588D8F#	扫描以下文件夹中的曲目及封面:
-#Welc.ctl.8ACE9C45#	从Windows Media Library导入曲目及封面
+#Welc.ctl.8ACE9C45#	从 Windows Media Library 导入曲目及封面
 #Welc.btn.EE79F85D#	选择目录
-#Welc.ctl.5D675CD#	Welcome to MusicBee - 你要添加音乐文件到库吗?
+#Welc.ctl.5D675CD#	欢迎使用 MusicBee - 你要添加音乐文件到库吗?
 #Welc.btn.32CDB12D#	立即扫描
 #Welc.msg.Fasbs-dywt#	扫描文件中 - 要取消导入吗?
-#Welc.msg.LoiTLi#	查找iTunes Library
+#Welc.msg.LoiTLi#	查找 iTunes 库
 #Welc.msg.ChFo#		选择目录...
 #Welc.msg.Sfcmtattl#	选择包含有音乐文件的目录添加到库
 #Welc.msg.imff#		正从以下目录导入音乐文件 
@@ -2722,7 +2722,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 ! added 1-May-2011
 #Main.picture.3#	专辑封面
 #Main.picture.4#	专辑封面 (背面)
-#Main.picture.5#	Leaflet Page
+#Main.picture.5#	传单页
 #Main.picture.6#	媒体标签
 #Main.picture.7#	艺术总监
 #Main.picture.8#	艺术家
@@ -2730,11 +2730,11 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Main.picture.10#	乐队
 #Main.picture.11#	作曲家
 #Main.picture.12#	歌词作者
-#Main.picture.13#	Recording Location
-#Main.picture.14#	During Recording
-#Main.picture.15#	During Performance
-#Main.picture.16#	Video Screen Capture
-#Main.picture.18#	Illustration
+#Main.picture.13#	录音低点
+#Main.picture.14#	在录音
+#Main.picture.15#	在表演
+#Main.picture.16#	视频捕捉
+#Main.picture.18#	插图
 #Main.picture.19#	乐队商标
 #Main.picture.20#	发行商标
 
@@ -2750,21 +2750,21 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Main.msg.NewFiles0#	无新文件
 #Main.msg.NewFiles1#	1个新文件
 #Main.msg.NewFiles9#	{0} 个新文件
-#Main.msg.Items0#	No items
-#Main.msg.Items1#	1 item
-#Main.msg.Items9#	{0} items
-#Main.msg.Albums0#	No albums
-#Main.msg.Albums1#	1 album
-#Main.msg.Albums9#	{0} albums
-#Main.msg.Tracks0#	No tracks
-#Main.msg.Tracks1#	1 track
-#Main.msg.Tracks9#	{0} tracks
-#Main.msg.Plays0#	No plays
-#Main.msg.Plays1#	1 play
-#Main.msg.Plays9#	{0} plays
-#Main.msg.Subs0#	No subscriptions
-#Main.msg.Subs1#	1 subscription
-#Main.msg.Subs9#	{0} subscriptions
+#Main.msg.Items0#	没有项目
+#Main.msg.Items1#	1 个项目
+#Main.msg.Items9#	{0} 个想个
+#Main.msg.Albums0#	没有专辑 
+#Main.msg.Albums1#	1 张专辑
+#Main.msg.Albums9#	{0} 张专辑
+#Main.msg.Tracks0#	没有曲目
+#Main.msg.Tracks1#	1 首
+#Main.msg.Tracks9#	{0} 首
+#Main.msg.Plays0#	未播放
+#Main.msg.Plays1#	1 次播放
+#Main.msg.Plays9#	{0} 次播放
+#Main.msg.Subs0#	没有订阅
+#Main.msg.Subs1#	1 份订阅
+#Main.msg.Subs9#	{0} 份订阅
 
 ! status message eg. 5 files removed
 #Main.msg.0mo#		{0} 被移动
@@ -2775,13 +2775,13 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 ! track browser eg. All (5 items)
 #Main.msg.Al({#		全部  ({0})
 
-#Sys.msg.PTST#		Playback: Toggle Skip Track
+#Sys.msg.PTST#		回放: 开关跳过曲目
 #Sys.msg.custom#	自定义
 
-#aSplit.msg.MuCoSp#	Multiple Composer Splitter
+#aSplit.msg.MuCoSp#	多作曲者编辑器
 
 !replace the existing value:
-#aSplit.msg.diar#	display {0}:
+#aSplit.msg.diar#	显示 {0}:
 
 #Scan.msg.Frac-nnff#	文件重新扫描/添加完成-没发现新文件
 #Scan.msg.Frac-a#	文件重新扫描/添加完成- 新增 {0} 
@@ -2798,9 +2798,9 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Main.msg.selected:#	selected:
 #Main.msg.MB#		MB
 #Main.msg.GB#		GB
-#Main.msg.mins#		mins
-#Main.msg.hours#	hours
-#Main.msg.days#		days
+#Main.msg.mins#		分
+#Main.msg.hours#	时
+#Main.msg.days#		天
 
 #Main.menu.FGiL#	在库中查找流派
 #Main.menu.FGiL.2#	在库中查找流派 '{0}' 
@@ -2815,15 +2815,15 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 ! Volume Analysis
 #Vol.col.8CE727B4#	名称
 #Vol.col.88583FD8#	状态
-#Vol.msg.CaVo#		Calculating Volume
-#Vol.msg.An{#		Analysing '{0}'
+#Vol.msg.CaVo#		分析音量
+#Vol.msg.An{#		分析中 '{0}'
 #Vol.msg.Done#		完成
 #Vol.msg.Fa-0#		失败 - {0}
-#Vol.msg.UnVo#		Undoing Volume
-#Vol.msg.Rva#		Removing volume adjustment '{0}'
-#Vol.msg.ReVo#		Removing Volume Adjustment...
-#Vol.msg.Voreco#	Volume reset completed
-#Vol.msg.Voanco#	Volume analysis completed
+#Vol.msg.UnVo#		撤销中
+#Vol.msg.Rva#		移除音量调整 '{0}'
+#Vol.msg.ReVo#		移除音量调整...
+#Vol.msg.Voreco#	音量重置完成
+#Vol.msg.Voanco#	音量分析完成
 
 ! Format Converter
 #Cvt.msg.Co{#		正在转换 '{0}'
@@ -2837,37 +2837,37 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Org.msg.Er-0#		错误 - {0}
 
 ! CD Ripper
-#Rip.msg.ripping#	ripping
+#Rip.msg.ripping#	翻录中
 #Rip.msg.verifying#	正在检验
 #Rip.msg.encoding#	编码
 #Rip.msg.Wfetc#		等待编码完成
 #Rip.msg.aborted#	已终止
-#Rip.msg.Ri{#		Ripping '{0}'
+#Rip.msg.Ri{#		翻录中 '{0}'
 #Rip.msg.cancelled#	已取消
-#Rip.msg.no#		no
+#Rip.msg.no#		否
 #Rip.msg.vefa#		检验失败
-#Rip.msg.atre#		attempting to recover errors...
-#Rip.msg.rdw8mr#	recovery done with 8 matching re-reads
-#Rip.msg.Ri0{#		Ripping   {0}   '{1}'
-#Rip.msg.rico#		rip completed
+#Rip.msg.atre#		尝试从错误恢复中...
+#Rip.msg.rdw8mr#	恢复成功
+#Rip.msg.Ri0{#		翻录   {0}   '{1}'
+#Rip.msg.rico#		翻录成功
 #Rip.msg.veOK#		检验成功
 #Rip.msg.saving...#	正在保存...
 #Rip.msg.En{#		正在编码 '{0}'
-#Rip.msg.ripped#	ripped
-#Rip.msg.acri#		accurately ripped
-#Rip.msg.paacri#	partially accurate rip
-#Rip.msg.inri#		inaccurately ripped
+#Rip.msg.ripped#	已翻录
+#Rip.msg.acri#		精确翻录 
+#Rip.msg.paacri#	部分精确翻录
+#Rip.msg.inri#		不精确翻录
 #Rip.msg.enfa0#		编码失败: {0}
-#Rip.msg.Anvo#		Analysing volume
-#Rip.msg.rbvaf-#	ripped but volume analysis failed - {0}
+#Rip.msg.Anvo#		正在分析音量
+#Rip.msg.rbvaf-#	翻录成功,但是音量分析失败 - {0}
 
 ! auto-tag by track
-#tTag.msg.Sewe{#	搜索站点 '{0}'
-#tTag.msg.Auab#		Auto-tag 已终止
+#tTag.msg.Sewe{#	搜索 web '{0}'
+#tTag.msg.Auab#		标签自动更新已终止
 
 ! genre category editor
 #gCat.frm.A03A88D3#	流派类型编辑
-#gCat.ctl.F1A8AF4D#	流派可合并成大类，并用于排序、过滤和使用'Genre Category'标签来命名文件
+#gCat.ctl.F1A8AF4D#	流派可合并成大类，并用于排序、过滤和使用'流派类别'标签来命名文件
 #gCat.ctl.7BA70F73#	类别
 #gCat.ctl.6E252FD8#	流派
 #gCat.msg.Oomvhbc-dy#	一个或多个值已经被修改-要保存吗？
@@ -2898,7 +2898,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Scan.msg.Scanning...#	正在扫描...
 #Scan.msg.So#		正在扫描... {0} of {1}
 #Scan.msg.Uo#		正在更新... {0} of {1}
-#Scan.msg.CUtwctvft#	CONFIRMATION: 确定要用Musicbee数据库中的缓存标签更新 {0} ?
+#Scan.msg.CUtwctvft#	确认: 确定要用 Musicbee 数据库中的缓存标签更新 {0} ?
 #Scan.msg.Uftpw#	正在更新文件标签，请稍候...
 #Scan.msg.Yntstfywts#	你需要选定要同步的文件
 #Main.menu.Advanced#	高级
@@ -2926,7 +2926,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 
 ! encoding presets - dropdown in the CD Rip Settings and Device setting panels
 #Main.msg.SmFiSi#	小文件
-#Main.msg.PoDeLi#	Portable Device Listening
+#Main.msg.PoDeLi#	移动设备上欣赏
 #Main.msg.HiQu#		高质量
 #Main.msg.Archiving#	存档
 
@@ -2935,7 +2935,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #dSum.msg.N/A#		N/A
 #dSum.msg.Tdina#	设备不可用
 #dSum.msg.TdiracbubM#	只读设备，不能由Musicbee更新
-#dSum.msg.({ofca#	   ({0}% 容量)
+#dSum.msg.({ofca#	   ({0}% 容量剩余)
 
 ! auto-shutdown
 #AutoSD.493A25AE#	分钟
@@ -2948,9 +2948,9 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 ! 8-May-2011
 #Main.msg.Plwalo#	请稍候...
 ! [Empty] that is shown in the track browser for null values
-#Main.msg.[Empty]#	[Empty]
+#Main.msg.[Empty]#	[空]
 ! artwork panel eg. Albums by Genre/ Year
-#Main.msg.Alby0#	Albums by {0}
+#Main.msg.Alby0#	专辑排序 {0}
 ! equaliser
 #EQ.ctl.4891BA2F#	L
 #EQ.ctl.4891BA31#	R
@@ -2969,18 +2969,18 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 ! file properties
 #Main.chan.1#		单声道
 #Main.chan.2#		立体声
-#Main.chan.3#		3 Channels
-#Main.chan.4#		4 Channels
-#Main.chan.5#		5 Channels
+#Main.chan.3#		3 声道
+#Main.chan.4#		4 声道
+#Main.chan.5#		5 声道
 #Main.chan.6#		5.1
-#Main.chan.7#		7 Channels
-#Main.chan.8#		8 Channels
+#Main.chan.7#		7 声道
+#Main.chan.8#		8 声道
 #Main.chan.9#		混合立体声
 #Main.chan.10#		双声道
 #Main.msg.dB#		dB
 #Main.msg.kHz#		kHz
-#Main.msg.PoRaSt#	Play-Once Radio Stream
-#Main.msg.Stream#	Stream
+#Main.msg.PoRaSt#	只能播放一次的电台流
+#Main.msg.Stream#	流
 ! for radio streams - duration: Continuous
 #Main.msg.Continuous#	持续的
 
