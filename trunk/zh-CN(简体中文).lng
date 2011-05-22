@@ -436,9 +436,9 @@
 #Main.menu.MoPoTo#	移动播客视频到...
 #Main.menu.AuMoPo#	自动整理移动过的播客视频	
 #Main.menu.LoinLi#	在库中定位
-#Main.menu.LiWE#	在Windows Explorer中定位
+#Main.menu.LiWE#	在 Windows Explorer 中定位
 #Main.menu.ShStDi#	显示电台目录
-#Main.menu.SIfP#	在Internet查找封面
+#Main.menu.SIfP#	在 Internet 查找封面
 #Main.menu.OwDB#	用默认浏览器打开
 #Main.menu.Download#	下载
 #Main.menu.CoTe#	拷贝文本
@@ -2469,7 +2469,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Cvt.frm.FF7BC363#	文件转换器
 #Cvt.col.8CE727B4#	名称
 #Cvt.col.88583FD8#	状态
-#Cvt.ctl.88B397E4#	输出到初始文件夹
+#Cvt.ctl.88B397E4#	输出到原文件夹
 #Cvt.ctl.B93141EB#	或者一个新文件夹:
 #Cvt.ctl.6364E422#	整理子文件夹和文件名:
 #Cvt.ctl.F9AC5B91#	转换完成添加到 Inbox
