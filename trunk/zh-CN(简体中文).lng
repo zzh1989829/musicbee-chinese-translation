@@ -2051,7 +2051,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Tag.msg.None#		无
 ! tag editor when displayed as a floating window
 #Tag.menu.Undo#		撤销
-#Tag.menu.TaIn#		标签查看
+#Tag.menu.TaIn#		标签详情
 #Tag.menu.Rename#	重命名
 #Tag.menu.Auto-Tag#	自动获取标签
 #Tag.menu.SiMP#		在主面板显示
@@ -2073,7 +2073,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Tag.menu.UnCh#		撤销
 #Tag.menu.AuNo#		现在自动获取标签
 #Tag.menu.AuSe#		自动获取标签设置
-#Tag.menu.ReFi#		文件冲名称
+#Tag.menu.ReFi#		文件重命名
 #Tag.menu.SiFW#		在浮动窗口显示
 ! multiple artist splitter - opened from the tag editor artist "..." button
 #aSplit.msg.MuArSp#	多艺术家编辑器
@@ -2989,3 +2989,165 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 
 ! plugin preferences
 #Sys.msg.disabled#	已禁用
+
+!11-May-2011
+#About.msg.AbMu#	关于 MusicBee
+#About.msg.Version:#	版本:
+#About.msg.C㏒M2Arr#	Copyright ?Steven Mayall 2008-2011, All rights reserved.
+#About.msg.Credits:#	Credits:
+
+#Art.msg.EAitSF#	Embed Artwork into the Selected Files
+! when a picture is copied to the windows clipboard, this right click menu option will be visible on selected files
+#Main.menu.PasteArt#	粘贴封面
+#Main.msg.InvPicture#	无效图片
+
+! tag inspector - opened from the tag editor
+#tIns.ctl.2DF89595#	APEv2
+#tIns.ctl.2DF89594#	ID3v2
+#tIns.ctl.2DF89597#	ID3v1
+#tIns.ctl.2E80F20#	格式:
+#tIns.col.26E63300#	名称
+#tIns.col.96D7544A#	标签代码
+#tIns.col.87BB2ACC#	值
+#tIns.btn.32CDB12D#	保存
+#tIns.btn.60044525#	关闭
+#tIns.ctl.213E41E9#	POPM 评分是设置用来与 WMP & MediaMonkey 兼容的.
+#tIns.help.Aant#	添加标签
+#tIns.help.Etst#	编辑选定的标签
+#tIns.help.Dtst#	删除选定的标签
+#tIns.msg.Oomvhbc-dy#	一项或多项值已经改变 - 要保存吗?
+! header on tag inspector - {0} shows the filename
+#tIns.msg.TNfs#		标签: 未选择文件 
+#tIns.msg.T(nl#		标签: {0} (未找到文件)
+#tIns.msg.Ta0#		标签: {0}
+#tIns.msg.<bda#		<二进制数据>
+#tIns.msg.<deleted>#	<已删除>
+#tIns.msg.tana#		标签名称:
+#tIns.msg.tava#		标签值:
+
+#EQ.col.C260ECF3#	名称
+#EQ.col.53358752#	描述
+#EQ.col.19DFAFD2#	文件
+#EQ.help.Moupra#	提升排名
+#EQ.help.Modora#	降低排名
+
+#Main.menu.TuShOf#	不打乱
+#Main.menu.TuShOn#	使用打乱
+
+#Web.msg.Wafo0#		正在等待 {0}...
+#Web.msg.Sfmf#		正在扫描音乐文件...
+#Web.msg.So#		正在扫描 {0} / {1}...
+
+! query conditions expressed as a string: format is {0}=field name {1} = value
+#Main.msg.0co{#		{0} 包含 '{1}'
+#Main.msg.dnc#		{0} 不包含 '{1}'
+#Main.msg.0is{#		{0} 是 '{1}'
+#Main.msg.in#		{0} 不是 '{1}'
+#Main.msg.0isnu#	{0} 为空
+#Main.msg.inn#		{0} 不为空
+#Main.msg.sw#		{0} 开始于 '{1}'
+#Main.msg.ew#		{0} 结束于 '{1}'
+#Main.msg.0<1#		{0} < {1}
+#Main.msg.0>1#		{0} > {1}
+#Main.msg.it#		{0} 在 {1} 和 {2} 之间
+#Main.msg.nit#		{0} 不在 {1} 和 {2} 之间
+#Main.msg.itl#		{0} 在 {1} 的最后
+#Main.msg.nitl#		{0} 不在 {1} 的最后
+#Main.msg.0in1#		{0} 在 {1} 中
+#Main.msg.ni#		{0} 不在 {1} 中
+#Main.msg.mR#		{0} 匹配正则表达式:  {1}
+#Main.msg.mR.2#		{0} 匹配正则表达式/i:  {1}
+
+#pDir.frm.E73C55B0#	Podcast Directory
+#pDir.msg.Di/Po#	  目录 / 播客
+#pDir.msg.|De#		|  描述
+#pDir.menu.ReDi#	删除目录
+
+! tag manager - {0}=3 files have been added in the last 3 days
+#TM.msg.hbaitl3d#	{0} 个文件在最近三天被添加
+#TM.msg.hbaitlw#	{0} 个文件在最近一个星期被添加
+#TM.msg.hbaitlm#	{0} 个文件在最近一个月被添加
+#TM.msg.wmtv(tst#	{0} 个文件缺失标签值 (选定的标签)
+#TM.msg.wilc(tst#	{0} 个不一致的大小写的记录 (选定的标签)
+#TM.msg.wma#		{0} 个文件缺失封面
+#TM.msg.wml#		{0} 个文件缺失歌词
+#TM.msg.wiad#		{0} 个不一致的专辑详情
+#TM.msg.wascwf#		{0} 个文件曾经被跳过
+#TM.msg.wmvld#		{0} 个文件缺失音量分析数据
+
+! these are used in the library stats window
+#Main.msg.Artists0#	无艺术家
+#Main.msg.Artists1#	1 位艺术家
+#Main.msg.Artists9#	{0} 位艺术家
+#Main.msg.Genres0#	没有流派
+#Main.msg.Genres1#	1 种流派
+#Main.msg.Genres9#	{0} 种流派
+#Main.msg.Years0#	没有年份 
+#Main.msg.Years1#	1 年
+#Main.msg.Years9#	{0} 年
+
+! 14-May-2011
+#Scan.msg.Imnefi#	正在导入新文件...
+
+! custom queries displayed as a string where {0} is the query conditions
+#Main.msg.anof0#	{0} 中任意一个
+
+! Has Lyrics? values
+#Main.msg.Y[u#		Y [静态]
+#Main.msg.Y[s#		Y [同步/静态]
+#Main.msg.Y[s.2#	Y [同步]
+
+! equaliser/ dsp settings - MusicBee Stereo Enhancer filename
+#Main.msg.Native#	原生
+
+! tag manager {0}=5 files
+#TM.msg.mtcf#		{0} 个与自定义过滤器匹配
+#TM.msg.hbat#		{0} 个文件在今天被添加
+
+! tag editor properties tab/ volume
+#tag.msg.Noca#		未计算
+#tag.msg.track:#	曲目:
+#tag.msg.album:#	专辑:
+
+! filename char mapping screen
+#Char.msg.space#	空格
+
+! device auto-sync tab, summary message eg. Auto-Sync: 10 files, 22.3 MB, 50 mins
+#Dev.msg.Au0#	自动同步: {0}
+
+! 1 char abbrieviation for days eg. 9d - keep the space after d
+#Main.msg.d #		d 
+
+#Main.field.79#		Random #
+
+
+! 15-May-2011
+! optional - special override for Queue Next button in the Now Playing Assistant
+#NPA.btn.QuNe#		插入到队首
+
+! radio station editor - last.fm station types
+#RSE.msg.tag#		标签
+#RSE.msg.recommended#	推荐的
+#RSE.msg.neigbours#	邻居
+#RSE.msg.group#		分组
+#RSE.msg.artist#	艺术家
+#RSE.msg.custom#	自定义
+! default last.fm station name eg. Last.fm Rock tag station
+#RSE.msg.Ls#		Last.fm {0} {1} 电台
+
+! stereo enhancer DSP - opened from the equaliser
+#SE.msg.StEn#		立体声增强
+#SE.msg.enle#		增强级别:
+#SE.msg.low#		低
+#SE.msg.high#		高
+
+
+! 16-May-2011
+! auto-tag by track/ Update from last.fm tag cloud/ when 'matches...' button is clicked for custom1,2 tags where {0}=custom tag name
+#tTag.msg.0Ta#		{0} 个标签
+
+! layout editor - right click on main panel header bar/Configure Layout/new option on the Artwork Layout settings
+#PLE.ctl.DD632575#	当'按艺术家分组'时,显示专辑封面,而不是艺术家照片
+
+! auto-number dialog when leading zeros is ticked: " eg. 01, 02 etc." - keep leading space
+#aNum.msg.ee#		 例如. {0}, {1} 等.

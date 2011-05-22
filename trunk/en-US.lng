@@ -2989,3 +2989,165 @@
 
 ! plugin preferences
 #Sys.msg.disabled#	disabled
+
+!11-May-2011
+#About.msg.AbMu#	About MusicBee
+#About.msg.Version:#	Version:
+#About.msg.C㏒M2Arr#	Copyright ?Steven Mayall 2008-2011, All rights reserved.
+#About.msg.Credits:#	Credits:
+
+#Art.msg.EAitSF#	Embed Artwork into the Selected Files
+! when a picture is copied to the windows clipboard, this right click menu option will be visible on selected files
+#Main.menu.PasteArt#	Paste Artwork
+#Main.msg.InvPicture#	Invalid Picture
+
+! tag inspector - opened from the tag editor
+#tIns.ctl.2DF89595#	APEv2
+#tIns.ctl.2DF89594#	ID3v2
+#tIns.ctl.2DF89597#	ID3v1
+#tIns.ctl.2E80F20#	format:
+#tIns.col.26E63300#	Name
+#tIns.col.96D7544A#	Tag Code
+#tIns.col.87BB2ACC#	Value
+#tIns.btn.32CDB12D#	Save
+#tIns.btn.60044525#	Close
+#tIns.ctl.213E41E9#	POPM rating values are set for compatibility with WMP & MediaMonkey
+#tIns.help.Aant#	Add a new tag
+#tIns.help.Etst#	Edit the selected tag
+#tIns.help.Dtst#	Delete the selected tag
+#tIns.msg.Oomvhbc-dy#	One or more values has been changed - do you want to save the changes?
+! header on tag inspector - {0} shows the filename
+#tIns.msg.TNfs#		Tags: No file selected
+#tIns.msg.T(nl#		Tags: {0} (file not located)
+#tIns.msg.Ta0#		Tags: {0}
+#tIns.msg.<bda#		<binary data>
+#tIns.msg.<deleted>#	<deleted>
+#tIns.msg.tana#		tag name:
+#tIns.msg.tava#		tag value:
+
+#EQ.col.C260ECF3#	name
+#EQ.col.53358752#	description
+#EQ.col.19DFAFD2#	file
+#EQ.help.Moupra#	Move up ranking
+#EQ.help.Modora#	Move down ranking
+
+#Main.menu.TuShOf#	Turn Shuffle Off
+#Main.menu.TuShOn#	Turn Shuffle On
+
+#Web.msg.Wafo0#		Waiting for {0}...
+#Web.msg.Sfmf#		Scanning for music files...
+#Web.msg.So#		Scanning {0} of {1}...
+
+! query conditions expressed as a string: format is {0}=field name {1} = value
+#Main.msg.0co{#		{0} contains '{1}'
+#Main.msg.dnc#		{0} does not contain '{1}'
+#Main.msg.0is{#		{0} is '{1}'
+#Main.msg.in#		{0} is not '{1}'
+#Main.msg.0isnu#	{0} is null
+#Main.msg.inn#		{0} is not null
+#Main.msg.sw#		{0} starts with '{1}'
+#Main.msg.ew#		{0} ends with '{1}'
+#Main.msg.0<1#		{0} < {1}
+#Main.msg.0>1#		{0} > {1}
+#Main.msg.it#		{0} in {1} to {2}
+#Main.msg.nit#		{0} not in {1} to {2}
+#Main.msg.itl#		{0} in the last {1}
+#Main.msg.nitl#		{0} not in the last {1}
+#Main.msg.0in1#		{0} in {1}
+#Main.msg.ni#		{0} not in {1}
+#Main.msg.mR#		{0} matches RegEx:  {1}
+#Main.msg.mR.2#		{0} matches RegEx/i:  {1}
+
+#pDir.frm.E73C55B0#	Podcast Directory
+#pDir.msg.Di/Po#	  Directory / Podcast
+#pDir.msg.|De#		|  Description
+#pDir.menu.ReDi#	Remove Directory
+
+! tag manager - {0}=3 files have been added in the last 3 days
+#TM.msg.hbaitl3d#	{0} have been added in the last 3 days
+#TM.msg.hbaitlw#	{0} have been added in the last week
+#TM.msg.hbaitlm#	{0} have been added in the last month
+#TM.msg.wmtv(tst#	{0} with missing tag values (for the selected tags)
+#TM.msg.wilc(tst#	{0} with inconsistent letter casing (for the selected tags)
+#TM.msg.wma#		{0} with missing artwork
+#TM.msg.wml#		{0} with missing lyrics
+#TM.msg.wiad#		{0} with inconsistent album details
+#TM.msg.wascwf#		{0} with a skip count were found
+#TM.msg.wmvld#		{0} with missing volume leveling data
+
+! these are used in the library stats window
+#Main.msg.Artists0#	No artists
+#Main.msg.Artists1#	1 artist
+#Main.msg.Artists9#	{0} artists
+#Main.msg.Genres0#	No genres
+#Main.msg.Genres1#	1 genre
+#Main.msg.Genres9#	{0} genres
+#Main.msg.Years0#	No years
+#Main.msg.Years1#	1 year
+#Main.msg.Years9#	{0} years
+
+! 14-May-2011
+#Scan.msg.Imnefi#	Importing new files...
+
+! custom queries displayed as a string where {0} is the query conditions
+#Main.msg.anof0#	any of {0}
+
+! Has Lyrics? values
+#Main.msg.Y[u#		Y [unsynched]
+#Main.msg.Y[s#		Y [synched/unsynched]
+#Main.msg.Y[s.2#	Y [synched]
+
+! equaliser/ dsp settings - MusicBee Stereo Enhancer filename
+#Main.msg.Native#	Native
+
+! tag manager {0}=5 files
+#TM.msg.mtcf#		{0} match the custom filter
+#TM.msg.hbat#		{0} have been added today
+
+! tag editor properties tab/ volume
+#tag.msg.Noca#		Not calculated
+#tag.msg.track:#	track:
+#tag.msg.album:#	album:
+
+! filename char mapping screen
+#Char.msg.space#	space
+
+! device auto-sync tab, summary message eg. Auto-Sync: 10 files, 22.3 MB, 50 mins
+#Dev.msg.Au0#	Auto-Sync: {0}
+
+! 1 char abbrieviation for days eg. 9d - keep the space after d
+#Main.msg.d #		d 
+
+#Main.field.79#		Random #
+
+
+! 15-May-2011
+! optional - special override for Queue Next button in the Now Playing Assistant
+#NPA.btn.QuNe#		Queue Next
+
+! radio station editor - last.fm station types
+#RSE.msg.tag#		tag
+#RSE.msg.recommended#	recommended
+#RSE.msg.neigbours#	neigbours
+#RSE.msg.group#		group
+#RSE.msg.artist#	artist
+#RSE.msg.custom#	custom
+! default last.fm station name eg. Last.fm Rock tag station
+#RSE.msg.Ls#		Last.fm {0} {1} station
+
+! stereo enhancer DSP - opened from the equaliser
+#SE.msg.StEn#		Stereo Enhancer
+#SE.msg.enle#		enhancer level:
+#SE.msg.low#		low
+#SE.msg.high#		high
+
+
+! 16-May-2011
+! auto-tag by track/ Update from last.fm tag cloud/ when 'matches...' button is clicked for custom1,2 tags where {0}=custom tag name
+#tTag.msg.0Ta#		{0} Tags
+
+! layout editor - right click on main panel header bar/Configure Layout/new option on the Artwork Layout settings
+#PLE.ctl.DD632575#	show albums covers instead of artist pictures when 'Group by Artist' is enabled
+
+! auto-number dialog when leading zeros is ticked: " eg. 01, 02 etc." - keep leading space
+#aNum.msg.ee#		 eg. {0}, {1} etc.
