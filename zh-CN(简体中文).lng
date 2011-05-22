@@ -455,7 +455,7 @@
 #Main.menu.Splitter#	分割器
 #Main.menu.FiCh#	首字符
 #Main.menu.nufu#	null() 函数
-#Main.help.Ttpfttfcoe#	保留字段的前几个字符.例如<Artist>:1 将会返回艺术家姓名的第一个字符
+#Main.help.Ttpfttfcoe#	保留字段的前几个字符.例如<艺术家>:1 将会返回艺术家姓名的第一个字符
 #Main.help.Rnvwatvaoa#	将null值替换为一个字符串,并可将多余的字符文本添加在非null值之后
 #Main.menu.OtFi#	其他字段
 #Main.menu.CoLa#	设置布局
@@ -477,9 +477,9 @@
 #Main.msg. Lyrics#	 歌词
 #Main.msg.Lyrics.2#	歌词
 #Main.msg.TrIn#		曲目信息
-#Main.msg.apoW#		Wikipedia上的艺术家信息
-#Main.msg.anoGN#	Google News上的艺术家新闻
-#Main.msg.mboH#		Hypem.com上的音乐博客
+#Main.msg.apoW#		Wikipedia 上的艺术家信息
+#Main.msg.anoGN#	Google News 上的艺术家新闻
+#Main.msg.mboH#		Hypem.com 上的音乐博客
 #Main.msg.Notrse#	未选中曲目
 #Main.msg.Notrpl#	未播放曲目
 #Main.menu.SED#		显示均衡器和DSP
@@ -931,112 +931,112 @@
 #Main.msg.Osmtcbr-rs#	只有单个文件可以被评分 - 电台流不被支持.
 #Main.msg.Opmtcblntr#	只有正在播放的曲目才能被设置为喜爱, 电台是不能设为喜爱的 - 请点击主播放控制器的喜爱按钮
 #Main.msg.Uolf#		更新到 Last.fm 失败: {0}
-#Main.msg.Mdnslavtfa#	MusicBee does not support loving a virtual track from a single file album with embedded cuesheet
-#Main.msg.Utmf-peyhn#	Unable to move folder - please ensure you have no files open, tracks playing, or Windows File Manager open in '{0}' or it's sub-folders.
-#Main.msg.Pet#		Playlist exported to {0}
-#Main.msg.Yntcawf(NN#	You need to create a web-folder first (File/ New/ New Web Folder)
-#Main.msg.Ratft#	Remove all tags for the {0}?
-#Main.msg.Tswaaitl#	The selected web-links are already in the library
-#Main.msg.Stfywtmtsf#	Select the folder you want to move the selected files to:
-#Main.msg.MfbdadinsU#	Moving files between drives and devices is not supported. Use the Copy command instead.
-#Main.msg.Stfywtctsf#	Select the folder you want to copy the selected files to
-#Main.msg.(wbntptpo#	(files will be named to preserve the 播放列表 order):
-#Main.msg.Utcsr-tuts#	Unable to complete safe removal - try using the safe removal function provided by Windows
-#Main.msg.Utlf#		Unable to locate file: {0}
-#Main.msg.CtflowiAAT#	Capitalise the first letter of words in Artist, Album, Track Name, etc. for the {0}?
-#Main.msg.RtCtzft#	Reset the {0} Count to zero for the {1}?
-#Main.msg.SltfLtyML#	Synchronise loved tracks from Last.fm to your Music Library?
-#Main.msg.Ltsc#		Loved track synchronisation completed.
-#Main.msg.Stpcfamtiy#	Set the play count for all matching tracks in your library to the play count from your Last.fm profile?
-#Main.msg.Utctpcs#	Unable to complete the play count synchronisation:
-#Main.msg.Pcshc-u#	Play count synchronisation has completed - {0} updated.
-#Main.msg.Notr#		No tracks
-#Main.msg.SAaTft#	Swap Artist and Title for the {0}?
-#Main.msg.ABtF#		Add Bookmark to Folder:
-#Main.msg.Utsf#		Unable to save file:
-#Main.msg.Vfaatstf-t#	Validation failed after attempting to save the file - the changes have not been saved.
-#Main.msg.Utoffw-en#	Unable to open file '{0}' for writing - ensure no other application already has it open.
-#Main.msg.Etfatfanwp#	Ensure the folder and the file are not write protected.
-#Main.msg.Utscttf#	Unable to save changes to the file:
-#Main.msg.Utsr#		Unable to save rating:
-#Main.msg.etfatfanwp#	ensure the folder and the file are not write protected.
-#Main.msg.Oomotsfcnb#	One or more of the selected files could not be located or is not a valid music file
-#Main.msg.Tsfftcnbf#	The source file for track '{0}' could not be found.
-#Main.msg.Tsfftcnbf.2#	The source file for track '{0}' could not be found. Would you like to locate it?
-#Main.msg.Tfyhsiatti#	The file you have selected is a track that is already in your library and on display.
-#Main.msg.Wyltcaf#	Would you like to choose another file?
-#Main.msg.Tsfiali#	The selected file is already located in '{0}'
-#Main.msg.Oomotsfaal#	One or more of the selected files are already located in '{0}'
-#Main.msg.Tsfaeittf-#	The selected file already exists in the target folder - do you want to overwrite it?
-#Main.msg.Oomotsfaei#	One or more of the selected files already exists in the target folder - do you want to overwrite them?
-#Main.msg.LoOPfi#	Locate OPML file
-#Main.msg.UtptsOf#	Unable to parse the selected OPML file
-#Main.msg.Scbdwtaaao#	Search cannot be done without the artist and album or title
-#Main.msg.Utlapftb#	Unable to locate any pictures for title '{0}' by '{1}'
-#Main.msg.Utlapfab#	Unable to locate any pictures for album '{0}' by '{1}'
-#Main.msg.Utstpt#	Unable to save the picture to: {0}
-#Main.msg.Arfyctits#	Also remove 'folder.jpg' from your computer?{0}Other tracks in the same folder still reference it, but if its not removed then MusicBee will still display the image when playing this track.
-#Main.msg.Althbr-dy#	All links to 'folder.jpg' have been removed - do you want it deleted?
-#Main.msg.ctsntwa#	choose the same next time without asking
-#Main.msg.Alttphbrft#	All links to this picture have been removed from the device - do you want it deleted?
-#Main.msg.Althbr-dy.2#	All links to '{0}' have been removed - do you want it deleted?
-#Main.msg.Artwork#	Artwork Providers
-#Main.msg.Lyrics#	Lyrics Providers
-#Main.msg.Tag#		Tag Providers
-#Main.msg.Dtd-dywtat#	Duplicate tracks detected - do you want to add the tracks to this 播放列表?
-#Main.msg.AAS#		Artist & Album Selector
-#Main.msg.Cootftrad#	Choose one of the following to retrieve album details:
-#Main.help.Ctsftadatt#	Copy the selected files to a device according to the device settings, converting on-the-fly as needed.
-#Main.msg.Yntlolaeyu#	You need to log onto last.fm and enter your username and password first
-#Main.msg.YnteyLldal#	You need to enter your Last.fm login details at least once to listen to this radio station. Login details can be entered by clicking the Last.fm icon on the bottom right player control panel
-#Main.msg.Lryhapstlt#	Last.fm requires you have a paid subscription to listen to music streams via third party applications such as MusicBee
-#Main.msg.TtiaLrsthe#	The track is a Last.fm radio stream that has expired and is no longer playable
-#Main.msg.Pe-thbs#	Playback error - track has been skipped
-#Main.msg.Utrls#	Unable to restart last.fm station
-#Main.msg.PlSeTr#	Play Selected Tracks
-#Main.msg.PlAlTr#	Play All Tracks
-#Main.msg.QSTNaPN#	Queue Selected Tracks Next and Play Now
-#Main.msg.UtitwbSait#	Unable to initialise the web browser. Suggested action is to uninstall and then re-run the MusicBee installation so the missing files can be repaired.
-#Main.msg.LoSp#		Locate Spotify
-#Main.msg.UtatMlp#	Unable to access the MusicBee library path:
-#Main.msg.MuEr#		MusicBee Error
-#Main.msg.Aueo-prt#	An unexpected error occured - please report to 
-#Main.btn.CoEr#		Copy Error
-#Main.msg.Utctetttc#	Unable to copy the error text to the 剪贴板
-#Main.msg.Rscnbo#	Radio station '{0}' could not be opened
-#Main.msg.Tsfftcnbf.3#	The source file for track '{0}' could not be found
-#Main.msg.Ticto#	The internet connection timed out
-#Main.msg.UtsQwinfpo#	Unable to start Quicktime which is needed for playback of AAC/ MPEG files (Quicktime is installed with iTunes)
-#Main.msg.UtrCt#	Unable to read CD track '{0}'
-#Main.msg.UtitpodSai#	Unable to initialise the preferred output device. Suggested action is to select another device (Edit/ Preferences/ Player)
-#Main.msg.Aueo#		An unexpected error occurred: 
-#Main.msg.Trsinaatpi#	The radio station is not accessible at this point in time
-#Main.msg.Etrsitnaat#	Either the radio station is temporarily not accessible at this point in time or the Shoutcast station URL has changed (you will need to re-bookmark the station)
-#Main.msg.Tfinavafac#	The file is not a valid audio file and cannot be played
-#Main.msg.De2c#		Directory exceeds 247 characters: {0}
-#Main.msg.LiSe#		List Selector
-#Main.msg.Seanit#	Select an item
-#Main.help.Mtahp#	Move to a higher priority
-#Main.help.Mtalp#	Move to a lower priority
-#Main.msg.Utatfs#	Unable to adjust the font size.
-#Main.msg.Dtotaw#	Double-click to open the active window
-#DJ.msg.YnteyLldal#	You need to enter your Last.fm login details at least once for this setting to take effect. Login details can be entered by clicking the Last.fm icon on the bottom right player control panel
-#Main.msg.UtaabpRait#	Unable to abort a background process. Recommended action is to restart MusicBee
-#Main.msg.AbpPw(s#	Aborting background processes, Please wait (10 seconds)...
-#Main.msg.Utpts#	Unable to play the stream at this point in time
-#Main.msg.Utptf-ihau#	Unable to play this file - it has an unsupported format or is corrupted
-#Main.msg.Utpts-fAsy#	Unable to play this stream - for AAC+ streams, you will need the BASS_AAC.dll plugin. See http://getmusicbee.com/help.html
-#Main.msg.AferQtbeit#	AAC/MPEG files either require QuickTime to be enabled in the Player Preferences screen, or BASS_AAC.dll to be installed - see http://www.getmusicbee.com/help.html
-#Main.msg.Fnfael#	File not found at expected location
-#Main.msg.RaSt#		Radio Stream
-#Main.msg.PoEp#		Podcast Episode
-#Main.msg.WeSt#		Web Stream
-#Main.msg.1rsfL#	128k radio stream from Last.fm
-#Main.msg.inarns#	'{0}' is not a recognised network share.
-#Main.msg.Piaamnds#	Path '{0}' is already a mapped network drive share.
-#Main.msg.NsiamDywt#	Network share '{0}' is already mapped. Do you want to replace it with '{1}'?
-#Main.msg.Nswdtttobo#	Not supported when docked to the top or bottom of the screen
-#Main.msg.NswITine#	Not supported when 'Show In Taskbar' is not enabled
+#Main.msg.Mdnslavtfa#	MusicBee 不支持设置Cue文件单独的曲目为喜爱 
+#Main.msg.Utmf-peyhn#	无法移动文件夹 - 请确保你没有打开任何文件, 没有播放曲目, 或 Windows File Manager 打开了 '{0}' 及其子目录.
+#Main.msg.Pet#		播放列表成功导出到 {0}
+#Main.msg.Yntcawf(NN#	你需要首先创建一个 web 文件夹 (文件/ 新建/ 新建 Web 文件夹)
+#Main.msg.Ratft#	从 {0} 中删除所有标签?
+#Main.msg.Tswaaitl#	选定的 web 连接以及存在于库中
+#Main.msg.Stfywtmtsf#	选择要移动到的文件夹:
+#Main.msg.MfbdadinsU#	不支持从驱动器和设备之间移动文件. 尝试使用复制命令.
+#Main.msg.Stfywtctsf#	选择要复制到的文件夹 
+#Main.msg.(wbntptpo#	(文件将会按照播放列表顺序命名):
+#Main.msg.Utcsr-tuts#	无法安全删除 - 请尝试使用 Windows 自带的安全删除功能
+#Main.msg.Utlf#		找不到文件: {0}
+#Main.msg.CtflowiAAT#	将 {0} 的艺术家,专辑,标题等标签的第一个字母设置为大写?
+#Main.msg.RtCtzft#	为 {1} 重置 {0} 计数 ?
+#Main.msg.SltfLtyML#	从 Last.fm 同步喜爱的曲目到音乐库?
+#Main.msg.Ltsc#		成功同步喜爱的曲目.
+#Main.msg.Stpcfamtiy#	将 Last.fm 上匹配的曲目的播放计数设置为库中的数据?
+#Main.msg.Utctpcs#	无法同步播放计数:
+#Main.msg.Pcshc-u#	成功同步播放计数 - {0} 项已更新.
+#Main.msg.Notr#		没有曲目
+#Main.msg.SAaTft#	为 {0} 交换艺术家和标题?
+#Main.msg.ABtF#		添加书签到文件夹:
+#Main.msg.Utsf#		无法保存文件:
+#Main.msg.Vfaatstf-t#	尝试保存时验证失败 - 未保存更改.
+#Main.msg.Utoffw-en#	无法写入文件 '{0}' - 确保该文件没有被其他文件打开.
+#Main.msg.Etfatfanwp#	请确认文件夹和文件不是只读的.
+#Main.msg.Utscttf#	无法保存到文件:
+#Main.msg.Utsr#		无法保存评分:
+#Main.msg.etfatfanwp#	请确认文件夹和文件不是只读的.
+#Main.msg.Oomotsfcnb#	选定的文件无效
+#Main.msg.Tsfftcnbf#	无法找到曲目 '{0}' 的源文件
+#Main.msg.Tsfftcnbf.2#	无法找到曲目 '{0}' 的源文件. 要指定吗?
+#Main.msg.Tfyhsiatti#	你选定的文件已经存在于你的库中.
+#Main.msg.Wyltcaf#	要选择其他文件吗?
+#Main.msg.Tsfiali#	选定文件已经存在于 '{0}'
+#Main.msg.Oomotsfaal#	'{0}' 中已经存在一个或多个选定的文件
+#Main.msg.Tsfaeittf-#	目标目录已经存在选定的文件 - 要覆盖吗?
+#Main.msg.Oomotsfaei#	目标目录已经存在一个或多个选定的文件 - 要覆盖吗?
+#Main.msg.LoOPfi#	定位 OPML 文件
+#Main.msg.UtptsOf#	无法解析选定的 OPML 文件
+#Main.msg.Scbdwtaaao#	需要输入艺术家和专辑 或 标题 来进行搜索
+#Main.msg.Utlapftb#	无法找到 '{1}'的标题 '{0}' 封面
+#Main.msg.Utlapfab#	无法找到 '{1}'的专辑 '{0}' 封面
+#Main.msg.Utstpt#	无法保存到: {0}
+#Main.msg.Arfyctits#	从计算机中删除 'folder.jpg' ?{0}相同文件夹下的其他曲目仍需要引用他, 如果不删除那么播放曲目时将会显示该封面.
+#Main.msg.Althbr-dy#	所有指向 'folder.jpg' 的连接已经被删除 - 要把它删除吗?
+#Main.msg.ctsntwa#	下次选择相同的,不要再问我
+#Main.msg.Alttphbrft#	设备上所有指向该图片的连接已经被删除 - 要把它删除吗?
+#Main.msg.Althbr-dy.2#	所有指向 '{0}' 的连接已经被删除 - 要把它删除吗?
+#Main.msg.Artwork#	封面提供者
+#Main.msg.Lyrics#	歌词提供者
+#Main.msg.Tag#		标签提供者
+#Main.msg.Dtd-dywtat#	检测到重复的曲目 - 要把这些曲目添加到播放列表中嘛?
+#Main.msg.AAS#		艺术家 & 专辑选择器
+#Main.msg.Cootftrad#	选择一项来获取详情:
+#Main.help.Ctsftadatt#	根据设备设置将选定文件复制到设备, 如果需要,可以使用 on-the-fly 格式转换.
+#Main.msg.Yntlolaeyu#	你需要首先登陆到 last.fm
+#Main.msg.YnteyLldal#	你需要至少输入一次 Last.fm 登陆信息来收听电台. 可以在底部的播放控制器单击 Last.fm 图标输入
+#Main.msg.Lryhapstlt#	Last.fm 需要一个付费订阅用户才能允许使用诸如 MusicBee 这样的第三方程序欣赏音乐
+#Main.msg.TtiaLrsthe#	该曲目是 Last.fm 电台流,已经过期,无法再播放
+#Main.msg.Pe-thbs#	播放错误 - 已经被跳过
+#Main.msg.Utrls#	无法重启 last.fm 电台
+#Main.msg.PlSeTr#	播放选定的曲目 
+#Main.msg.PlAlTr#	播放所有曲目
+#Main.msg.QSTNaPN#	插入选择的曲目到队尾,立刻播放
+#Main.msg.UtitwbSait#	无法初始化 web 浏览器. 建议重新安装 MusicBee .
+#Main.msg.LoSp#		定位 Spotify
+#Main.msg.UtatMlp#	无法访问 MusicBee 库:
+#Main.msg.MuEr#		MusicBee 错误
+#Main.msg.Aueo-prt#	发生了异常 - 请报告至 
+#Main.btn.CoEr#		复制错误信息
+#Main.msg.Utctetttc#	无法复制错误到剪贴板
+#Main.msg.Rscnbo#	无法打开电台 '{0}' 
+#Main.msg.Tsfftcnbf.3#	无法找到 '{0}' 的源文件
+#Main.msg.Ticto#	连接超时
+#Main.msg.UtsQwinfpo#	无法启动 Quicktime 来播放 AAC/ MPEG 文件 (Quicktime 是跟随 iTunes 一起安装的)
+#Main.msg.UtrCt#	无法读取 '{0}'
+#Main.msg.UtitpodSai#	无法初始化首选的输出设备. 建议重新选择一个音频设备 (编辑/ 首选项/ 播放器)
+#Main.msg.Aueo#		发生了异常: 
+#Main.msg.Trsinaatpi#	现在无法访问到电台流
+#Main.msg.Etrsitnaat#	无法访问 (你可能需要重新创建书签)
+#Main.msg.Tfinavafac#	文件不是有效的音频文件,不能播放
+#Main.msg.De2c#		目录名称超过 247 个字符: {0}
+#Main.msg.LiSe#		列表选择
+#Main.msg.Seanit#	选择一项
+#Main.help.Mtahp#	提高优先级
+#Main.help.Mtalp#	降低优先级
+#Main.msg.Utatfs#	无法调整字体大小.
+#Main.msg.Dtotaw#	双击打开活动窗口
+#DJ.msg.YnteyLldal#	至少需要输入一次您的 Last.fm 登陆信息使得设置生效. 可以在底部的播放控制器单击 Last.fm 图标输入
+#Main.msg.UtaabpRait#	无法取消后台进程. 建议重新启动 MusicBee
+#Main.msg.AbpPw(s#	正在取消后台进程, 请稍等 (10 秒)...
+#Main.msg.Utpts#	此时无法播放这个流
+#Main.msg.Utptf-ihau#	无法播放这个文件- 格式不支持或已经损坏
+#Main.msg.Utpts-fAsy#	无法播放这个流 - 对于 AAC+ 流, 你需要 BASS_AAC.dll 插件. 详情请看 http://getmusicbee.com/help.html
+#Main.msg.AferQtbeit#	要播放 AAC/MPEG 文件,需要在 首选项/播放器 启用 QuickTime ,或安装 BASS_AAC.dll - 详情请看 http://www.getmusicbee.com/help.html
+#Main.msg.Fnfael#	文件未找到
+#Main.msg.RaSt#		电台流
+#Main.msg.PoEp#		播客剧集
+#Main.msg.WeSt#		Web 流
+#Main.msg.1rsfL#	Last.fm 上的 128k 电台音频流
+#Main.msg.inarns#	'{0}' 不是有效的网络共享.
+#Main.msg.Piaamnds#	路径 '{0}' 已经是映射的网络共享.
+#Main.msg.NsiamDywt#	网络共享 '{0}' 已经存在. 要用 '{1}' 替换吗?
+#Main.msg.Nswdtttobo#	当停靠到屏幕顶部或底部时不支持
+#Main.msg.NswITine#	当'在任务栏显示'禁用时不能使用
 
 ! system preferences panel
 #Sys.frm.164AB831#	首选项
@@ -2511,7 +2511,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #LBck.msg.Ttfntboadd#	目标文件夹必须在不同于{0}的一个设备上
 #LBck.msg.Fdne#		文件夹 '{0}' 不存在
 #LBck.msg.Sttdaffff#	为 {0} 上的文件选定一个目标设备和目标文件夹
-#LBck.msg.Yntuufmti#	你需要取消在参数设置Tags(1)里'不更新文件修改时间'一项 - 否则MusicBee备份时检测不到已更新文件.
+#LBck.msg.Yntuufmti#	你需要取消在参数设置Tags(1)里'不更新文件修改时间'一项 - 否则 MusicBee 备份时检测不到已更新文件.
 #LBck.msg.Bcwe#		备份完成,但发生了错误
 
 ! device summary page (click on device icon in left navigator)
