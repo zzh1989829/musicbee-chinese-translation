@@ -1,7 +1,7 @@
-﻿! do not change the identifiers #xxx.xxx.xxx#
-! preserve the "&" character used in menus
-! preserve anything inside curly brackets eg. {0}
-! preserve leading spaces
+﻿! help improve the translation, contact zzh1989829@gmail.com
+! or go to http://getmusicbee.com
+! 有意见或建议? 联系 zzh1989829@qq.com
+! 
 
 ! used to calculate a global text width adjustment - character repetitions are weighted by frequency of use in a language
 ! contact me if you would like to change this value eg. if you need prompts generally be wider
@@ -81,9 +81,9 @@
 #Main.menu.OFoU#	打开文件或URL
 #Main.menu.OpLi#	打开库
 #Main.menu.ImfrLi#	从库导入
-#Main.menu.ImfriT#	从iTunes导入
-#Main.menu.IfWMP#	从Windows Media Player导入
-#Main.menu.ReAdFi#	重新扫描/增加文件
+#Main.menu.ImfriT#	从 iTunes 导入
+#Main.menu.IfWMP#	从 Windows Media Player 导入
+#Main.menu.ReAdFi#	重新扫描/增加 文件
 #Main.menu.BaLi#	备份库
 #Main.menu.ShLiSt#	显示库统计
 #Main.menu.SyDe#	同步设备
