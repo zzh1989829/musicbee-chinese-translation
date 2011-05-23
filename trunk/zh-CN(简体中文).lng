@@ -3151,3 +3151,20 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 
 ! auto-number dialog when leading zeros is ticked: " eg. 01, 02 etc." - keep leading space
 #aNum.msg.ee#		 例如. {0}, {1} 等.
+
+! added 17-May-2011
+! file scanner
+#Scan.msg.Fifihtm(it#	从 iTunes 库中导入的曲目可能存在缺失的标签 (日志: 帮助/支持/查看错误日志). 若不改正,这可能导致 MusicBee 库中的文件缺失标签.
+#Scan.msg.Fifimhtm(H#	从 iTunes 库中导入的曲目可能存在缺失的标签 (日志: 帮助/支持/查看错误日志). 若不改正,这可能导致 MusicBee 库中的文件缺失标签.依然要进行吗?
+#cTag.msg.Fifimhtm(H#	从 iTunes 库中导入的曲目可能存在缺失的标签 (日志: 帮助/支持/查看错误日志). 强烈建议设置自定义标签前更新缺失的标签.
+
+! added 19-May-2011
+! value separator used in the file summary on the bottom right of the main panel eg. 10 files, 11MB, 2:40 - preserve the trailing space
+#Main.msg., #		, 
+
+! added 20-May-2011
+#Main.msg.Sootff#	选择一个文件夹:
+#aNum.msg.Rf-safftlb#	文件重新排序 - 从列表中选择一个文件,点击按钮向上或向下移动
+! you can translate key-descriptions which are displayed in menus when a command is assigned a hotkey using: #Main.key.XXX#	YYY
+#Main.key.Insert#	插入
+#Main.key.Enter#	回车
