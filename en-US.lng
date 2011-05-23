@@ -3151,3 +3151,20 @@
 
 ! auto-number dialog when leading zeros is ticked: " eg. 01, 02 etc." - keep leading space
 #aNum.msg.ee#		 eg. {0}, {1} etc.
+
+! added 17-May-2011
+! file scanner
+#Scan.msg.Fifihtm(it#	Tracks imported from the iTunes library may have file tags missing (see Help/Support/View Error Log). You could loose tag values from your MusicBee library if the files are not corrected first.
+#Scan.msg.Fifimhtm(H#	Tracks imported from the iTunes library may have file tags missing (see Help/Support/View Error Log). You could loose tag values from your MusicBee library if the files are not corrected first. Proceed anyway?
+#cTag.msg.Fifimhtm(H#	Tracks imported from the iTunes library may have file tags missing (see Help/Support/View Error Log). You are strongly advised to update the missing file tags before defining any custom tags in this screen.
+
+! added 19-May-2011
+! value separator used in the file summary on the bottom right of the main panel eg. 10 files, 11MB, 2:40 - preserve the trailing space
+#Main.msg., #		, 
+
+! added 20-May-2011
+#Main.msg.Sootff#	Select one of the following folders:
+#aNum.msg.Rf-safftlb#	Re-order files - select a file from the list below and click up or down to move it
+! you can translate key-descriptions which are displayed in menus when a command is assigned a hotkey using: #Main.key.XXX#	YYY
+#Main.key.Insert#	Insert
+#Main.key.Enter#	Enter
