@@ -3168,3 +3168,37 @@
 ! you can translate key-descriptions which are displayed in menus when a command is assigned a hotkey using: #Main.key.XXX#	YYY
 #Main.key.Insert#	Insert
 #Main.key.Enter#	Enter
+
+! added 26-May-2011
+#Main.menu.CloTab#	Close Tab
+! {0} = tag name eg. Unknown Year
+#Main.msg.Unkn{0#	Unknown {0}
+
+!optional field - only use this field if you want to disable MB from changing field names to lower case in some menus eg. Play More/ Play artist 'XXXX'
+!Setting.AllowLowerCase#	False
+
+! added 28-May-2011
+! for the right click windows explorer context menu
+#Main.msg.PlwiMu#	Play with MusicBee
+#Main.msg.QiM#		Queue &Next in MusicBee
+#Main.msg.QiM.2#	Queue &Last in MusicBee
+
+! added 5-June-2011
+! Library Backup eg. Copying 1/ 10 'filename.mp3'
+#LBck.msg.C#		Copying {0}/ {1} '{2}'
+#LBck.msg.BainPr#	Backup in Progress
+#LBck.msg.Bahaco#	Backup has completed
+! Lyrics editor
+#Main.menu.CaEd#	Cancel Edit
+! auto-tag by track, where {0} = 5 files
+#tTag.msg.Acwu#		Auto-tag completed with {0} updated
+! tag manager - dead links filter, where {0} = 5 files
+#TM.msg.Deli0#		Dead links: {0}
+! library selector window (hold SHIFT key down when MB starts)
+#Lib.col.A54FD07D#	Library Name
+#Lib.col.CF4A4297#	Path
+#Lib.col.4FBB32B0#	Last Accessed
+#Lib.btn.60044525#	Quit
+! Computer section
+#Main.msg.ReDi#		Removable Disk
+#Main.msg.ViDi#		Virtual Disk
