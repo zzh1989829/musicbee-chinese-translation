@@ -3078,7 +3078,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 ! these are used in the library stats window
 #Main.msg.Artists0#	无艺术家
 #Main.msg.Artists1#	1 位艺术家
-#Main.msg.Artists9#	{0} 位艺术家
+#Main.msg.Artists9#	{0} 术家
 #Main.msg.Genres0#	没有流派
 #Main.msg.Genres1#	1 种流派
 #Main.msg.Genres9#	{0} 种流派
@@ -3168,3 +3168,37 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 ! you can translate key-descriptions which are displayed in menus when a command is assigned a hotkey using: #Main.key.XXX#	YYY
 #Main.key.Insert#	插入
 #Main.key.Enter#	回车
+
+! added 26-May-2011
+#Main.menu.CloTab#	关闭标签页
+! {0} = tag name eg. Unknown Year
+#Main.msg.Unkn{0#	未知 {0}
+
+!optional field - only use this field if you want to disable MB from changing field names to lower case in some menus eg. Play More/ Play artist 'XXXX'
+!Setting.AllowLowerCase#	否
+
+! added 28-May-2011
+! for the right click windows explorer context menu
+#Main.msg.PlwiMu#	使用 MusicBee 播放
+#Main.msg.QiM#		添加到 MusicBee 队列队首
+#Main.msg.QiM.2#	添加到 MusicBee 队列队尾
+
+! added 5-June-2011
+! Library Backup eg. Copying 1/ 10 'filename.mp3'
+#LBck.msg.C#		正在复制 {0}/ {1} '{2}'
+#LBck.msg.BainPr#	正在备份
+#LBck.msg.Bahaco#	备份完成
+! Lyrics editor
+#Main.menu.CaEd#	取消编辑
+! auto-tag by track, where {0} = 5 files
+#tTag.msg.Acwu#		自动设置标签完成,{0} 个已更新
+! tag manager - dead links filter, where {0} = 5 files
+#TM.msg.Deli0#		无效链接: {0}
+! library selector window (hold SHIFT key down when MB starts)
+#Lib.col.A54FD07D#	库名称
+#Lib.col.CF4A4297#	路径
+#Lib.col.4FBB32B0#	上次使用
+#Lib.btn.60044525#	退出
+! Computer section
+#Main.msg.ReDi#		可移动磁盘
+#Main.msg.ViDi#		虚拟磁盘
