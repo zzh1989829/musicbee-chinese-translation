@@ -3202,3 +3202,13 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 ! Computer section
 #Main.msg.ReDi#		可移动磁盘
 #Main.msg.ViDi#		虚拟磁盘
+
+! added 13-June-2011
+! when synching playcounts and loved tracks from last.fm
+#Main.msg.Supc#		正在保存更新过的播放计数
+#Main.msg.Rpo#		查询 {0} / {1} 页...
+#Main.msg.Qlflt#	正在从 last.fm 查询喜爱的曲目
+
+! added 17-June-2011
+! tag search and replace
+#sRpl.col.BA713544#	文件名

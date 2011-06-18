@@ -3202,3 +3202,13 @@
 ! Computer section
 #Main.msg.ReDi#		Removable Disk
 #Main.msg.ViDi#		Virtual Disk
+
+! added 13-June-2011
+! when synching playcounts and loved tracks from last.fm
+#Main.msg.Supc#		Saving updated play counts
+#Main.msg.Rpo#		Retrieving page {0} of {1}...
+#Main.msg.Qlflt#	Querying last.fm for loved tracks
+
+! added 17-June-2011
+! tag search and replace
+#sRpl.col.BA713544#	Filename
