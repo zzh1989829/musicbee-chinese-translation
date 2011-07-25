@@ -3212,3 +3212,44 @@
 ! added 17-June-2011
 ! tag search and replace
 #sRpl.col.BA713544#	Filename
+
+! ********************** Version 1.3 ***************************************************
+! added 11-July-2011
+! tag manager - new filter
+#Main.menu.SFwSA#	Show Files with Small Artwork
+#TM.menu.FwSA#		Files with Small Artwork
+#TM.msg.Arissma#	Artwork is {0}x{1} px
+#TM.msg.wsa#		{0} with small artwork
+! in the text search box, enter "similar: xxxx" finds similar artists
+#Main.msg.similar#	similar
+#Main.menu.FSimiL#	Find Similar '{0}' in Library
+! right click on picture in artwork view, when multiple albums an extra menu item to view all tracks by the artist
+#Main.menu.AllTracks#	A-Z List of Tracks
+#Main.menu.Search#	Search...
+! panel layout editor
+#PLE.ctl.41A03D5B#	displays first few tracks only (excess tracks can be expanded)
+#PLE.ctl.BCCC267#	when albums are grouped by artist:
+#PLE.ctl.B1601866#	show artist picture
+#PLE.ctl.98B4D7B8#	show album covers
+
+#Main.msg.MoreFiles0#	No more files
+#Main.msg.MoreFiles1#	1 more file
+#Main.msg.MoreFiles9#	{0} more files
+! file scanner
+#Scan.ctl.94387FF9#	locate folder artwork:
+#Scan.ctl.AF6F8C0A#	all artwork files in a music folder
+
+#Main.msg.UnReadFile#	Unable to read file '{0}'
+#Main.msg.UnWriteFile#	Unable to write to file '{0}'
+#Main.msg.thfimsys#	the file is marked as a system file
+#Main.msg.thfimroy#	the file is marked as read-only
+
+! playlist options in the Library preferences
+#Sys.ctl.E2BF11E#	use unix path convention (/)
+
+! for the autoplaylist description eg. tracks from Music Library
+#Main.msg.tracksfrom#	tracks from
+
+#Sys.msg.PSB1m#		Playback: Skip Back 1 minute
+#Sys.msg.PSF1m#		Playback: Skip Forward 1 minute
+#Sys.msg.VSSVis#	View: Show Visualiser
