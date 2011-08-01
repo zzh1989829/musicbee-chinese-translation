@@ -972,8 +972,8 @@
 #Main.msg.LoOPfi#	定位 OPML 文件
 #Main.msg.UtptsOf#	无法解析选定的 OPML 文件
 #Main.msg.Scbdwtaaao#	需要输入艺术家和专辑 或 标题 来进行搜索
-#Main.msg.Utlapftb#	无法找到 '{1}'的标题 '{0}' 封面
-#Main.msg.Utlapfab#	无法找到 '{1}'的专辑 '{0}' 封面
+#Main.msg.Utlapftb#	无法找到 '{1}'的标题为 '{0}' 的曲目封面
+#Main.msg.Utlapfab#	无法找到 '{1}'的专辑 '{0}' 的封面
 #Main.msg.Utstpt#	无法保存到: {0}
 #Main.msg.Arfyctits#	从计算机中删除 'folder.jpg' ?{0}相同文件夹下的其他曲目仍需要引用他, 如果不删除那么播放曲目时将会显示该封面.
 #Main.msg.Althbr-dy#	所有指向 'folder.jpg' 的连接已经被删除 - 要把它删除吗?
@@ -3253,3 +3253,37 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Sys.msg.PSB1m#		回放: 回退1分钟
 #Sys.msg.PSF1m#		回放: 前进1分钟
 #Sys.msg.VSSVis#	查看: 显示可视化
+
+
+! added 27-July-2011
+! file organiser
+#Org.ctl.80F6DEC0#	同时移动文件夹内的非音乐文件
+
+! playlist order on Sort By menu and header in Artwork layout
+#Main.menu.PlaylOrder#	播放列表顺序 
+#Main.msg.AlinPlOrd#	播放列表顺序下的专辑
+
+! auto-playlist exceptions button
+#AP.btn.B23F6757#	例外
+#AP.msg.Tffhbdftap#	下列文件已经从自动播放列表中删除
+#Main.tree.Bookmarks#	书签
+! bookmarks - start and end (time) fields for the bookmarks node in the main panel
+#Main.field.70#		开始
+#Main.field.71#		结束
+! System preferences - layout tab
+#Sys.ctl.5E12D253#	书签
+! hotkey
+#Sys.msg.NPSEBmk#	正在播放: 设置 开始/结束 书签
+! right click in bookmarks panel
+#Main.menu.BoPTrStart#	新建书签
+#Main.menu.BoPTrEnd#	设置结束书签
+#Main.msg.BookmStart#	书签设置开始...
+#Main.msg.BookmEnd#	书签设置完毕
+
+! right click/ Send To/ Folder (Move) or Folder (Copy)
+#Main.menu.MFtoF#	移动文件到文件夹
+#Main.menu.MFtoOF#	移动文件到整理过的文件夹
+#Main.menu.CFtoF#	复制文件到文件夹
+#Main.menu.CFtoOF#	复制文件到整理过的文件夹
+#Org.msg.cftof#		复制文件到文件夹:
+
