@@ -3253,3 +3253,37 @@
 #Sys.msg.PSB1m#		Playback: Skip Back 1 minute
 #Sys.msg.PSF1m#		Playback: Skip Forward 1 minute
 #Sys.msg.VSSVis#	View: Show Visualiser
+
+
+! added 27-July-2011
+! file organiser
+#Org.ctl.80F6DEC0#	also move remaining non-music files
+
+! playlist order on Sort By menu and header in Artwork layout
+#Main.menu.PlaylOrder#	Playlist Order
+#Main.msg.AlinPlOrd#	Albums in Playlist Order
+
+! auto-playlist exceptions button
+#AP.btn.B23F6757#	Exceptions
+#AP.msg.Tffhbdftap#	the following files have been deleted from the auto-playlist results:
+#Main.tree.Bookmarks#	Bookmarks
+! bookmarks - start and end (time) fields for the bookmarks node in the main panel
+#Main.field.70#		Start
+#Main.field.71#		End
+! System preferences - layout tab
+#Sys.ctl.5E12D253#	bookmarks
+! hotkey
+#Sys.msg.NPSEBmk#	Now Playing: Start/ End Bookmark
+! right click in bookmarks panel
+#Main.menu.BoPTrStart#	New Bookmark
+#Main.menu.BoPTrEnd#	End Bookmark
+#Main.msg.BookmStart#	Bookmark started...
+#Main.msg.BookmEnd#	Bookmark completed
+
+! right click/ Send To/ Folder (Move) or Folder (Copy)
+#Main.menu.MFtoF#	Move Files to Folder
+#Main.menu.MFtoOF#	Move Files to Organised Folder
+#Main.menu.CFtoF#	Copy Files to Folder
+#Main.menu.CFtoOF#	Copy Files to Organised Folder
+#Org.msg.cftof#		copy files to folder:
+
