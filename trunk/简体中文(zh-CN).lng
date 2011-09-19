@@ -280,8 +280,8 @@
 #Main.tree.Internet#	Internet
 #Main.msg.WeFi#		Web 文件
 #Main.tree.Services#	服务
-#Main.tree.UpRe#	将临的专辑
-#Main.tree.UpCo#	将临的演唱会
+#Main.tree.UpRe#	专辑
+#Main.tree.UpCo#	演唱会
 #Main.tree.Computer#	计算机
 #Main.tree.Devices#	设备
 #Main.msg.LiEx#		库浏览器
@@ -3287,3 +3287,82 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Main.menu.CFtoOF#	复制文件到整理过的文件夹
 #Org.msg.cftof#		复制文件到文件夹:
 
+
+! 1-August-2011
+#Sys.msg.LWIP#		定位 Winamp 输入插件...
+! note leading and trailing spaces
+#Sys.ctl.A0FD61D6#	  输出插件  
+#Sys.btn.478C4097#	设置
+#Sys.btn.5F51D6B3#	导入 Winamp
+#Sys.msg.Tspinsup#	不支持选定的文件作为插件
+
+! 6-August-2011
+! Tags(2) preferences
+#Sys.ctl.B503C1AA#	为缺少回放增益标签的新文件计算并写入该标签
+#Main.menu.SimArtist#	相似的艺术家
+
+
+! 14-August-2011
+! right click/ Play More in the artwork layout
+#Main.menu.PlAlTracks#	播放专辑下的曲目...
+! right click on the Library Explorer
+#Main.menu.ShSimArtist#	显示相似的艺术家
+! right click on the lyrics panel
+#Main.menu.MaasNoly#	标记为无歌词
+#Main.msg.Nolyrics#	没有歌词
+! artist splitter dialog (from Tag Editor)
+#aSplit.btn.Split#	分割
+
+#Main.msg.Lhratdfya#	Last.fm 拒绝访问你的数据 - 检查 last.fm 库的数据的隐私设置
+! for bits per sample info eg. 24 bit
+#Main.msg.bit#		{0} 比特
+
+
+! 21-August-2011
+#Main.msg.MuFiSelect#	已选定多个文件 
+#Main.msg.N[Nlyr#	N [没有歌词]
+#Main.menu.MoreSet...#	更多设置...
+#Main.field.35#		年份 (yyyy)
+#Tag.ctl.maasNoly#	标记为无歌词
+#Sys.msg.PRTrack#	回放: 随机播放曲目
+
+
+! 28-August-2011
+! Tools/Tagging Tools/Remove Tags
+#tRem.ctl.8A0A3B02#	删除所有标签
+#tRem.ctl.8A0A73C7#	删除指定的标签:
+! {0} = 5 selected files
+#tRem.msg.Rtft#		删除 {0} 的标签?
+
+#Main.menu.EdTaName#	编辑标签页头部
+#Main.msg.AgbSorA#	按照排序艺术家分组的专辑
+
+
+! 4-Sep-2011
+! tag editor/ settings tab
+#Tag.ctl.exfrplay#	从回放中移除
+#Tag.msg.Yesfb#		完全禁止
+#Tag.msg.Yessws#	仅打乱播放时
+#Tag.msg.Utslastfm#	无法将 喜爱/禁止 保存到 last.fm
+#Main.msg.HtSHdtBst#	按住 SHIFT 后点击来禁止该曲目
+#Main.menu.Ban#		禁止
+
+
+! 11-Sep-2011
+! google artwork search
+#Art.msg.Selpic#	点击来选择一个封面
+#Art.msg.UndoImage#	无法下载源图片
+#Art.msg.Downpic#	正在下载图片...
+! right click on player controls panel
+#Main.menu.LPTiaSo#	定位正在播放的曲目
+#Main.menu.FSimAiL#	在库中查找相似的艺术家
+#Main.msg.Unlosiart#	无法查找相似艺术家 - 请稍后再试
+! {0} = name of artist
+#Main.menu.PSimiLib#	播放与 '{0}' 相似的
+#Main.menu.PSimAriLib#	播放相似的艺术家
+#Main.msg.CONRemFold#	确认: 删除文件夹 '{0}' 及其内容?
+
+! CD Rip settings panel - slight change to wording
+#CD.ctl.70608D56#	分析音量并写入回放增益标签
+! right click/Send To/Playlist...
+#Main.msg.prCttomul#	按住 Ctrl 多选
