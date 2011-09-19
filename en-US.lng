@@ -3287,3 +3287,82 @@
 #Main.menu.CFtoOF#	Copy Files to Organised Folder
 #Org.msg.cftof#		copy files to folder:
 
+
+! 1-August-2011
+#Sys.msg.LWIP#		Locate Winamp Input Plugin...
+! note leading and trailing spaces
+#Sys.ctl.A0FD61D6#	  input plugins  
+#Sys.btn.478C4097#	Configure
+#Sys.btn.5F51D6B3#	Import Winamp
+#Sys.msg.Tspinsup#	The selected file is not a supported input plugin
+
+! 6-August-2011
+! Tags(2) preferences
+#Sys.ctl.B503C1AA#	calculate and write missing track replaygain tags for new music files
+#Main.menu.SimArtist#	Similar Artists
+
+
+! 14-August-2011
+! right click/ Play More in the artwork layout
+#Main.menu.PlAlTracks#	Play Album Tracks...
+! right click on the Library Explorer
+#Main.menu.ShSimArtist#	Show Similar Artists
+! right click on the lyrics panel
+#Main.menu.MaasNoly#	Mark as having no lyrics
+#Main.msg.Nolyrics#	No lyrics
+! artist splitter dialog (from Tag Editor)
+#aSplit.btn.Split#	Split
+
+#Main.msg.Lhratdfya#	Last.fm has refused access to data from your account - check your last.fm library settings to ensure you have not made data private.
+! for bits per sample info eg. 24 bit
+#Main.msg.bit#		{0} bit
+
+
+! 21-August-2011
+#Main.msg.MuFiSelect#	Multiple files selected
+#Main.msg.N[Nlyr#	N [no lyrics]
+#Main.menu.MoreSet...#	More Settings...
+#Main.field.35#		Year (yyyy)
+#Tag.ctl.maasNoly#	mark as having no lyrics
+#Sys.msg.PRTrack#	Playback: Play Random Track
+
+
+! 28-August-2011
+! Tools/Tagging Tools/Remove Tags
+#tRem.ctl.8A0A3B02#	remove all tags
+#tRem.ctl.8A0A73C7#	remove specific tags:
+! {0} = 5 selected files
+#tRem.msg.Rtft#		Remove tags for the {0}?
+
+#Main.menu.EdTaName#	Edit Tab Header
+#Main.msg.AgbSorA#	Albums grouped by Sort Artist
+
+
+! 4-Sep-2011
+! tag editor/ settings tab
+#Tag.ctl.exfrplay#	exclude from playback
+#Tag.msg.Yesfb#		Full ban
+#Tag.msg.Yessws#	Only when shuffling
+#Tag.msg.Utslastfm#	Unable to save love/ban status to last.fm
+#Main.msg.HtSHdtBst#	Hold the SHIFT key down and click to Ban the selected track
+#Main.menu.Ban#		Ban
+
+
+! 11-Sep-2011
+! google artwork search
+#Art.msg.Selpic#	Select a picture by clicking on it
+#Art.msg.UndoImage#	Unable to download the original image
+#Art.msg.Downpic#	Downloading picture...
+! right click on player controls panel
+#Main.menu.LPTiaSo#	Locate Playing Track at Source
+#Main.menu.FSimAiL#	Find Similar Artist in Library
+#Main.msg.Unlosiart#	Unable to retrieve similar artists - try again later
+! {0} = name of artist
+#Main.menu.PSimiLib#	Play Similar '{0}'
+#Main.menu.PSimAriLib#	Play Similar Artist
+#Main.msg.CONRemFold#	CONFIRMATION: Remove folder '{0}' and all its contents?
+
+! CD Rip settings panel - slight change to wording
+#CD.ctl.70608D56#	analyse volume and write replaygain tags
+! right click/Send To/Playlist...
+#Main.msg.prCttomul#	press Ctrl to multi-select
