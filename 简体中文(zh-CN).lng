@@ -3366,3 +3366,82 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #CD.ctl.70608D56#	分析音量并写入回放增益标签
 ! right click/Send To/Playlist...
 #Main.msg.prCttomul#	按住 Ctrl 多选
+
+! 25-Sep-2011
+#Main.msg.CRelyamahnl#	确认: 删除现有歌词并标记为无歌词吗??
+! link in the track selection part of the auto-dj
+#DJ.ctl.8B047353#	预设
+#DJ.menu.SaSeasPr#	保存设置为预设
+! system hotkey preferences
+#Sys.msg.ViShTrBrow#	视图: 显示曲目浏览器
+#Sys.msg.GLSTiLib#	通用: 在库中定位选定的歌曲
+! layout preferences
+#Sys.btn.71F78508#	设置字段
+#Sys.msg.Cpsnsbfcc#	要保存首选项后才能设置字段
+#tField.frm.2B4F84F#	字段布局编辑器 
+#tField.msg.Labmuunu#	'{0}' 被指定为多重字段 - 每个字段必须有一个唯一的标签
+#tField.msg.Left#	左
+#tField.msg.Middle#	中
+#tField.msg.Right#	右
+#tField.ctl.436D2FB9#	格式化
+! library preferences
+#Sys.ctl.D6ACF980#	库位置
+
+#Main.msg.Untomolib#	无法将库移动到: {0}
+! update to an existing context menu - {1} = clicked field eg. Genre, {0} = text of clicked field
+#Main.menu.FMiL#	找到 {1} '{0}'
+#Main.menu.FAiL.2#	找到艺术家 '{0}'
+#Main.menu.FAiL.4#	找到专辑 '{0}'
+#Main.menu.FSimiL#	找到相似 '{0}'
+! right click menu in left navigator tree
+#Main.menu.OpinNeTab#	在新标签页中打开
+
+#Main.menu.ResArtCa#	重置封面缓存
+
+
+! 16-Oct-2011
+#Main.msg.WMPwarn#	警告: 使用 Windows Media Player 时, 你的 folder.jpg 文件可能在你没有被提醒的时候被重写为低分辨率的文件
+! when copying files to a device
+! {0} = .MP3, .M4A etc
+#Main.msg.fansbtddev#	{0} 个文件不被设备支持 - 你希望:
+! {0} = 5 files
+#Main.msg.Cotwconv#	不转换格式拷贝 {0} 
+#Main.msg.Autctasup#	自动转换 {0} 为一个合适的格式
+#Tfr.msg.Copyfito#	复制文件到 {0}
+! the context menu when you click on the ... button when editing any naming template
+#Main.menu.FiCh#	Left() 函数
+#Main.menu.nufu#	IsNull() 函数
+#Main.menu.iffunc#	If() 函数
+#Main.menu.padfunc#	Pad() 函数
+#Main.menu.Predefined#	预定义的
+! radio station editor
+#RSE.ctl.E8C95FFF#	主页e:
+#RSE.ctl.BA35A3A2#	站点播放时自动打开主页
+! artwork layout configuration
+#PLE.ctl.DEB75F69#	当向下挖掘查看选定艺术家的专辑时切换到专辑和曲目视图
+! album and tracks layout configuration
+#PLE.ctl.CBDDB7C4#	播放列表除外:
+#PLE.ctl.F01D0C52#	用一个头部将曲目分组
+#PLE.msg.NAdisinh#	N/A - 在头部显示
+! artist profile configuration
+#PLE.ctl.3F86F856#	独立的标签:
+! tags(2) preferences
+#Sys.ctl.26EB9BED#	获取艺术家流派 (MusicBrainz)
+! right click on artwork in now playing panel when multiple images eg. {0}=1..n, {1}=Album Cover
+#Main.menu.Image#	图片 {0}: {1}
+#Main.menu.UnknCat#	未添加标签
+
+! 23-Oct-2011
+! correction to the id for the "Configure Fields" button in the Layout preferences
+#Sys.btn.71F78508#	设置字段
+! configure fields dialog
+#tField.ctl.883B02AD#	初始的标签
+#tField.ctl.D8CDF2C2#	重写的标签
+#tField.ctl.59524CFC#	对齐
+
+! changed from "retrieve artist genres (MusicBrainz)"
+#Sys.ctl.26EB9BED#	只获取艺术家流派
+! right click menu in a tab header
+#Main.menu.HidLefNaPa#	隐藏左边栏
+! properties page in the tag editor
+#Tag.ctl.daadded#	添加日期:

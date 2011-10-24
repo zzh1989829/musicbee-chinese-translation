@@ -3366,3 +3366,82 @@
 #CD.ctl.70608D56#	analyse volume and write replaygain tags
 ! right click/Send To/Playlist...
 #Main.msg.prCttomul#	press Ctrl to multi-select
+
+! 25-Sep-2011
+#Main.msg.CRelyamahnl#	CONFIRMATION: Remove existing lyrics and mark as having no lyrics?
+! link in the track selection part of the auto-dj
+#DJ.ctl.8B047353#	presets
+#DJ.menu.SaSeasPr#	Save Settings as a Preset
+! system hotkey preferences
+#Sys.msg.ViShTrBrow#	View: Show Track Browser
+#Sys.msg.GLSTiLib#	General: Locate Selected Track in Library
+! layout preferences
+#Sys.btn.71F78508#	Configure Fields
+#Sys.msg.Cpsnsbfcc#	Changes to preference settings need to be saved before fields can be configured
+#tField.frm.2B4F84F#	Fields Layout Editor
+#tField.msg.Labmuunu#	'{0}' is assigned to multiple fields - each field must have a unique label
+#tField.msg.Left#	Left
+#tField.msg.Middle#	Middle
+#tField.msg.Right#	Right
+#tField.ctl.436D2FB9#	formatting
+! library preferences
+#Sys.ctl.D6ACF980#	library location
+
+#Main.msg.Untomolib#	Unable to move the library to: {0}
+! update to an existing context menu - {1} = clicked field eg. Genre, {0} = text of clicked field
+#Main.menu.FMiL#	Find {1} '{0}'
+#Main.menu.FAiL.2#	Find Artist '{0}'
+#Main.menu.FAiL.4#	Find Album '{0}'
+#Main.menu.FSimiL#	Find Similar '{0}'
+! right click menu in left navigator tree
+#Main.menu.OpinNeTab#	Open in New Tab
+
+#Main.menu.ResArtCa#	Reset Artwork Cache
+
+
+! 16-Oct-2011
+#Main.msg.WMPwarn#	WARNING: When using Windows Media Player, your folder.jpg files can be overwritten with low resolution artwork without notification
+! when copying files to a device
+! {0} = .MP3, .M4A etc
+#Main.msg.fansbtddev#	{0} files are not supported by the device - do you want to:
+! {0} = 5 files
+#Main.msg.Cotwconv#	Copy the {0} without conversion
+#Main.msg.Autctasup#	Automatically convert the {0} to a supported format
+#Tfr.msg.Copyfito#	Copying files to {0}
+! the context menu when you click on the ... button when editing any naming template
+#Main.menu.FiCh#	Left() function
+#Main.menu.nufu#	IsNull() function
+#Main.menu.iffunc#	If() function
+#Main.menu.padfunc#	Pad() function
+#Main.menu.Predefined#	Predefined
+! radio station editor
+#RSE.ctl.E8C95FFF#	home page:
+#RSE.ctl.BA35A3A2#	automatically open the home page when station is playing
+! artwork layout configuration
+#PLE.ctl.DEB75F69#	switch to Album and Tracks layout when drilling-down and viewing the albums for a selected artist
+! album and tracks layout configuration
+#PLE.ctl.CBDDB7C4#	except for playlists:
+#PLE.ctl.F01D0C52#	group tracks with a header
+#PLE.msg.NAdisinh#	N/A - displayed in header
+! artist profile configuration
+#PLE.ctl.3F86F856#	standalone tab:
+! tags(2) preferences
+#Sys.ctl.26EB9BED#	retrieve artist genres (MusicBrainz)
+! right click on artwork in now playing panel when multiple images eg. {0}=1..n, {1}=Album Cover
+#Main.menu.Image#	Image {0}: {1}
+#Main.menu.UnknCat#	Not Labeled
+
+! 23-Oct-2011
+! correction to the id for the "Configure Fields" button in the Layout preferences
+#Sys.btn.71F78508#	Configure Fields
+! configure fields dialog
+#tField.ctl.883B02AD#	Original Label
+#tField.ctl.D8CDF2C2#	Override Label
+#tField.ctl.59524CFC#	Alignment
+
+! changed from "retrieve artist genres (MusicBrainz)"
+#Sys.ctl.26EB9BED#	retrieve artist genres only
+! right click menu in a tab header
+#Main.menu.HidLefNaPa#	Hide Left Panel
+! properties page in the tag editor
+#Tag.ctl.daadded#	date added:
