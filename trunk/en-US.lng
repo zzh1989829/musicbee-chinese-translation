@@ -3445,3 +3445,20 @@
 #Main.menu.HidLefNaPa#	Hide Left Panel
 ! properties page in the tag editor
 #Tag.ctl.daadded#	date added:
+
+! 30-Oct-2011
+! layout preferences
+#Sys.ctl.80B63A4B#	tabs orientation:
+#Sys.ctl.586D8565#	horizontal
+#Sys.ctl.4D64A009#	vertical
+#Main.menu.ShTabsHor#	Show Tabs Horizontally
+#Main.menu.ShTabsVer#	Show Tabs Vertically
+
+! 6-Nov-2011
+! player panel dock
+#Main.menu.TopPane#	Top Pane
+#Main.menu.DiTPane#	Display in Top Pane
+#Sys.ctl.94649A3D#	top pane
+! Tags(1) preferences - changed from "do not show folder.jpg artwork"
+#Sys.ctl.6AEFF047#	do not scan folder.jpg artwork
+#Sys.msg.foljpgwarn#	WARNING: Existing folder.jpg pictures will be disassociated from your music files
