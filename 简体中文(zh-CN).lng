@@ -3445,3 +3445,20 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Main.menu.HidLefNaPa#	隐藏左边栏
 ! properties page in the tag editor
 #Tag.ctl.daadded#	添加日期:
+
+! 30-Oct-2011
+! layout preferences
+#Sys.ctl.80B63A4B#	标签方向:
+#Sys.ctl.586D8565#	水平
+#Sys.ctl.4D64A009#	垂直
+#Main.menu.ShTabsHor#	水平显示标签页
+#Main.menu.ShTabsVer#	垂直显示标签页
+
+! 6-Nov-2011
+! player panel dock
+#Main.menu.TopPane#	顶部面板
+#Main.menu.DiTPane#	在顶部面板显示
+#Sys.ctl.94649A3D#	顶部面板
+! Tags(1) preferences - changed from "do not show folder.jpg artwork"
+#Sys.ctl.6AEFF047#	不扫描 folder.jpg 封面
+#Sys.msg.foljpgwarn#	警告: 会取消现存的 folder.jpg 封面与音乐文件的关联
