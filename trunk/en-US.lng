@@ -3462,3 +3462,32 @@
 ! Tags(1) preferences - changed from "do not show folder.jpg artwork"
 #Sys.ctl.6AEFF047#	do not scan folder.jpg artwork
 #Sys.msg.foljpgwarn#	WARNING: Existing folder.jpg pictures will be disassociated from your music files
+
+! ********** Version 1.4 **********************
+! 27-Nov-2011
+! some of you may have already translated the following 2 items - just delete these 2 lines if you already have
+#NPL.ctl.9883013D#	Artist and Album link to:
+#NPL.ctl.BF60BB7B#	library filter
+
+! hotkey to toggle the layout of the now playing list
+#Sys.msg.VTNowPlLL#	View: Now Playing List: Toggle (Track or Album Layout)
+
+! auto-playlists
+#AP.ctl.643F5F38#	shuffle matching tracks
+
+! preferences/ layout/ main panel
+#Sys.ctl.A6E606F0#	show track count for each item
+! preferences/ tags(3)
+#Sys.ctl.A76F8892#	  sorting and grouping  
+! preferences/ Now Playing
+#Sys.ctl.F3C7CE7D#	  shuffle settings  
+#Sys.ctl.A92C859#	random
+#Sys.ctl.59011D86#	different/
+#Sys.ctl.690FEEF2#	/same artist
+#Sys.ctl.2350F28B#	higher rated tracks preferred
+#Sys.ctl.72246531#	group by album
+#Sys.ctl.C385CF49#	shuffle album tracks
+
+! right click on the main panel, when shuffle is enabled this is displayed instead of Queue Last
+#Main.menu.QueRand#	Queue Random
+#Main.menu.QueAlbRan#	Queue Album Random
