@@ -3462,3 +3462,32 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 ! Tags(1) preferences - changed from "do not show folder.jpg artwork"
 #Sys.ctl.6AEFF047#	不扫描 folder.jpg 封面
 #Sys.msg.foljpgwarn#	警告: 会取消现存的 folder.jpg 封面与音乐文件的关联
+
+! ********** Version 1.4 **********************
+! 27-Nov-2011
+! some of you may have already translated the following 2 items - just delete these 2 lines if you already have
+#NPL.ctl.9883013D#	艺术家和专辑链接:
+#NPL.ctl.BF60BB7B#	库过滤器
+
+! hotkey to toggle the layout of the now playing list
+#Sys.msg.VTNowPlLL#	视图: 正在播放列表: 切换 (曲目或专辑布局)
+
+! auto-playlists
+#AP.ctl.643F5F38#	打乱匹配曲目
+
+! preferences/ layout/ main panel
+#Sys.ctl.A6E606F0#	显示专辑曲目数
+! preferences/ tags(3)
+#Sys.ctl.A76F8892#	  排序和分组  
+! preferences/ Now Playing
+#Sys.ctl.F3C7CE7D#	  打乱设置  
+#Sys.ctl.A92C859#	随机
+#Sys.ctl.59011D86#	不同/
+#Sys.ctl.690FEEF2#	/相同艺术家
+#Sys.ctl.2350F28B#	高评分曲目优先
+#Sys.ctl.72246531#	按专辑分组
+#Sys.ctl.C385CF49#	打乱专辑曲目
+
+! right click on the main panel, when shuffle is enabled this is displayed instead of Queue Last
+#Main.menu.QueRand#	随机插入
+#Main.menu.QueAlbRan#	随机插入专辑
