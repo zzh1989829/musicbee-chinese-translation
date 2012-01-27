@@ -103,8 +103,8 @@
 #Main.menu.MaPl#	主播放器
 #Main.menu.MP(D#	主播放器(锁定)
 #Main.menu.Unlock#	解锁
-#Main.menu.MiPl#	Mini播放器
-#Main.menu.CoPl#	Compact播放器
+#Main.menu.MiPl#	迷你播放器
+#Main.menu.CoPl#	简洁播放器
 #Main.menu.Skins#	皮肤
 #Main.menu.FiMoSk#	查找更多皮肤...
 #Main.menu.SkWiBo#	皮肤窗口边框
@@ -270,7 +270,7 @@
 #Main.tree.MuLi#	音乐库
 #Main.tree.Podcasts#	广播
 #Main.tree.AuBo#	有声读物
-#Main.tree.RaSt#	无线电站点
+#Main.tree.RaSt#	无线电台
 #Main.tree.Inbox#	Inbox
 #Main.tree.PlHi#	播放历史
 #Main.tree.Downloads#	下载
@@ -1398,7 +1398,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Sys.ctl.BA920A95#	立体声混音至 5.1
 #Sys.ctl.4861D7A6#	重新采样到:
 #Sys.ctl.B36CD295#	启动时:
-#Sys.ctl.311DDF85#	误动作
+#Sys.ctl.311DDF85#	无动作
 #Sys.ctl.A91A9F33#	恢复上次播放位置
 #Sys.ctl.236A79E5#	恢复上次播放
 #Sys.ctl.D1DB6714#	  外部播放器  
@@ -2348,7 +2348,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Rip.ctl.7C803C5B#	开始后最小化到状态栏
 #Rip.ctl.6117A79#	作曲者:
 #Rip.ctl.57C5FF3A#	翻录为:
-#Rip.ctl.CF108295#	使用 cue 格式,整个光碟一个文件
+#Rip.ctl.CF108295#	使用 cue 格式,整个光盘一个文件
 #Rip.ctl.EAAAB211#	每个曲目一个文件
 #Rip.btn.4757E396#	设置
 #Rip.ctl.6E252FD8#	流派:
@@ -2376,7 +2376,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Rip.msg.sein#		正在搜索 Internet...
 #Rip.msg.Utlapfab#	找不到 '{1}'的 '{0}' 专辑封面
 #Rip.msg.Caocflfanf#	Cue 格式是用来保存无损音乐的,不能用于{0}. 无损编码器可以在'设置'处选择.
-#Rip.msg.Ycsitwrpd#	选择'使用 cue 格式,整个光碟一个文件'时不能选择独立的文件
+#Rip.msg.Ycsitwrpd#	选择'使用 cue 格式,整个光盘一个文件'时不能选择独立的文件
 #Rip.btn.SeAl#		全选
 #Rip.btn.UnAl#		取消选择
 #Rip.msg.UtltftC#	无法从CD中载入曲目
@@ -2532,9 +2532,9 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #aNum.ctl.294E79EF#	包含曲目计数:
 #aNum.ctl.8D9B6B69#	填充到:
 #aNum.ctl.B00EEF7E#	位  例如. 01, 02 等.
-#aNum.ctl.6BE8657F#	重置曲目编号,每个光碟重新计数
+#aNum.ctl.6BE8657F#	重置曲目编号,每个光盘重新计数
 #aNum.col.A4C19BF2#	原始曲目详情
-#aNum.col.CF10B99C#	新的 光碟-曲目#
+#aNum.col.CF10B99C#	新的 光盘-曲目#
 #aNum.col.4D9800E3#	曲目数
 #aNum.msg.Atntt#	为曲目编号赋值 {0}
 #aNum.msg.leze#		前导0
@@ -3491,3 +3491,321 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 ! right click on the main panel, when shuffle is enabled this is displayed instead of Queue Last
 #Main.menu.QueRand#	随机插入
 #Main.menu.QueAlbRan#	随机插入专辑
+
+! 4-Dec-2011
+#Main.msg.Terminate#	中止
+! right click in main panel/ Play More/ Output To -> select one of the output devices
+#Main.menu.OutputTo#	输出到
+
+! Player preferences
+#Sys.ctl.1D988E62#	当跳过曲目时交叉淡入淡出
+
+! artwork panel
+#Main.msg.AgbSorCom#	按排序过的作曲家分组的专辑
+
+! right click on Track Browser header
+#Main.menu.FrSoByLi#	使用 "排序依据" 字段
+#Main.menu.Orientat#	方向
+#Main.menu.THorizont#	水平
+#Main.menu.TVertical#	垂直
+#Main.menu.1Col#	1 列
+#Main.menu.2Col#	2 列
+#Main.menu.3Col#	3 列
+#Main.menu.4Col#	4 列
+
+! Layout preferences - main panel/ Track Browser
+#Sys.ctl.BB7339F#	为播放列表隐藏
+
+! 11-Dec-2011
+! tag editor settings tab
+#Tag.ctl.alplalinseq#	打乱时保持专辑曲目顺序
+
+! volume analysis tool
+#Vol.ctl.3E353466#	调整计算过的回放增益的值
+#Vol.ctl.1EAAC8BC#	-6dB
+#Vol.ctl.1B21927#	0dB
+#Vol.ctl.C32CB46A#	+6dB
+#Vol.ctl.78260F2D#	当调整回放增益引起削波(clipping)时发出警告
+#Vol.msg.Putwrvwhsc#	警告: 使用写入的回放增益播放会造成一些削波(clipping). 改变调整 -{0}dB 来防止?
+#Vol.msg.Tcrvwbab#	计算的回放增益值将被调整 {0}dB
+
+! Now Playing Assistant
+#NPA.ctl.PlayQueue#	播放队列
+! message displayed when Play Queue tab is selected
+#NPA.msg.drdrittor#	拖动曲目来重新排列播放顺序
+
+! right click on Now Playing List, only displayed if one or more tracks are queued next eg. in shuffle mode
+#Main.menu.ManPlQue#	管理播放队列
+
+! library explorer - when categories enabled and means All tracks in the library
+#Main.menu.All#		全部
+#Main.menu.ShoCateg#	类别
+#Main.menu.EnaCateg#	显示类别
+
+! artist visualiser
+#Main.menu.UseFlickr#	使用 flickr.com
+
+! 18-Dec-2011
+#Main.msg.TlhbsmcO#	已经成功移动音乐库 - 点击确认重启MusicBee
+#Sys.msg.StlywtmtM#	改变音乐库位置:
+#Sys.msg.Tnlcbacfoc#	新位置不能是当前库的子文件夹
+#Sys.msg.Tnlmbanf#	新位置必须是新的或者空的文件夹
+#Sys.msg.Movilibto#	正在移动音乐库到 {0}...
+#Sys.msg.CCmliblt#	确认: 改变音乐库位置到:
+! set in the Player preferences
+#Sys.ctl.76DC4ACC#	使用对数音量比例
+
+
+! 24-Dec-2011
+! now playing preferences
+#Sys.ctl.950A7F4#	修剪播放过的曲目: 保留最后一个
+#Sys.ctl.1DE2C872#	曲目
+
+! this is already defined in the original full file but its now used in the System Preferences dialog menu - if it doesnt fit, suggest you use "Sorting" only
+#Main.menu.Sorting#	排序/分组
+
+! hotkey preferences
+#Sys.ctl.7C673675#	5 键鼠标操作:
+#Sys.ctl.1011E7C#	X-Button 1
+#Sys.ctl.FEEEFE5F#	X-Button 2
+#Sys.msg.GoBack#	通用: 后退
+#Sys.msg.GoForward#	通用: 前进
+
+! tags(1) preferences
+#Sys.ctl.78B75559#	自动计算专辑评分
+
+! displayed in the tag editor Settings panel
+#Tag.ctl.compalbum#	iTunes compilation
+! now playing layout panel customisation dialog
+#NPL.ctl.B2D1BC91#	窗口透明
+#NPL.ctl.34F9AB00#	使用自定义颜色高亮文字
+! right click on Track Browser column header/ Configure Layout/ ...
+#Main.menu.ShTrkCnt#	显示曲目总数
+
+
+! 1-Jan-2012
+#Main.menu.BurnDisc#	刻录光盘
+#Main.menu.BurnPlDisc#	刻录播放列表到光盘
+#Burn.ctl.82DD4673#	目标驱动器:
+#Burn.ctl.E95598B8#	光盘标签:
+#Burn.ctl.1F5AD54F#	刻录速度:
+#Burn.ctl.D3EAE9FD#	光盘格式:
+#Burn.ctl.F3FDBE9B#	音频 CD
+#Burn.ctl.D115553D#	数据 CD/DVD/BD
+#Burn.ctl.93B46BFA#	曲目间隔
+#Burn.ctl.8D2DA8DD#	音量级别
+#Burn.ctl.D71D122F#	按照曲目
+#Burn.ctl.D5D388F7#	按照专辑
+#Burn.ctl.4074341A#	MP3 CD
+#Burn.ctl.9CB2062E#	文件大小被估计
+#Burn.ctl.9C8ABB87#	文件命名
+#Burn.ctl.72F4C0A4#	为每个播放列表及其曲目创建一个子文件夹
+#Burn.ctl.7533DE02#	保存封面到 folder.jpg
+#Burn.ctl.B0AF9820#	总计大小:
+#Burn.ctl.CEFA6884#	需要光盘数:
+#Burn.ctl.2AA41FD2#	总计播放时间:
+#Burn.ctl.6D5DE166#	要刻录的文件:
+#Burn.ctl.11A0534D#	某些文件名太长或有重复 - 请重新编辑它们
+#Burn.ctl.6DD4E29A#	拖放曲目,播客或播放列表到此面板
+#Burn.col.9A8A678D#	光盘
+#Burn.col.B137545E#	路径
+#Burn.col.E8D2641A#	艺术家 - 标题
+#Burn.col.D9BF30F6#	大小
+#Burn.col.F7B7196D#	时间
+#Burn.ctl.68254C06#	完成时:
+#Burn.ctl.C1FD8465#	弹出光盘
+#Burn.ctl.F477FB62#	播放
+#Burn.ctl.36EB3E14#	删除源文件
+#Burn.ctl.7C803C5B#	刻录开始后最小化到状态栏
+#Burn.btn.32CDB12D#	刻录
+#Burn.msg.DiscBurn#	光盘刻录
+#Burn.msg.2sec#		2 秒
+#Burn.msg.Max#		最大
+#Burn.msg.Fasbo-dywt#	文件正在被刻录 - 要中止进程吗?
+#Burn.msg.Ndbdet#	未检测到刻录机
+#Burn.msg.Ndii#		光盘未插入
+#Burn.msg.NisaCD#	光盘不是CD
+#Burn.msg.Ninbawbe#	光盘不是空的,将会擦除原来的数据
+#Burn.msg.Fafnce64#	文件夹和文件的名称不能超过64个字符
+#Burn.msg.1disc#	1 光盘
+#Burn.msg.9discs#	{0} 光盘
+#Burn.msg.ItndacOK#	插入下一张光盘点击确认继续
+#Burn.msg.IadatcOK#	插入一张光盘点击确认继续
+#Burn.msg.TidisaCD#	插入的光盘不是CD,不能刻录为音频CD - 插入另外一个光盘点击确认继续
+#Burn.msg.Tidinwr#	插入的光盘不可写 - 插入另外一张光盘后点击确认继续
+#Burn.msg.CTidinb#	确认: 插入的光盘不是空的 - 点击确认继续 (将会擦除)
+#Burn.msg.Init#		刻录: 初始化中
+#Burn.msg.Encode#	刻录: MP3 编码...  {0} of {1}
+#Burn.msg.Erase#	刻录: 擦除光盘
+#Burn.msg.Erase9#	刻录: 擦除光盘...  {0}%
+#Burn.msg.Prep#		刻录: 准备文件
+#Burn.msg.Prep9#	刻录: 准备文件...  {0}%
+#Burn.msg.Write#	刻录: 正在写入
+#Burn.msg.WriteTr#	刻录: 写入曲目 {0}...  {1}%
+! {0}=blank or space and disc number when burning multiple discs
+#Burn.msg.Write9#	刻录: 正在刻录光盘 {0}...  {1}%
+#Burn.msg.WriteFin#	刻录: 完成光盘 {0}
+#Burn.msg.Bfwtfe#	刻录失败:
+#Burn.msg.canc#		刻录取消
+#Burn.msg.compl#	刻录完成
+
+! device synchronisation - progress status text
+#Tfr.msg.Mofil#		移动文件中
+#Tfr.msg.Cofil#		复制文件中
+#Tfr.msg.Defil#		删除文件中
+#Tfr.msg.Copy0#		'{0}' 复制中
+#Tfr.msg.Copy0to1#	复制 '{0}' 到 {1}
+#Tfr.msg.Ren0#		重命名 '{0}'
+#Tfr.msg.Move0#		移动 '{0}'
+#Tfr.msg.Del0#		删除 '{0}'
+#Tfr.msg.Upd0#		更新 '{0}'
+#Tfr.msg.Playlist0#	播放列表 '{0}'
+
+! right click on Now Playing List/ List/
+#Main.menu.AutUpPlOr#	自动更新播放顺序
+
+! new device setting for MSC devices
+#Dev.ctl.72F4C0A4#	为每个播放列表及其曲目创建一个子文件夹
+
+
+
+! 8-Jan-2012 ***********************************
+#Welc.msg.pwait#	请等待, {0}...
+
+! new field type setting in Preferences/ Layout/ Configure Fields
+#tField.ctl.75B9997B#	类型
+#tField.msg.String#	字符串
+#tField.msg.Number#	数字
+#tField.msg.Date#	日期
+#tField.msg.Rating#	评分
+
+! {0} = name of the device data is being copied to
+#Tfr.msg.to0#		到 {0}
+
+! now playing assistant on the 3rd tab when no tracks a queued
+#NPA.msg.Nthbq#		队列中没有曲目
+
+#Main.msg.AutoDjAc#	智能 DJ 已被激活 - 点击来停止
+#Main.msg.AutoDjGo#	智能 DJ 已经启动
+#Main.msg.AutoDjSt#	智能 DJ 已经停止
+
+! right click in left panel on a standard playlist
+#Main.menu.EdPlayl#	编辑播放列表
+#ePlay.msg.Play-0#	播放列表 - {0}
+#ePlay.ctl.69ECCD49#	显示的字段:
+#ePlay.ctl.9316EC4#	使用默认
+#ePlay.ctl.C685671C#	自定义字段只用于此列表
+
+! set from the Sorting/Grouping tab in the Preferences screen - click the ... button on a sort set
+#Sort.msg.header#	排序集 {0}
+#Sort.ctl.F0C797E2#	排序依据:
+#Sort.ctl.38E2DA97#	顺序:
+#Sort.msg.Asc#		递增
+#Sort.msg.Desc#		递减
+#Sort.msg.Desc1#	递减
+
+! this was previously: "auto-calculate album rating (value is NOT saved to file)"
+#Sys.ctl.78B75559#	自动计算专辑评分
+#Sys.ctl.33956C26#	排除评分为0的曲目
+
+! when files are saved in the background but not available to view just yet
+#Main.msg.Unsf-dywt#	正在保存文件 - 你希望放弃保存直接退出吗?
+
+! View/ Visualiser/ 
+#Main.menu.VisShInTab#	在一个标签页中显示
+! Layout preferences
+#Sys.ctl.D2B7C6F6#	在一个标签页中显示可视化
+
+! new error validation in the file converter
+#Cvt.msg.Omcfhsfas#	一个或多个转换文件将会和源文件重名. 请更改输出文件名设置.
+
+#Sys.btn.5C73ED21#	调整视图
+#Sys.ctl.8A46D369#	显示曲目及专辑信息
+#Sys.ctl.A655867A#	在一个标签页中
+#Sys.ctl.9219449B#	在底部面板中
+
+#PLE.msg.TrkArtist#	曲目和艺术家
+#PLE.ctl.A978F39E#	曲目和艺术家视图布局
+#PLE.ctl.46C1550F#	在曲目和艺术家面板中显示:
+#PLE.ctl.EB2CA7A0#	正在播放的曲目详情
+#PLE.ctl.CD1EF162#	艺术家信息标签页:
+! new section displayed in the Last.fm artist panel (only if any recent album releases)
+#Main.msg.ReanUpcRel#	最近和将临的发布
+#Main.msg.NoReceRel#	无最近的发布
+
+! changing "Radio Playlist" to "Playlist Mixer" because people making incorrect assumptions what it is
+#Main.menu.EdRa#	编辑播放列表混合器
+#Main.menu.NeRa#	创建新播放列表混合器
+#RPL.frm.7542BFD3#	播放列表混合器
+#RPL.ctl.F1A8AF4D#	播放列表混合器允许你根据一系列自动播放列表条件创建列表, 每个条件可以指定曲目数,从中随机选择
+#RPL.msg.RaPlCr#	播放列表混合器查询条件
+
+! Preferences/ Layout/ main panel/ Configure Views/ Track and Artist/ Customise
+#NPL.frm.8A5E8FB3#	曲目和艺术家设置
+! preserve the space padding
+#NPL.ctl.F30148E1#	 专辑封面  
+#NPL.ctl.BC099729#	专辑封面最大值:
+#NPL.ctl.3D3C7C7B#	像素
+#NPL.ctl.878B8BE4#	 歌词头部  
+#NPL.ctl.4886FB4B#	使用自定义字体:
+#NPL.ctl.C7335453#	 艺术家传记  
+#NPL.ctl.E325DF3C#	使用自定义字体:
+#NPL.ctl.828EB697#	 曲目详情  
+#NPL.ctl.B86E5C68#	使用正在播放面板的设置
+#NPL.ctl.989BEB10#	使用自定义设置
+
+#Sys.msg.bookmkey#	想创建书签, 需要在快捷键设置面板设置 '{0}'
+#Sys.msg.usebookm#	使用 '{0}' 快捷键创建书签
+
+#Sys.msg.Etscwtsm#	启用此项与播放器选项中的开始模式(恢复播放)冲突.
+#Sys.msg.Etocwtcm#	启用此项与正在播放选项中的'清除当前曲目'冲突.
+
+#Main.msg.Ret{0}#	获取 '{0}'...
+
+! 23-Jan-2012
+! track browser column selection
+#Main.menu.5Col#	5 栏
+#Main.menu.6Col#	6 栏
+! correction to a previous translation item
+#Scan.msg.Eodtfs-pst#	扫描文件时发生错误 - 请在帮助/ 支持/ 查看错误日志 查看
+
+! correction to the identifier from last weeks translation file
+#Sys.ctl.8FCDC4FA#	显示曲目和艺术家信息
+#Sys.ctl.8A46D369#	在一个标签页中显示
+#Sys.ctl.37918908#	在底面板显示
+
+! artwork layout settings
+#PLE.ctl.3FA39B45#	合并字段 (使长字符串换到下一行)
+#PLE.msg.Wmftfntb#	封面布局: 合并字段时需要保持字体大小相同
+! album and tracks layout settings
+#PLE.ctl.125DDD65#	分组头部:
+
+#Org.msg.invpath#	无效的文件名
+
+! click ... in a file naming template
+! keep these as brief as possible
+#Main.menu.Functions#	函数
+#Main.menu.groupfunc#	Group() - 按首字母分割
+#Main.menu.sortfunc#	Sort() - 返回可排序的值
+#Main.menu.firstfunc#	First() - 多值字段的首个
+#Main.menu.FiCh#	Left() - 左 n 个字符
+#Main.menu.padfunc#	Pad() - 填补到 n 个数字
+#Main.menu.iffunc#	If() - 返回双值中的一个
+#Main.menu.nufu#	IsNull() - 返回双值中的一个
+
+! track and artist panel layout
+#PLE.tab.D22486BF#	显示的标签页
+#PLE.tab.DDC51FBA#	正在播放的曲目的标签页
+#PLE.ctl.F5F50F43#	显示背景艺术家相片:
+#PLE.ctl.1900E930#	淡入:  0%
+#PLE.ctl.7ECA24D1#	100%
+#PLE.ctl.E325DF3C#	使用自定义字体 (歌词):
+#PLE.ctl.4886FB4B#	使用自定义字体 (艺术家):
+#PLE.ctl.E87FA610#	艺术家照片 *
+#PLE.ctl.F4E3595B#	* 当曲目和艺术家面板停靠在底部时才显示艺术家相片
+! keep leading and trailing spaces:
+#Main.menu.Photos#	 相片 
+#Main.msg.Untrapic#	无法获取任何艺术家照片
+
+! file organiser
+#Org.ctl.B2BA02BA#	允许替换现存的字段
