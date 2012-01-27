@@ -3491,3 +3491,321 @@
 ! right click on the main panel, when shuffle is enabled this is displayed instead of Queue Last
 #Main.menu.QueRand#	Queue Random
 #Main.menu.QueAlbRan#	Queue Album Random
+
+! 4-Dec-2011
+#Main.msg.Terminate#	Terminate
+! right click in main panel/ Play More/ Output To -> select one of the output devices
+#Main.menu.OutputTo#	Output To
+
+! Player preferences
+#Sys.ctl.1D988E62#	crossfade when skipping tracks
+
+! artwork panel
+#Main.msg.AgbSorCom#	Albums grouped by Sort Composer
+
+! right click on Track Browser header
+#Main.menu.FrSoByLi#	Use "Sort By" Fields
+#Main.menu.Orientat#	Orientation
+#Main.menu.THorizont#	Horizontal
+#Main.menu.TVertical#	Vertical
+#Main.menu.1Col#	1 Column
+#Main.menu.2Col#	2 Columns
+#Main.menu.3Col#	3 Columns
+#Main.menu.4Col#	4 Columns
+
+! Layout preferences - main panel/ Track Browser
+#Sys.ctl.BB7339F#	hide for playlists
+
+! 11-Dec-2011
+! tag editor settings tab
+#Tag.ctl.alplalinseq#	keep album tracks in sequence when shuffling
+
+! volume analysis tool
+#Vol.ctl.3E353466#	adjust calculated replaygain values:
+#Vol.ctl.1EAAC8BC#	-6dB
+#Vol.ctl.1B21927#	0dB
+#Vol.ctl.C32CB46A#	+6dB
+#Vol.ctl.78260F2D#	alert when the replaygain adjustment would cause clipping
+#Vol.msg.Putwrvwhsc#	WARNING: Playback using the written replaygain values would have some clipping. Change the adjustment by -{0}dB to prevent clipping
+#Vol.msg.Tcrvwbab#	The calculated replaygain values will be adjusted by {0}dB
+
+! Now Playing Assistant
+#NPA.ctl.PlayQueue#	Play Queue
+! message displayed when Play Queue tab is selected
+#NPA.msg.drdrittor#	drag and drop tracks to rearrange the play order
+
+! right click on Now Playing List, only displayed if one or more tracks are queued next eg. in shuffle mode
+#Main.menu.ManPlQue#	Manage Play Queue
+
+! library explorer - when categories enabled and means All tracks in the library
+#Main.menu.All#		All
+#Main.menu.ShoCateg#	Categories
+#Main.menu.EnaCateg#	Show Categories
+
+! artist visualiser
+#Main.menu.UseFlickr#	Use flickr.com
+
+! 18-Dec-2011
+#Main.msg.TlhbsmcO#	The library has been successfully moved - click OK to restart MusicBee
+#Sys.msg.StlywtmtM#	Change music library location:
+#Sys.msg.Tnlcbacfoc#	The new location cannot be a child folder of the current library
+#Sys.msg.Tnlmbanf#	The new location must be a new or empty folder
+#Sys.msg.Movilibto#	Moving library to {0}...
+#Sys.msg.CCmliblt#	CONFIRMATION: Change music library location to:
+! set in the Player preferences
+#Sys.ctl.76DC4ACC#	use logarithmic volume scaling
+
+
+! 24-Dec-2011
+! now playing preferences
+#Sys.ctl.950A7F4#	prune played tracks: keep the last
+#Sys.ctl.1DE2C872#	tracks
+
+! this is already defined in the original full file but its now used in the System Preferences dialog menu - if it doesnt fit, suggest you use "Sorting" only
+#Main.menu.Sorting#	Sorting/Grouping
+
+! hotkey preferences
+#Sys.ctl.7C673675#	actions for 5 button mouses:
+#Sys.ctl.1011E7C#	X-Button 1
+#Sys.ctl.FEEEFE5F#	X-Button 2
+#Sys.msg.GoBack#	General: Navigate Back
+#Sys.msg.GoForward#	General: Navigate Forward
+
+! tags(1) preferences
+#Sys.ctl.78B75559#	auto-calculate album rating
+
+! displayed in the tag editor Settings panel
+#Tag.ctl.compalbum#	iTunes compilation
+! now playing layout panel customisation dialog
+#NPL.ctl.B2D1BC91#	transparent window
+#NPL.ctl.34F9AB00#	use custom colour for highlighted text
+! right click on Track Browser column header/ Configure Layout/ ...
+#Main.menu.ShTrkCnt#	Show Track Count
+
+
+! 1-Jan-2012
+#Main.menu.BurnDisc#	Burn Disc
+#Main.menu.BurnPlDisc#	Burn Playlist to Disc
+#Burn.ctl.82DD4673#	target drive:
+#Burn.ctl.E95598B8#	disc label:
+#Burn.ctl.1F5AD54F#	burn speed:
+#Burn.ctl.D3EAE9FD#	disc format:
+#Burn.ctl.F3FDBE9B#	audio CD
+#Burn.ctl.D115553D#	data CD/DVD/BD
+#Burn.ctl.93B46BFA#	gap between tracks
+#Burn.ctl.8D2DA8DD#	level volume
+#Burn.ctl.D71D122F#	by track
+#Burn.ctl.D5D388F7#	by album
+#Burn.ctl.4074341A#	MP3 CD
+#Burn.ctl.9CB2062E#	file sizes are estimated
+#Burn.ctl.9C8ABB87#	file naming
+#Burn.ctl.72F4C0A4#	create a sub-folder for each playlist and its tracks
+#Burn.ctl.7533DE02#	save artwork to folder.jpg
+#Burn.ctl.B0AF9820#	total file size:
+#Burn.ctl.CEFA6884#	discs required:
+#Burn.ctl.2AA41FD2#	total play time:
+#Burn.ctl.6D5DE166#	files to be burnt:
+#Burn.ctl.11A0534D#	some filenames are too long or duplicated - please edit and change them
+#Burn.ctl.6DD4E29A#	drag and drop music tracks, podcasts, or playlists into this panel
+#Burn.col.9A8A678D#	disc
+#Burn.col.B137545E#	path
+#Burn.col.E8D2641A#	artist - title
+#Burn.col.D9BF30F6#	size
+#Burn.col.F7B7196D#	time
+#Burn.ctl.68254C06#	on completion:
+#Burn.ctl.C1FD8465#	eject disc
+#Burn.ctl.F477FB62#	play sound
+#Burn.ctl.36EB3E14#	delete source files
+#Burn.ctl.7C803C5B#	minimise to status bar when burn starts
+#Burn.btn.32CDB12D#	Burn
+#Burn.msg.DiscBurn#	Disc Burner
+#Burn.msg.2sec#		2 seconds
+#Burn.msg.Max#		Maximum
+#Burn.msg.Fasbo-dywt#	Files are still being burnt - do you want to abort the burn process?
+#Burn.msg.Ndbdet#	No disc burners detected
+#Burn.msg.Ndii#		No disc is inserted
+#Burn.msg.NisaCD#	Disc is not a CD
+#Burn.msg.Ninbawbe#	Disc is not blank and will be erased
+#Burn.msg.Fafnce64#	Folder and file names cannot exceed 64 characters
+#Burn.msg.1disc#	1 disc
+#Burn.msg.9discs#	{0} discs
+#Burn.msg.ItndacOK#	Insert the next disc and click OK to proceed
+#Burn.msg.IadatcOK#	Insert a disc and then click OK to proceed
+#Burn.msg.TidisaCD#	The inserted disc is not a CD and cannot be burnt as an Audio CD - insert another disc and then click OK to proceed
+#Burn.msg.Tidinwr#	The inserted disc is not writeable - insert another disc and then click OK to proceed
+#Burn.msg.CTidinb#	CONFIRMATION: The inserted disc is not blank - click OK to proceed (it will be erased)
+#Burn.msg.Init#		Burn: Initialising
+#Burn.msg.Encode#	Burn: MP3 Encoding...  {0} of {1}
+#Burn.msg.Erase#	Burn: Erasing Disc
+#Burn.msg.Erase9#	Burn: Erasing Disc...  {0}%
+#Burn.msg.Prep#		Burn: Preparing Files
+#Burn.msg.Prep9#	Burn: Preparing Files...  {0}%
+#Burn.msg.Write#	Burn: Writing
+#Burn.msg.WriteTr#	Burn: Writing Track {0}...  {1}%
+! {0}=blank or space and disc number when burning multiple discs
+#Burn.msg.Write9#	Burn: Writing Disc{0}...  {1}%
+#Burn.msg.WriteFin#	Burn: Finishing Disc{0}
+#Burn.msg.Bfwtfe#	Burn failed with the following error:
+#Burn.msg.canc#		Burn Cancelled
+#Burn.msg.compl#	Burn Completed
+
+! device synchronisation - progress status text
+#Tfr.msg.Mofil#		Moving files
+#Tfr.msg.Cofil#		Copying files
+#Tfr.msg.Defil#		Deleting files
+#Tfr.msg.Copy0#		Copying '{0}'
+#Tfr.msg.Copy0to1#	Copying '{0}' to {1}
+#Tfr.msg.Ren0#		Renaming '{0}'
+#Tfr.msg.Move0#		Moving '{0}'
+#Tfr.msg.Del0#		Deleting '{0}'
+#Tfr.msg.Upd0#		Updating '{0}'
+#Tfr.msg.Playlist0#	Playlist '{0}'
+
+! right click on Now Playing List/ List/
+#Main.menu.AutUpPlOr#	Automatically Update Play Order
+
+! new device setting for MSC devices
+#Dev.ctl.72F4C0A4#	create a sub-folder for each playlist and its tracks
+
+
+
+! 8-Jan-2012 ***********************************
+#Welc.msg.pwait#	Please wait, {0}...
+
+! new field type setting in Preferences/ Layout/ Configure Fields
+#tField.ctl.75B9997B#	Type
+#tField.msg.String#	String
+#tField.msg.Number#	Number
+#tField.msg.Date#	Date
+#tField.msg.Rating#	Rating
+
+! {0} = name of the device data is being copied to
+#Tfr.msg.to0#		to {0}
+
+! now playing assistant on the 3rd tab when no tracks a queued
+#NPA.msg.Nthbq#		No tracks have been queued
+
+#Main.msg.AutoDjAc#	Auto-DJ is active - click to stop
+#Main.msg.AutoDjGo#	Auto-DJ has been started
+#Main.msg.AutoDjSt#	Auto-DJ has been stopped
+
+! right click in left panel on a standard playlist
+#Main.menu.EdPlayl#	Edit Playlist
+#ePlay.msg.Play-0#	Playlist - {0}
+#ePlay.ctl.69ECCD49#	displayed fields:
+#ePlay.ctl.9316EC4#	use default
+#ePlay.ctl.C685671C#	custom fields for this playlist only
+
+! set from the Sorting/Grouping tab in the Preferences screen - click the ... button on a sort set
+#Sort.msg.header#	Sorting Set {0}
+#Sort.ctl.F0C797E2#	sort by:
+#Sort.ctl.38E2DA97#	sort order:
+#Sort.msg.Asc#		Ascending
+#Sort.msg.Desc#		Descending
+#Sort.msg.Desc1#	Desc
+
+! this was previously: "auto-calculate album rating (value is NOT saved to file)"
+#Sys.ctl.78B75559#	auto-calculate album rating
+#Sys.ctl.33956C26#	exclude zero rated tracks
+
+! when files are saved in the background but not available to view just yet
+#Main.msg.Unsf-dywt#	Files are still being saved - do you want to leave them unsaved and close MusicBee anyway?
+
+! View/ Visualiser/ 
+#Main.menu.VisShInTab#	Show in a Tab
+! Layout preferences
+#Sys.ctl.D2B7C6F6#	show visualiser in a tab
+
+! new error validation in the file converter
+#Cvt.msg.Omcfhsfas#	One or more converted files will have the same filename as the source file. You need to change your output filename settings.
+
+#Sys.btn.5C73ED21#	Configure Views
+#Sys.ctl.8A46D369#	show track & artist information
+#Sys.ctl.A655867A#	in a tab
+#Sys.ctl.9219449B#	on the bottom pane
+
+#PLE.msg.TrkArtist#	Track and Artist
+#PLE.ctl.A978F39E#	Track and Artist Layout
+#PLE.ctl.46C1550F#	show the following tabs in the Track & Artist panel:
+#PLE.ctl.EB2CA7A0#	playing track details
+#PLE.ctl.CD1EF162#	artist information tabs:
+! new section displayed in the Last.fm artist panel (only if any recent album releases)
+#Main.msg.ReanUpcRel#	Recent and Upcoming Releases
+#Main.msg.NoReceRel#	No recent releases
+
+! changing "Radio Playlist" to "Playlist Mixer" because people making incorrect assumptions what it is
+#Main.menu.EdRa#	Edit Playlist Mixer
+#Main.menu.NeRa#	New Playlist Mixer
+#RPL.frm.7542BFD3#	Playlist Mixer
+#RPL.ctl.F1A8AF4D#	A playlist mixer allows you to compose a playlist constructed from a list of auto-playlist criteria, where a specified number of random tracks are selected from each auto-playlist and on completion the cycle is repeated
+#RPL.msg.RaPlCr#	Playlist Mixer Criteria
+
+! Preferences/ Layout/ main panel/ Configure Views/ Track and Artist/ Customise
+#NPL.frm.8A5E8FB3#	Track and Artist Configuration
+! preserve the space padding
+#NPL.ctl.F30148E1#	 album picture  
+#NPL.ctl.BC099729#	maximum album picture size:
+#NPL.ctl.3D3C7C7B#	px
+#NPL.ctl.878B8BE4#	 lyrics header  
+#NPL.ctl.4886FB4B#	use custom font:
+#NPL.ctl.C7335453#	 artist biography  
+#NPL.ctl.E325DF3C#	use custom font:
+#NPL.ctl.828EB697#	 track details  
+#NPL.ctl.B86E5C68#	use settings from the Now Playing panel
+#NPL.ctl.989BEB10#	use custom settings
+
+#Sys.msg.bookmkey#	In order to create a bookmark, a hotkey needs to be assigned to '{0}' in the Hotkeys panel
+#Sys.msg.usebookm#	Use hotkey '{0}' to create bookmarks
+
+#Sys.msg.Etscwtsm#	Enabling this option conflicts with the start mode (resume playback) set in the Player preferences.
+#Sys.msg.Etocwtcm#	Enabling this option conflicts with the 'clear current track' setting in the Now Playing preferences.
+
+#Main.msg.Ret{0}#	Retrieving '{0}'...
+
+! 23-Jan-2012
+! track browser column selection
+#Main.menu.5Col#	5 Columns
+#Main.menu.6Col#	6 Columns
+! correction to a previous translation item
+#Scan.msg.Eodtfs-pst#	Errors occurred during the file scan - please see the log in the Help/ Support/ View Error Log menu
+
+! correction to the identifier from last weeks translation file
+#Sys.ctl.8FCDC4FA#	show track & artist information
+#Sys.ctl.8A46D369#	in a tab
+#Sys.ctl.37918908#	on the bottom pane
+
+! artwork layout settings
+#PLE.ctl.3FA39B45#	merge fields (so long text wraps to the next line)
+#PLE.msg.Wmftfntb#	Artwork Layout: When merging fields the fonts need to be the same size
+! album and tracks layout settings
+#PLE.ctl.125DDD65#	grouping header:
+
+#Org.msg.invpath#	invalid filename
+
+! click ... in a file naming template
+! keep these as brief as possible
+#Main.menu.Functions#	Functions
+#Main.menu.groupfunc#	Group() - groups first letter into a set
+#Main.menu.sortfunc#	Sort() - returns a sortable value
+#Main.menu.firstfunc#	First() - first of multi-value field
+#Main.menu.FiCh#	Left() - left n characters
+#Main.menu.padfunc#	Pad() - pads numbers to n digits
+#Main.menu.iffunc#	If() - returns one of two values
+#Main.menu.nufu#	IsNull() - returns one of two values
+
+! track and artist panel layout
+#PLE.tab.D22486BF#	Displayed Tabs
+#PLE.tab.DDC51FBA#	Playing Track Tab
+#PLE.ctl.F5F50F43#	show background artist picture:
+#PLE.ctl.1900E930#	fading:  0%
+#PLE.ctl.7ECA24D1#	100%
+#PLE.ctl.E325DF3C#	use custom font (lyrics):
+#PLE.ctl.4886FB4B#	use custom font (artist):
+#PLE.ctl.E87FA610#	artist photos *
+#PLE.ctl.F4E3595B#	* artist photos are only shown when the Track and Artist panel is docked on the bottom pane
+! keep leading and trailing spaces:
+#Main.menu.Photos#	 Photos 
+#Main.msg.Untrapic#	Unable to retrieve any artist pictures
+
+! file organiser
+#Org.ctl.B2BA02BA#	allow existing files to be replaced
