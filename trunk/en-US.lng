@@ -3809,3 +3809,55 @@
 
 ! file organiser
 #Org.ctl.B2BA02BA#	allow existing files to be replaced
+
+! 29-Jan-2012
+! preserve the leading and trailing spaces
+! Preferences/ Tags(1)/ Artwork retrieval
+#Sys.ctl.25589B6E#	  artwork retrieval  
+#Sys.ctl.6783B757#	artwork retrieved and priority:
+! suggestion: abbreviate to "Set Filter" if too long
+#Sys.btn.36C6EB07#	Set Retrieval Filter...
+#Sys.msg.Cpsnsbfcc#	The preferences need to be saved first
+#Sys.msg.Folwarn#	Folder.jpg has not been enabled in the artwork retrieval settings so will not be displayed
+#Art.msg.ARF#		Artwork Retrieval Filter
+#Art.msg.srfaop#	set retrieval filters and order the priority for the primary displayed picture
+#Art.msg.embinfile#	Embeded
+#Art.msg.rtppfef#	reset the primary picture for existing files
+#Art.msg.Eacobs#	Embeded artwork cannot be disabled
+#Art.msg.Eacobsaf#	Embeded artwork can only be set as the highest or lowest priority
+#Art.msg.Eacobswc#	A wildcard (*.*) filter needs to be set to the lowest priority
+
+! File organiser when opened from the Library preferences/ auto-organise button
+#Org.ctl.490C7CFE#	copy source files into the music library
+
+! Layout preferences
+#Sys.ctl.BFA8B0FB#	command buttons:
+#Sys.btn.4F4A07DD#	Edit...
+#CB.frm.A3A1681C#	Set Command Buttons
+#CB.ctl.B3DCB49A#	Command buttons are displayed on the main panel toolbar and when clicked execute the selected command
+#CB.ctl.29148F68#	button text
+#CB.ctl.6CB4B964#	command
+
+! Now playing preferences
+#Sys.ctl.EA3EF86C#	playback follows cursor
+
+! Library preferences - playlists section
+#Sys.ctl.3446BE8D#	use relative file paths
+! Library preferences and File Scanner - mark meaning highlight the file with a (!) alert
+#Sys.ctl.BA6D7629#	mark and send duplicates to the Inbox
+#Scan.ctl.33D2D5C6#	mark and send duplicates to the Inbox
+
+#Main.msg.Fisadup#	File is a duplicate
+#Scan.msg.,0ndp#	, {0} sent to Inbox
+
+! abbreviation for Ascending
+#Sort.msg.Asc1#		Asc
+
+! right click on player panel
+#Main.menu.LocinCN#	Locate in Computer Node
+! hotkey preferences
+#Sys.msg.GLSTinCN#	General: Locate Selected Track in Computer Node
+#Sys.msg.FOFoU#		File: Open File or Url
+
+! right click in Inbox/ Send To/ Audio Books
+#Main.menu.AudioB#	Audio Books
