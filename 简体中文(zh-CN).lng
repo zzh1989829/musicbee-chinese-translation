@@ -3558,7 +3558,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 
 ! 24-Dec-2011
 ! now playing preferences
-#Sys.ctl.950A7F4#	修剪播放过的曲目: 保留最后一个
+#Sys.ctl.950A7F4#	修剪播放过的曲目: 保留最后
 #Sys.ctl.1DE2C872#	曲目
 
 ! this is already defined in the original full file but its now used in the System Preferences dialog menu - if it doesnt fit, suggest you use "Sorting" only
@@ -3809,3 +3809,55 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 
 ! file organiser
 #Org.ctl.B2BA02BA#	允许替换现存的字段
+
+! 29-Jan-2012
+! preserve the leading and trailing spaces
+! Preferences/ Tags(1)/ Artwork retrieval
+#Sys.ctl.25589B6E#	  封面检索  
+#Sys.ctl.6783B757#	封面检索和优先级:
+! suggestion: abbreviate to "Set Filter" if too long
+#Sys.btn.36C6EB07#	设置过滤器...
+#Sys.msg.Cpsnsbfcc#	需要首先保存首选项
+#Sys.msg.Folwarn#	Folder.jpg 未在封面获取设置处启用
+#Art.msg.ARF#		封面获取过滤器
+#Art.msg.srfaop#	设置获取过滤器和优先级显示主要的封面
+#Art.msg.embinfile#	嵌入的
+#Art.msg.rtppfef#	重置现存文件的主要封面
+#Art.msg.Eacobs#	无法显示嵌入的封面
+#Art.msg.Eacobsaf#	嵌入的封面只能设置为最高或最低优先级
+#Art.msg.Eacobswc#	通配符过滤器 (*.*) 应该设置为最低优先级
+
+! File organiser when opened from the Library preferences/ auto-organise button
+#Org.ctl.490C7CFE#	复制源文件到音乐库中
+
+! Layout preferences
+#Sys.ctl.BFA8B0FB#	命令按钮:
+#Sys.btn.4F4A07DD#	编辑...
+#CB.frm.A3A1681C#	设置命令按钮
+#CB.ctl.B3DCB49A#	命令按钮显示在主面板工具栏上,点击后将会执行指定的命令
+#CB.ctl.29148F68#	按钮文本
+#CB.ctl.6CB4B964#	命令
+
+! Now playing preferences
+#Sys.ctl.EA3EF86C#	跟随光标播放
+
+! Library preferences - playlists section
+#Sys.ctl.3446BE8D#	使用相对路径
+! Library preferences and File Scanner - mark meaning highlight the file with a (!) alert
+#Sys.ctl.BA6D7629#	将重复项标记并移至Inbox
+#Scan.ctl.33D2D5C6#	将重复项标记并移至Inbox
+
+#Main.msg.Fisadup#	文件是重复的
+#Scan.msg.,0ndp#	, {0} 移至 Inbox
+
+! abbreviation for Ascending
+#Sort.msg.Asc1#		递增
+
+! right click on player panel
+#Main.menu.LocinCN#	在计算机节点定位
+! hotkey preferences
+#Sys.msg.GLSTinCN#	通俗: 在计算机节点定位选中的曲目
+#Sys.msg.FOFoU#		文件: 打开文件或URL
+
+! right click in Inbox/ Send To/ Audio Books
+#Main.menu.AudioB#	有声读物
