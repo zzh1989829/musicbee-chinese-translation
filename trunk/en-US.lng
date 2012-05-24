@@ -3861,3 +3861,271 @@
 
 ! right click in Inbox/ Send To/ Audio Books
 #Main.menu.AudioB#	Audio Books
+
+!********* Version 2 ****************************
+#Main.tree.Music#	Music
+! these navigator nodes have been renamed but no need to change
+! was "Audio Books"
+#Main.tree.AuBo#	Audiobooks
+! was "Radio Stations"
+#Main.tree.RaSt#	Radio
+! was "Play History"
+#Main.tree.PlHi#	History
+
+#Main.field.119#	Video Kind
+#Main.field.120#	Season
+#Main.field.121#	Episode
+#Main.tree.Video#	Video
+#Main.menu.Video#	Video
+
+#Tag.ctl.vformat:#	format:
+! abbreviation for "frames per second"
+#Tag.msg.fsp#		fps
+#Tag.ctl.vtitle:#	video title:
+#Tag.ctl.series:#	series name:
+#Tag.ctl.season:#	season/ episode:
+#Tag.ctl.kind:#		kind:
+#Tag.msg.MVideo#	Music Video
+#Tag.msg.Film#		Film
+#Tag.msg.Show#		TV Show
+#Main.msg.videofile#	video file
+! layout preferences
+#Sys.ctl.758400CD#	video
+! player preferences
+! preserve leading and trailing spaces
+#Sys.ctl.30A8078#	  video player  
+#Sys.ctl.F4624564#	use MusicBee plugin
+#Sys.ctl.8091623A#	use external player:
+#Sys.msg.YntVSPiP#	You first need to download and then enable the Video Support plugin in the Plugins preferences panel
+#Sys.msg.YcpvuMB#	You can play videos using MusicBee or using an external player as set in the Player preferences panel
+! plugin preferences
+#Sys.msg.VideoPl#	Video Support
+#Sys.msg.VidAsfvp#	Enables reading and playback of video files
+! improbable errors when attempting to play videos:
+#Main.msg.UntlVSp#	The Video Support plugin could not be loaded - locate BASS_DSHOW.NET.dll in Windows Explorer, right click/ Properties/ Unblock
+#Main.msg.TVSpntbeip#	The Video Support plugin needs to enabled in the Player preferences
+#Main.msg.YevpMeiPp#	You need to enable a video player (MusicBee or external) in the Player preferences
+#Main.msg.TVSphnbs#	The Video Support plugin has not started or is not enabled
+#Main.msg.Utsvpbie#	Unable to start video playback because of an internal error
+#Main.msg.Vfcobpftmw#	Video files can only be played from the main application window
+#Main.msg.MissingCodc#	A codec for '{0}' files needs to be downloaded - see http://getmusicbee.com/help.html
+#Main.msg.AferQtbeit#	AAC/MPEG files require BASS_AAC.dll to be installed - see http://www.getmusicbee.com/help.html
+#Cvt.msg.rB(QsiPP#	requires BASS_AAC.dll
+
+! used in the artwork layout header for videos (when grouping by file)
+#Main.msg.Videoby0#	Videos by {0}
+
+! file scanner
+! the following 2 items already translated but now without "music" in the wording
+#Scan.ctl.B384E1BB#	scan for new files and playlists in the following folders:
+#Scan.ctl.310BC7C7#	destination for new files:
+#Scan.ctl.E4F7E57B#	include audio files
+#Scan.ctl.2CF7D61D#	include video files
+
+! when deleting a file from the Video library
+#Main.msg.DfVideo#	Delete from Videos only
+#Main.msg.DfVidaC#	Delete from Videos and Computer
+
+! Layout Preferences/ Player (main player and taskbar player)
+#Sys.ctl.EC053D0C#	use "flat" layout
+#Sys.ctl.F4B37B90#	volume mute (1)
+! displayed in taskbar player tooltip
+#Main.help.MuteVol#	Mute volume
+#Main.help.EnaVol#	Enable volume
+! button is displayed when a setting required MusicBee to be restarted
+#Sys.btn.Restart#	Restart
+
+! Preferences/ Sorting and Grouping
+! preserve leading and trailing spaces
+#Sys.ctl.A76F8892#	 sorting  
+#Sys.ctl.395AF197#	 grouping  
+
+
+! file organiser
+! was "copy source files into the music library"
+#Org.ctl.490C7CFE#	copy source files into the library
+! tab on file organiser
+#Org.msg.MusicFiles#	Music Files
+#Org.ctl.953E2664#	* excluded from organisation
+
+
+! device settings panel
+#Dev.ctl.97AE033B#	storage path:
+#Dev.ctl.84205DB7#	music files:
+#Dev.ctl.CC1D6F08#	podcast files:
+#Dev.ctl.9CF894E7#	video files:
+#Dev.ctl.B5E3D63A#	audiobook files:
+#Dev.ctl.518778E6#	playlists path:
+#Dev.msg.Ycoctfpfp#	You can only change the folder path for podcasts - the file naming template cannot be changed
+
+! new hotkey
+#Sys.msg.GeRestart#	General: Restart MusicBee
+
+! auto-playlist definition
+#AP.ctl.20D79241#	filter out duplicates when the same track is repeated on multiple albums
+
+! filter manager
+#LFM.msg.view#		view:
+
+! additional letters to be included on the A-Z jumplist over and above A-Z (suggest you only add common letters as too many will get chopped off for people using less wide screens) - use a comma separator eg. A,B,C
+#Main.ctl.JumpList#	
+
+! new hotkey command - note this is in addition to the existing #Sys.msg.GeRe# General: Refresh
+#Sys.msg.GeRe2#		General: Refresh + Rescan Monitored Folders
+
+! Tags(1) preferences/ Artwork Retrieval Filter
+#Art.msg.scannew#	scan and link new artwork
+
+! in the text search box you can now enter "value1 or value2" so it searchs for either words
+#Main.msg.or#		or
+
+#EQ.msg.UtIDP#		Unable to initialise DSP plugin - StereoEnhancer.dll is missing
+#Main.msg.YntlvoMB#	You need the latest version of MusicBee to use this plugin
+#Main.msg.TpmntbuWE#	The plugin may need to be unblocked using Windows Explorer (right click on the DLL file/ Properties/ Unblock)
+! actual windows error message is appended to this prompt
+#Main.msg.Utitp#	Unable to initialise this plugin:
+
+! auto-playlist dialog
+#AP.ctl.E34B56B1#	Remove Files
+#AP.ctl.534BF636#	Add Files
+#AP.msg.Tffhbaftap#	the following files have been added to the auto-playlist results:
+
+! hotkeys
+#Sys.msg.VSSVisMax#	View: Show Visualiser Full Screen
+#Sys.msg.SeToOrgFolM#	Send To: Move to Organised Folder
+#Sys.msg.SeToOrgFolC#	Send To: Copy to Organised Folder
+
+! Theater Mode plugin - because the way musicbee works with plugins, you will only see the english version of the first 2 items in the Plugin preferences if you have already loaded used this plugin
+#TMP.msg.ThMode#	Theater Mode
+#TMP.msg.ThModeDes#	Display a customisable theater mode view
+#TMP.msg.ASS#		Activate Screen Saver
+#TMP.msg.Utwcr#		Upcoming tracks will be chosen at random
+#TMP.msg.Eop#		No upcoming tracks
+#TMP.msg.from#		from
+#TMP.msg.Cun#		Coming up next...
+! hotkey commands
+#TMP.msg.VASS#		View: Activate Screen Saver
+#TMP.msg.VThMode#	View: Theater Mode
+
+#Main.msg.0Fnsfwt#	{0} files are not supported for tag writing
+
+! 23-April-2012
+! corrections to previous new.txt
+#Main.msg.DbisnfXP#	Disc burning is not supported for XP
+#Sys.ctl.FC56D058#	use Windows default
+! the following was incorrectly #Sys.ctl.EC053D0C#
+#Sys.ctl.B757EA73#	use "flat" layout
+! the following was incorrectly #AP.ctl.E34B56B1# and #AP.ctl.534BF636#
+#AP.btn.E34B56B1#	Remove Files
+#AP.btn.534BF636#	Add Files
+
+! Tags(1) preferences
+#Sys.ctl.8718212#	album cover storage:
+#Sys.ctl.AEDC390C#	artist pictures location:
+#Sys.msg.Charploc#	Change artist picture location:
+! this was "artwork retrieved and priority:"
+#Sys.ctl.6783B757#	album cover search rules:
+! this was "Artwork Retrieval Filter"
+#Art.msg.ARF#		Album Artwork Retrieval Filter
+! this was "set retrieval filters and order the priority for the primary displayed picture"
+#Art.msg.srfaop#	set retrieval filters and order the priority for the primary displayed album cover
+
+! right click on main panel header
+#Main.msg.KeCoSToPl#	Keep Columns Sized to Panel
+
+! panel layout editor (right click on main panel header/ Customise Panel Settings/ Track Detail)
+#PLE.ctl.D4C631FC#	set grouping header custom font:
+#PLE.ctl.B073CB3#	grouping is enabled in the main panel (right click on the header bar/ Group By)
+
+! right click on main panel header/ Group By/ ...
+#Main.menu.NoGroup#	No Grouping
+! right click on main panel header/ Sort By/ ... but only displays when Group By has been set
+#Main.msg.GrpBySort#	"Group By" Order
+
+! theater mode plugin - you can translate any text using this format: #TMP.txt.text#	translated text
+! the following come with the default theater view files
+#TMP.txt.Up next...#	Up next...
+#TMP.txt.in#		in
+#TMP.txt.on#		on
+#TMP.txt.[lyrics]#	[lyrics]
+#TMP.txt.Lyrics#	Lyrics
+
+
+! 13-May-2012
+#Main.field.126#	Album Duration
+
+! theater mode plugin
+#TMP.msg.FindMore#	Find More Views...
+
+! Preferences/ Tags(2)/ auto-tagging: artwork size
+#Sys.ctl.278D304A#	apply image size filter:
+#Sys.ctl.BF38B3DB#	to
+
+! now playing assistant
+#NPA.msg.autoClose#	automatically close the Now Playing Assistant
+
+! Preferences/ Layout/ Player/ taskbar player
+#Sys.ctl.1EDFA2BD#	show artwork only (no track details)
+
+! hotkey preferences - was "View: Application Minimise"
+#Sys.msg.ViApMi#	View: Application Minimise/ Restore
+
+! when left navigator panel is collapsed, move mouse to left side and navigator panel auto-opens. In the right click context menu, this item appears
+#Main.menu.DisAuOp#	Disable Panel Auto-Open
+! when the left navigator is collapsed and mouse over the location bar, this is displayed as a tooltip
+#Main.msg.Rctoedit#	Right click to edit the location
+
+! Now Playing preferences
+! preserve leading and trailing spaces
+#Sys.ctl.19E1B73D#	  play count rules  
+#Sys.ctl.7A460E04#	skip count +1:
+#Sys.ctl.CEDC6974#	less than
+#Sys.ctl.AA6997C6#	% of track played or
+#Sys.ctl.AA6997C7#	seconds
+#Sys.ctl.D0791F41#	play count +1:
+#Sys.ctl.6F9DE501#	more than
+#Sys.ctl.635A8513#	% of track played or
+#Sys.ctl.635A8512#	seconds
+#Sys.msg.Wlsetpcw#	When last.fm scrobbling is enabled, the play count will be incremented following last.fm rules ie. 50% or > 4 minutes play time
+
+! layout preferences
+#Sys.ctl.CAE36B3F#	show menu in:
+#Sys.msg.SBardef#	Default Location
+#Sys.msg.SiWCBar#	Caption Bar
+#Sys.msg.AHWCBar#	Auto-Hide
+#Sys.msg.SbWCBar#	Below Caption Bar
+
+! View main menu
+#Main.menu.MenuBar#	Menu Bar
+#Main.menu.SBardef#	Show in Default Location
+#Main.menu.SiWCBar#	Show in Windows Caption Bar
+#Main.menu.AHWCBar#	Auto-Hide in Windows Caption Bar
+#Main.menu.SbWCBar#	Show below Windows Caption Bar
+
+#Main.msg.UAaTltslac#	Use the "Album and Tracks" view to show tracks with a large album cover
+
+! auto-tag by Track/ identify track
+#tTag.msg.Btiethv#	Because track identification is ticked, any tags that have a value will be overwritten. Track identification is not 100% accurate so some files may be mistagged. Click OK to proceed.
+
+! 20-May-2012
+! when the left navigator is collapsed and mouse over the location bar ... button, this is displayed as a tooltip
+#Main.msg.Rctoedit#	Click to edit the location
+
+! restore library dialog - this dialog can only be invoked in exceptional circumstances so you cant test it
+#LRes.msg.Linlef#	Some of your library music files are no longer in their original folder location, possibly because the library has been restored or copied to a new location. Use this dialog to tell MusicBee where the music files are now located:
+! File/ Advanced/ Remap Music Folders
+#Main.menu.ReMFP#	Remap Music Folders
+#Main.btn.Skip#		Skip
+#LRes.msg.Utdtmf#	Use this dialog to remap music files to a new location. Only the referenced file path in the library will be changed, and no files will be physically moved ie. the files should already be located in the target path.
+#LRes.msg.mmfpf#	map music file path from:
+#LRes.msg.to#		to:
+
+! command button to Locate a file
+#Main.btn.Locate#	Locate...
+
+! naming template function
+#Main.menu.rightFunc#	Right() - right n characters
+
+! displayed in the Now Playing panel header as "Now Playing [DJ]" when the auto dj is enabled
+#Main.msg.DJ#		DJ
+#Main.help.Sh(o.4#	Shuffle (on/off/auto-dj)
