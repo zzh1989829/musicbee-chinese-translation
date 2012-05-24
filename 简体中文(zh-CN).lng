@@ -3861,3 +3861,271 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 
 ! right click in Inbox/ Send To/ Audio Books
 #Main.menu.AudioB#	有声读物
+
+!********* Version 2 ****************************
+#Main.tree.Music#	音乐
+! these navigator nodes have been renamed but no need to change
+! was "Audio Books"
+#Main.tree.AuBo#	有声读物
+! was "Radio Stations"
+#Main.tree.RaSt#	电台
+! was "Play History"
+#Main.tree.PlHi#	历史
+
+#Main.field.119#	视频种类
+#Main.field.120#	季
+#Main.field.121#	集
+#Main.tree.Video#	视频
+#Main.menu.Video#	视频
+
+#Tag.ctl.vformat:#	格式:
+! abbreviation for "frames per second"
+#Tag.msg.fsp#		fps
+#Tag.ctl.vtitle:#	标题:
+#Tag.ctl.series:#	系列名称:
+#Tag.ctl.season:#	季/ 集:
+#Tag.ctl.kind:#		种类:
+#Tag.msg.MVideo#	音乐视频
+#Tag.msg.Film#		电影
+#Tag.msg.Show#		电视剧
+#Main.msg.videofile#	视频文件
+! layout preferences
+#Sys.ctl.758400CD#	视频
+! player preferences
+! preserve leading and trailing spaces
+#Sys.ctl.30A8078#	  视频播放器  
+#Sys.ctl.F4624564#	使用 MusicBee 插件
+#Sys.ctl.8091623A#	使用外部播放器:
+#Sys.msg.YntVSPiP#	你需要首先下载并在首选项处启用视频支持插件
+#Sys.msg.YcpvuMB#	你可以使用 MusicBee 视频插件或外部播放器播放视频
+! plugin preferences
+#Sys.msg.VideoPl#	视频支持
+#Sys.msg.VidAsfvp#	启用视频文件的读取和播放
+! improbable errors when attempting to play videos:
+#Main.msg.UntlVSp#	无法加载视频支持插件 - 请检查 BASS_DSHOW.NET.dll
+#Main.msg.TVSpntbeip#	需要在首选项处启用视频支持插件
+#Main.msg.YevpMeiPp#	你需要在首选项处指定一个视频播放器 (MusicBee or 外部) 
+#Main.msg.TVSphnbs#	视频支持插件没有启动或未被启用
+#Main.msg.Utsvpbie#	由于内部错误,视频支持插件没有启动成功
+#Main.msg.Vfcobpftmw#	只能在主程序窗口播放视频文件
+#Main.msg.MissingCodc#	需要下载 '{0}' 文件的解码器 - 请查看 http://getmusicbee.com/help.html
+#Main.msg.AferQtbeit#	AAC/MPEG 文件需要安装 BASS_AAC.dll - 请查看 http://www.getmusicbee.com/help.html
+#Cvt.msg.rB(QsiPP#	需要 BASS_AAC.dll
+
+! used in the artwork layout header for videos (when grouping by file)
+#Main.msg.Videoby0#	{0}的视频
+
+! file scanner
+! the following 2 items already translated but now without "music" in the wording
+#Scan.ctl.B384E1BB#	在下列文件夹扫描文件和播放列表
+#Scan.ctl.310BC7C7#	新文件路径
+#Scan.ctl.E4F7E57B#	包括音频文件
+#Scan.ctl.2CF7D61D#	包括视频文件
+
+! when deleting a file from the Video library
+#Main.msg.DfVideo#	只从视频库中删除
+#Main.msg.DfVidaC#	从视频库和计算机中删除
+
+! Layout Preferences/ Player (main player and taskbar player)
+#Sys.ctl.EC053D0C#	使用 "平坦" 布局
+#Sys.ctl.F4B37B90#	静音 (1)
+! displayed in taskbar player tooltip
+#Main.help.MuteVol#	静音
+#Main.help.EnaVol#	取消静音
+! button is displayed when a setting required MusicBee to be restarted
+#Sys.btn.Restart#	重启MusicBee
+
+! Preferences/ Sorting and Grouping
+! preserve leading and trailing spaces
+#Sys.ctl.A76F8892#	 排序  
+#Sys.ctl.395AF197#	 分组  
+
+
+! file organiser
+! was "copy source files into the music library"
+#Org.ctl.490C7CFE#	复制源文件到库中
+! tab on file organiser
+#Org.msg.MusicFiles#	音乐文件
+#Org.ctl.953E2664#	* 从整理中排除
+
+
+! device settings panel
+#Dev.ctl.97AE033B#	存储路径:
+#Dev.ctl.84205DB7#	音乐文件:
+#Dev.ctl.CC1D6F08#	播客文件:
+#Dev.ctl.9CF894E7#	视频文件:
+#Dev.ctl.B5E3D63A#	音频书籍文件:
+#Dev.ctl.518778E6#	播放列表路径:
+#Dev.msg.Ycoctfpfp#	你只能路径,不能修改命名规则
+
+! new hotkey
+#Sys.msg.GeRestart#	通用: 重启 MusicBee
+
+! auto-playlist definition
+#AP.ctl.20D79241#	当相同曲目在多个专辑中重复时将他们过滤出来
+
+! filter manager
+#LFM.msg.view#		查看:
+
+! additional letters to be included on the A-Z jumplist over and above A-Z (suggest you only add common letters as too many will get chopped off for people using less wide screens) - use a comma separator eg. A,B,C
+#Main.ctl.JumpList#	
+
+! new hotkey command - note this is in addition to the existing #Sys.msg.GeRe# General: Refresh
+#Sys.msg.GeRe2#		通用: 刷新并重新扫描监视的文件夹
+
+! Tags(1) preferences/ Artwork Retrieval Filter
+#Art.msg.scannew#	扫描新的封面
+
+! in the text search box you can now enter "value1 or value2" so it searchs for either words
+#Main.msg.or#		或
+
+#EQ.msg.UtIDP#		无法初始化 DSP 插件 - 缺少StereoEnhancer.dll
+#Main.msg.YntlvoMB#	你需要使用最新的 MusicBee 来使用此插件
+#Main.msg.TpmntbuWE#	The plugin may need to be unblocked using Windows Explorer (right click on the DLL file/ Properties/ Unblock)
+! actual windows error message is appended to this prompt
+#Main.msg.Utitp#	无法初始化下列插件:
+
+! auto-playlist dialog
+#AP.ctl.E34B56B1#	删除文件
+#AP.ctl.534BF636#	添加文件
+#AP.msg.Tffhbaftap#	下列文件已经被添加到自动播放列表
+
+! hotkeys
+#Sys.msg.VSSVisMax#	View: Show Visualiser Full Screen
+#Sys.msg.SeToOrgFolM#	发送到: 移动到组织过的文件夹
+#Sys.msg.SeToOrgFolC#	发送到: 复制到组织过的文件夹
+
+! Theater Mode plugin - because the way musicbee works with plugins, you will only see the english version of the first 2 items in the Plugin preferences if you have already loaded used this plugin
+#TMP.msg.ThMode#	剧院模式
+#TMP.msg.ThModeDes#	显示一个自定义剧院模式视图
+#TMP.msg.ASS#		启用屏幕保护
+#TMP.msg.Utwcr#		将会随机选择下面的曲目
+#TMP.msg.Eop#		下面没有曲目了
+#TMP.msg.from#		从
+#TMP.msg.Cun#		接下来的是...
+! hotkey commands
+#TMP.msg.VASS#		查看: 启用屏幕保护
+#TMP.msg.VThMode#	插件: 剧院模式
+
+#Main.msg.0Fnsfwt#	{0} 的标签不支持写入
+
+! 23-April-2012
+! corrections to previous new.txt
+#Main.msg.DbisnfXP#	XP不支持光盘烧录
+#Sys.ctl.FC56D058#	使用 Windows 默认
+! the following was incorrectly #Sys.ctl.EC053D0C#
+#Sys.ctl.B757EA73#	使用 "平坦" 布局
+! the following was incorrectly #AP.ctl.E34B56B1# and #AP.ctl.534BF636#
+#AP.btn.E34B56B1#	删除文件
+#AP.btn.534BF636#	添加文件
+
+! Tags(1) preferences
+#Sys.ctl.8718212#	专辑封面存储:
+#Sys.ctl.AEDC390C#	艺术家照片位置:
+#Sys.msg.Charploc#	修改艺术家照片位置:
+! this was "artwork retrieved and priority:"
+#Sys.ctl.6783B757#	专辑封面查找规则:
+! this was "Artwork Retrieval Filter"
+#Art.msg.ARF#		专辑封面查找过滤器
+! this was "set retrieval filters and order the priority for the primary displayed picture"
+#Art.msg.srfaop#	设置专辑封面查找过滤器和优先级
+
+! right click on main panel header
+#Main.msg.KeCoSToPl#	保持列宽
+
+! panel layout editor (right click on main panel header/ Customise Panel Settings/ Track Detail)
+#PLE.ctl.D4C631FC#	设置分组标题字体:
+#PLE.ctl.B073CB3#	在主面板启用分组(右键点击顶栏->分组)
+
+! right click on main panel header/ Group By/ ...
+#Main.menu.NoGroup#	不分组
+! right click on main panel header/ Sort By/ ... but only displays when Group By has been set
+#Main.msg.GrpBySort#	"分组" 顺序
+
+! theater mode plugin - you can translate any text using this format: #TMP.txt.text#	translated text
+! the following come with the default theater view files
+#TMP.txt.Up next...#	接下来的是...
+#TMP.txt.in#		in
+#TMP.txt.on#		on
+#TMP.txt.[lyrics]#	[歌词]
+#TMP.txt.Lyrics#	歌词
+
+
+! 13-May-2012
+#Main.field.126#	专辑持续时间
+
+! theater mode plugin
+#TMP.msg.FindMore#	查找更多视图...
+
+! Preferences/ Tags(2)/ auto-tagging: artwork size
+#Sys.ctl.278D304A#	应用图片大小过滤器:
+#Sys.ctl.BF38B3DB#	到
+
+! now playing assistant
+#NPA.msg.autoClose#	自动关闭正在播放助手
+
+! Preferences/ Layout/ Player/ taskbar player
+#Sys.ctl.1EDFA2BD#	只显示封面(不显示曲目详情)
+
+! hotkey preferences - was "View: Application Minimise"
+#Sys.msg.ViApMi#	视图: 程序最小化/ 恢复
+
+! when left navigator panel is collapsed, move mouse to left side and navigator panel auto-opens. In the right click context menu, this item appears
+#Main.menu.DisAuOp#	禁用自动打开面板
+! when the left navigator is collapsed and mouse over the location bar, this is displayed as a tooltip
+#Main.msg.Rctoedit#	右键点击编辑位置
+
+! Now Playing preferences
+! preserve leading and trailing spaces
+#Sys.ctl.19E1B73D#	  播放计数规则
+#Sys.ctl.7A460E04#	跳过计数+1:
+#Sys.ctl.CEDC6974#	少于
+#Sys.ctl.AA6997C6#	% 播放或
+#Sys.ctl.AA6997C7#	秒
+#Sys.ctl.D0791F41#	播放计数+1:
+#Sys.ctl.6F9DE501#	大于
+#Sys.ctl.635A8513#	% 播放或
+#Sys.ctl.635A8512#	秒
+#Sys.msg.Wlsetpcw#	当启用last.fm 同步时scrobbling is enabled, 播放计数统计会按照下面 last.fm 规则
+
+! layout preferences
+#Sys.ctl.CAE36B3F#	显示菜单在:
+#Sys.msg.SBardef#	默认位置
+#Sys.msg.SiWCBar#	标题栏
+#Sys.msg.AHWCBar#	自动隐藏
+#Sys.msg.SbWCBar#	标题栏之下
+
+! View main menu
+#Main.menu.MenuBar#	菜单栏
+#Main.menu.SBardef#	显示在默认位置
+#Main.menu.SiWCBar#	在 Windows 标题栏显示
+#Main.menu.AHWCBar#	在 Windows 标题栏显示并自动隐藏
+#Main.menu.SbWCBar#	在 Windows 标题栏下显示
+
+#Main.msg.UAaTltslac#	使用 "专辑和曲目" 视图查看更大的专辑封面
+
+! auto-tag by Track/ identify track
+#tTag.msg.Btiethv#	使用曲目鉴别,任何有值的标签都会被重新.曲目识别不是100% 准确,有些标签可能会错误. 点击确定继续.
+
+! 20-May-2012
+! when the left navigator is collapsed and mouse over the location bar ... button, this is displayed as a tooltip
+#Main.msg.Rctoedit#	点击编辑位置
+
+! restore library dialog - this dialog can only be invoked in exceptional circumstances so you cant test it
+#LRes.msg.Linlef#	库中某些文件已经不在原始文件夹中, 可能是因为音乐库是被恢复的或者被复制到新的位置. 使用本对话框指定这些文件的新路径:
+! File/ Advanced/ Remap Music Folders
+#Main.menu.ReMFP#	重新映射音乐文件夹
+#Main.btn.Skip#		跳过
+#LRes.msg.Utdtmf#	使用这个对话框将音乐文件重新映射到新路径. 只有库中引用的文件路径才会改变, 本操作不会物理上移动文件. 例如文件应经事先移动到指定目标路径.
+#LRes.msg.mmfpf#	映射音乐文件路径从:
+#LRes.msg.to#		到:
+
+! command button to Locate a file
+#Main.btn.Locate#	定位...
+
+! naming template function
+#Main.menu.rightFunc#	Right() - 右边的n个字符
+
+! displayed in the Now Playing panel header as "Now Playing [DJ]" when the auto dj is enabled
+#Main.msg.DJ#		DJ
+#Main.help.Sh(o.4#	打乱 (开/关/auto-dj)
