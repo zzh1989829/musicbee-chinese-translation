@@ -4128,4 +4128,213 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 
 ! displayed in the Now Playing panel header as "Now Playing [DJ]" when the auto dj is enabled
 #Main.msg.DJ#		DJ
-#Main.help.Sh(o.4#	打乱 (开/关/auto-dj)
+#Main.help.Sh(o.4#	打乱 (开/关/智能DJ)
+
+! 4-June-2012
+
+#Sys.ctl.318DE5E9#	启动时检查更新的文件并移除无效链接
+#Lib.ctl.BF417927#	启动时检查更新的文件并移除无效链接
+
+! smart playlists - when Artist is the query field, "is similar to" can be chosen as the query criteria
+#AP.msg.similarTo#	相似
+#AP.msg.[cpart]#	[正在播放的艺术家]
+#AP.ctl.F8255FE4#	打乱:
+#AP.ctl.42E71136#	不打乱
+#AP.ctl.A92C859#	随机
+#AP.ctl.1B1140BC#	高评分曲目优先
+#AP.ctl.59011D86#	不同/
+#AP.ctl.690FEEF2#	/相同艺术家
+#AP.ctl.F7BDD5EA#	相同艺术家曲目重复间隔:
+#DJ.ctl.F7BDD5EA#	相同艺术家曲目重复间隔:
+#RPL.ctl.F7BDD5EA#	相同艺术家曲目重复间隔:
+
+! panel layout editor/ Artwork layout settings
+#PLE.ctl.2BDFE9F4#	当显示一个专辑时:
+#PLE.ctl.5E8A1E71#	双击动作:
+#PLE.ctl.50644354#	显示专辑内容
+#PLE.ctl.5065E8F3#	播放专辑
+
+! was "Auto-Hide in Windows Caption Bar", View main menu/ Menu Bar
+#Main.menu.AHWCBar#	Windows 标题栏按钮
+! Layout preferences/ show menu in:
+#Sys.msg.AHWCBar#	标题栏 (按钮)
+
+
+! 17-June-2012
+! Layout preferences/main panel: tabs orientation
+#Main.menu.THorizontC#	水平 (标题栏)
+#Main.menu.ShTabsHorC#	在标题栏水平显示标签
+
+! artwork layout preferences
+#PLE.ctl.6DD938AA#	播放一个专辑时,专辑播放结束时停止播放
+#PLE.ctl.4D331A70#	封面双击动作:
+#PLE.ctl.50644354#	显示专辑内容
+#PLE.ctl.5065E8F3#	播放专辑
+
+
+! click the search text box button/ Custom Search
+#Main.menu.ReCuSe#	关闭自定义搜索
+
+! artwork panel, click on the text under an album picture
+#Main.menu.FindAlAlb#	查找所有专辑
+
+
+! 8-July-2012
+#Sys.msg.Wtaditcbtm#	当在标题栏固定标签时,只能以按钮显示主菜单
+! hotkey preferences
+#Sys.msg.ViShAZBar#	视图: 显示 A-Z 导航栏
+#Sys.msg.EdCopTagOn#	编辑: 仅复制标签和封面
+#Sys.msg.EdCopTagAll#	编辑: 复制标签,封面,播放计数和评分
+#Sys.msg.EdCopPast#	编辑:粘贴复制的标签
+#Sys.msg.TagCopCl#	标签已经复制到剪贴板
+#Sys.msg.GenNavBac#	通用: (导航)后退
+#Sys.msg.GenNavFor#	通用: (导航)前进
+
+! now playing layout/ artwork in the track details section
+#NPL.ctl.6F4C7095#	适应面板
+
+! auto-shutdown
+#AutoSD.msg.closeMb#	关闭 MusicBee
+! shutdown will occur: end of track
+#AutoSD.msg.enoftrk#	曲目结束时
+#AutoSD.msg.Cowishut#	关机
+#AutoSD.msg.Cowisle#	睡眠
+#AutoSD.msg.MBwillcl#	关闭 MusicBee
+! {0} is one of the modes above
+#AutoSD.msg.0in1mins#	 {1} 分钟后{0}
+#AutoSD.msg.0in1#	 {1}后{0} 
+#AutoSD.msg.endofpl#	播放列表结束后{0} 
+#AutoSD.msg.endofct#	当前播放结束后{0}
+
+! artwork panel/ right click on header bar
+#Main.menu.ShoHeadBar#	显示标题栏
+
+! album and tracks layout - this appears below "grouping header:" and is a prompt for a field the user selects
+#PLE.ctl.5D551E09#	L:
+#PLE.ctl.5AA36AD7#	R:
+#PLE.ctl.E9049165#	L = 在左边显示, R = 在右边显示
+
+! file converter
+#Cvt.ctl.5E159E6C#	永久调节音量:
+#Cvt.ctl.1351952B#	所有曲目到相同音量
+#Cvt.ctl.AF43E315#	所有专辑到相同音量
+#Cvt.ctl.A38EA0B7#	播放和跳过计数:
+#Cvt.ctl.A1746C24#	重置为0
+#Cvt.ctl.F56B26B4#	从源文件复制
+
+#Tag.msg.notsup#	在文件转换选项出没有启用'{0}' 编码器
+#Tag.msg.encfile#	Encoding file...
+
+! click the panel layout button to the left of the search box
+#Main.menu.SaView#	Saved Views
+#Main.menu.NoSavVw#	No saved views
+#Main.menu.SViewST#	Copy Current View Settings To..
+
+! right click on a tab header
+#Main.menu.LeftPanel#	Left Navigator
+#Main.menu.Active#	Active
+#Main.menu.Hidden#	Hidden
+#Main.menu.Disabed#	Disabled
+
+! auto-playlist, for the "Is" or "Is Not" selection criteria this value is selectable - click the ... button
+#AP.msg.predval#	predefined values:
+#Main.msg.playtrack#	[playing track]
+
+! 22-July-2012
+! equaliser window
+#EQ.ctl.C83C3B8E#	10-band
+#EQ.ctl.C83C3B8B#	15-band
+
+! field was incorrectly labeled in the last file
+#Main.menu.Disabled#	Disabled
+! changed the wording from "Saved Views"
+#Main.menu.SaView#	Custom Views
+#Main.menu.NoSavVw#	No custom views
+
+! auto-dj panel opened from the Auto-Dj node in the left panel
+#DJ.ctl.85FDBD37#	rated by last.fm as more than
+#Dj.msg.trfrart#	tracks from artists
+#Dj.msg.tracks#		tracks
+#DJ.msg.rsttsts#	restrict selection to tracks similar to the seed track only
+#DJ.msg.ctsttptip#	choose tracks similar to the preceeding track in the playlist (allows more drift)
+
+#Sys.msg.groupwarn#	This option refines how tracks are grouped together to form an album - normally "Album Artist" and "Album" name suffice, but you might for example use custom tags to split box set albums.
+
+
+! 12-Aug-2012
+#Main.msg.UnstNPL#	Unable to save the Now Playing list:
+#Main.msg.UnstLDB#	Unable to save the Lbrary database:
+#LRes.msg.Rmfoco#	Remap music folders completed
+
+! when defining custom tags, this is the ! message that is displayed if the virtual tag text cannot be parsed
+#cTag.msg.Tvtecbp#	The virtual tag expression cannot be parsed @ "{0}"
+
+! {0} = 5 files, {1} = field such as 'album', {2} = name of album
+#Main.msg.CStft0bdd#	CONFIRMATION: Set tags for the {0} being drag/dropped to {1} '{2}'?
+
+! Preferences/ Library/ music library
+#Sys.ctl.C9930268#	check for updated files
+#Sys.ctl.AC60B7AE#	and remove dead links on startup
+#Lib.ctl.136CF1F7#	check for updated files
+#Lib.ctl.BF417927#	and remove dead links on startup
+
+! Preferences/ Player - in the devices dropdown box
+#Sys.msg.ImpWinOut#	Import Winamp Output Plugin...
+#Sys.msg.Wininaaod#	Wimamp plugin: {0} is now available as an output device
+
+! Preferences/ Player - this item appears in the Sound Device dropdown box if you have an output plugin selected
+#Sys.msg.SetInPlug#	Configured in Plugin
+
+! Preferences/ Hotkey
+#Sys.msg.TAbT-IfF#	Tools: Auto-Tag by Track - Infer Tags from Filename
+
+! when the new tickbox field is displayed as a field in the main panel, this menu item appears in the right click menu
+#Main.menu.TAllFile#	Tick all Files
+#Main.menu.UTAllFile#	Untick all Files
+#Main.menu.SelInvert#	Invert Ticked Files
+#Main.menu.SelTFile#	Select Ticked Files
+
+! genre category editor dialog opened from Tags(2)
+#gCat.ctl.F0C797E2#	sort by:
+#gCat.msg.Gimtmcat#	Genre: '{0}' is mapped to multiple categories: '{1}' and '{2}'
+#gCat.msg.Mf0imis#	Genre '{0}' has no mapping - ":" is missing
+#gCat.msg.Mf0hmacp#	Mapping '{0}' has multiple ":" and cannot be parsed
+
+! the context menu when you click on the ... button when editing any naming template
+#Main.menu.trimfunc#	Trim() - trims spaces
+#Main.menu.replaceFunc#	Replace() - replace text
+
+! auto-shutdown dialog (File/ Activate Auto-Shutdown)
+#AutoSD.ctl.838E3EAE#	fade volume starting in
+#AutoSD.ctl.5CE93694#	mins
+#AutoSD.btn.32CDB12D#	Activate
+#AutoSD.msg.Fvisaw#	Fade volume is only available when the @ shutdown trigger is set to "elapsed minutes"
+
+
+! 30-Aug-2012
+#Sys.msg.Utitod#	Unable to initialise the output device - restart MusicBee and try again ({0})
+
+! Preferences/ Tags(1)/ artwork retrieval filter
+#Art.msg.scansf#	include sub-folders
+#Art.msg.Rescan#	Rescan Artwork
+! {0} and {1} are numbers
+#Art.msg.scanning#	Scanning files...   {0} of {1}
+
+! HDCD plugin - requires a HDCD encoded track for this to show in the status bar
+#Main.msg.HDCDact#	HDCD active
+#Main.msg.HDCDactPE#	HDCD active (peak extension enabled)
+
+! Now Playing preferences
+! preserve the leading and trailing spaces on the item below
+#Sys.ctl.E851D615#	  playback  
+#Sys.ctl.15ACB967#	highlight playing track in now playing panel:
+#Sys.ctl.27D08EF#	select track
+#Sys.ctl.DE1CF9AF#	color text
+#Sys.ctl.3C14DC4C#	highlight playing track in main panel:
+#Sys.ctl.7394C704#	select track
+#Sys.ctl.4DDC2844#	color text
+
+#Main.msg.UAaTltslac#	Use the "Album and Tracks" layout to show tracks grouped by album with a large album cover - right click/ Panel Layout/ Album and Tracks
+
+! right click on the a-z bar
+#AZ.msg.Allmcsea#	Enable multi-character searches
