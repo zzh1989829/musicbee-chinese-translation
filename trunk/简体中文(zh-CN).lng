@@ -4223,118 +4223,118 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Cvt.ctl.F56B26B4#	从源文件复制
 
 #Tag.msg.notsup#	在文件转换选项出没有启用'{0}' 编码器
-#Tag.msg.encfile#	Encoding file...
+#Tag.msg.encfile#	编码文件...
 
 ! click the panel layout button to the left of the search box
-#Main.menu.SaView#	Saved Views
-#Main.menu.NoSavVw#	No saved views
-#Main.menu.SViewST#	Copy Current View Settings To..
+#Main.menu.SaView#	保存的视图
+#Main.menu.NoSavVw#	没有保存过的视图
+#Main.menu.SViewST#	复制当前视图设置到..
 
 ! right click on a tab header
-#Main.menu.LeftPanel#	Left Navigator
-#Main.menu.Active#	Active
-#Main.menu.Hidden#	Hidden
-#Main.menu.Disabed#	Disabled
+#Main.menu.LeftPanel#	左导航器
+#Main.menu.Active#	激活
+#Main.menu.Hidden#	隐藏
+#Main.menu.Disabed#	禁用
 
 ! auto-playlist, for the "Is" or "Is Not" selection criteria this value is selectable - click the ... button
-#AP.msg.predval#	predefined values:
-#Main.msg.playtrack#	[playing track]
+#AP.msg.predval#	预先定义的值:
+#Main.msg.playtrack#	[正在播放的曲目]
 
 ! 22-July-2012
 ! equaliser window
-#EQ.ctl.C83C3B8E#	10-band
-#EQ.ctl.C83C3B8B#	15-band
+#EQ.ctl.C83C3B8E#	10-波段
+#EQ.ctl.C83C3B8B#	15-波段
 
 ! field was incorrectly labeled in the last file
-#Main.menu.Disabled#	Disabled
+#Main.menu.Disabled#	禁用
 ! changed the wording from "Saved Views"
-#Main.menu.SaView#	Custom Views
-#Main.menu.NoSavVw#	No custom views
+#Main.menu.SaView#	自定义视图
+#Main.menu.NoSavVw#	无自定义视图
 
 ! auto-dj panel opened from the Auto-Dj node in the left panel
-#DJ.ctl.85FDBD37#	rated by last.fm as more than
-#Dj.msg.trfrart#	tracks from artists
-#Dj.msg.tracks#		tracks
-#DJ.msg.rsttsts#	restrict selection to tracks similar to the seed track only
-#DJ.msg.ctsttptip#	choose tracks similar to the preceeding track in the playlist (allows more drift)
+#DJ.ctl.85FDBD37#	在 last.fm 评分多于
+#Dj.msg.trfrart#	来自艺术家的曲目
+#Dj.msg.tracks#		曲目
+#DJ.msg.rsttsts#	限制选择的曲目仅仅与种子曲目相似
+#DJ.msg.ctsttptip#	选择与之前播放过的曲目相似的曲目(允许更多的便宜)
 
-#Sys.msg.groupwarn#	This option refines how tracks are grouped together to form an album - normally "Album Artist" and "Album" name suffice, but you might for example use custom tags to split box set albums.
+#Sys.msg.groupwarn#	这个选项可以更精确地定义如何将曲目组织为专辑-通常 "专辑艺术家" 和 "专辑" 标签已足够, 但是你可以使用自定义标签来更详细的定义
 
 
 ! 12-Aug-2012
-#Main.msg.UnstNPL#	Unable to save the Now Playing list:
-#Main.msg.UnstLDB#	Unable to save the Lbrary database:
-#LRes.msg.Rmfoco#	Remap music folders completed
+#Main.msg.UnstNPL#	无法保存正在播放列表:
+#Main.msg.UnstLDB#	无法保存库:
+#LRes.msg.Rmfoco#	重映射音乐文件夹完成
 
 ! when defining custom tags, this is the ! message that is displayed if the virtual tag text cannot be parsed
-#cTag.msg.Tvtecbp#	The virtual tag expression cannot be parsed @ "{0}"
+#cTag.msg.Tvtecbp#	虚拟标签表达式无法解析 @ "{0}"
 
 ! {0} = 5 files, {1} = field such as 'album', {2} = name of album
-#Main.msg.CStft0bdd#	CONFIRMATION: Set tags for the {0} being drag/dropped to {1} '{2}'?
+#Main.msg.CStft0bdd#	确认: 将 {0} 的标签拖放到 {1} '{2}'?
 
 ! Preferences/ Library/ music library
-#Sys.ctl.C9930268#	check for updated files
-#Sys.ctl.AC60B7AE#	and remove dead links on startup
-#Lib.ctl.136CF1F7#	check for updated files
-#Lib.ctl.BF417927#	and remove dead links on startup
+#Sys.ctl.C9930268#	检查更新的文件
+#Sys.ctl.AC60B7AE#	并且在启动时删除无效链接
+#Lib.ctl.136CF1F7#	检查更新的文件
+#Lib.ctl.BF417927#	并且在启动时删除无效链接
 
 ! Preferences/ Player - in the devices dropdown box
-#Sys.msg.ImpWinOut#	Import Winamp Output Plugin...
-#Sys.msg.Wininaaod#	Wimamp plugin: {0} is now available as an output device
+#Sys.msg.ImpWinOut#	导入 Winamp 输出插件...
+#Sys.msg.Wininaaod#	Wimamp 插件: 现在{0} 已经可以作为输出设备
 
 ! Preferences/ Player - this item appears in the Sound Device dropdown box if you have an output plugin selected
-#Sys.msg.SetInPlug#	Configured in Plugin
+#Sys.msg.SetInPlug#	在插件处设置
 
 ! Preferences/ Hotkey
-#Sys.msg.TAbT-IfF#	Tools: Auto-Tag by Track - Infer Tags from Filename
+#Sys.msg.TAbT-IfF#	工具: 根据曲目自动获取标签 - 从文件名推测
 
 ! when the new tickbox field is displayed as a field in the main panel, this menu item appears in the right click menu
-#Main.menu.TAllFile#	Tick all Files
-#Main.menu.UTAllFile#	Untick all Files
-#Main.menu.SelInvert#	Invert Ticked Files
-#Main.menu.SelTFile#	Select Ticked Files
+#Main.menu.TAllFile#	标记所有文件
+#Main.menu.UTAllFile#	取消标记所有文件
+#Main.menu.SelInvert#	反选标记的文件
+#Main.menu.SelTFile#	选择标记的文件
 
 ! genre category editor dialog opened from Tags(2)
-#gCat.ctl.F0C797E2#	sort by:
-#gCat.msg.Gimtmcat#	Genre: '{0}' is mapped to multiple categories: '{1}' and '{2}'
-#gCat.msg.Mf0imis#	Genre '{0}' has no mapping - ":" is missing
-#gCat.msg.Mf0hmacp#	Mapping '{0}' has multiple ":" and cannot be parsed
+#gCat.ctl.F0C797E2#	排序:
+#gCat.msg.Gimtmcat#	流派: '{0}' 被映射到多个流派类别: '{1}' 和 '{2}'
+#gCat.msg.Mf0imis#	流派 '{0}' 没有映射- 缺少":"
+#gCat.msg.Mf0hmacp#	映射 '{0}' 有多个":" ,无法解析
 
 ! the context menu when you click on the ... button when editing any naming template
-#Main.menu.trimfunc#	Trim() - trims spaces
-#Main.menu.replaceFunc#	Replace() - replace text
+#Main.menu.trimfunc#	Trim() - 修剪空格
+#Main.menu.replaceFunc#	Replace() - 替换文字
 
 ! auto-shutdown dialog (File/ Activate Auto-Shutdown)
-#AutoSD.ctl.838E3EAE#	fade volume starting in
-#AutoSD.ctl.5CE93694#	mins
-#AutoSD.btn.32CDB12D#	Activate
-#AutoSD.msg.Fvisaw#	Fade volume is only available when the @ shutdown trigger is set to "elapsed minutes"
+#AutoSD.ctl.838E3EAE#	淡出音量在
+#AutoSD.ctl.5CE93694#	分钟
+#AutoSD.btn.32CDB12D#	激活
+#AutoSD.msg.Fvisaw#	只有在关机触发器设置为"经过的时间" 淡出音量才有效
 
 
 ! 30-Aug-2012
-#Sys.msg.Utitod#	Unable to initialise the output device - restart MusicBee and try again ({0})
+#Sys.msg.Utitod#	无法初始化输出插件- 重启 MusicBee 并重试({0})
 
 ! Preferences/ Tags(1)/ artwork retrieval filter
-#Art.msg.scansf#	include sub-folders
-#Art.msg.Rescan#	Rescan Artwork
+#Art.msg.scansf#	包括子文件
+#Art.msg.Rescan#	重新扫描封面
 ! {0} and {1} are numbers
-#Art.msg.scanning#	Scanning files...   {0} of {1}
+#Art.msg.scanning#	正在扫描文件...   {0} / {1}
 
 ! HDCD plugin - requires a HDCD encoded track for this to show in the status bar
-#Main.msg.HDCDact#	HDCD active
-#Main.msg.HDCDactPE#	HDCD active (peak extension enabled)
+#Main.msg.HDCDact#	HDCD 激活
+#Main.msg.HDCDactPE#	HDCD 激活 (峰值扩展启用)
 
 ! Now Playing preferences
 ! preserve the leading and trailing spaces on the item below
-#Sys.ctl.E851D615#	  playback  
-#Sys.ctl.15ACB967#	highlight playing track in now playing panel:
-#Sys.ctl.27D08EF#	select track
-#Sys.ctl.DE1CF9AF#	color text
-#Sys.ctl.3C14DC4C#	highlight playing track in main panel:
-#Sys.ctl.7394C704#	select track
-#Sys.ctl.4DDC2844#	color text
+#Sys.ctl.E851D615#	  播放  
+#Sys.ctl.15ACB967#	在正在播放面板高亮正在播放曲目:
+#Sys.ctl.27D08EF#	选择曲目
+#Sys.ctl.DE1CF9AF#	彩色字体
+#Sys.ctl.3C14DC4C#	在主面板高亮正在播放曲目:
+#Sys.ctl.7394C704#	选择曲目
+#Sys.ctl.4DDC2844#	彩色字体
 
-#Main.msg.UAaTltslac#	Use the "Album and Tracks" layout to show tracks grouped by album with a large album cover - right click/ Panel Layout/ Album and Tracks
+#Main.msg.UAaTltslac#	使用 "专辑和曲目" 布局显示按专辑分组的曲目,通过一个较大的封面- 右键点击 面板布局 / 专辑和曲目
 
 ! right click on the a-z bar
-#AZ.msg.Allmcsea#	Enable multi-character searches
+#AZ.msg.Allmcsea#	启用多字符搜索
