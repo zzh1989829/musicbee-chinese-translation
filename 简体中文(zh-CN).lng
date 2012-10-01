@@ -436,7 +436,7 @@
 #Main.menu.MoPoTo#	移动播客视频到...
 #Main.menu.AuMoPo#	自动整理移动过的播客视频	
 #Main.menu.LoinLi#	在库中定位
-#Main.menu.LiWE#	在 Windows Explorer 中定位
+#Main.menu.LiWE#	在 Windows 资源管理器中定位
 #Main.menu.ShStDi#	显示电台目录
 #Main.menu.SIfP#	在 Internet 查找封面
 #Main.menu.OwDB#	用默认浏览器打开
@@ -1065,7 +1065,7 @@
 #Sys.msg.SeVo#		设置音量
 #Sys.ctl.928D5B04#	双击动作:
 #Sys.ctl.98295B37#	  文件类型  
-#Sys.ctl.101577A9#	在 Windows Explorer 和 右键菜单中嵌入Musicbee
+#Sys.ctl.101577A9#	在 Windows 资源管理器和右键菜单中嵌入 Musicbee
 #Sys.btn.85BA4697#	全选
 #Sys.btn.8FB0A6DC#	取消全选
 #Sys.ctl.C2AB6506#	  确认  
@@ -2795,7 +2795,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Main.field.78#		#
 
 ! status bar statistics
-#Main.msg.selected:#	selected:
+#Main.msg.selected:#	已选择:
 #Main.msg.MB#		MB
 #Main.msg.GB#		GB
 #Main.msg.mins#		分
@@ -2996,7 +2996,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #About.msg.C㏒M2Arr#	Copyright ?Steven Mayall 2008-2011, All rights reserved.
 #About.msg.Credits:#	Credits:
 
-#Art.msg.EAitSF#	Embed Artwork into the Selected Files
+#Art.msg.EAitSF#	将封面嵌入选中的文件
 ! when a picture is copied to the windows clipboard, this right click menu option will be visible on selected files
 #Main.menu.PasteArt#	粘贴封面
 #Main.msg.InvPicture#	无效图片
