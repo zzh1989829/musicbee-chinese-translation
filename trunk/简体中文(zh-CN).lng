@@ -31,7 +31,7 @@
 #Main.field.44#		评论
 #Main.field.45#		指挥家
 #Main.field.52#		Disc#
-#Main.field.53#		曲目#
+#Main.field.53#		专辑曲目#
 #Main.field.54#		曲目数
 #Main.field.55#		编码器
 #Main.field.56#		剧集日期
@@ -268,7 +268,7 @@
 ! left navigator tree
 #Main.tree.Library#	库
 #Main.tree.MuLi#	音乐库
-#Main.tree.Podcasts#	广播
+#Main.tree.Podcasts#	视频播客
 #Main.tree.AuBo#	有声读物
 #Main.tree.RaSt#	无线电台
 #Main.tree.Inbox#	Inbox
