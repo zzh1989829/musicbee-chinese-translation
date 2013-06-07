@@ -491,7 +491,7 @@
 #Main.menu.CLBS#	选择前清空列表
 #Main.menu.OpPl#	打开播放列表
 #Main.menu.FiTr#	查找曲目
-#Main.menu.LoPlTr#	定位正在播放的去秒
+#Main.menu.LoPlTr#	定位正在播放的曲目
 #Main.menu.LTiL#	在库中定位曲目
 #Main.menu.HiPlCo#	隐藏播放控制器
 #Main.menu.SiP(#	在面板中显示 (顶部)
@@ -1224,10 +1224,10 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #NPL.ctl.EBD7E277#	 last.fm "喜爱" 状态
 #NPL.ctl.53E6F98B#	显示文件 URL
 #NPL.ctl.8EB6C56F#	显示曲目属性(比特率, 采样频率, 声道, 持续时间)
-#NPL.tab.AE6098D0#	Web 连接
-#NPL.ctl.94D46BA0#	显示 Web 连接:
-#NPL.ctl.36209200#	在相同标签中打开所有连接
-#NPL.ctl.8B0D6E4C#	在新标签打开连接
+#NPL.tab.AE6098D0#	Web 链接
+#NPL.ctl.94D46BA0#	显示 Web 链接:
+#NPL.ctl.36209200#	在相同标签中打开所有链接
+#NPL.ctl.8B0D6E4C#	在新标签打开链接
 #NPL.msg.Oomvhbc-dy#	一项或多项配置已经修改 - 要保存吗?
 
 ! layout tab - Now Playing Notification opened from the "Notification Popup" button 
@@ -3166,8 +3166,8 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Main.msg.Sootff#	选择一个文件夹:
 #aNum.msg.Rf-safftlb#	文件重新排序 - 从列表中选择一个文件,点击按钮向上或向下移动
 ! you can translate key-descriptions which are displayed in menus when a command is assigned a hotkey using: #Main.key.XXX#	YYY
-#Main.key.Insert#	插入
-#Main.key.Enter#	回车
+#Main.key.Insert#	&Ins
+#Main.key.Enter#	Enter
 
 ! added 26-May-2011
 #Main.menu.CloTab#	关闭标签页
@@ -3252,7 +3252,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 
 #Sys.msg.PSB1m#		回放: 回退1分钟
 #Sys.msg.PSF1m#		回放: 前进1分钟
-#Sys.msg.VSSVis#	查看: 显示可视化
+#Sys.msg.VSSVis#	视图: 显示可视化
 
 
 ! added 27-July-2011
@@ -3389,10 +3389,10 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 
 #Main.msg.Untomolib#	无法将库移动到: {0}
 ! update to an existing context menu - {1} = clicked field eg. Genre, {0} = text of clicked field
-#Main.menu.FMiL#	找到 {1} '{0}'
-#Main.menu.FAiL.2#	找到艺术家 '{0}'
-#Main.menu.FAiL.4#	找到专辑 '{0}'
-#Main.menu.FSimiL#	找到相似 '{0}'
+#Main.menu.FMiL#	查找{1} '{0}'
+#Main.menu.FAiL.2#	查找艺术家 '{0}'
+#Main.menu.FAiL.4#	查找专辑 '{0}'
+#Main.menu.FSimiL#	查找相似 '{0}'
 ! right click menu in left navigator tree
 #Main.menu.OpinNeTab#	在新标签页中打开
 
@@ -3805,7 +3805,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #PLE.ctl.F4E3595B#	* 当曲目和艺术家面板停靠在底部时才显示艺术家相片
 ! keep leading and trailing spaces:
 #Main.menu.Photos#	 相片 
-#Main.msg.Untrapic#	无法获取任何艺术家照片
+#Main.msg.Untrapic#	无法获取艺术家照片
 
 ! file organiser
 #Org.ctl.B2BA02BA#	允许替换现存的字段
@@ -3965,7 +3965,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #AP.ctl.20D79241#	当相同曲目在多个专辑中重复时将他们过滤出来
 
 ! filter manager
-#LFM.msg.view#		查看:
+#LFM.msg.view#		视图:
 
 ! additional letters to be included on the A-Z jumplist over and above A-Z (suggest you only add common letters as too many will get chopped off for people using less wide screens) - use a comma separator eg. A,B,C
 #Main.ctl.JumpList#	
@@ -4004,7 +4004,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #TMP.msg.from#		从
 #TMP.msg.Cun#		接下来的是...
 ! hotkey commands
-#TMP.msg.VASS#		查看: 启用屏幕保护
+#TMP.msg.VASS#		视图: 启用屏幕保护
 #TMP.msg.VThMode#	插件: 剧院模式
 
 #Main.msg.0Fnsfwt#	{0} 的标签不支持写入
@@ -4338,3 +4338,446 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 
 ! right click on the a-z bar
 #AZ.msg.Allmcsea#	启用多字符搜索
+
+
+! ************************************   version 2.1   ***************************************************
+#Main.field.24#		编码质量
+
+! right click on the a-z bar
+#AZ.msg.Allmcsea#	启用多字符搜素
+
+! recently added track shuffle preference in Preferences/ Now Playing, auto playlisys and the auto-dj
+#Sys.msg.Yntsaaf#	请先选择一项操作
+#Sys.ctl.D199580B#	最近添加的曲目优先
+#DJ.ctl.322CAFB8#	最近添加的曲目优先
+#Main.menu.SwRecTF#	优先打乱最近的曲目
+
+! auto-playlists
+#AP.ctl.42E71136#	不打乱
+#AP.ctl.A92C859#	随机
+#AP.msg.ShufHRPref#	高评分优先
+#AP.msg.ShufRAPref#	最近添加优先
+#AP.msg.ShufSDArt#	不同/相同艺术家
+
+! auto-dj
+#DJ.ctl.1B058FAA#	也从Internet上获取流以便发现在库中不存在新的艺术家
+#DJ.msg.ExJamSup#	Ex.fm 和 Jamendo 只适用于那些标记了"流来源"选项的流
+
+! radio station editor
+#RSE.ctl.641AD109#	无线电台:
+
+! track and artist panel settings
+#Main.msg.ArtPhotos#	艺术家照片
+#Main.msg.ArtPhoto#	艺术家照片
+#Main.menu.ShArtPh#	显示艺术家照片
+#Main.menu.HArtPh#	隐藏艺术家照片
+#Main.menu.ShArtPhG#	显示艺术家画廊
+#Main.menu.HArtPhG#	隐藏艺术家画廊
+#Main.menu.ShAlbPic#	显示专辑封面
+
+#Main.menu.Theater#	剧院
+
+! Artwork layout
+#PLE.ctl.2EF24700#	总是使用曲目详情布局显示曲目
+! Track and Artist
+#PLE.ctl.F4E3595B#	* 仅当曲目和艺术家面板停靠在底面板时显示
+#PLE.tab.DDC51FBA#	设置
+#PLE.ctl.4B58982E#	正在播放曲目详情标签:
+#PLE.ctl.4ADAE4#	显示可视化
+#PLE.ctl.4CEB2BE9#	显示波形
+#PLE.ctl.89664109#	last.fm 艺术家信息:
+
+! Sorting/ grouping preferences
+#Sys.ctl.E4AB5075#	指定如何将文件分组为专辑
+#Sys.ctl.C4CD1D4F#	每张专辑的文件会被整理到一个独立的文件夹内
+#Sys.ctl.C4EDA908#	下列字段定义一张专辑:
+
+
+! Now Playing panel layout editor
+#NPL.ctl.58C591B2#	显示波形
+#NPL.menu.ShowTop#	显示在顶面板
+#NPL.menu.ShowBot#	显示在底面板
+#Main.menu.WavBar#	波形
+#Main.menu.WavNotShow#	不显示波形
+! wave bar error messages
+#Main.msg.utlwb#	无法加载波形
+#Main.msg.wsansup#	Web流无法使用波形
+
+! hotkey preferences
+#Sys.msg.STAutoDj#	发送到: 智能-DJ
+#Sys.msg.EdHighRules#	编辑: 高亮规则
+
+! tags(2) preferences
+#Sys.ctl.C9BCACF2#	高亮:
+#Sys.btn.F23B3EC2#	定义规则...
+
+! color highlighting rules - opened from tags(2) preferences
+#HM.msg.LiFiMa#		高亮规则编辑器
+#HM.msg.EoomfAfcba#	输入规则并分配颜色. 通过"高亮"字段,库中符合首个匹配规则的曲目会被标识出来. 勾选 "文字?" 来高亮文本值
+#HM.msg.active#		激活
+#HM.msg.highrul#	规则
+#HM.msg.color#		颜色
+#HM.msg.text#		+ 文本?
+#HM.msg.HiRuEd#		高亮条件编辑器
+#Main.field.25#		高亮
+#Main.menu.SetHiRul#	设置高亮规则
+
+! Fields layout editor (button on the Layout preferences dialog)
+#tField.ctl.854434D3#	在比特率处显示编码质量(当可用时) 
+
+! right click/ Send To/ File Rescan
+#Main.menu.SeFilResc#	重新扫描文件
+#Main.msg.ResFiles#	正在重新扫描文件
+#Main.msg.FiScHaCom#	重新扫描完成
+! File/ Advanced/ Rescan All Files
+#Main.menu.ResAllFil#	重新扫描所有文件
+#Main.msg.CReafintml#	确认: 重新扫描库中的所有文件?
+
+! right click on the picture in the Now Playing panel
+#Main.menu.RotIma#	启用图片翻转
+
+! tag inspector
+#tIns.msg.Tsfnhstf#	选定的文件需要使用相同的标签格式
+
+! toolbar/ command button editor
+#CB.ctl.29148F68#	按钮文字或图标
+#CB.msg.CoBuIcon#	工具栏按钮图标
+#CB.msg.Noicfnd#	图标未找到- 请在 MusicBee 安装路径创建 Icons 文件夹
+#CB.msg.OiciMBf#	仅能选择 MusicBee 的 Icons 文件夹内的图标
+
+! right click on the header bar near the search box
+#Main.menu.ConfTool#	配置工具栏
+! Preferences/ Layout - was "command buttons:"
+#Sys.ctl.BFA8B0FB#	工具栏按钮:
+! was "Command buttons are ..."
+#CB.ctl.B3DCB49A#	工具栏按钮显示在主面板上方,点击会执行相应的命令
+#CB.frm.A3A1681C#	设置工具栏按钮
+
+! hotkey preferences
+#Sys.msg.ViShSoBMe#	视图: 显示排序菜单
+#Sys.msg.GeResFiTa#	通用: 重新扫描文件标签
+
+! theater mode plugin - right click menu
+#TMP.menu.ScreenSav#	屏幕保护
+#TMP.menu.ScreenEn#	启用
+#TMP.menu.Wait#		等待: 
+#TMP.menu.ShowInDM#	在显示器上显示
+#TMP.menu.AllScreen#	所有显示器
+#TMP.menu.ScreenNum#	显示器 #{0}
+#TMP.menu.BlOthMon#	关闭其他显示器
+#TMP.menu.StartFulSc#	仅全屏模式
+
+! in the podcasts panel, right click on the column headers/ Panel Layout/ Show ...
+#Main.menu.ShUnTrOn#	仅显示未收听的曲目
+
+
+! 9-Dec-2012
+! hotkeys
+#Sys.msg.ViShThLi#	视图: 剧院模式- 显示列表
+
+! when the player is docked to the right sidebar, right click/Configure Layout/Player Controls/...
+#Main.menu.ShPrBar#	显示进度条
+
+! artwork panel layout
+! was: "fields appearing with artwork:"
+#PLE.ctl.E527F5A#	调整封面匹配面板大小
+#PLE.ctl.41F5CD0B#	在封面上显示字段
+#PLE.ctl.1EC521C2#	在封面下显示字段
+#PLE.ctl.1EC7A0F8#	填充文字背景
+! Track and Artist panel layout
+#PLE.msg.Useibdlay#	使用 MusicBee 默认布局
+#PLE.ctl.3896D6C6#	如果启用了剧院模式插件, 文件夹Plugins/TheaterMode.Embeded 下所有的皮肤会被包含
+#PLE.ctl.76DDF360#	- 停靠在底面板时的布局:
+#PLE.ctl.8477802#	- 停靠在主面板时的布局:
+#PLE.ctl.2A0D6E89#	MusicBee 默认布局选项:
+
+! last.fm error prompt
+#Main.msg.Untostlfm#	无法启用 last.fm :
+
+
+! 20-Jan-2013
+! main Preferences panel
+#Sys.ctl.CDAF84C9#	确认文件永久删除(使用 SHIFT 删除)
+
+! Layout Preferences/ left navigator panel
+#Sys.ctl.B5DB9DB6#	显示照片:
+#Sys.msg.NotDisp#	未显示
+#Sys.msg.ArtPh#		艺术家照片
+#Sys.msg.ArtPhGal#	艺术家照片画廊
+#Sys.msg.AlbArt#	专辑封面
+
+! "Track and Artist" has been renamed to "Playing Track"
+! Playing Track layout configuration
+#Main.menu.PlTrPan#	正在播放曲目面板
+#PLE.ctl.F4E3595B#	* 仅当正在播放面板停靠在底面板时显示
+#PLE.ctl.46C1550F#	在正在播放面板显示下列标签页:
+#Sys.ctl.8FCDC4FA#	显示正在播放曲面面板
+
+#Sys.ctl.4A53E28E#	垂直 (堆叠)
+#Sys.ctl.9ADB78C#	垂直 (并排)
+#Sys.ctl.D2C7F133#	从左到右过滤
+
+#Main.menu.TBVertical#	垂直 (堆叠)
+#Main.menu.TBVerticalS#	垂直 (并排)
+
+! Tags(1) preferences - in the custom tags section
+#Sys.msg.stMdo#		仅保存到 MusicBee 数据库
+
+
+! Now Playing Panel Layout configuration dialog
+#NPL.ctl.58C591B2#	显示波形
+#NPL.ctl.A1ECC0E1#	显示播放控制
+#NPL.ctl.62D94C8A#	显示进度条
+#NPL.ctl.890F4120#	显示所有播放控制
+#NPL.ctl.116F33F6#	正在播放列表
+#NPL.menu.SiNPP#	在正在播放面板显示
+#NPL.ctl.D75AFCD8#	视图:
+#NPL.ctl.20CC30A5#	显示曲目信息
+#NPL.ctl.1464F9D8#	在播放控制面板显示
+#NPL.ctl.55AC2783#	显示状态栏
+
+! File/ Auto-Shutdown
+#AutoSD.msg.stpl#	停止播放
+#AutoSD.msg.Plwistop#	即将停止播放
+
+! collapse the left or right sidebar/ move cursor to left or right edge of musicbee and when the panel auto-opens then right click
+#Main.menu.DisAuOpL#	禁用自动展开(左边栏)
+#Main.menu.DisAuOpR#	禁用自动展开(右边栏)Auto-Open (Right Sidebar)
+
+! now playing popup dialog (set in Preferences/ Layout/ now playing panel/ Notification Popup
+#NPP.ctl.F63C5D70#	显示曲目位置
+
+! any right click menu where you can select a display field
+#Main.menu.CustTags#	自定义标签
+#Main.menu.VirtTags#	虚拟标签
+
+! in the podcasts panel, click the Panel layout button
+#Main.menu.ExcLisTr#	排除收听过的曲目
+#Main.menu.ExcTrNotDn#	排除未下载的曲目
+
+#Main.msg.FReorgAc#	无法访问选中的文件. 请在状态栏显示重整理结束后再试.
+
+! right click on a single file/ Search/ Show in Playlist
+#Main.menu.ShowinPl#	在播放列表中定位
+#Main.msg.NoPlaylists#	无播放列表
+
+! Artwork view/ Customise Panel
+#PLE.ctl.EB7E0140#	使用封面布局显示艺术家的专辑
+#PLE.ctl.C67700DC#	专辑播放结束后停止播放
+#PLE.ctl.98DAF3AC#	显示专辑数
+
+! file organiser when new filename will exceed window's length limits
+#Org.msg.fishort#	文件名过长- 请缩短至260字符内
+#Org.msg.FiToLoMsg#	您的一个或多个文件的文件名将会缩短至260字符以下来达到系统限制,要继续吗?
+
+! right click on a single file/ Send To/ ...
+#Main.menu.FoRepl#	文件夹 (替换)
+#Main.menu.RFiInFoSS#	替换选定的文件...
+#Main.menu.RFiInFoST#	使用选定的文件替换...
+#Main.menu.RFiInCS#	选择源文件...
+#Main.menu.RFiInCT#	选择目标文件...
+#Main.msg.Tsatfatsa#	源文件和目标文件相同
+#Main.msg.CoReplFil#	确认: 替换文件'{0}'?
+
+! when the podcast subscriptions folder is changed this message shows in the taskbar:
+#Sys.msg.MovSubs#	正在移动播客订阅...
+
+
+! 24-Mar-2013
+! layout preferences tab
+#Sys.tab.344CEE48#	布局 (1)
+#Sys.tab.BDFB62DA#	布局 (2)
+! layout(2)/ compact player - preserve leading and trailing spaces
+#Sys.ctl.3CEE1134#	  紧凑播放器
+#Sys.ctl.BAD51D29#	使用经典布局
+#Sys.btn.905A7605#	配置面板
+#Sys.ctl.4FE04011#	使用现代布局
+#Sys.btn.4CCE137D#	配置面板
+#Sys.ctl.4376C099#	剧院模式:
+
+! Now Playing layout dialog
+#NPL.tab.655DE83F#	曲目详情
+#NPL.tab.705229AC#	歌词
+#NPL.tab.A90A4114#	封面
+
+! Layout(2) preferences - preserve the leading and trailing spaces
+#Sys.ctl.43479918#	  主播放器面板
+#Sys.ctl.C4A0A7F0#	  迷你播放器  
+#Sys.ctl.FCA5E98F#	  任务栏播放器 
+
+! dont translate the word Split()
+#Main.menu.splitFunc#	Split() - 返回文本的一部分
+
+! displays when saving a large number of files
+#Main.msg.SavFi01#	正在保存文件 {0} /{1}...
+
+! right click on a picture in Artwork or Album & Tracks layout/ Show Artwork
+#Main.menu.ShowPic#	显示封面
+#Sys.msg.VShowPic#	视图: 显示封面
+
+! now playing panel layout
+#NPL.ctl.81A7813D#	显示频谱
+
+! right click on a tab header in the main panel
+#Main.menu.LPanelDis#	禁用左导航栏
+
+#Main.msg.Unauacpe#	无法访问,权限不足或文件被占用
+
+! Tags(1) preferences
+#Sys.ctl.A8B87D18#	保存标签到音乐文件
+
+! Equaliser and DSP panel
+#EQ.msg.TempoCtl#	速度控制
+#EQ.msg.playspeed#	播放速度:
+#EQ.msg.Plmufslow#	播放速度控制器
+
+! message when 'save tags to file' is disabled and 'embed artwork' enabled
+#Sys.msg.WTasshbfj#	警告: 封面存储设置已经被修改为'保存到 folder.jpg'
+
+! new compact player configuration dialog
+#CPL.ctl.2D3FE995#	左面板布局:
+#CPL.ctl.CA03825F#	显示可视化
+#CPL.ctl.F5F50F43#	显示艺术家照片
+#CPL.ctl.D7C3106A#	翻转艺术家照片 - 排除:
+#CPL.ctl.CB826D9C#	显示专辑封面
+#CPL.ctl.431226C0#	小
+#CPL.ctl.4ADE3E22#	大
+#CPL.ctl.88F365E2#	曲目信息:
+#CPL.ctl.D0A6928E#	右面板布局: *
+#CPL.ctl.952B5CCF#	右面板的宽度可以通过拖拽调整
+#CPL.ctl.18ED84B#	显示艺术家传记
+#CPL.ctl.455DE131#	自动隐藏
+#CPL.ctl.E4D3B6B8#	显示歌词
+#CPL.ctl.C5133782#	自动隐藏
+#CPL.ctl.E325DF3C#	使用自定义字体:
+#CPL.ctl.116F33F6#	显示正在播放列表
+#CPL.ctl.C8C044AE#	自动隐藏
+#CPL.ctl.E90D87AB#	布局:
+#CPL.ctl.B1AC9B5A#	曲目详情
+#CPL.ctl.DB026057#	专辑和曲目
+#CPL.ctl.596BAB9F#	右键单击添加新字段; 拖动以重排
+#CPL.ctl.6995F846#	底面板:
+#CPL.ctl.F66F37C7#	自动隐藏正在播放列表
+#CPL.btn.43BB947#	应用
+#CPL.btn.32CDB12D#	保存
+#CPL.btn.60044525#	关闭
+
+! artist biograhpy - tab displayed in the new compact player layout - keep this as short as possible as there isnt much space
+#Main.msg.Bio#		传记
+#Main.msg.Abanaatt#	无传记
+
+! right click on an artist picture in the Compact player
+#Main.menu.SaveArtPic#	保存艺术家照片
+#Main.menu.PasteArtPic#	粘贴艺术家照片
+#Main.msg.FailSap#	无法保存艺术家照片
+
+! radio station editor
+#RSE.msg.riclchpic#	右键单击选择图片
+
+
+! 21-April-2013
+! modern Compact player layout
+#CPL.ctl.2D3FE995#	左面板:
+#CPL.ctl.78F3FF08#	为每张图片更换面板颜色
+#CPL.ctl.10980555#	扩展图片到标题栏
+#CPL.msg.TswnaitNP#	正在播放列表,歌词,艺术家传记在右面板显示时无法激活这项设置
+#CPL.ctl.D7C3106A#	翻转 web 图片- 包括:
+#CPL.ctl.D0A6928E#	右面板: *
+#CPL.ctl.8D2521BE#	右面板显示在图片之上
+#CPL.ctl.A634708F#	鼠标悬停在窗口右边缘打开隐藏的面板
+#CPL.ctl.4799DA5A#	进度条在底部
+#CPL.ctl.471AD116#	进度条在播放器之上
+#CPL.ctl.58C591B2#	波形
+#CPL.ctl.9FE2CFEE#	曲目评分
+#CPL.ctl.EBD7E277#	last.fm "喜爱"
+#CPL.msg.OnoNPLAB#	仅正在播放列表,歌词,艺术家传记中的一项可以现在在封面之上
+#Main.menu.SusArtRot#	挂起封面翻转
+! hotkey
+#Sys.msg.VSRARot#	视图: 挂起/ 恢复 封面翻转
+
+! if the left navigator is disabled eg. by user preference or when viewing the "Playing Track" tab
+#Main.msg.Navisdisfct# 	当前标签页无法在左面板使用导航
+
+
+! 5-May-2013
+! new display field
+#Main.field.142#	专辑完整?
+
+! General preferences
+#Sys.ctl.FE3F09C6#	播放开始后切换到紧凑播放器
+
+! Now Playing Assistant eg. Search Music
+#NPA.msg.Search#	搜索 {0}
+
+! modern compact player layout editor
+#CPL.tab.ECC2C55A#	设置 (1)
+#CPL.tab.C703443E#	设置 (2)
+#CPL.ctl.88F365E2#	曲目详情显示在左面板
+#CPL.ctl.A38BB7C#	正在播放助手:
+#CPL.ctl.F42826C1#	禁用自动打开
+#CPL.ctl.57F8F2D2#	您可以浏览曲目并添加到正在播放列表中- 鼠标悬停在窗口左边缘或使用快捷键打开面板
+#CPL.ctl.21E58D04#	进度条居中
+#CPL.ctl.93FF4959#	程序窗口:
+#CPL.ctl.4CAB3CFF#	透明
+#CPL.ctl.AAAEA286#	不透明
+#CPL.ctl.316F2970#	按曲目浏览
+#CPL.ctl.32B8B2A8#	按专辑浏览
+#Main.menu.BrsByTrk#	按曲目浏览
+#Main.menu.BrsByAlb#	按专辑浏览
+
+! right click on modern compact player artist picture
+#Main.menu.SkipPic#	下一张
+
+! Panel layout editor (from Layout(1) preferences/ Configure Views)
+#PLE.ctl.FEC264A8#	对比度:
+#PLE.ctl.D3BB9959#	对比度:
+#PLE.ctl.396FE420#	对比度:
+
+#NPL.ctl.ADB5BC21#	对比度:
+#CPL.ctl.ADB5BC21#	对比度:
+
+! in the Now Playing List configuration dialog the following is already translated but needs to be smaller now
+!was: #NPL.ctl.8EB6C56F#	显示曲目属性(比特率, 采样率, 声道, 持续时间)
+#NPL.ctl.8EB6C56F#	显示曲目属性
+
+! Device preferences - auto-synch file source
+#Dev.ctl.FC1C4253#	视频
+
+
+
+! 3-June-2013
+#CPL.frm.14E80D0A#	紧凑播放器布局
+
+! error when synching to a device
+#Dev.msg.FolChg#	存储文件夹 '{0}' 不存在,可能需要在设备同步设置处修改
+
+! right click on main player bar/ Configure Layout/...
+#Main.menu.ShWavBar#	显示进度条
+#Main.menu.ShProgBarA#	进度条居顶
+#Main.menu.ShProgBarM#	进度条居中
+#Main.menu.ShProgBarB#	进度条居底
+
+! layout(2) preferences
+#Sys.ctl.AEC55238#	波形
+#Sys.ctl.E0A8E89F#	进度条在播放器之上
+#Sys.ctl.10F59B2D#	进度条居中
+#Sys.ctl.E102BF53#	进度条居底
+#Sys.msg.Tsiiftcs#	此设定在当前皮肤下会被忽略
+#Sys.msg.Tpbcbcftcs#	当前皮肤下无法修改进度条
+#Sys.msg.Tpbwbdap#	播放器停靠在底部才能将进度条显示在播放器之上
+#Sys.msg.Twbwnbd#	波形无法在当前皮肤下显示
+
+! modern compact player layout
+#CPL.ctl.7A6AFEC2#	中等
+#CPL.ctl.E1C7A58F#	自动隐藏播放器面板
+#CPL.ctl.34F9AB00#	使用自定义颜色高亮文本
+
+! Settings(2)
+#CPL.ctl.D8E7DCCF#	面板布局:
+#CPL.ctl.6CC63A9E#	绘制文字阴影(来增加对比度)
+
+! when editing lyrics and the next song starts playing
+#Main.msg.CSavlyr#	确认: 保存歌词?
+
+! text displayed when no album cover
+#Main.msg.NoCovArt#	无封面

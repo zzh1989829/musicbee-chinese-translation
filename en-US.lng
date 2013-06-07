@@ -4338,3 +4338,447 @@
 
 ! right click on the a-z bar
 #AZ.msg.Allmcsea#	Enable multi-character searches
+
+
+
+! ************************************   version 2.1   ***************************************************
+#Main.field.24#		Encoding Quality
+
+! right click on the a-z bar
+#AZ.msg.Allmcsea#	Enable multi-character searches
+
+! recently added track shuffle preference in Preferences/ Now Playing, auto playlisys and the auto-dj
+#Sys.msg.Yntsaaf#	You need to select an action first.
+#Sys.ctl.D199580B#	recently added tracks preferred
+#DJ.ctl.322CAFB8#	recently added tracks preferred
+#Main.menu.SwRecTF#	Shuffle with Recent Tracks First
+
+! auto-playlists
+#AP.ctl.42E71136#	do not shuffle
+#AP.ctl.A92C859#	random
+#AP.msg.ShufHRPref#	higher rated preferred
+#AP.msg.ShufRAPref#	recently added preferred
+#AP.msg.ShufSDArt#	different/same artist
+
+! auto-dj
+#DJ.ctl.1B058FAA#	also stream tracks from the internet to discover new artists not in your library
+#DJ.msg.ExJamSup#	Ex.fm and Jamendo are only supported for streams filtered by tag in the "stream tracks from" option
+
+! radio station editor
+#RSE.ctl.641AD109#	radio station:
+
+! track and artist panel settings
+#Main.msg.ArtPhotos#	Artist Photos
+#Main.msg.ArtPhoto#	Artist Photo
+#Main.menu.ShArtPh#	Show Artist Photo
+#Main.menu.HArtPh#	Hide Artist Photo
+#Main.menu.ShArtPhG#	Show Artist Photo Gallery
+#Main.menu.HArtPhG#	Hide Artist Photo Gallery
+#Main.menu.ShAlbPic#	Show Album Artwork
+
+#Main.menu.Theater#	Theater
+
+! Artwork layout
+#PLE.ctl.2EF24700#	always show the tracks using Track Details layout
+! Track and Artist
+#PLE.ctl.F4E3595B#	* only shown when the Track and Artist panel is docked on the bottom pane
+#PLE.tab.DDC51FBA#	Settings
+#PLE.ctl.4B58982E#	playing track details tab:
+#PLE.ctl.4ADAE4#	show visualiser
+#PLE.ctl.4CEB2BE9#	show wave bar
+#PLE.ctl.89664109#	last.fm artist profile:
+
+! Sorting/ grouping preferences
+#Sys.ctl.E4AB5075#	specify how files are grouped to an album
+#Sys.ctl.C4CD1D4F#	files for each album are organised in their own folder
+#Sys.ctl.C4EDA908#	the following fields define an album:
+
+
+! Now Playing panel layout editor
+#NPL.ctl.58C591B2#	show wave bar
+#NPL.menu.ShowTop#	Show in Panel (Top)
+#NPL.menu.ShowBot#	Show in Panel (Bottom)
+#Main.menu.WavBar#	Wave Bar
+#Main.menu.WavNotShow#	Do not show Wave Bar
+! wave bar error messages
+#Main.msg.utlwb#	Unable to load the wave bar
+#Main.msg.wsansup#	No wave bar for web streams
+
+! hotkey preferences
+#Sys.msg.STAutoDj#	Send To: Auto-DJ
+#Sys.msg.EdHighRules#	Edit: Highlighting Rules
+
+! tags(2) preferences
+#Sys.ctl.C9BCACF2#	highlighting:
+#Sys.btn.F23B3EC2#	Define Rules...
+
+! color highlighting rules - opened from tags(2) preferences
+#HM.msg.LiFiMa#		Highlighting Rules Editor
+#HM.msg.EoomfAfcba#	Enter one or more rules and an associated color for each. For each track in your library the color of the first matching rule is used and can be displayed in the main panel using field "Highlight". Tick "text?" to also color text values.
+#HM.msg.active#		active
+#HM.msg.highrul#	rule
+#HM.msg.color#		color
+#HM.msg.text#		+ text?
+#HM.msg.HiRuEd#		Highlighting Criteria Editor
+#Main.field.25#		Highlight
+#Main.menu.SetHiRul#	Set Highlighting Rules
+
+! Fields layout editor (button on the Layout preferences dialog)
+#tField.ctl.854434D3#	show Encoding Quality (when available) in place of Bitrate
+
+! right click/ Send To/ File Rescan
+#Main.menu.SeFilResc#	File Rescan
+#Main.msg.ResFiles#	Rescanning files
+#Main.msg.FiScHaCom#	File rescan has completed
+! File/ Advanced/ Rescan All Files
+#Main.menu.ResAllFil#	Rescan All Files
+#Main.msg.CReafintml#	CONFIRMATION: Rescan all files in the music library?
+
+! right click on the picture in the Now Playing panel
+#Main.menu.RotIma#	Enable Image Rotation
+
+! tag inspector
+#tIns.msg.Tsfnhstf#	The selected files need to have the same tag format
+
+! toolbar/ command button editor
+#CB.ctl.29148F68#	button text or icon
+#CB.msg.CoBuIcon#	Command Button Icon
+#CB.msg.Noicfnd#	No icons found - create an Icons folder where MusicBee is installed
+#CB.msg.OiciMBf#	Only icons in the MusicBee icon folder can be selected
+
+! right click on the header bar near the search box
+#Main.menu.ConfTool#	Configure Toolbar
+! Preferences/ Layout - was "command buttons:"
+#Sys.ctl.BFA8B0FB#	toolbar buttons:
+! was "Command buttons are ..."
+#CB.ctl.B3DCB49A#	Toolbar buttons are displayed on the main panel toolbar and when clicked execute the selected command
+#CB.frm.A3A1681C#	Set Toolbar Buttons
+
+! hotkey preferences
+#Sys.msg.ViShSoBMe#	View: Show Sorting Menu
+#Sys.msg.GeResFiTa#	General: Rescan File Tags
+
+! theater mode plugin - right click menu
+#TMP.menu.ScreenSav#	Screen Saver
+#TMP.menu.ScreenEn#	Enabled
+#TMP.menu.Wait#		Wait:
+#TMP.menu.ShowInDM#	Show In Display Monitor
+#TMP.menu.AllScreen#	All Screens
+#TMP.menu.ScreenNum#	Screen #{0}
+#TMP.menu.BlOthMon#	Blackout Other Monitors
+#TMP.menu.StartFulSc#	Full Screen Mode Only
+
+! in the podcasts panel, right click on the column headers/ Panel Layout/ Show ...
+#Main.menu.ShUnTrOn#	Show Unlistened Tracks Only
+
+
+! 9-Dec-2012
+! hotkeys
+#Sys.msg.ViShThLi#	View: Theater Mode - Show List
+
+! when the player is docked to the right sidebar, right click/Configure Layout/Player Controls/...
+#Main.menu.ShPrBar#	Show Progress Bar
+
+! artwork panel layout
+! was: "fields appearing with artwork:"
+#PLE.ctl.E527F5A#	fit artwork to the size of the panel
+#PLE.ctl.41F5CD0B#	overlay fields inside the artwork
+#PLE.ctl.1EC521C2#	display fields below artwork
+#PLE.ctl.1EC7A0F8#	fill text background
+! Track and Artist panel layout
+#PLE.msg.Useibdlay#	Use MusicBee default layout
+#PLE.ctl.3896D6C6#	if the TheaterMode plugin is enabled, the selection includes any skins in folder: Plugins/TheaterMode.Embeded
+#PLE.ctl.76DDF360#	- layout when docked in the bottom pane:
+#PLE.ctl.8477802#	- layout when docked in a main panel tab:
+#PLE.ctl.2A0D6E89#	MusicBee default layout options:
+
+! last.fm error prompt
+#Main.msg.Untostlfm#	Unable to start last.fm radio:
+
+
+! 20-Jan-2013
+! main Preferences panel
+#Sys.ctl.CDAF84C9#	confirm permanent file deletion (using SHIFT delete)
+
+! Layout Preferences/ left navigator panel
+#Sys.ctl.B5DB9DB6#	show picture:
+#Sys.msg.NotDisp#	Not Displayed
+#Sys.msg.ArtPh#		Artist Photo
+#Sys.msg.ArtPhGal#	Artist Photo Gallery
+#Sys.msg.AlbArt#	Album Artwork
+
+! "Track and Artist" has been renamed to "Playing Track"
+! Playing Track layout configuration
+#Main.menu.PlTrPan#	Playing Track Panel
+#PLE.ctl.F4E3595B#	* only shown when the Playing Track panel is docked on the bottom pane
+#PLE.ctl.46C1550F#	show the following tabs in the Playing Track panel:
+#Sys.ctl.8FCDC4FA#	show playing track panel
+
+#Sys.ctl.4A53E28E#	vertical (stacked)
+#Sys.ctl.9ADB78C#	vertical (side-by-side)
+#Sys.ctl.D2C7F133#	left-and-right filtering
+
+#Main.menu.TBVertical#	Vertical (Stacked)
+#Main.menu.TBVerticalS#	Vertical (Side-By-Side)
+
+! Tags(1) preferences - in the custom tags section
+#Sys.msg.stMdo#		Save to MusicBee database only
+
+
+! Now Playing Panel Layout configuration dialog
+#NPL.ctl.58C591B2#	show wave bar 
+#NPL.ctl.A1ECC0E1#	show player controls 
+#NPL.ctl.62D94C8A#	show progress bar
+#NPL.ctl.890F4120#	show all player controls
+#NPL.ctl.116F33F6#	now playing list 
+#NPL.menu.SiNPP#	Show in Now Playing Panel
+#NPL.ctl.D75AFCD8#	view:
+#NPL.ctl.20CC30A5#	show track information 
+#NPL.ctl.1464F9D8#	show in player controls panel
+#NPL.ctl.55AC2783#	show status bar
+
+! File/ Auto-Shutdown
+#AutoSD.msg.stpl#	stop playback
+#AutoSD.msg.Plwistop#	Playback will stop
+
+! collapse the left or right sidebar/ move cursor to left or right edge of musicbee and when the panel auto-opens then right click
+#Main.menu.DisAuOpL#	Disable Auto-Open (Left Sidebar)
+#Main.menu.DisAuOpR#	Disable Auto-Open (Right Sidebar)
+
+! now playing popup dialog (set in Preferences/ Layout/ now playing panel/ Notification Popup
+#NPP.ctl.F63C5D70#	show track position
+
+! any right click menu where you can select a display field
+#Main.menu.CustTags#	Custom Tags
+#Main.menu.VirtTags#	Virtual Tags
+
+! in the podcasts panel, click the Panel layout button
+#Main.menu.ExcLisTr#	Exclude Listened Tracks
+#Main.menu.ExcTrNotDn#	Exclude Tracks Not Downloaded
+
+#Main.msg.FReorgAc#	The selected file is currently not accessible. Try again when the status bar shows file re-organisation has completed.
+
+! right click on a single file/ Search/ Show in Playlist
+#Main.menu.ShowinPl#	Locate in Playlist
+#Main.msg.NoPlaylists#	No Playlists
+
+! Artwork view/ Customise Panel
+#PLE.ctl.EB7E0140#	use Artwork layout to show albums for an artist
+#PLE.ctl.C67700DC#	always stop playback at the end of the album
+#PLE.ctl.98DAF3AC#	show album count
+
+! file organiser when new filename will exceed window's length limits
+#Org.msg.fishort#	long filename - shortened so not to exceed the Windows Explorer 260 character limit
+#Org.msg.FiToLoMsg#	One or more of your files will be reorganised using a shortened filename so the length does not exceed the Windows Explorer 260 character limit. Do you want to proceed?
+
+! right click on a single file/ Send To/ ...
+#Main.menu.FoRepl#	Folder (Replace)
+#Main.menu.RFiInFoSS#	Replace the Selected File...
+#Main.menu.RFiInFoST#	Use the Selected File to Replace another File...
+#Main.menu.RFiInCS#	Choose the source file...
+#Main.menu.RFiInCT#	Choose the target file...
+#Main.msg.Tsatfatsa#	The source and target files are the same
+#Main.msg.CoReplFil#	CONFIRMATION: Replace file '{0}'?
+
+! when the podcast subscriptions folder is changed this message shows in the taskbar:
+#Sys.msg.MovSubs#	Moving podcast subscriptions...
+
+
+! 24-Mar-2013
+! layout preferences tab
+#Sys.tab.344CEE48#	Layout (1)
+#Sys.tab.BDFB62DA#	Layout (2)
+! layout(2)/ compact player - preserve leading and trailing spaces
+#Sys.ctl.3CEE1134#	  compact player  
+#Sys.ctl.BAD51D29#	use classic layout
+#Sys.btn.905A7605#	Configure Panel
+#Sys.ctl.4FE04011#	use "modern" layout
+#Sys.btn.4CCE137D#	Configure Panel
+#Sys.ctl.4376C099#	theater mode:
+
+! Now Playing layout dialog
+#NPL.tab.655DE83F#	Track Details
+#NPL.tab.705229AC#	Lyrics
+#NPL.tab.A90A4114#	Artwork
+
+! Layout(2) preferences - preserve the leading and trailing spaces
+#Sys.ctl.43479918#	  main player panel  
+#Sys.ctl.C4A0A7F0#	  mini player  
+#Sys.ctl.FCA5E98F#	  taskbar player 
+
+! dont translate the word Split()
+#Main.menu.splitFunc#	Split() - return a section of text
+
+! displays when saving a large number of files
+#Main.msg.SavFi01#	Saving file {0} of {1}...
+
+! right click on a picture in Artwork or Album & Tracks layout/ Show Artwork
+#Main.menu.ShowPic#	Show Artwork
+#Sys.msg.VShowPic#	View: Show Artwork
+
+! now playing panel layout
+#NPL.ctl.81A7813D#	show spectrum visualisations
+
+! right click on a tab header in the main panel
+#Main.menu.LPanelDis#	Disable Left Navigator
+
+#Main.msg.Unauacpe#	You do not have access permission to the source or target folder, or another process has a file locked
+
+! Tags(1) preferences
+#Sys.ctl.A8B87D18#	save tags to the music file
+
+! Equaliser and DSP panel
+#EQ.msg.TempoCtl#	Tempo Control
+#EQ.msg.playspeed#	play speed:
+#EQ.msg.Plmufslow#	Playback speed controller
+
+! message when 'save tags to file' is disabled and 'embed artwork' enabled
+#Sys.msg.WTasshbfj#	WARNING: The artwork storage setting has been changed to 'copy picture to folder.jpg'
+
+! new compact player configuration dialog
+#CPL.ctl.2D3FE995#	left panel layout:
+#CPL.ctl.CA03825F#	show visualiser
+#CPL.ctl.F5F50F43#	show artist picture
+#CPL.ctl.D7C3106A#	rotate artist pictures - exclude:
+#CPL.ctl.CB826D9C#	show album cover
+#CPL.ctl.431226C0#	small picture
+#CPL.ctl.4ADE3E22#	larger picture
+#CPL.ctl.88F365E2#	track information:
+#CPL.ctl.D0A6928E#	right panel layout: *
+#CPL.ctl.952B5CCF#	the right panel width can be adjusted in the player by dragging the left edge of the right panel
+#CPL.ctl.18ED84B#	show artist biography
+#CPL.ctl.455DE131#	auto-hide
+#CPL.ctl.E4D3B6B8#	show lyrics
+#CPL.ctl.C5133782#	auto-hide
+#CPL.ctl.E325DF3C#	use custom font:
+#CPL.ctl.116F33F6#	show now playing list
+#CPL.ctl.C8C044AE#	auto-hide
+#CPL.ctl.E90D87AB#	layout:
+#CPL.ctl.B1AC9B5A#	track details
+#CPL.ctl.DB026057#	album and tracks
+#CPL.ctl.596BAB9F#	right click on the header bar to add fields; or drag the column headers to rearrange or resize the columns
+#CPL.ctl.6995F846#	bottom panel:
+#CPL.ctl.F66F37C7#	auto-hide the now playing list
+#CPL.btn.43BB947#	Apply
+#CPL.btn.32CDB12D#	Save
+#CPL.btn.60044525#	Close
+
+! artist biograhpy - tab displayed in the new compact player layout - keep this as short as possible as there isnt much space
+#Main.msg.Bio#		Bio
+#Main.msg.Abanaatt#	No artist biography
+
+! right click on an artist picture in the Compact player
+#Main.menu.SaveArtPic#	Save Artist Picture
+#Main.menu.PasteArtPic#	Paste Artist Picture
+#Main.msg.FailSap#	Failed to save the artist picture
+
+! radio station editor
+#RSE.msg.riclchpic#	right click to choose a picture
+
+
+! 21-April-2013
+! modern Compact player layout
+#CPL.ctl.2D3FE995#	left panel:
+#CPL.ctl.78F3FF08#	change panel color for each displayed picture
+#CPL.ctl.10980555#	extend pictures into the caption bar
+#CPL.msg.TswnaitNP#	This setting will not activate if the Now Playing List, Lyrics or Artist Bio are displayed in the right panel
+#CPL.ctl.D7C3106A#	rotate web pictures - include:
+#CPL.ctl.D0A6928E#	right panel: *
+#CPL.ctl.8D2521BE#	overlay the right panel onto the picture
+#CPL.ctl.A634708F#	hover the mouse on the right window edge to open the panels not shown
+#CPL.ctl.4799DA5A#	progress bar on bottom
+#CPL.ctl.471AD116#	progress bar above play controls
+#CPL.ctl.58C591B2#	wave bar
+#CPL.ctl.9FE2CFEE#	track rating
+#CPL.ctl.EBD7E277#	last.fm "love"
+#CPL.msg.OnoNPLAB#	Only one of: Now Playing List, Lyrics or Artist Bio can be overlaid onto the artist picture
+#Main.menu.SusArtRot#	Suspend Artwork Rotation
+! hotkey
+#Sys.msg.VSRARot#	View: Suspend/ Resume Artwork Rotation
+
+! if the left navigator is disabled eg. by user preference or when viewing the "Playing Track" tab
+#Main.msg.Navisdisfct# 	Navigation in the left panel is disabled for the current tab
+
+
+! 5-May-2013
+! new display field
+#Main.field.142#	Album Complete?
+
+! General preferences
+#Sys.ctl.FE3F09C6#	switch to the Compact Player after playback is started
+
+! Now Playing Assistant eg. Search Music
+#NPA.msg.Search#	Search {0}
+
+! modern compact player layout editor
+#CPL.tab.ECC2C55A#	Settings (1)
+#CPL.tab.C703443E#	Settings (2)
+#CPL.ctl.88F365E2#	track details displayed in the left panel:
+#CPL.ctl.A38BB7C#	now playing assistant:
+#CPL.ctl.F42826C1#	disable auto-open
+#CPL.ctl.57F8F2D2#	enables you to browse for tracks and add them to the Now Playing List - to open the panel, hover the mouse on the left window edge or open using a hotkey
+#CPL.ctl.21E58D04#	progress bar in middle
+#CPL.ctl.93FF4959#	application window:
+#CPL.ctl.4CAB3CFF#	transparent
+#CPL.ctl.AAAEA286#	opaque
+#CPL.ctl.316F2970#	browse by track
+#CPL.ctl.32B8B2A8#	browse by album
+#Main.menu.BrsByTrk#	Browse by Track
+#Main.menu.BrsByAlb#	Browse by Album
+
+! right click on modern compact player artist picture
+#Main.menu.SkipPic#	Next Picture
+
+! Panel layout editor (from Layout(1) preferences/ Configure Views)
+#PLE.ctl.FEC264A8#	contrast:
+#PLE.ctl.D3BB9959#	contrast:
+#PLE.ctl.396FE420#	contrast:
+
+#NPL.ctl.ADB5BC21#	contrast:
+#CPL.ctl.ADB5BC21#	contrast:
+
+! in the Now Playing List configuration dialog the following is already translated but needs to be smaller now
+!was: #NPL.ctl.8EB6C56F#	show track properties (bitrate, sample rate, channels, duration)
+#NPL.ctl.8EB6C56F#	show track properties
+
+! Device preferences - auto-synch file source
+#Dev.ctl.FC1C4253#	video
+
+
+
+! 3-June-2013
+#CPL.frm.14E80D0A#	Compact Player Layout
+
+! error when synching to a device
+#Dev.msg.FolChg#	The storage folder '{0}' no longer exists and may need to changed in the device synch preferences
+
+! right click on main player bar/ Configure Layout/...
+#Main.menu.ShWavBar#	Show Wave Bar
+#Main.menu.ShProgBarA#	Show Progress Bar On Top
+#Main.menu.ShProgBarM#	Show Progress Bar In Middle
+#Main.menu.ShProgBarB#	Show Progress Bar On Bottom
+
+! layout(2) preferences
+#Sys.ctl.AEC55238#	wave bar
+#Sys.ctl.E0A8E89F#	progress bar above player
+#Sys.ctl.10F59B2D#	progress bar in middle
+#Sys.ctl.E102BF53#	progress bar on bottom
+#Sys.msg.Tsiiftcs#	This setting is ignored for the current skin
+#Sys.msg.Tpbcbcftcs#	The progress bar cannot be changed for the current skin
+#Sys.msg.Tpbwbdap#	The progress bar will be displayed above the player only when the player is docked on the bottom pane
+#Sys.msg.Twbwnbd#	The wave bar will not be displayed for the current skin
+
+! modern compact player layout
+#CPL.ctl.7A6AFEC2#	medium picture
+#CPL.ctl.E1C7A58F#	auto-hide the player panel
+#CPL.ctl.34F9AB00#	use custom colour for highlighted text
+
+! Settings(2)
+#CPL.ctl.D8E7DCCF#	panel overlay:
+#CPL.ctl.6CC63A9E#	draw text with shadows (to increase contrast)
+
+! when editing lyrics and the next song starts playing
+#Main.msg.CSavlyr#	CONFIRMATION: Save lyrics?
+
+! text displayed when no album cover
+#Main.msg.NoCovArt#	No Cover Art
