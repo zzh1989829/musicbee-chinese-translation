@@ -3991,7 +3991,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #AP.msg.Tffhbaftap#	下列文件已经被添加到自动播放列表
 
 ! hotkeys
-#Sys.msg.VSSVisMax#	View: Show Visualiser Full Screen
+#Sys.msg.VSSVisMax#	视图: 全屏显示可视化
 #Sys.msg.SeToOrgFolM#	发送到: 移动到组织过的文件夹
 #Sys.msg.SeToOrgFolC#	发送到: 复制到组织过的文件夹
 
