@@ -4781,3 +4781,132 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 
 ! text displayed when no album cover
 #Main.msg.NoCovArt#	无封面
+
+! ************************************   version 2.2   ***************************************************
+! last.fm login
+#LFL.msg.SerOff#	暂时无法连接 Last.fm is
+
+! right click on Library Explorer header
+#Main.menu.ShowCount#	显示统计
+
+! right click on the main panel column header/ Group By/ ...
+#Main.menu.ConsAlbums#	收起专辑
+
+! right click on an artist picture in the Playing Track Panel
+#Main.menu.BanArtPic#	禁用图片
+#Main.msg.ArtPicSav#	艺术家图片已保存
+
+! File/ library backup
+#LBck.ctl.C035755C#	Copies all files from each source folder to a backup folder, deleting any files from the backup folder that are no longer in the source folder
+#LBck.ctl.EA0C2F10#	源文件夹:
+#LBck.ctl.DC3F439D#	备份文件夹:
+#LBck.ctl.23768236#	输入音乐文件路径
+#LBck.msg.MBSetFold#	MusicBee 设置路径
+#LBck.msg.Ctsftwbb#	选择要备份的路径
+#LBck.msg.Sttdaffff#	从 {0} 选择要备份的路径
+#LBck.msg.Ttfntboadd#	备份路径不能设置为驱动器 {0}
+#LBck.msg.TbfcbLSf#	备份路径不能与库配置备份在同一驱动器
+#LBck.msg.TbfcbLSf#	需要设置一个备份路径
+#LBck.msg.DriNotRe#	无法访问驱动器 {0}
+#LBck.msg.Wtsfine#	警告: 选择的文件非空. 如果现存文件不存在于源目录中,他们会被删除.
+! {0}/ {1} are numbers eg. 8/ 100, {2} is the filename
+#LBck.msg.Deleting#	正在删除 {0}/ {1} '{2}'
+
+! Main preferences/ confirmations
+#Sys.ctl.CF837080#	包括永久删除文件的选项
+! Tags(1) preferences/ artwork storage
+#Sys.ctl.58EA8A56#	原声曲图片位置:
+#Sys.msg.Chstploc#	更改原声曲图片位置:
+
+! hotkey in preferences
+#Sys.msg.TooDwnArt#	Tools: Download Artwork
+! Tools/ Download Artwork menu
+#Main.menu.FindArt#	下载专辑封面
+#ArtA.frm.F050E7F7#	专辑封面下载器
+#ArtA.ctl.F1A8AF4D#	In addition to album covers, MusicBee can display artist thumbs in the Artwork layout and movie backdrops for soundtracks in the Compact Player and "Playing Track" panels. This tool finds and downloads missing pictures to the location set in Preferences/ Tags(1)/ artwork storage.
+#ArtA.ctl.AD6F0C76#	艺术家缩略图:
+#ArtA.ctl.6B198723#	艺术家
+#ArtA.ctl.FB6CBFD4#	专辑艺术家
+#ArtA.ctl.EA09FA90#	作曲者
+#ArtA.ctl.195B3A09#	专辑封面
+#ArtA.ctl.B887863F#	原声曲的电影截图
+#ArtA.ctl.21688D8B#	仅选择标记流派为 "Soundtrack" 的文件
+#ArtA.ctl.4F26B983#	The album name is used to search for the movie and if no match is found, you will be prompted to enter the movie name
+#ArtA.ctl.C1827CA1#	For each item in the list below, choose one of the pictures. Click "Save" to only save the pictures you have previewed. Click "Save All" to have MusicBee save all pictures including a default picture for unpreviewed items.
+#ArtA.ctl.BEB8A33C#	No matching movie backdrops were found for the following releases. You can enter the name of each movie and MusicBee will redo the search:
+#ArtA.ctl.C0B659B0#	保存前预览并选择
+#ArtA.btn.D96F25D3#	保存全部
+#ArtA.col.37DD4FAB#	电影
+#ArtA.col.88583FD8#	状态
+#ArtA.msg.Iasbret#	仍在获取图片 - 中止?
+#ArtA.msg.Aadownl#	图片已下载
+#ArtA.msg.currpic#	当前图片
+#ArtA.msg.pastpic#	粘贴图片
+#ArtA.msg.selapic#	选择一张图片或右键单击来粘贴
+#ArtA.msg.Proc0of1#	正在处理 {0} / {1}...
+#ArtA.msg.Matched#	匹配
+
+#Main.msg.ArtistsUpd0#	未更新任何艺术家
+#Main.msg.ArtistsUpd1#	1 位艺术家已更新
+#Main.msg.ArtistsUpd9#	{0} 位艺术家已更新
+#Main.msg.AlbumCov0#	未更新任何专辑封面
+#Main.msg.AlbumCov1#	1 张专辑封面已更新
+#Main.msg.AlbumsCov9#	{0} 张专辑封面已更新
+
+
+! deleting files from a playlist where {0} = selected files
+#Main.msg.Rfpadt#	从播放列表中移除并删除文件 {0}
+! {0} = 9 selected files {1}=name of playlist
+#Main.msg.Rtsffp#	从播放列表 '{1}' 中移除 {0} ?
+
+! view/ skins
+#Main.menu.RandomSkin#	随机皮肤
+#Main.menu.UseRand#	使用: {0}
+
+! right click on a playlist/ List/ Export
+#Main.msg.Expplfto#	播放列表导出到...
+
+! {0} of {1} are numbers eg. 4 of 37
+#Main.msg.Proc0of1#	正在处理... {0} / {1}
+
+#Main.msg.downloadin#	正在下载...
+
+#Main.msg.M3Upcscf#	警告: M3U 列表功能受限, 不能存储自定义字段,不支持虚拟文件.
+#Main.msg.OMBPpcbc#	M3U 列表无法自定义. 列表格式可以在 "首选项/ 库" 中设置.
+#Main.msg.OMBPcsvf#	只有 .MBP 格式列表支持存储虚拟文件. 列表格式可以在 "首选项/ 库" 中设置.
+
+! Album and Tracks layout settings
+#PLE.ctl.83D91953#	前面空一行
+#PLE.msg.WTsigwdff#	警告: "仅显示前几首曲目"选项启用时这项设置将会被忽略.
+! Playing Track Panel layout
+#PLE.ctl.1278E8EC#	显示歌词
+#PLE.ctl.DEE5F348#	显示歌词
+
+
+
+! 6-Oct-2013
+#PLE.ctl.2C8CF2E0#	子组标题:
+#ArtA.msg.Lqicach#	缓存低质量图片
+
+! highlight rules editor
+#HM.msg.icon#		图标/
+#HM.msg.HighIcon#	高亮图标
+
+! Edit/ Undo/ ...
+#Main.menu.UndoTags0#	文件标签: {0}
+#Main.menu.UndoTagsNC#	文件标签: 无变化
+#Main.menu.UndoNP0#	正在播放列表: {0}
+#Main.menu.UndoNPNC#	正在播放列表: 无变化
+! hotkey preferences
+#Sys.msg.EUndoC#	编辑: 撤销标签变更
+#Main.msg.CUndoTag#	确认: 撤销标签变更: {0}
+! message indicating an action is still in progress eg. "some action - In Progress"
+#Main.msg.InProgr#	正在进行
+
+! as in Search/ Entire Library
+#Main.menu.SeEntLib#	Entire Library
+#Main.menu.CurrNode#	仅本地节点
+#Sys.msg.GTSeEntLib#	通用: 开/关 Entire Library
+! search results node in the left navigator
+#Main.tree.SearchR#	查找结果
+#Main.tree.RemoveNode#	删除节点
