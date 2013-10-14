@@ -4782,3 +4782,132 @@
 
 ! text displayed when no album cover
 #Main.msg.NoCovArt#	No Cover Art
+
+! ************************************   version 2.2   ***************************************************
+! last.fm login
+#LFL.msg.SerOff#	Last.fm is temporarily offline
+
+! right click on Library Explorer header
+#Main.menu.ShowCount#	Show Count
+
+! right click on the main panel column header/ Group By/ ...
+#Main.menu.ConsAlbums#	Collapse Albums
+
+! right click on an artist picture in the Playing Track Panel
+#Main.menu.BanArtPic#	Ban Picture
+#Main.msg.ArtPicSav#	The artist picture has been saved
+
+! File/ library backup
+#LBck.ctl.C035755C#	Copies all files from each source folder to a backup folder, deleting any files from the backup folder that are no longer in the source folder
+#LBck.ctl.EA0C2F10#	source folder:
+#LBck.ctl.DC3F439D#	backup folder:
+#LBck.ctl.23768236#	Enter the music files folder
+#LBck.msg.MBSetFold#	MusicBee Settings Folder
+#LBck.msg.Ctsftwbb#	Choose the source folder that will be backed up
+#LBck.msg.Sttdaffff#	Choose the backup folder for files from {0}
+#LBck.msg.Ttfntboadd#	The backup folder needs to be on a different drive to {0}
+#LBck.msg.TbfcbLSf#	The backup folder cannot be the same as the Library Settings backup folder
+#LBck.msg.TbfcbLSf#	A backup folder needs to be selected
+#LBck.msg.DriNotRe#	Drive {0} is not accessible
+#LBck.msg.Wtsfine#	WARNING: the selected folder is not empty. Existing files might be deleted if the equivalent file does not exist in the source folder.
+! {0}/ {1} are numbers eg. 8/ 100, {2} is the filename
+#LBck.msg.Deleting#	Deleting {0}/ {1} '{2}'
+
+! Main preferences/ confirmations
+#Sys.ctl.CF837080#	include option to permanently delete the removed files
+! Tags(1) preferences/ artwork storage
+#Sys.ctl.58EA8A56#	soundtrack pictures location:
+#Sys.msg.Chstploc#	Change soundtrack pictures location:
+
+! hotkey in preferences
+#Sys.msg.TooDwnArt#	Tools: Download Artwork
+! Tools/ Download Artwork menu
+#Main.menu.FindArt#	Download Artwork
+#ArtA.frm.F050E7F7#	Artwork Downloader
+#ArtA.ctl.F1A8AF4D#	In addition to album covers, MusicBee can display artist thumbs in the Artwork layout and movie backdrops for soundtracks in the Compact Player and "Playing Track" panels. This tool finds and downloads missing pictures to the location set in Preferences/ Tags(1)/ artwork storage.
+#ArtA.ctl.AD6F0C76#	artist thumb pictures:
+#ArtA.ctl.6B198723#	artists
+#ArtA.ctl.FB6CBFD4#	album artists
+#ArtA.ctl.EA09FA90#	composers
+#ArtA.ctl.195B3A09#	album covers
+#ArtA.ctl.B887863F#	movie backdrops for soundtracks *
+#ArtA.ctl.21688D8B#	only select files tagged with genre: "Soundtrack"
+#ArtA.ctl.4F26B983#	The album name is used to search for the movie and if no match is found, you will be prompted to enter the movie name
+#ArtA.ctl.C1827CA1#	For each item in the list below, choose one of the pictures. Click "Save" to only save the pictures you have previewed. Click "Save All" to have MusicBee save all pictures including a default picture for unpreviewed items.
+#ArtA.ctl.BEB8A33C#	No matching movie backdrops were found for the following releases. You can enter the name of each movie and MusicBee will redo the search:
+#ArtA.ctl.C0B659B0#	preview and choose each picture before saving
+#ArtA.btn.D96F25D3#	Save All
+#ArtA.col.37DD4FAB#	movie
+#ArtA.col.88583FD8#	status
+#ArtA.msg.Iasbret#	Images are still being retrieved - do you want to abort the process?
+#ArtA.msg.Aadownl#	Image already downloaded
+#ArtA.msg.currpic#	current picture
+#ArtA.msg.pastpic#	pasted picture
+#ArtA.msg.selapic#	select a picture or right click to paste a picture
+#ArtA.msg.Proc0of1#	Processing {0} of {1}...
+#ArtA.msg.Matched#	Matched
+
+#Main.msg.ArtistsUpd0#	No artists updated
+#Main.msg.ArtistsUpd1#	1 artist updated
+#Main.msg.ArtistsUpd9#	{0} artists updated
+#Main.msg.AlbumCov0#	No album covers updated
+#Main.msg.AlbumCov1#	1 album cover updated
+#Main.msg.AlbumsCov9#	{0} album covers updated
+
+
+! deleting files from a playlist where {0} = selected files
+#Main.msg.Rfpadt#	Remove from playlist and delete the {0}
+! {0} = 9 selected files {1}=name of playlist
+#Main.msg.Rtsffp#	Remove the {0} from playlist '{1}'?
+
+! view/ skins
+#Main.menu.RandomSkin#	Random Skin
+#Main.menu.UseRand#	Use: {0}
+
+! right click on a playlist/ List/ Export
+#Main.msg.Expplfto#	Export playlist files to...
+
+! {0} of {1} are numbers eg. 4 of 37
+#Main.msg.Proc0of1#	Processing... {0} of {1}
+
+#Main.msg.downloadin#	downloading...
+
+#Main.msg.M3Upcscf#	WARNING: M3U playlists have restricted functionality and cannot store custom fields or include virtual files.
+#Main.msg.OMBPpcbc#	M3U playlists cannot be customised. The playlist format can be configured in the "Preferences/ Library" dialog.
+#Main.msg.OMBPcsvf#	Only .MBP playlists can store virtual files. The playlist format can be configured in the "Preferences/ Library" dialog.
+
+! Album and Tracks layout settings
+#PLE.ctl.83D91953#	precede with a blank line
+#PLE.msg.WTsigwdff#	WARNING: This setting is ignored when "display first few tracks only" is enabled.
+! Playing Track Panel layout
+#PLE.ctl.1278E8EC#	show lyrics
+#PLE.ctl.DEE5F348#	show lyrics
+
+
+
+! 6-Oct-2013
+#PLE.ctl.2C8CF2E0#	sub-grouping header:
+#ArtA.msg.Lqicach#	Low quality image cached
+
+! highlight rules editor
+#HM.msg.icon#		icon/
+#HM.msg.HighIcon#	Highlight Icon
+
+! Edit/ Undo/ ...
+#Main.menu.UndoTags0#	File Tags: {0}
+#Main.menu.UndoTagsNC#	File Tags: No Changes
+#Main.menu.UndoNP0#	Now Playing List: {0}
+#Main.menu.UndoNPNC#	Now Playing List: No Changes
+! hotkey preferences
+#Sys.msg.EUndoC#	Edit: Undo Tag Changes
+#Main.msg.CUndoTag#	CONFIRMATION: Undo tag changes: {0}
+! message indicating an action is still in progress eg. "some action - In Progress"
+#Main.msg.InProgr#	In Progress
+
+! as in Search/ Entire Library
+#Main.menu.SeEntLib#	Entire Library
+#Main.menu.CurrNode#	Local Node Only
+#Sys.msg.GTSeEntLib#	General: Toggle Search Entire Library
+! search results node in the left navigator
+#Main.tree.SearchR#	Search Results
+#Main.tree.RemoveNode#	Remove Node
