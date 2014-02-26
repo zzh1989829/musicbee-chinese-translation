@@ -4911,3 +4911,202 @@
 ! search results node in the left navigator
 #Main.tree.SearchR#	Search Results
 #Main.tree.RemoveNode#	Remove Node
+
+! ************************************   version 2.3   ***************************************************
+
+#Main.menu.ismatchFunc#	IsMatch() - compares value to regex pattern
+#Main.menu.containFunc#	Contains() - returns if value contains text
+
+! new Subscriptions panel in the Podcasts section
+#Main.col.Subsc#	Subscriptions
+#Main.menu.SubFilte#	Subscription Filter
+#Main.menu.AddSubLi#	Add Subscription Link
+#Main.menu.SeaPodDir#	Search Podcast Directory
+#Main.menu.HoriOri#	Horizontal Orientation
+#Main.menu.VertOri#	Vertical Orientation
+#Main.menu.SUnSubLa#	Sort Listened Subscriptions Last
+
+! right click menu in the podcasts panel
+#Main.menu.SeEpis#	Search Episodes
+#Main.menu.SeSubs#	Search Subscriptions
+#Main.menu.ChkUpda#	Check for Updates
+#Main.menu.OpenHP#	Open Home Page
+
+! edit a subscription
+#Sub.ctl.E8C95FFF#	home page:
+#Sub.ctl.6EE86BD6#	author:
+#Sub.ctl.B3E475EA#	grouping:
+#Sub.msg.Stgtsbt#	Specifies the group the subscription belongs to. The Podcast panel can be set to only show subscriptions belonging to a grouping.
+#Sub.ctl.970247FD#	use this author for all episodes
+#Sub.msg.TsUcltHp#	The subscription URL contains links to HTML pages. MusicBee only supports subscriptions that contain direct links to the audio files.
+#Main.msg.Tshnhpdef#	This subscription has no home page defined. You can set the home page in the subscription definition (right click/ Edit Subscription).
+#Main.msg.AllSubs#	All Subscriptions
+#Main.msg.SubsAdded#	Subscription has been added.
+
+! podcasts directory dialog
+#SubD.msg.InvSub#	The podcast subscription link is no longer valid
+#SubD.msg.AllCate#	All Categories
+#SubD.msg.Sosualour#	Sort subscriptions alphabetically or by user rating
+
+! new device settings option
+#Dev.ctl.FF5FE907#	mark sychronised episodes as listened
+
+
+! panel layout button
+#Main.menu.TabsDock#	Tabs Bar
+
+! was "Show A-Z Jump Bar"
+#Main.menu.SAJB#	A-Z Jump Bar
+#Main.menu.ShTabsHorC#	Horizontal in Caption Bar
+
+! thumbnail browser settings in Layout (1) preferences
+#Sys.ctl.AAA3CC76#	show thumbnail browser
+#Sys.ctl.E84D5A86#	small thumbs
+#Sys.ctl.E91548E4#	large
+
+! "Track Browser" is now named "Column Browser" - you might not need to change the translation
+! Layout (1) preferences
+#Sys.ctl.D0C2DDF#	column browser:
+! Hotkey preferences
+#Sys.msg.ViShTrBrow#	View: Show Column Browser
+#Sys.msg.ViShThbBrow#	View: Show Thumbnail Browser
+
+! Panel Layout button in main panel
+#Main.menu.ColBrower#	Column Browser
+#Main.menu.ShColBrow#	Show Column Browser
+#Main.menu.HifoPlay#	Hide for Playlists
+
+#Main.menu.ShowAJJump#	Show A-Z Jump Bar
+
+#Main.menu.ThumBrowser#	Thumbnail Browser
+#Main.menu.ShoThumBr#	Show Thumbnail Browser
+#Main.menu.LargPics#	Large Thumbnails
+#Main.menu.GroupiType#	Grouping Type
+#Main.menu.ArtType#	Artist Type
+#Main.msg.AllArtist#	All Artists
+#Main.msg.AllAlbum#	All Albums
+#Main.msg.AllGenre#	All Genres
+#Main.msg.AllGroup#	All Groupings
+#Main.msg.YnapThBr#	You need administrator permissions to paste genre pictures. Restart MusicBee by right clicking on MusicBee.exe/ Run As Administrator and try this again.
+
+! right click on an item in the thumbnail browser
+#Main.menu.PlayShuf#	Play Shuffled
+
+! library backup function
+#LBck.msg.Etfcbasf#	"{0}" is the parent folder of one of the other target folders and will conflict when performing the backup
+
+! Library preferences
+#Sys.ctl.547195DE#	auto-organise media files
+#Sys.ctl.490C7CFE#	copy files when adding to library
+#Sys.btn.2B6C53DC#	Move Library
+#Sys.msg.Clfl1#		Change library folder location.
+#Sys.msg.Clfl2#		Change library folder location - only the media files located under the library folder will be moved.
+
+! new Now Playing layout in the Now Playing Layout editor
+#NPL.ctl.E26DD593#	enlarge thumbnails
+#NPL.ctl.C36E6023#	custom font
+#NPL.ctl.B3405FA7#	contrast:
+#Main.menu.TrWithThu#	Track with Thumbnail
+
+! modern compact player layout dialog
+#CPL.ctl.E56000B#	track with thumbnail
+
+
+! error displayed when using A-Z jump bar
+#Main.msg.Thmipantos#	The main panel needs to be sorted to jump to file.
+
+#Main.msg.Csfilfaid#	"copy source files into the library" for auto-organised libraries is no longer supported and has been disabled
+#tField.msg.Tdtirfaf#	The display title is reserved for another field.
+
+
+
+! 20 Jan
+! missing from original file - you might have already done these two:
+#Main.menu.ColBrowser#	Column Browser
+#Sub.ctl.BFF11268#	podcast url:
+
+! fields relating to the download panel
+#Main.field.21#		Progress
+#Main.field.22#		Save To
+#Main.field.23#		Status
+#Main.field.39#		Artist & Title
+#Main.msg.DownlPer#	{0} of {1}K bytes received ({2}%)
+
+! new virtual tag fields
+#Main.field.143#	Genres
+#Main.field.144#	Artists
+#Main.field.145#	Artists: Artist
+#Main.field.146#	Artists: Performer
+#Main.field.147#	Artists: Guest
+#Main.field.148#	Artists: Remixer
+
+! podcast directory
+#SubD.msg.search#	enter search terms
+#SubD.msg.iTunes#	iTunes Store
+#SubD.ctl.60E6A15E#	Select a podcast subscription...
+
+#cTag.msg.Ttniakctai#	That tag name is a known tag already implemented in MusicBee - please choose another name
+
+! right click on the Lyrics panel
+#Main.menu.DeLyRedo#	Delete Lyrics and Redo Search
+
+! Now Playing panel layout dialog
+#NPL.ctl.81A9DE74#	display fields:
+
+! new mini player configuration dialog
+#MPL.frm.60FE290E#	Mini Player Layout Editor
+#MPL.ctl.91C88C02#	use classic layout
+#MPL.ctl.CD19D379#	use "modern" layout
+#MPL.ctl.72B4B96D#	display fields:
+#MPL.ctl.E5318DC8#	show album artwork
+#MPL.ctl.53C2F802#	show spectrum visualisation
+
+! Compact player search panel
+#Main.msg.Albums2#	Albums
+#Main.msg.Tracks#	Tracks
+#Main.msg.Other#	Other
+
+! Compact Player Layout dialog
+#CPL.ctl.318AFBC5#	hide windows caption bar
+#CPL.ctl.AA4E2D59#	background feature:
+#CPL.ctl.27EDB922#	artist picture
+#CPL.ctl.9CFA0095#	retrieve web pictures - include:
+#CPL.ctl.1036EC3F#	album color mix
+#CPL.ctl.3C03D331#	album cover only
+#CPL.ctl.1AFABD58#	custom:
+#CPL.ctl.F1E1CBCD#	override text color
+#CPL.ctl.C2BBAE2F#	theater skin
+#CPL.ctl.BE6B619A#	overlay panels onto the background feature
+#CPL.ctl.D35EB6DA#	darken background:
+#CPL.ctl.6CC63A9E#	draw text with shadows (to increase contrast)
+#CPL.ctl.EF7553BC#	use custom font:
+#CPL.ctl.D0A6928E#	right panel:
+#CPL.ctl.952B5CC9#	[1] primary panel; [2] can be displayed by clicking the player Panel Toggle button
+#CPL.ctl.6995F846#	player panel:
+#CPL.ctl.E1C7A58F#	auto-hide the player panel
+#CPL.ctl.436A278#	overlay player onto the background feature
+
+
+! 9-Feb
+! Compact Player Layout dialog
+#CPL.ctl.F719D1B3#	minimise to:
+
+! Command Buttons Layout dialog
+#CB.msg.adicttss#	adjust icon coloring to match the selected skin
+
+! new hotkeys
+#Sys.msg.VTSLPan#	View: Toggle Show Left Panel
+#Sys.msg.VTSRPan#	View: Toggle Show Right Panel
+
+! thumbnail browser - right click on the header bar to set the picture size
+#Main.menu.SmaPics#	Small Thumbnails
+#Main.menu.MedPics#	Medium Thumbnails
+
+! status bar message when Stop after Current is enabled
+#Main.msg.PlaSTAC#	Playback will stop after the current track ends
+
+! Now Playing preferences
+#Sys.ctl.6EE46420#	switch player when playback starts:
+
+#Main.msg.Csfilfaid#	"""copy source files into the library"" is no longer supported and has been disabled. See the MusicBee forum for instructions to re-enable this feature.
+

@@ -733,8 +733,8 @@
 #DJ.ctl.F1B769CD#	偏向高评分
 #DJ.ctl.7C8B6185#	在Last.fm上评分的艺术家大于  
 #DJ.ctl.85FDBD34#	% 相似性的曲目
-#DJ.ctl.B63ECB97#	选择:仅与种子曲目相似
-#DJ.ctl.79DFA6C7#	选择:可以在播放列表选择与之前艺术家相似的 (允许更多的偏移)
+#DJ.ctl.B63ECB97#	选择仅与种子曲目相似
+#DJ.ctl.79DFA6C7#	选择与播放列表中曲目相似的 (允许更多的偏移)
 #DJ.ctl.1B058FAA#	也从Last.fm和jamendo上获取流以便发现在库中不存在新的艺术家
 #DJ.ctl.27B5E4D#	较少/
 #DJ.ctl.11F847B0#	/ 经常
@@ -1996,7 +1996,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Tag.ctl.alar#		专辑艺术家:
 #Tag.ctl.publisher:#	发布者:
 #Tag.ctl.year:#		年份:
-#Tag.ctl.专辑:#	曲目:
+#Tag.ctl.track:#	曲目:
 #Tag.ctl.of#		共
 #Tag.ctl.disc:#		碟:
 #Tag.ctl.composer:#	作曲家:
@@ -4910,3 +4910,202 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 ! search results node in the left navigator
 #Main.tree.SearchR#	查找结果
 #Main.tree.RemoveNode#	删除节点
+
+! ************************************   version 2.3   ***************************************************
+
+#Main.menu.ismatchFunc#	IsMatch() - compares value to regex pattern
+#Main.menu.containFunc#	Contains() - returns if value contains text
+
+! new Subscriptions panel in the Podcasts section
+#Main.col.Subsc#	订阅
+#Main.menu.SubFilte#	订阅过滤
+#Main.menu.AddSubLi#	添加订阅连接
+#Main.menu.SeaPodDir#	搜索博客目录
+#Main.menu.HoriOri#	水平布局
+#Main.menu.VertOri#	垂直布局
+#Main.menu.SUnSubLa#	收听过的订阅排在最后
+
+! right click menu in the podcasts panel
+#Main.menu.SeEpis#	搜索剧集
+#Main.menu.SeSubs#	搜索订阅
+#Main.menu.ChkUpda#	检查更新
+#Main.menu.OpenHP#	打开主页
+
+! edit a subscription
+#Sub.ctl.E8C95FFF#	主页:
+#Sub.ctl.6EE86BD6#	作者:
+#Sub.ctl.B3E475EA#	分组:
+#Sub.msg.Stgtsbt#	指定订阅所归属的分组. 播客面板可以设置只显示某个分组的订阅.
+#Sub.ctl.970247FD#	设置该作者为所有剧集的的作者
+#Sub.msg.TsUcltHp#	订阅的URL包含HTML页面的链接, MusicBee 只支持直接连接到音频文件的订阅.
+#Main.msg.Tshnhpdef#	该订阅未设置主页,可以在订阅设置处(右键单击->设置)设置
+#Main.msg.AllSubs#	所有订阅
+#Main.msg.SubsAdded#	订阅已添加.
+
+! podcasts directory dialog
+#SubD.msg.InvSub#	订阅链接无效
+#SubD.msg.AllCate#	所有类别
+#SubD.msg.Sosualour#	按字典序或用户评分排序
+
+! new device settings option
+#Dev.ctl.FF5FE907#	标记同步过的剧集为已收听
+
+
+! panel layout button
+#Main.menu.TabsDock#	标签栏
+
+! was "Show A-Z Jump Bar"
+#Main.menu.SAJB#	A-Z 快速导航
+#Main.menu.ShTabsHorC#	Horizontal in Caption Bar
+
+! thumbnail browser settings in Layout (1) preferences
+#Sys.ctl.AAA3CC76#	显示缩略图浏览器
+#Sys.ctl.E84D5A86#	小图标
+#Sys.ctl.E91548E4#	大
+
+! "Track Browser" is now named "Column Browser" - you might not need to change the translation
+! Layout (1) preferences
+#Sys.ctl.D0C2DDF#	曲目浏览器:
+! Hotkey preferences
+#Sys.msg.ViShTrBrow#	视图: 显示曲目浏览器
+#Sys.msg.ViShThbBrow#	视图: 显示缩略图浏览器
+
+! Panel Layout button in main panel
+#Main.menu.ColBrower#	曲目浏览器
+#Main.menu.ShColBrow#	显示曲目浏览器
+#Main.menu.HifoPlay#	为播放列表隐藏
+
+#Main.menu.ShowAJJump#	显示 A-Z 快速导航
+
+#Main.menu.ThumBrowser#	缩略图浏览器
+#Main.menu.ShoThumBr#	显示缩略图浏览器
+#Main.menu.LargPics#	大图标
+#Main.menu.GroupiType#	分组类型
+#Main.menu.ArtType#	艺术家类型
+#Main.msg.AllArtist#	所有艺术家
+#Main.msg.AllAlbum#	所有专辑
+#Main.msg.AllGenre#	所有风格
+#Main.msg.AllGroup#	所有分组
+#Main.msg.YnapThBr#	需要管理员权限粘贴风格图片, 右键单击 MusicBee.exe -> 管理员运行重启软件再试.
+
+! right click on an item in the thumbnail browser
+#Main.menu.PlayShuf#	随机播放
+
+! library backup function
+#LBck.msg.Etfcbasf#	"{0}" 是其他目的文件夹的上级目录, 执行备份会产生冲突.
+
+! Library preferences
+#Sys.ctl.547195DE#	自动整理媒体文件
+#Sys.ctl.490C7CFE#	添加到库时复制文件
+#Sys.btn.2B6C53DC#	移动库
+#Sys.msg.Clfl1#		修改库存储位置
+#Sys.msg.Clfl2#		修改库存储位置 - 只有库中的媒体文件会被移动
+
+! new Now Playing layout in the Now Playing Layout editor
+#NPL.ctl.E26DD593#	放大缩略图
+#NPL.ctl.C36E6023#	自定义字体
+#NPL.ctl.B3405FA7#	对比度:
+#Main.menu.TrWithThu#	带缩略图的曲目信息
+
+! modern compact player layout dialog
+#CPL.ctl.E56000B#	带缩略图的曲目信息
+
+
+! error displayed when using A-Z jump bar
+#Main.msg.Thmipantos#	需要排序主面板后才能使用跳转
+
+#Main.msg.Csfilfaid#	"复制源文件到库中" 不再被支持.
+#tField.msg.Tdtirfaf#	标题被保留做它用.
+
+
+
+! 20 Jan
+! missing from original file - you might have already done these two:
+#Main.menu.ColBrowser#	曲目浏览器
+#Sub.ctl.BFF11268#	播客URL:
+
+! fields relating to the download panel
+#Main.field.21#		进度
+#Main.field.22#		保存到
+#Main.field.23#		状态
+#Main.field.39#		艺术家 & 标题
+#Main.msg.DownlPer#	已下载 {0} / {1}KB  ({2}%)
+
+! new virtual tag fields
+#Main.field.143#	流派
+#Main.field.144#	艺术家
+#Main.field.145#	艺术家: Artist
+#Main.field.146#	艺术家: Performer
+#Main.field.147#	艺术家: Guest
+#Main.field.148#	艺术家: Remixer
+
+! podcast directory
+#SubD.msg.search#	输入关键字
+#SubD.msg.iTunes#	iTunes Store
+#SubD.ctl.60E6A15E#	选择一个播客订阅...
+
+#cTag.msg.Ttniakctai#	该标签是MusicBee内置标签, 请选择其他名称
+
+! right click on the Lyrics panel
+#Main.menu.DeLyRedo#	删除歌词重新搜索
+
+! Now Playing panel layout dialog
+#NPL.ctl.81A9DE74#	显示的字段:
+
+! new mini player configuration dialog
+#MPL.frm.60FE290E#	迷你播放器布局编辑器
+#MPL.ctl.91C88C02#	使用经典布局
+#MPL.ctl.CD19D379#	使用现代布局
+#MPL.ctl.72B4B96D#	要显示的字段:
+#MPL.ctl.E5318DC8#	显示专辑封面
+#MPL.ctl.53C2F802#	显示频谱图
+
+! Compact player search panel
+#Main.msg.Albums2#	专辑
+#Main.msg.Tracks#	曲目
+#Main.msg.Other#	其他
+
+! Compact Player Layout dialog
+#CPL.ctl.318AFBC5#	隐藏窗口标题栏
+#CPL.ctl.AA4E2D59#	背景:
+#CPL.ctl.27EDB922#	艺术家照片
+#CPL.ctl.9CFA0095#	从Web获取图片 - 包括:
+#CPL.ctl.1036EC3F#	专辑颜色混搭
+#CPL.ctl.3C03D331#	仅专辑封面
+#CPL.ctl.1AFABD58#	自定义:
+#CPL.ctl.F1E1CBCD#	字体
+#CPL.ctl.C2BBAE2F#	剧院皮肤
+#CPL.ctl.BE6B619A#	面板附于背景上
+#CPL.ctl.D35EB6DA#	加暗背景:
+#CPL.ctl.6CC63A9E#	绘制字体阴影 
+#CPL.ctl.EF7553BC#	使用自定义字体:
+#CPL.ctl.D0A6928E#	右面板:
+#CPL.ctl.952B5CC9#	[1] 主面板; [2] 在播放器面板点击按钮可以切换
+#CPL.ctl.6995F846#	播放器面板:
+#CPL.ctl.E1C7A58F#	自动隐藏播放器面板
+#CPL.ctl.436A278#	播放器布局在背景之上
+
+
+! 9-Feb
+! Compact Player Layout dialog
+#CPL.ctl.F719D1B3#	最小化到:
+
+! Command Buttons Layout dialog
+#CB.msg.adicttss#	调节图标颜色以匹配当前皮肤
+
+! new hotkeys
+#Sys.msg.VTSLPan#	视图: 开关左面板
+#Sys.msg.VTSRPan#	视图: 开关右面板
+
+! thumbnail browser - right click on the header bar to set the picture size
+#Main.menu.SmaPics#	小缩略图
+#Main.menu.MedPics#	中缩略图
+
+! status bar message when Stop after Current is enabled
+#Main.msg.PlaSTAC#	当前曲目结束后播放中止
+
+! Now Playing preferences
+#Sys.ctl.6EE46420#	播放开始后切换播放器:
+
+#Main.msg.Csfilfaid#	"复制源文件到库中" 不再被支持. 请去论坛寻求帮助.
+
