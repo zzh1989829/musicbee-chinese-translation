@@ -2752,7 +2752,7 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #Main.msg.NewFiles9#	{0} 个新文件
 #Main.msg.Items0#	没有项目
 #Main.msg.Items1#	1 个项目
-#Main.msg.Items9#	{0} 个想个
+#Main.msg.Items9#	{0} 个项目
 #Main.msg.Albums0#	没有专辑 
 #Main.msg.Albums1#	1 张专辑
 #Main.msg.Albums9#	{0} 张专辑
@@ -4255,8 +4255,8 @@ NPL.msg.stdwpc#		显示曲目详情和播放控制器
 #DJ.ctl.85FDBD37#	在 last.fm 评分多于
 #Dj.msg.trfrart#	来自艺术家的曲目
 #Dj.msg.tracks#		曲目
-#DJ.msg.rsttsts#	限制选择的曲目仅仅与种子曲目相似
-#DJ.msg.ctsttptip#	选择与之前播放过的曲目相似的曲目(允许更多的便宜)
+#DJ.msg.rsttsts#	仅与种子曲目相似
+#DJ.msg.ctsttptip#	与之前播放过的曲目相似(允许更多的偏移)
 
 #Sys.msg.groupwarn#	这个选项可以更精确地定义如何将曲目组织为专辑-通常 "专辑艺术家" 和 "专辑" 标签已足够, 但是你可以使用自定义标签来更详细的定义
 
