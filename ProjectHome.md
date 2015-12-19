@@ -1,0 +1,1 @@
+musicbee-chinese-translation
